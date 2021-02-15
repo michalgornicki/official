@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+
+.container1{
+  height: 100vmin;
+  background-color: rgb(255, 255, 255);
+}
+
+.container2{
+  height: 100vmin;
+  background-color: rgb(0, 0, 0);
+}
+
+.container3{
+  height: 100vmin;
+  background-color: rgb(255, 255, 255);
+}
+
+.container4{
+  height: 100vmin;
+  background-color: rgb(0, 0, 0);
+}
+
+.profile-photo{
+  position: absolute;
+  width: 50vmax;
+  height: 37.5vmax;
+  right: 0vmax;
+  top: 5vmax;
+  animation: 1s fadeOn alternate infinite;
+}
+.profile-photo-fade{
+  position: absolute;
+  width: 50vmax;
+  height: 50vmax;
+  right: 0vmax;
+  top: 5vmax;
+  background: linear-gradient(to top, rgb(255, 255, 255) 25%, rgba(255, 255, 255, 0.0));
+  animation: 4s fadeOn alternate infinite;
+}
+
+@keyframes fadeOn{
+  0% {filter: opacity(0);
+      transform:rotateZ(-45deg);}
+  100% {filter: opacity(1);
+    transform:rotateZ(45deg);}
+}

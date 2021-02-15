@@ -1,0 +1,218 @@
+.App {
+  text-align: none;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  overflow: hidden;
+}
+
+
+.container1{
+  position: relative;
+  height: 100vh;
+  background-color: rgb(230, 230, 230);
+}
+
+.container2{
+  height: 100vh;
+  background-color: rgb(20, 20, 20);
+}
+
+.container3{
+  height: 100vh;
+  background-color: rgb(235, 235, 235);
+}
+
+.container4{
+  height: 100vh;
+  background-color: rgb(20, 20, 20);
+}
+
+.bottom-bar{
+  height: 15vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.profile-photo{
+  position: absolute;
+  width: 80vh;
+  height: 72vh;
+  right: 0vmax;
+  top: 5vmax;
+  filter: opacity(0);
+  animation: 2s fadeOn alternate forwards;
+  user-select: none;
+}
+
+.profile-photo-fade{
+  position: absolute;
+  width: 80vh;
+  height: 72vh;
+  right: 0vmax;
+  top: 5vmax;
+  background: linear-gradient(to top, rgb(230, 230, 230), rgba(230, 230, 230, 0.0));
+  user-select: none;
+}
+
+@keyframes fadeOn{
+  0% {filter: opacity(0);
+      }
+  100% {filter: opacity(1);
+      }
+}
+
+.text-wrapper{
+  position: absolute;
+  margin-top: 25vh;
+  width: 40%;
+  z-index: 2;
+  margin-left: 2vmax;
+  user-select: none;
+}
+
+@keyframes slideUp{
+  0% {letter-spacing: 50px;}
+  100% {letter-spacing: 0px;}
+}
+
+.large{
+  position: relative;
+  font-size: 4.2vmax;
+  margin-top: 1vmin;
+  margin-bottom: 1vmin;
+  padding: 0;
+  top: 15vmin;
+  animation-delay: 0.0s;
+  color: rgb(255, 255, 255);
+}
+
+.medium{
+  position: relative;
+  font-size: 1.3vmax;
+  font-weight: 100;
+  letter-spacing: 0.5vw;
+  margin: 0;
+  padding: 0;
+  top: 15vmin;
+  animation: 2s slideUp alternate forwards;
+  animation-delay: 0.0s;
+}
+
+.small{
+  position: relative;
+  font-weight: 400;
+  letter-spacing: 0.2vmin;
+  top: 15vmin;
+  animation-delay: 0.0s;
+}
+
+.more{
+  width: max-content;
+  transition: 0.5s;
+  border-bottom: 2px solid rgb(230, 230, 230);
+}
+
+.more:hover{
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.header{
+  position: relative;
+  font-size: 3vmax;
+  font-weight: 600;
+  letter-spacing: 0.7vmin;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: white;
+  padding-top: 10vmin;
+  padding-bottom: 10vmin;
+}
+
+.black{
+  color: black;
+}
+
+.bottom-bar-text{
+  position: relative;
+  text-align: center;
+  font-size: 1vmax;
+  font-weight: 400;
+  letter-spacing: 0.2vmin;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+.project-wrapper{
+  position: relative;
+  width: 81vw;
+  margin: auto;
+}
+
+.project{
+  position: relative;
+  display: inline-block;
+  width: 25vw;
+  height: 14vw;
+  margin: 1vmax;
+  background-color: white;
+  background-size: cover;
+}
+
+.website1{
+  background-image: url("./website1.jpg");
+}
+
+.website1:hover{
+  background-image: url("./website1.gif");
+}
+
+.website2{
+  background-image: url("./website2.jpg");
+}
+
+.website2:hover{
+  background-image: url("./website2.gif");
+}
+
+.website3{
+  background-image: url("./website3.jpg");
+}
+
+.website4{
+  background-image: url("./website4.jpg");
+}
+
+@media (max-device-width:600px)  {
+
+  .text-wrapper{
+    position: absolute;
+    margin-top: 60vh;
+    width: 90%;
+    z-index: 2;
+    margin-left: 2vmax;
+  }
+
+  .large{
+    width: 80%;
+  }
+
+  .profile-photo{
+    position: absolute;
+    width: 125%;
+    height: auto;
+    right: -12.5%;
+    top: 10vmax;
+    filter: opacity(0);
+    animation: 2s fadeOn alternate forwards;
+  }
+  .profile-photo-fade{
+    position: absolute;
+    width: 125vw;
+    height: 112.5vw;
+    right: 0vmax;
+    top: 10vmax;
+  }
+
+}

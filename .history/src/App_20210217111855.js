@@ -96,15 +96,15 @@ function App() {
 
       <div className="container4" data-aos="fade-up">
 
-      <h2 class="header header-lower" data-aos="fade">Services</h2>
+      <h2 class="header header-lower" data-aos="fade">Focus</h2>
       
       <div className="focus-wrapper" data-aos="fade-up">
       <div className="focus">WEB DESIGN</div>
       <div className="focus">UI/UX DESIGN</div>
       <div className="focus">FRONTEND</div>
-      <div className="focus-description">aaa</div>
-      <div className="focus-description">bbb</div>
-      <div className="focus-description">ccc</div>
+      <div className="focus-description"></div>
+      <div className="focus-description"></div>
+      <div className="focus-description"></div>
       </div>
 
       </div>

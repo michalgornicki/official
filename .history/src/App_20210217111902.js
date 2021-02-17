@@ -96,7 +96,7 @@ function App() {
 
       <div className="container4" data-aos="fade-up">
 
-      <h2 class="header header-lower" data-aos="fade">Services</h2>
+      <h2 class="header header-lower" data-aos="fade">Focus</h2>
       
       <div className="focus-wrapper" data-aos="fade-up">
       <div className="focus">WEB DESIGN</div>

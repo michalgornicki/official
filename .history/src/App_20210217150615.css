@@ -304,7 +304,8 @@ body{
 }
 
 .focus-description:hover{
-  color: rgb(0, 0, 0);
+  
+  filter: drop-shadow(20px 20px 30px rgba(0, 0, 0, 0.527));
 }
 
 .focus-text{

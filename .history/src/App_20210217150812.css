@@ -301,6 +301,7 @@ body{
   background:linear-gradient(rgb(211, 65, 255), rgb(77, 249, 255));
   padding: 1vw;
   filter: drop-shadow(20px 20px 30px rgba(0, 0, 0, 0.527));
+  z-index: 2;
 }
 
 .focus-description:hover{

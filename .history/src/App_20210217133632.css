@@ -173,8 +173,10 @@ body{
   animation: slideDown 2s infinite;
 }
 
-.slide-down:hover{
-  filter: drop-shadow(0px 0px 1px yellow);
+@keyframes slideDown{
+  0%{filter: opacity(0.2);}
+  50%{filter: opacity(1);}
+  100%{filter: opacity(0.2);}
 }
 
 .header{
@@ -189,7 +191,7 @@ body{
   padding: 0;
   padding-top: 10vmin;
   padding-bottom: 10vmin;
-  filter: drop-shadow(0px 0px 2px rgb(255, 255, 255));
+  filter: drop-shadow(0px 0px 2px rgb(255, 202, 202));
 }
 
 .header-lower{
@@ -239,7 +241,6 @@ body{
 
 .project-slide:hover{
   background-color: rgb(128, 128, 128);
-  box-shadow: 0px 0px 20px rgb(0, 255, 213);
 }
 
 .website1{
@@ -300,15 +301,11 @@ body{
   color: rgb(255, 255, 255);
   background:linear-gradient(rgb(211, 65, 255), rgb(77, 249, 255));
   padding: 1vw;
-  filter: drop-shadow(20px 20px 30px rgba(0, 0, 0, 0.527));
-}
-
-.focus-description:hover{
-  color: rgb(0, 0, 0);
+  filter: drop-shadow(4px 4px 2px rgba(0, 0, 0, 0.322));
 }
 
 .focus-text{
-  filter: drop-shadow(0px 0px 5px rgb(234, 75, 255));
+  filter: drop-shadow(0px 0px 5px rgb(210, 0, 238));
 }
 
 .skill-wrapper{
@@ -328,7 +325,7 @@ body{
   letter-spacing: 0.2vmin;
   font-weight: 900;
   font-size: 1.4vmax;
-  box-shadow: 2px 2px 30px rgb(255, 0, 0);
+  box-shadow: 2px 2px 30px rgb(0, 0, 0);
   color: rgb(245, 245, 245);
   border-radius: 10px;
 }
@@ -379,32 +376,6 @@ body{
 
 .red:hover{
   background-color: rgba(255, 0, 0, 0.8);
-}
-
-.contact-wrapper{
-  margin-top: 5vmax;
-}
-
-.contact{
-  text-align: center;
-  font-size: 3vmax;
-  color: white;
-  line-height: 8vw;
-  width: max-content;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 3vw;
-  padding-right: 3vw;
-}
-
-.contact:hover{
-  background: linear-gradient(to left, rgb(211, 65, 255), rgb(77, 249, 255));
-  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.562);
-}
-
-.contact a{
-  text-decoration: none;
-  color: white;
 }
 
 @media (max-device-width:600px)  {

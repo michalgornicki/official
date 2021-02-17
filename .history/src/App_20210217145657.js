@@ -113,11 +113,9 @@ function App() {
 
       <h2 class="header" data-aos="fade-up">Contact</h2>
 
-      <div className="contact-wrapper">
-      <div className="contact"> <a href="mailto:gornickimichal@gmail.com">Gmail</a></div>
-      <div className="contact"><a href="m.me/micgornicki">Messenger</a></div>
-      <div className="contact"><a href="https://www.facebook.com/micgornicki">Facebook</a></div>
-      </div>
+      <div className="contact"> <a href="mailto:gornickimichal@gmail.com">gornickimichal@gmail.com</a></div>
+      <div className="contact"><a href="m.me/username/micgornicki">m.me/username/micgornicki</a></div>
+      <div className="contact"><a href="https://www.facebook.com/micgornicki">https://www.facebook.com/micgornicki</a></div>
 
       </div>
 

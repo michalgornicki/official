@@ -115,10 +115,10 @@ function App() {
 
       <div className="contact-wrapper">
       <div className="contact"> <a href="mailto:gornickimichal@gmail.com">Gmail</a></div>
-      <div className="contact"><a href="m.me/micgornicki">Messenger</a></div>
+      <div className="contact"><a href="m.me/username/micgornicki">Messenger</a></div>
       <div className="contact"><a href="https://www.facebook.com/micgornicki">Facebook</a></div>
       </div>
-
+      
       </div>
 
       <div className="bottom-bar">

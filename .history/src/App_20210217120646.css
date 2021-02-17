@@ -277,34 +277,32 @@ body{
 .focus{
   position: relative;
   display: inline-block;
-  width: 17vw;
-  margin-left: 8vw;
-  margin-right: 8vw;
+  width: 31vw;
+  height: 1vw;
+  margin: 1vw;
   color: white;
   text-align: center;
   font-size: 2vmax;
   filter: drop-shadow(0px 0px 2px black);
-  border-bottom: 3px white solid;
 }
 
 .focus-description{
   position: relative;
   display: inline-flex;
   text-align: center;
-  font-size: 1.6vmax;
-  width: 19vw;
-  height: 8vw;
-  margin-left: 6vw;
-  margin-right: 6vw;
-  margin-top: 5vw;
-  color: rgb(255, 255, 255);
-  background:linear-gradient(rgb(211, 65, 255), rgb(77, 249, 255));
+  font-size: 1.5vmax;
+  width: 20vw;
+  height: max-content;
+  margin-top: 7vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  color: rgb(0, 0, 0);
+  background:linear-gradient(rgba(195, 0, 255, 0), rgb(0, 247, 255));
   padding: 1vw;
-  filter: drop-shadow(4px 4px 2px rgba(0, 0, 0, 0.322));
+  box-shadow: 0px 0px 2px black;
 }
 
 .focus-text{
-  filter: drop-shadow(0px 0px 2px black);
 }
 
 .skill-wrapper{

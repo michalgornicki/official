@@ -277,26 +277,26 @@ body{
 .focus{
   position: relative;
   display: inline-block;
-  width: 17vw;
+  width: 19vw;
   margin-left: 8vw;
-  margin-right: 8vw;
+  margin-left: 8vw;
   color: white;
   text-align: center;
   font-size: 2vmax;
   filter: drop-shadow(0px 0px 2px black);
-  border-bottom: 3px white solid;
+  border-bottom: 1px white solid;
 }
 
 .focus-description{
   position: relative;
   display: inline-flex;
   text-align: center;
-  font-size: 1.6vmax;
+  font-size: 1.3vmax;
   width: 19vw;
-  height: 8vw;
+  height: 6vw;
   margin-left: 6vw;
   margin-right: 6vw;
-  margin-top: 5vw;
+  margin-top: 7vw;
   color: rgb(255, 255, 255);
   background:linear-gradient(rgb(211, 65, 255), rgb(77, 249, 255));
   padding: 1vw;

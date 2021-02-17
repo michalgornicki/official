@@ -277,34 +277,26 @@ body{
 .focus{
   position: relative;
   display: inline-block;
-  width: 17vw;
-  margin-left: 8vw;
-  margin-right: 8vw;
+  width: 31vw;
+  height: 1vw;
+  margin: 1vw;
   color: white;
   text-align: center;
   font-size: 2vmax;
   filter: drop-shadow(0px 0px 2px black);
-  border-bottom: 3px white solid;
 }
 
 .focus-description{
   position: relative;
-  display: inline-flex;
+  display: inline-block;
   text-align: center;
-  font-size: 1.6vmax;
-  width: 19vw;
-  height: 8vw;
-  margin-left: 6vw;
-  margin-right: 6vw;
-  margin-top: 5vw;
-  color: rgb(255, 255, 255);
-  background:linear-gradient(rgb(211, 65, 255), rgb(77, 249, 255));
-  padding: 1vw;
-  filter: drop-shadow(4px 4px 2px rgba(0, 0, 0, 0.322));
-}
-
-.focus-text{
-  filter: drop-shadow(0px 0px 2px black);
+  font-size: 1.5vmax;
+  width: 20vw;
+  height:max-content;
+  margin: 6.5vw;
+  color: white;
+  background-image: url("focus-background.png");
+  background-size: cover;
 }
 
 .skill-wrapper{

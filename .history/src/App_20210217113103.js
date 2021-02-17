@@ -102,9 +102,9 @@ function App() {
       <div className="focus">WEB DESIGN</div>
       <div className="focus">UI/UX DESIGN</div>
       <div className="focus">FRONTEND</div>
-      <div className="focus-description"><div className="focus-text">Elegant and quality webpages, easy and nice to use.</div> </div>
-      <div className="focus-description"><div className="focus-text">Perfect and faultless user experience for all devices.</div></div>
-      <div className="focus-description"><div className="focus-text">Clean and simple high-standard frontend code.</div></div>
+      <div className="focus-description">Creating elegant and quality webpages, easy to nice to use </div>
+      <div className="focus-description">bbb</div>
+      <div className="focus-description">ccc</div>
       </div>
 
       </div>

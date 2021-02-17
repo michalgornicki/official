@@ -269,7 +269,7 @@ body{
 
 .focus-wrapper{
   position: relative;
-  width: 90vw;
+  width: 100vw;
   margin: auto;
   margin-top: 10vh;
 }
@@ -278,13 +278,12 @@ body{
   position: relative;
   display: inline-block;
   width: 17vw;
-  margin-left: 6.5vw;
-  margin-right: 6.5vw;
+  margin-left: 8vw;
+  margin-right: 8vw;
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 2vmax;
-  font-weight: 600;
-  filter: drop-shadow(0px 0px 5px rgb(0, 217, 255));
+  filter: drop-shadow(0px 0px 2px rgb(195, 0, 255));
   border-bottom: 3px white solid;
 }
 
@@ -293,10 +292,10 @@ body{
   display: inline-flex;
   text-align: center;
   font-size: 1.6vmax;
-  width: 18vw;
+  width: 19vw;
   height: 8vw;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin-left: 6vw;
+  margin-right: 6vw;
   margin-top: 5vw;
   color: rgb(255, 255, 255);
   background:linear-gradient(rgb(211, 65, 255), rgb(77, 249, 255));
@@ -305,7 +304,7 @@ body{
 }
 
 .focus-text{
-  filter: drop-shadow(0px 0px 5px rgb(210, 0, 238));
+  filter: drop-shadow(0px 0px 2px black);
 }
 
 .skill-wrapper{
@@ -343,7 +342,7 @@ body{
   font-weight: 400;
   letter-spacing: 0;
   color: rgb(255, 255, 255);
-  filter: drop-shadow(0px 0px 5px rgb(0, 255, 255));
+  filter: drop-shadow(2px 2px 1px black);
 }
 
 .skill-title{

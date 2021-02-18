@@ -33,13 +33,22 @@ function App() {
         <h2 class="header" data-aos="fade">Projects</h2>
 
         <div className="project-wrapper">
-        <a href="https://michalgornicki.github.io/restaurant/">
 
+        
+
+        <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
+          <img className="project website0"/>
+            <h2 class="medium-slide">My official website.</h2>
+            <h3 class="small-slide">HTML, CSS, JS, React.</h3>
+          </div>
+
+          <a href="https://michalgornicki.github.io/restaurant/">
         <div className="project-slide"  data-aos="fade-up" data-aos-delay="300">
         <img className="project website1"/>
           <h2 class="medium-slide">Royal Cookery - restaurant website.</h2>
           <h3 class="small-slide">HTML, CSS, JS. Spotlight and AOS libraries.</h3>
-        </div></a>
+        </div>
+        </a>
 
         <a href="https://michalgornicki.github.io/artgallery/">
           <div className="project-slide" data-aos="fade-up" data-aos-delay="600">
@@ -66,11 +75,7 @@ function App() {
             <h2 class="medium-slide">Place for new app.</h2>
             <h3 class="small-slide">Black description.</h3>
           </div>
-        <div className="project-slide" data-aos="fade-up" data-aos-delay="1800">
-          <img className="project"/>
-            <h2 class="medium-slide">Place for new app.</h2>
-            <h3 class="small-slide">Black description.</h3>
-          </div>
+
         </div>
 
       </div>
@@ -111,12 +116,12 @@ function App() {
 
       <div className="container5">
 
-      <h2 class="header" data-aos="fade-up">Contact</h2>
+      <h2 class="header header-lower" data-aos="fade-up">Contact</h2>
 
       <div className="contact-wrapper">
       <div className="contact"> <a href="mailto:gornickimichal@gmail.com">Gmail</a></div>
-      <div className="contact"><a href="m.me/micgornicki">Messenger</a></div>
-      <div className="contact"><a href="https://www.facebook.com/micgornicki">Facebook</a></div>
+      <div className="contact"> <a href="m.me/micgornicki">Messenger</a></div>
+      <div className="contact"> <a href="https://www.facebook.com/micgornicki">Facebook</a></div>
       </div>
 
       </div>

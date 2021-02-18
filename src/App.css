@@ -33,18 +33,16 @@ body{
 .container4{
   position: relative;
   height: 140vh;
-  background-color: rgb(197, 167, 238);
   background-image: url("container3-background.png");
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: -240px;
-  z-index: -1;
 }
 
 .container5{
   height: 140vh;
   background-color: rgb(197, 167, 238);
-  margin-top: -10px;
+  margin-top: -220px;
 }
 
 .bottom-bar{
@@ -221,7 +219,7 @@ body{
   position: relative;
   width: 31vw;
   height: 17vw;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.253);
   background-size: cover;
 }
 
@@ -231,15 +229,19 @@ body{
   height: 21vw;
   width: 31vw;
   margin: 1vw;
-  background-color: rgba(68, 68, 68, 0.8);
-  outline: 5px solid rgba(151, 151, 151, 0.548);
+  background-color: rgba(0, 99, 212, 0.301);
+  outline: 5px solid rgb(0, 138, 202);
   color: white;
-  box-shadow: 0px 0px 20px black, 0px 0px 20px black, 0px 0px 20px black, 0px 0px 20px black;
+  box-shadow: 0px 0px 20px black;
 }
 
 .project-slide:hover{
-  background-color: rgb(128, 128, 128);
-  box-shadow: 0px 0px 20px rgb(0, 255, 213);
+  background-color: rgb(78, 184, 255);
+  outline: 5px solid rgb(58, 183, 255);
+}
+
+.website0{
+  background-image: url("./website0.jpg");
 }
 
 .website1{
@@ -298,13 +300,18 @@ body{
   margin-right: 5vw;
   margin-top: 5vw;
   color: rgb(255, 255, 255);
-  background:linear-gradient(rgb(211, 65, 255), rgb(77, 249, 255));
+  background: linear-gradient(to left,rgb(211, 65, 255), rgb(77, 249, 255));
+  background-size: 100% 5%;
+  background-repeat: no-repeat;
+  background-position: top;
   padding: 1vw;
   filter: drop-shadow(20px 20px 30px rgba(0, 0, 0, 0.527));
+  transition: 1s;
 }
 
 .focus-description:hover{
-  color: rgb(0, 0, 0);
+  background-size: 100% 100%;
+  transition: 1s;
 }
 
 .focus-text{
@@ -328,7 +335,7 @@ body{
   letter-spacing: 0.2vmin;
   font-weight: 900;
   font-size: 1.4vmax;
-  box-shadow: 2px 2px 30px rgb(255, 0, 0);
+  box-shadow: 2px 2px 30px rgb(0, 0, 0);
   color: rgb(245, 245, 245);
   border-radius: 10px;
 }
@@ -350,7 +357,7 @@ body{
 }
 
 .skill-title{
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   height: max-content;
 }
 
@@ -389,17 +396,24 @@ body{
   text-align: center;
   font-size: 3vmax;
   color: white;
-  line-height: 8vw;
+  line-height: 6vw;
   width: max-content;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1vw;
   padding-left: 3vw;
   padding-right: 3vw;
+  transition: 1s;
+  background: linear-gradient(to left, rgb(211, 65, 255), rgb(62, 184, 255));
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .contact:hover{
-  background: linear-gradient(to left, rgb(211, 65, 255), rgb(77, 249, 255));
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.562);
+  background-size: 100% 100%;
+  transition: 1s;
 }
 
 .contact a{

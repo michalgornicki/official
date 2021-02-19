@@ -41,7 +41,7 @@ body{
 
 .container5{
   height: 140vh;
-  background-color: rgb(197, 167, 238);
+  background-color: rgb(161, 125, 211);
   margin-top: -220px;
 }
 
@@ -172,7 +172,7 @@ body{
 }
 
 .slide-down:hover{
-  filter: drop-shadow(0px 0px 1px yellow);
+  filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
 }
 
 .header{
@@ -335,13 +335,13 @@ body{
   letter-spacing: 0.2vmin;
   font-weight: 900;
   font-size: 1.4vmax;
-  box-shadow: 2px 2px 30px rgb(0, 0, 0);
+  box-shadow: 2px 2px 15px rgb(70, 70, 70);
   color: rgb(245, 245, 245);
   border-radius: 10px;
 }
 
 .skill span{
-  filter: drop-shadow(2px 2px 1px rgb(0, 0, 0));
+  filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
 }
 
 .skill-description{
@@ -357,36 +357,32 @@ body{
 }
 
 .skill-title{
-  background-color: rgb(255, 255, 255);
+  background: linear-gradient(to left,  rgb(211, 65, 255), rgb(79, 190, 255));
   height: max-content;
 }
 
 .blue{
   background-color: rgba(0, 119, 255, 0.3);
-  color:rgba(0, 119, 255, 1);
 }
 
 .blue:hover{
-  background-color: rgba(0, 119, 255, 0.8);
-}
+  background: linear-gradient(to left,  rgb(0, 134, 158), rgb(0, 162, 255));}
 
 .violet{
   background-color: rgba(255, 0, 255, 0.3);
-  color: rgba(255, 0, 255, 1);
 }
 
 .violet:hover{
-  background-color: rgba(255, 0, 255, 0.8);
-}
+  background: linear-gradient(to left,  rgb(153, 0, 158), rgb(212, 0, 255));}
+
 
 .red{
   background-color: rgba(255, 0, 0, 0.3);
-  color: rgba(255, 0, 0, 1);
 }
 
 .red:hover{
-  background-color: rgba(255, 0, 0, 0.8);
-}
+  background: linear-gradient(to left,  rgb(250, 133, 0), rgb(212, 0, 255));}
+
 
 .contact-wrapper{
   margin-top: 5vmax;

@@ -28,13 +28,11 @@ function App() {
 
       </div>
       
-      <div className="container2">
+      <div className="container2" data-aos="fade-up">
 
         <h2 class="header" data-aos="fade">Projects</h2>
 
         <div className="project-wrapper">
-
-        
 
         <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
           <img className="project website0"/>
@@ -122,6 +120,7 @@ function App() {
       <div className="contact"> <a href="mailto:gornickimichal@gmail.com">Gmail</a></div>
       <div className="contact"> <a href="m.me/micgornicki">Messenger</a></div>
       <div className="contact"> <a href="https://www.facebook.com/micgornicki">Facebook</a></div>
+      <div className="contact"> <a href="https://github.com/michalgornicki">Github</a></div>
       </div>
 
       </div>

@@ -9,20 +9,20 @@ body{
 }
 
 
-.container1{
+#container1{
   position: relative;
   height: 120vh;
   background-color: rgb(190, 190, 190);
 }
 
-.container2{
+#container2{
   height: 140vh;
   background-color: rgb(190, 190, 190);
   background-image: url("container2.png");
   background-size: cover;
 }
 
-.container3{
+#container3{
   position: relative;
   height: 140vh;
   background-image: url("container3.png");
@@ -30,7 +30,7 @@ body{
   margin-top: -90px;
 }
 
-.container4{
+#container4{
   position: relative;
   height: 140vh;
   background-image: url("container3-background.png");
@@ -39,7 +39,7 @@ body{
   margin-top: -240px;
 }
 
-.container5{
+#container5{
   height: 140vh;
   background-color: rgb(161, 125, 211);
   margin-top: -220px;
@@ -171,9 +171,15 @@ body{
   animation: slideDown 2s infinite;
 }
 
+a:hover, a:visited, a:link, a:active{
+  text-decoration: none;
+}
+
 .slide-down:hover{
   filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
 }
+
+
 
 .header{
   position: relative;

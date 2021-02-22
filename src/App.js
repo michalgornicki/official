@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
 
-      <div className="container1">
+      <div id="container1">
         <img className="profile-photo" src={profile} alt="profile" />
         <div className="profile-photo-fade"></div>
         
@@ -24,11 +24,11 @@ function App() {
         <h3 class="small">Since July 2019 I'm developing web projects and constantly learning new frontend skills. I'm looking forward for new challenges to work and grow. </h3>
         <h3 class="small more">[More about me.] </h3>
         </div>
-        <div className="slide-down">SLIDE DOWN</div>
+        <a href="#container2"><div className="slide-down">SLIDE DOWN</div></a>
 
       </div>
       
-      <div className="container2" data-aos="fade-up">
+      <div id="container2" data-aos="fade-up">
 
         <h2 class="header" data-aos="fade">Projects</h2>
 
@@ -78,7 +78,7 @@ function App() {
 
       </div>
 
-      <div className="container3" data-aos="fade-up">
+      <div id="container3" data-aos="fade-up">
 
       <h2 class="header" data-aos="fade">Skills & Techs</h2>
 
@@ -97,7 +97,7 @@ function App() {
 
       </div>
 
-      <div className="container4" data-aos="fade-up">
+      <div id="container4" data-aos="fade-up">
 
       <h2 class="header header-lower" data-aos="fade">Services</h2>
       
@@ -112,7 +112,7 @@ function App() {
 
       </div>
 
-      <div className="container5">
+      <div id="container5">
 
       <h2 class="header header-lower" data-aos="fade-up">Contact</h2>
 

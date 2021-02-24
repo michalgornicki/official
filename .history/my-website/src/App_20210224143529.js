@@ -2,11 +2,11 @@ import './App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'aos/dist/aos.js';
-import Profile from './components/profile.component.js';
-import Projects from './components/projects.component.js';
-import Skills from './components/skills.component.js';
-import Services from './components/services.component.js';
-import Contact from './components/contact.component.js';
+import Container1 from './components/container1.component.js';
+import Container2 from './components/container2.component.js';
+import Container3 from './components/container3.component.js';
+import Container4 from './components/container4.component.js';
+import Container5 from './components/container5.component.js';
 import Bottombar from './components/bottombar.component.js';
 
 AOS.init({

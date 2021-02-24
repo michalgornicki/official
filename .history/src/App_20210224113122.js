@@ -78,7 +78,7 @@ function App() {
 
       </div>
 
-      <div id="container3" data-aos="fade-up" data-aos-offset="0">
+      <div id="container3" data-aos="fade-up" data-aos-offset="-100">
 
       <h2 class="header" data-aos="fade">Skills & Techs</h2>
 
@@ -101,7 +101,7 @@ function App() {
 
       <h2 class="header header-lower" data-aos="fade">Services</h2>
       
-      <div className="focus-wrapper" data-aos="zoom-in">
+      <div className="focus-wrapper" data-aos="fade-up">
       <div className="focus">WEB DESIGN</div>
       <div className="focus">UI/UX DESIGN</div>
       <div className="focus">FRONTEND</div>
@@ -114,9 +114,9 @@ function App() {
 
       <div id="container5">
 
-      <h2 class="header header-lower" data-aos="fade">Contact</h2>
+      <h2 class="header header-lower" data-aos="fade-up">Contact</h2>
 
-      <div className="contact-wrapper" data-aos="zoom-out">
+      <div className="contact-wrapper">
       <div className="contact"> <a href="mailto:gornickimichal@gmail.com">Gmail</a></div>
       <div className="contact"> <a href="m.me/micgornicki">Messenger</a></div>
       <div className="contact"> <a href="https://www.facebook.com/micgornicki">Facebook</a></div>

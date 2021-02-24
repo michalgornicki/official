@@ -101,7 +101,7 @@ function App() {
 
       <h2 class="header header-lower" data-aos="fade">Services</h2>
       
-      <div className="focus-wrapper" data-aos="zoom-in">
+      <div className="focus-wrapper" data-aos="fade-up">
       <div className="focus">WEB DESIGN</div>
       <div className="focus">UI/UX DESIGN</div>
       <div className="focus">FRONTEND</div>
@@ -114,7 +114,7 @@ function App() {
 
       <div id="container5">
 
-      <h2 class="header header-lower" data-aos="fade">Contact</h2>
+      <h2 class="header header-lower" data-aos="fade-up">Contact</h2>
 
       <div className="contact-wrapper" data-aos="zoom-out">
       <div className="contact"> <a href="mailto:gornickimichal@gmail.com">Gmail</a></div>

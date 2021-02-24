@@ -114,7 +114,7 @@ function App() {
 
       <div id="container5">
 
-      <h2 class="header header-lower" data-aos="fade">Contact</h2>
+      <h2 class="header header-lower">Contact</h2>
 
       <div className="contact-wrapper" data-aos="zoom-out">
       <div className="contact"> <a href="mailto:gornickimichal@gmail.com">Gmail</a></div>

@@ -339,7 +339,6 @@ a:hover, a:visited, a:link, a:active{
   box-shadow: 2px 2px 15px rgb(70, 70, 70);
   color: rgb(245, 245, 245);
   border-radius: 10px;
-  color: rgb(0, 0, 0);
 }
 
 .skill span{
@@ -354,42 +353,37 @@ a:hover, a:visited, a:link, a:active{
   font-size: 1vmax;
   font-weight: 400;
   letter-spacing: 0;
+  color: rgb(255, 255, 255);
 }
 
 .skill-title{
-  background-color:rgb(0, 0, 0);
+  background-color:rgb(126, 53, 141);
   height: 4vmin;
   line-height: 4vmin;
-  color: white;
 }
 
 .blue{
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 119, 255, 0.3);
 }
 
 .blue:hover{
   background: linear-gradient(to left,  rgb(0, 134, 158), rgb(0, 162, 255));
-  color: white;
 }
 
 .violet{
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 0, 255, 0.3);
 }
 
 .violet:hover{
-  background: linear-gradient(to left,  rgb(153, 0, 158), rgb(212, 0, 255));
-  color: white;
-}
+  background: linear-gradient(to left,  rgb(153, 0, 158), rgb(212, 0, 255));}
 
 
 .red{
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 0, 0, 0.3);
 }
 
 .red:hover{
-  background: linear-gradient(to left,  rgb(250, 133, 0), rgb(212, 0, 255));
-  color: white;
-}
+  background: linear-gradient(to left,  rgb(250, 133, 0), rgb(212, 0, 255));}
 
 
 .contact-wrapper{
@@ -457,58 +451,19 @@ a:hover, a:visited, a:link, a:active{
   }
 
   .header{
-    font-size: 10vmin;
-    padding-top: 70vmin;
+    padding-top: 40vmin;
   }
 
   .project-wrapper{
-    width: 90%;
+    width: 95%;
+    left: 2.5%;
   }
 
   .project-slide{
     width: 98%;
   }
 
-  .medium-slide{
-    font-size: 5vmin;
+  .project{
   }
-
-  .small-slide{
-    font-size: 3vmin;
-  }
-
-#container2{
-  height: fit-content;
-  padding-bottom: 300px;
-}
-
-#container3{
-  height: fit-content;
-  padding-bottom: 300px;
-}
-
-.slide-down{
-  top: 110vh;
-  z-index: 1;
-  font-size: 5vmin;
-}
-
-.skill-wrapper{
-  width: 90%;
-}
-
-.skill{
-  width: 47%;
-  height: 30vw;
-  font-size: 3.5vmin;
-}
-
-.skill-description{
-  font-size: 2.5vmin;
-
-}
-
-.focus{
-}
 
 }

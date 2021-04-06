@@ -357,10 +357,9 @@ a:hover, a:visited, a:link, a:active{
 }
 
 .skill-title{
-  background-color:rgb(0, 0, 0);
+  background-color:rgb(126, 53, 141);
   height: 4vmin;
   line-height: 4vmin;
-  color: white;
 }
 
 .blue{
@@ -377,9 +376,7 @@ a:hover, a:visited, a:link, a:active{
 }
 
 .violet:hover{
-  background: linear-gradient(to left,  rgb(153, 0, 158), rgb(212, 0, 255));
-  color: white;
-}
+  background: linear-gradient(to left,  rgb(153, 0, 158), rgb(212, 0, 255));}
 
 
 .red{
@@ -387,9 +384,7 @@ a:hover, a:visited, a:link, a:active{
 }
 
 .red:hover{
-  background: linear-gradient(to left,  rgb(250, 133, 0), rgb(212, 0, 255));
-  color: white;
-}
+  background: linear-gradient(to left,  rgb(250, 133, 0), rgb(212, 0, 255));}
 
 
 .contact-wrapper{

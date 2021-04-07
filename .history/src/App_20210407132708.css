@@ -283,7 +283,7 @@ a:active {
 
 .website5 {
   background-image: url("./website5.jpg");
-  background-size: contain;
+  background-size:contain;
 }
 
 .focus-wrapper {

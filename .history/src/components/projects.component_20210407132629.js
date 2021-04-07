@@ -9,7 +9,7 @@ const Projects = () => {
 
       <div className="project-wrapper">
 
-      <a href="https://michalgornicki.github.io/electronet/">
+      <a href="https://michalgornicki.github.io/restaurant/">
         <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
           <img className="project website5" />
           <h2 class="medium-slide">Electronics shop.</h2>

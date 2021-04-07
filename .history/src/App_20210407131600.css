@@ -245,12 +245,12 @@ a:active {
   margin: 1vw;
   background-color: rgb(255, 255, 255);
   color: white;
-  box-shadow: 0px 0px 20px rgb(119, 119, 119);
+  box-shadow: 0px 0px 10px black;
   border-radius: 2vmin;
 }
 
 .project-slide:hover {
-  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+  box-shadow: 0px 0px 20px rgb(255, 255, 255);
 }
 
 .website0 {
@@ -279,11 +279,6 @@ a:active {
 
 .website4 {
   background-image: url("./website4.jpg");
-}
-
-.website5 {
-  background-image: url("./website5.jpg");
-  background-size: contain;
 }
 
 .focus-wrapper {
@@ -350,9 +345,9 @@ a:active {
   letter-spacing: 0.2vmin;
   font-weight: 900;
   font-size: 1.15vmax;
-  box-shadow: 0px 0px 20px rgb(119, 119, 119);
+  box-shadow: 2px 2px 15px rgb(70, 70, 70);
   color: rgb(245, 245, 245);
-  border-radius: 2vmin;
+  border-radius: 10px;
   color: rgb(0, 0, 0);
 }
 

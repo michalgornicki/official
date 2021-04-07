@@ -281,11 +281,6 @@ a:active {
   background-image: url("./website4.jpg");
 }
 
-.website5 {
-  background-image: url("./website5.jpg");
-  background-size: contain;
-}
-
 .focus-wrapper {
   position: relative;
   width: 90vw;
@@ -352,7 +347,7 @@ a:active {
   font-size: 1.15vmax;
   box-shadow: 0px 0px 20px rgb(119, 119, 119);
   color: rgb(245, 245, 245);
-  border-radius: 2vmin;
+  border-radius: 10px;
   color: rgb(0, 0, 0);
 }
 

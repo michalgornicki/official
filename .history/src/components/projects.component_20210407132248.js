@@ -8,14 +8,11 @@ const Projects = () => {
       </h2>
 
       <div className="project-wrapper">
-
-      <a href="https://michalgornicki.github.io/electronet/">
         <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
-          <img className="project website5" />
-          <h2 class="medium-slide">Electronics shop.</h2>
-          <h3 class="small-slide">HTML, CSS, JS, React.</h3>
+          <img className="project" />
+          <h2 class="medium-slide">Place for new app.</h2>
+          <h3 class="small-slide">Black description.</h3>
         </div>
-        </a>
 
         <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
           <img className="project website0" />

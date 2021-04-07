@@ -510,12 +510,12 @@ a:active {
 
   .skill {
     width: 47%;
-    height: 40vw;
+    height: 30vw;
     font-size: 3.5vmin;
   }
 
   .skill-description {
-    font-size: 3.5vmin;
+    font-size: 2.5vmin;
   }
 
   .focus-wrapper{
@@ -546,7 +546,7 @@ a:active {
 
   .contact {
     font-size: 7vmin;
-    line-height: 20vmin;
+    line-height: 0vmin;
     margin-bottom: 10vmin;
     background-size: 100% 100%;
     border-radius: 3vmin;

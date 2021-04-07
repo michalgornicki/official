@@ -298,10 +298,11 @@ a:active {
   width: 17vw;
   margin-left: 6.5vw;
   margin-right: 6.5vw;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-align: center;
   font-size: 2vmax;
   font-weight: 600;
+  background-color: rgb(230, 230, 230);
 }
 
 .focus-description {
@@ -510,12 +511,12 @@ a:active {
 
   .skill {
     width: 47%;
-    height: 40vw;
+    height: 30vw;
     font-size: 3.5vmin;
   }
 
   .skill-description {
-    font-size: 3.5vmin;
+    font-size: 2.5vmin;
   }
 
   .focus-wrapper{
@@ -530,7 +531,7 @@ a:active {
     position: relative;
     left: 15%;
     width: 70%;
-    font-size: 7.5vmin;
+    font-size: 8vmin;
     margin: 0;
     margin-top: 7vmin;
 

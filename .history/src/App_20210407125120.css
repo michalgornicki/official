@@ -512,6 +512,7 @@ a:active {
     width: 47%;
     height: 40vw;
     font-size: 3.5vmin;
+    font-weight: 900;
   }
 
   .skill-description {

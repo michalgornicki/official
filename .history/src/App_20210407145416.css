@@ -304,7 +304,7 @@ a:active {
   width: 90vw;
   margin: auto;
   margin-top: 10vh;
-  background-color: rgb(219, 219, 219);
+  background-color: rgb(190, 190, 190);
   padding: 3vmin;
   padding-bottom: 8vmin;
   padding-top: 8vmin;
@@ -320,7 +320,7 @@ a:active {
   width: 17vw;
   margin-left: 6.5vw;
   margin-right: 6.5vw;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-align: center;
   font-size: 2vmax;
   font-weight: 600;
@@ -334,7 +334,7 @@ a:active {
   margin-left: 5vw;
   margin-right: 5vw;
   margin-top: 3vw;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   background: linear-gradient(to left, rgb(211, 65, 255), rgb(77, 249, 255));
   background-size: 100% 2%;
   background-repeat: no-repeat;
@@ -572,8 +572,7 @@ a:active {
   .contact {
     font-size: 7vmin;
     line-height: 20vmin;
-    margin-top: 5vmin;
-    margin-bottom: 5vmin;
+    margin-bottom: 10vmin;
     background-size: 100% 100%;
     border-radius: 3vmin;
     background-position: bottom;
@@ -602,6 +601,6 @@ a:active {
 
   .contact-wrapper{
     width: 80%;
-    padding: 2vmin;
+    padding: 1vmin;
   }
 }

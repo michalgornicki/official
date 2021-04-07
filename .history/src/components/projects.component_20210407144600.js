@@ -65,7 +65,7 @@ const Projects = () => {
           <img className="project website4" />
           <h2 class="medium-slide">Virtual pet app.</h2>
           <h3 class="small-slide">
-            HTML, CSS, JS. Object programming.
+            HTML, CSS, JS. Object programming. Pseudo states.
           </h3>
         </div>
       </div>

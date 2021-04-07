@@ -27,7 +27,7 @@ const Projects = () => {
         </div>
         </div>
 
-        <div className="project-hover">
+
         <a href="https://michalgornicki.github.io/restaurant/">
           <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
             <img className="project website1" />
@@ -37,10 +37,7 @@ const Projects = () => {
             </h3>
           </div>
         </a>
-        </div>
 
-
-      <div className="project-hover">
         <a href="https://michalgornicki.github.io/artgallery/">
           <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
             <img className="project website2" />
@@ -48,29 +45,21 @@ const Projects = () => {
             <h3 class="small-slide">HTML, CSS, JS. AOS library.</h3>
           </div>
         </a>
-        </div>
 
-
-      <div className="project-hover">
         <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
           <img className="project website3" />
           <h2 class="medium-slide">Weather app.</h2>
           <h3 class="small-slide">HTML, CSS, JS, React, Accuweather API.</h3>
         </div>
-        </div>
 
-
-      <div className="project-hover">
         <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
           <img className="project website4" />
           <h2 class="medium-slide">Virtual pet app.</h2>
           <h3 class="small-slide">
-            HTML, CSS, JS. Object programming.
+            HTML, CSS, JS. Object programming. Pseudo states.
           </h3>
         </div>
       </div>
-      </div>
-
     </div>
   );
 };

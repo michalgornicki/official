@@ -354,7 +354,7 @@ a:active {
   position: relative;
   width: 80%;
   margin: auto;
-  border: 5px solid rgb(233, 233, 233);
+  background-color: rgb(233, 233, 233);
   padding: 5vmin;
 }
 
@@ -423,10 +423,9 @@ a:active {
 
 .contact-wrapper {
   margin-top: 5vmax;
-  width: 40%;
+  background-color: rgb(233, 233, 233);
+  width: 50%;
   margin: auto;
-  padding: 2vmin;
-  border: 5px solid rgb(233, 233, 233);
 }
 
 .contact {

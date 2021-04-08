@@ -301,7 +301,7 @@ a:active {
 
 .service-wrapper {
   position: relative;
-  width: 90%;
+  width: 90vw;
   margin: auto;
   margin-top: 10vh;
   background-color: rgb(233, 233, 233);
@@ -354,7 +354,7 @@ a:active {
   position: relative;
   width: 80%;
   margin: auto;
-  border: 5px solid rgb(233, 233, 233);
+  background-color: rgb(233, 233, 233);
   padding: 5vmin;
 }
 
@@ -371,6 +371,7 @@ a:active {
   box-shadow: 0px 0px 10px rgb(119, 119, 119);
   border-radius: 2vmin;
   color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
 }
 
 .skill span {
@@ -423,10 +424,9 @@ a:active {
 
 .contact-wrapper {
   margin-top: 5vmax;
-  width: 40%;
+  background-color: rgb(210, 210, 210);
+  width: 50%;
   margin: auto;
-  padding: 2vmin;
-  border: 5px solid rgb(233, 233, 233);
 }
 
 .contact {
@@ -531,13 +531,11 @@ a:active {
   }
 
   .skill-wrapper {
-    padding-left: 2vmin;
-    padding-right: 2vmin;
     width: 90%;
   }
 
   .skill {
-    width: 48%;
+    width: 47%;
     height: 40vw;
     font-size: 3.5vmin;
   }
@@ -548,8 +546,6 @@ a:active {
 
   .service-wrapper{
     margin-top: 0vh;
-    padding-left: 0;
-    padding-right: 0;
   }
 
   .service {

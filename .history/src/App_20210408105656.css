@@ -227,7 +227,7 @@ a:active {
   position: relative;
   width: 80%;
   margin: auto;
-  background-color: rgb(233, 233, 233);
+  border: 5px solid rgb(233, 233, 233);
   padding: 3vmin;
 }
 
@@ -304,7 +304,8 @@ a:active {
   width: 90%;
   margin: auto;
   margin-top: 10vh;
-  background-color: rgb(233, 233, 233);
+  border: 5px solid rgb(233, 233, 233);
+
   padding: 3vmin;
   padding-bottom: 8vmin;
   padding-top: 8vmin;
@@ -354,7 +355,7 @@ a:active {
   position: relative;
   width: 80%;
   margin: auto;
-  border: 5px solid rgb(233, 233, 233);
+  background-color: rgb(233, 233, 233);
   padding: 5vmin;
 }
 

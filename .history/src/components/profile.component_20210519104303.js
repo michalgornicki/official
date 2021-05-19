@@ -14,7 +14,7 @@ const Profile = () => {
           new frontend skills. I'm looking forward for new challenges to work
           and grow.{" "}
         </h3>
-        <a href="https://drive.google.com/file/d/1rSniVdue6GJbCjNk-sP4J70bYzZnpskJ/view?usp=sharing" download><h3 class="small more">[Download my CV.] </h3></a>
+        <h3 class="small more">[Download my CV.] </h3>
       </div>
       <a href="#container2">
         <div className="slide-down">slide down</div>

@@ -52,13 +52,11 @@ const Projects = () => {
 
 
       <div className="project-hover">
-        <a href="https://youtu.be/Xq_YM1_ebq4">
         <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
           <img className="project website3" />
           <h2 class="medium-slide">Weather app.</h2>
           <h3 class="small-slide">HTML, CSS, JS, React, Accuweather API.</h3>
         </div>
-        </a>
         </div>
 
 

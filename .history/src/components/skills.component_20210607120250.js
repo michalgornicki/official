@@ -9,37 +9,38 @@ const Skills = () => {
       <div className="skill-wrapper">
         <div className="skill blue" data-aos="zoom-up" data-aos-delay="300">
           <span class="skill-title">HTML</span>{" "}
-          <div className="skill-description">Good knowledge about this front-end fundamentals.</div>
+          <div className="skill-description">I feel strong in HTML.</div>
         </div>
         <div className="skill violet" data-aos="zoom-up" data-aos-delay="600">
           <span class="skill-title">CSS</span>{" "}
           <div className="skill-description">
-            I know CSS very well. I have a lot of experience in styling, positioning, animations. I also used CSS libraries as Bootstrap and Tailwind.{" "}
+            I know CSS very well. Styling, positioning, animations are familiar
+            to me. I also used CSS frameworks as Bootstrap and Tailwind.{" "}
           </div>
         </div>
         <div className="skill red" data-aos="zoom-up" data-aos-delay="900">
           <span class="skill-title">JAVASCRIPT</span>{" "}
           <div className="skill-description">
-            I know javascript pretty good. I practice this language a lot to get used
+            I know javascript pretty well. I practice this language to get used
             to more advanced concepts.
           </div>
         </div>
         <div className="skill blue" data-aos="zoom-up" data-aos-delay="600">
           <span class="skill-title">REACT</span>{" "}
           <div className="skill-description">
-            This is my main focus. I work on React projects mostly.
+            This is my main focus. I'm now working on React projects.
           </div>
         </div>
         <div className="skill violet" data-aos="zoom-up" data-aos-delay="300">
           <span class="skill-title">GIT/GITHUB</span>{" "}
           <div className="skill-description">
-            I use standard Git commands for maintaining my projects.
+            I'm using simple Github options for maintaining my projects.
           </div>
         </div>
         <div className="skill red" data-aos="zoom-up" data-aos-delay="300">
           <span class="skill-title">BOOTSTRAP</span>{" "}
           <div className="skill-description">
-            I used Bootstrap for few projects. I prefer working without this kind of libraries, because they are a little limiting.
+            I used Bootstrap for few projects.
           </div>
         </div>
         <div className="skill blue" data-aos="zoom-up" data-aos-delay="600">
@@ -58,30 +59,26 @@ const Skills = () => {
         <div className="skill red" data-aos="zoom-up" data-aos-delay="600">
           <span class="skill-title">ADOBE PHOTOSHOP</span>{" "}
           <div className="skill-description">
-            I worked a lot in Photoshop for retouching photos and images.
+            Worked a lot in Photoshop retouching photos.
           </div>
         </div>
         <div className="skill blue" data-aos="zoom-up" data-aos-delay="300">
           <span class="skill-title">JS/CSS LIBRARIES</span>{" "}
-          <div className="skill-description">I have no problems with applying libraries for projects. </div>
+          <div className="skill-description">I used number of libraries.</div>
         </div>
-        <div className="skill violet" data-aos="zoom-up" data-aos-delay="300">
+        <div className="skill blue" data-aos="zoom-up" data-aos-delay="300">
           <span class="skill-title">REDUX</span>{" "}
           <div className="skill-description">Learning in progress...</div>
         </div>
-        <div className="skill red" data-aos="zoom-up" data-aos-delay="300">
+        <div className="skill blue" data-aos="zoom-up" data-aos-delay="300">
           <span class="skill-title">REACT HOOKS</span>{" "}
-          <div className="skill-description">In queue for learning...</div>
+          <div className="skill-description">Learning in progress...</div>
         </div>
         <div className="skill blue" data-aos="zoom-up" data-aos-delay="300">
           <span class="skill-title">TYPESCRIPT</span>{" "}
-          <div className="skill-description">In queue for learning...</div>
+          <div className="skill-description">Learning in progress...</div>
         </div>
-        <div className="skill violet" data-aos="zoom-up" data-aos-delay="300">
-          <span class="skill-title">App testing</span>{" "}
-          <div className="skill-description">In queue for learning...</div>
-        </div>
-        <div className="skill red" data-aos="zoom-up" data-aos-delay="300">
+        <div className="skill blue" data-aos="zoom-up" data-aos-delay="300">
           <span class="skill-title">...</span>{" "}
           <div className="skill-description">...</div>
         </div>

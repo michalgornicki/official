@@ -472,12 +472,11 @@ a:active {
     top: 10vmax;
     filter: opacity(0);
     animation: 2s fadeOn alternate forwards;
-
   }
   .profile-photo-fade {
     position: absolute;
     width: 100%;
-    height: 42%;
+    height: 50%;
     right: 0;
     top: 10vmax;
   }
@@ -603,5 +602,4 @@ a:active {
     width: 80%;
     padding: 2vmin;
   }
-
 }

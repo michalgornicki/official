@@ -20,26 +20,26 @@ const Skills = () => {
         <div className="skill red" data-aos="zoom-up" data-aos-delay="900">
           <span class="skill-title">JAVASCRIPT</span>{" "}
           <div className="skill-description">
-            I know javascript pretty good. I practice this language a lot to get used
+            I know javascript pretty well. I practice this language to get used
             to more advanced concepts.
           </div>
         </div>
         <div className="skill blue" data-aos="zoom-up" data-aos-delay="600">
           <span class="skill-title">REACT</span>{" "}
           <div className="skill-description">
-            This is my main focus. I work on React projects mostly.
+            This is my main focus. I'm now working on React projects.
           </div>
         </div>
         <div className="skill violet" data-aos="zoom-up" data-aos-delay="300">
           <span class="skill-title">GIT/GITHUB</span>{" "}
           <div className="skill-description">
-            I use standard Git commands for maintaining my projects.
+            I'm using simple Github options for maintaining my projects.
           </div>
         </div>
         <div className="skill red" data-aos="zoom-up" data-aos-delay="300">
           <span class="skill-title">BOOTSTRAP</span>{" "}
           <div className="skill-description">
-            I used Bootstrap for few projects. I prefer working without this kind of libraries, because they are a little limiting.
+            I used Bootstrap for few projects.
           </div>
         </div>
         <div className="skill blue" data-aos="zoom-up" data-aos-delay="600">
@@ -58,12 +58,12 @@ const Skills = () => {
         <div className="skill red" data-aos="zoom-up" data-aos-delay="600">
           <span class="skill-title">ADOBE PHOTOSHOP</span>{" "}
           <div className="skill-description">
-            I worked a lot in Photoshop for retouching photos and images.
+            Worked a lot in Photoshop retouching photos.
           </div>
         </div>
         <div className="skill blue" data-aos="zoom-up" data-aos-delay="300">
           <span class="skill-title">JS/CSS LIBRARIES</span>{" "}
-          <div className="skill-description">I have no problems with applying libraries for projects. </div>
+          <div className="skill-description">I used number of libraries.</div>
         </div>
         <div className="skill violet" data-aos="zoom-up" data-aos-delay="300">
           <span class="skill-title">REDUX</span>{" "}

@@ -29,7 +29,7 @@ body {
 
 #container3 {
   position: relative;
-  height: 135vh;
+  height: 120vh;
   background-color: rgb(223, 223, 223);
   background-size: cover;
 }
@@ -271,13 +271,20 @@ a:active {
 }
 
 .website1 {
-  background-image: url("./website1.png");
+  background-image: url("./website1.jpg");
+}
+
+.website1:hover {
+  background-image: url("./website1.gif");
 }
 
 .website2 {
-  background-image: url("./website2.png");
+  background-image: url("./website4.png");
 }
 
+.website2:hover {
+  background-image: url("./website2.gif");
+}
 
 .website3 {
   background-image: url("./website3.jpg");
@@ -472,12 +479,11 @@ a:active {
     top: 10vmax;
     filter: opacity(0);
     animation: 2s fadeOn alternate forwards;
-
   }
   .profile-photo-fade {
     position: absolute;
     width: 100%;
-    height: 42%;
+    height: 50%;
     right: 0;
     top: 10vmax;
   }
@@ -603,5 +609,4 @@ a:active {
     width: 80%;
     padding: 2vmin;
   }
-
 }

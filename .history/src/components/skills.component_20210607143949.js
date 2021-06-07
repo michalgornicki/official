@@ -63,7 +63,7 @@ const Skills = () => {
         </div>
         <div className="skill blue" data-aos="zoom-up" data-aos-delay="300">
           <span class="skill-title">JS/CSS LIBRARIES</span>{" "}
-          <div className="skill-description">I have no problems with applying libraries for projects. </div>
+          <div className="skill-description">I used number of libraries.</div>
         </div>
         <div className="skill violet" data-aos="zoom-up" data-aos-delay="300">
           <span class="skill-title">REDUX</span>{" "}

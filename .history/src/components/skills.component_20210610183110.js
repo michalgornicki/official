@@ -70,7 +70,7 @@ const Skills = () => {
           <div className="skill-description">I have no problems with applying libraries for projects. </div>
         </div>
         <div className="skill violet" data-aos="zoom-up" data-aos-delay="300">
-          <span className="skill-title">REDUX</span>{" "}
+          <span className="skill-title">REDUX and React Context</span>{" "}
           <div className="skill-description">Learning in progress...</div>
         </div>
         <div className="skill red" data-aos="zoom-up" data-aos-delay="300">

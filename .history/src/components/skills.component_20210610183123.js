@@ -74,7 +74,7 @@ const Skills = () => {
           <div className="skill-description">Learning in progress...</div>
         </div>
         <div className="skill red" data-aos="zoom-up" data-aos-delay="300">
-          <span className="skill-title">REACT HOOKS</span>{" "}
+          <span className="skill-title">REACT HOOKS, Context</span>{" "}
           <div className="skill-description">In queue for learning...</div>
         </div>
         <div className="skill blue" data-aos="zoom-up" data-aos-delay="300">

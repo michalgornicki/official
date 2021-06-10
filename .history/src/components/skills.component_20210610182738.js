@@ -63,7 +63,7 @@ const Skills = () => {
         </div>
         <div className="skill blue" data-aos="zoom-up" data-aos-delay="300">
           <span className="skill-title">LESS (CSS)</span>{" "}
-          <div className="skill-description">Recently I started using LESS and it is wonderfully useful. </div>
+          <div className="skill-description">I have no problems with applying libraries for projects. </div>
         </div>
         <div className="skill blue" data-aos="zoom-up" data-aos-delay="300">
           <span className="skill-title">JS/CSS LIBRARIES</span>{" "}

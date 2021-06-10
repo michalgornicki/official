@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div id="container5">
-      <h2 class="header header-lower" data-aos="fade">
+      <h2 className="header header-lower" data-aos="fade">
         Contact
       </h2>
       <div className="contact-wrapper" data-aos="zoom-out">

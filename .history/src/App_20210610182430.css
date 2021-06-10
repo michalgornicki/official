@@ -29,7 +29,7 @@ body {
 
 #container3 {
   position: relative;
-  height: 150vh;
+  height: 135vh;
   background-color: rgb(223, 223, 223);
   background-size: cover;
 }
@@ -472,7 +472,7 @@ a:active {
     top: 0vmax;
     filter: opacity(0);
     animation: 2s fadeOn alternate forwards;
-    border-bottom: 3px solid rgb(209, 209, 209);
+    outline: 5px solid white;
 
   }
   .profile-photo-fade {

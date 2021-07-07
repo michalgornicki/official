@@ -32,7 +32,7 @@ const Skills = () => {
         </div>
         <div className="skill red" data-aos="zoom-up" data-aos-delay="300">
           <span className="skill-title">REACT HOOKS</span>{" "}
-          <div className="skill-description">I have knowledge about standard hooks.</div>
+          <div className="skill-description">In queue for learning...</div>
         </div>
         <div className="skill violet" data-aos="zoom-up" data-aos-delay="300">
           <span className="skill-title">GIT/GITHUB</span>{" "}

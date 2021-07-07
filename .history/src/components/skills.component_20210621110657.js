@@ -29,10 +29,10 @@ const Skills = () => {
           <div className="skill-description">
             This is my main focus. I work on React projects mostly.
           </div>
-        </div>
-        <div className="skill red" data-aos="zoom-up" data-aos-delay="300">
+          <div className="skill red" data-aos="zoom-up" data-aos-delay="300">
           <span className="skill-title">REACT HOOKS</span>{" "}
-          <div className="skill-description">I have knowledge about standard hooks.</div>
+          <div className="skill-description">In queue for learning...</div>
+        </div>
         </div>
         <div className="skill violet" data-aos="zoom-up" data-aos-delay="300">
           <span className="skill-title">GIT/GITHUB</span>{" "}
@@ -77,7 +77,7 @@ const Skills = () => {
           <span className="skill-title">REDUX</span>{" "}
           <div className="skill-description">Learning in progress...</div>
         </div>
- 
+
         <div className="skill blue" data-aos="zoom-up" data-aos-delay="300">
           <span className="skill-title">TYPESCRIPT</span>{" "}
           <div className="skill-description">In queue for learning...</div>

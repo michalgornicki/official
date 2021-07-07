@@ -31,7 +31,6 @@ body {
 #container3 {
   position: relative;
   height: auto;
-  padding-bottom: 10vmin;
   background-color: rgb(223, 223, 223);
   background-size: cover;
 }

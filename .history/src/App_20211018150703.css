@@ -368,7 +368,7 @@ a:active {
   position: relative;
   display: inline-grid;
   width: 12%;
-  height: 25vmin;
+  height: 12vw;
   margin: 1%;
   text-align: center;
   font-weight: 900;
@@ -539,8 +539,8 @@ a:active {
 
   .skill {
     width: 48%;
+    height:fit-content;
     font-size: 3.5vmin;
-    height: 40vmin;
   }
 
   .skill-description {

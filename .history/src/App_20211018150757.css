@@ -539,8 +539,8 @@ a:active {
 
   .skill {
     width: 48%;
+    height: 40vw;
     font-size: 3.5vmin;
-    height: 40vmin;
   }
 
   .skill-description {

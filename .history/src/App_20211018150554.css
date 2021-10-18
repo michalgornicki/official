@@ -368,7 +368,7 @@ a:active {
   position: relative;
   display: inline-grid;
   width: 12%;
-  height: 25vmin;
+  height: 12vw;
   margin: 1%;
   text-align: center;
   font-weight: 900;
@@ -451,12 +451,6 @@ a:active {
 }
 
 @media only screen and (max-device-width: 800px), (max-width: 800px) {
-  .skill {
-    width: 30%;
-  }
-}
-
-@media only screen and (max-device-width: 600px), (max-width: 600px) {
   
   .text-wrapper {
     position: relative;
@@ -539,8 +533,8 @@ a:active {
 
   .skill {
     width: 48%;
+    height: 40vw;
     font-size: 3.5vmin;
-    height: 40vmin;
   }
 
   .skill-description {

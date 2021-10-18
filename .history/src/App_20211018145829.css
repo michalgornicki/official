@@ -313,7 +313,7 @@ a:active {
   padding: 3vmin;
   padding-bottom: 8vmin;
   padding-top: 8vmin;
-  filter: drop-shadow(2px 2px 15px rgb(163, 163, 163));
+  filter: drop-shadow(2px 2px 5px rgb(185,185,185));
 }
 
 .service{
@@ -368,9 +368,10 @@ a:active {
   position: relative;
   display: inline-grid;
   width: 12%;
-  height: 25vmin;
+  height: 12vw;
   margin: 1%;
   text-align: center;
+  letter-spacing: 0.2vmin;
   font-weight: 900;
   border-radius: 2vmin;
   color: rgb(0, 0, 0);
@@ -409,17 +410,16 @@ a:active {
 
 .contact-wrapper {
   margin-top: 5vmax;
-  width: 30%;
+  width: 40%;
   margin: auto;
   padding: 2vmin;
-  box-shadow: 2px 2px 15px rgb(177, 177, 177);
-  background-color: rgb(245, 245, 245);
+  border: 5px solid rgb(233, 233, 233);
 }
 
 .contact {
   text-align: center;
   font-size: 4vmin;
-  color: rgb(0, 0, 0);
+  color: white;
   line-height: 4vw;
   width: max-content;
   padding: 1vmin;
@@ -427,7 +427,7 @@ a:active {
   margin-right: auto;
   margin-bottom: 1vw;
   transition: 0.5s;
-  background: linear-gradient(to top, rgb(226, 131, 255), rgb(110, 202, 255));
+  background: linear-gradient(to top, rgb(211, 65, 255), rgb(62, 184, 255));
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -441,18 +441,12 @@ a:active {
 
 .contact a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: white;
 }
 
 @media only screen and (max-device-width: 1200px), (max-width: 1200px) {
   .skill {
     width: 18%;
-  }
-}
-
-@media only screen and (max-device-width: 800px), (max-width: 800px) {
-  .skill {
-    width: 30%;
   }
 }
 
@@ -539,8 +533,8 @@ a:active {
 
   .skill {
     width: 48%;
+    height: 40vw;
     font-size: 3.5vmin;
-    height: 40vmin;
   }
 
   .skill-description {

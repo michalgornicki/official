@@ -23,6 +23,11 @@ const Contact = () => {
           {" "}
           <a href="https://github.com/michalgornicki">Github</a>
         </div>
+
+        <div className="contact contact-right">
+          {" "}
+          <a href="https://www.linkedin.com/in/michal-gornicki/">LinkedIn</a>
+        </div>
       </div>
     </div>
   );

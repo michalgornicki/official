@@ -540,11 +540,6 @@ a:active {
     padding-bottom: 50px;
   }
 
-  #container5 {
-    height: 100vh;
-    background-color: rgb(223, 223, 223);
-  }
-
   .slide-down {
     top: 94%;
     z-index: 1;

@@ -540,11 +540,6 @@ a:active {
     padding-bottom: 50px;
   }
 
-  #container5 {
-    height: 100vh;
-    background-color: rgb(223, 223, 223);
-  }
-
   .slide-down {
     top: 94%;
     z-index: 1;
@@ -560,7 +555,6 @@ a:active {
   .skill {
     width: 46%;
     font-size: 3.5vmin;
-    margin-bottom: 4vmin;
     height: 40vmin;
   }
 
@@ -575,10 +569,6 @@ a:active {
   }
 
   .service-wrapper{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
     margin-top: 0vh;
     padding-left: 0;
     padding-right: 0;
@@ -586,7 +576,6 @@ a:active {
 
   .service {
     width: 100%;
-    margin-bottom: 2vmin;
   }
 
   .service-title{

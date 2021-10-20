@@ -537,12 +537,7 @@ a:active {
 
   #container3 {
     height: fit-content;
-    padding-bottom: 50px;
-  }
-
-  #container5 {
-    height: 100vh;
-    background-color: rgb(223, 223, 223);
+    padding-bottom: 00px;
   }
 
   .slide-down {

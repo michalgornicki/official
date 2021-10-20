@@ -270,11 +270,7 @@ a:active {
 }
 
 
-.website0 {
-  background-image: url("./website0.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
 
 .website1 {
   background-image: url("./website1.png");
@@ -365,10 +361,6 @@ a:active {
 
 .skill-wrapper {
   position: relative;
-  display: flex;
-  flex-direction:row;
-  flex-wrap: wrap;
-  justify-content:space-between;
   width: 80%;
   margin: auto;
   background-color: rgb(233, 233, 233);
@@ -381,8 +373,8 @@ a:active {
   position: relative;
   display: inline-grid;
   width: 12%;
-  margin: 1%;
   height: 25vmin;
+  margin: 1%;
   text-align: center;
   font-weight: 900;
   color: rgb(255, 255, 255);
@@ -410,6 +402,7 @@ a:active {
   letter-spacing: 0;
   font-size: 1.8vmin;
   vertical-align: top;
+  display: inline-block;
 }
 
 .skill-title {
@@ -513,7 +506,7 @@ a:active {
   }
 
   .project-slide {
-    width: 100%;
+    width: 98%;
   }
 
   .medium-slide {
@@ -527,7 +520,7 @@ a:active {
   #container1 {
     width: 90%;
     left: 5%;
-    height: 90vh;
+    height: 110vh;
   }
 
   #container2 {

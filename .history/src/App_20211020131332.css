@@ -255,8 +255,6 @@ a:active {
   height: 75%;
   background-color: rgba(255, 255, 255, 0.253);
   background-size: cover;
-  outline: 0px;
-  border: 0px;
 }
 
 .project-slide {
@@ -292,6 +290,8 @@ a:active {
 .website3 {
   background-image: url("./website3.jpg");
   background-size: cover;
+  border: 0px !important;
+  outline: 0 !important;
 
 }
 
@@ -365,10 +365,6 @@ a:active {
 
 .skill-wrapper {
   position: relative;
-  display: flex;
-  flex-direction:row;
-  flex-wrap: wrap;
-  justify-content:space-between;
   width: 80%;
   margin: auto;
   background-color: rgb(233, 233, 233);
@@ -381,8 +377,8 @@ a:active {
   position: relative;
   display: inline-grid;
   width: 12%;
-  margin: 1%;
   height: 25vmin;
+  margin: 1%;
   text-align: center;
   font-weight: 900;
   color: rgb(255, 255, 255);
@@ -410,6 +406,7 @@ a:active {
   letter-spacing: 0;
   font-size: 1.8vmin;
   vertical-align: top;
+  display: inline-block;
 }
 
 .skill-title {
@@ -513,7 +510,7 @@ a:active {
   }
 
   .project-slide {
-    width: 100%;
+    width: 98%;
   }
 
   .medium-slide {
@@ -527,7 +524,7 @@ a:active {
   #container1 {
     width: 90%;
     left: 5%;
-    height: 90vh;
+    height: 110vh;
   }
 
   #container2 {

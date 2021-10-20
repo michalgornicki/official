@@ -366,9 +366,9 @@ a:active {
 .skill-wrapper {
   position: relative;
   display: flex;
-  flex-direction:row;
-  flex-wrap: wrap;
-  justify-content:space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   width: 80%;
   margin: auto;
   background-color: rgb(233, 233, 233);
@@ -381,8 +381,8 @@ a:active {
   position: relative;
   display: inline-grid;
   width: 12%;
-  margin: 1%;
   height: 25vmin;
+  margin: 1%;
   text-align: center;
   font-weight: 900;
   color: rgb(255, 255, 255);
@@ -410,6 +410,7 @@ a:active {
   letter-spacing: 0;
   font-size: 1.8vmin;
   vertical-align: top;
+  display: inline-block;
 }
 
 .skill-title {

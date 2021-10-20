@@ -459,17 +459,7 @@ a:active {
 }
 
 
-@media only screen and (max-device-width: 1200px), (max-width: 1200px) {
-  .skill {
-    width: 18%;
-  }
-}
 
-@media only screen and (max-device-width: 800px), (max-width: 800px) {
-  .skill {
-    width: 30%;
-  }
-}
 
 @media only screen and (max-device-width: 600px), (max-width: 600px) {
   

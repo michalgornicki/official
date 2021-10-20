@@ -55,6 +55,14 @@ body {
   margin-top: -40px;
 }
 
+.photo-wrapper{
+
+}
+
+.photo-wrapper:hover{
+  filter: drop-shadow(0px 0px 3px rgb(255, 0, 0));
+}
+
 .profile-photo {
   position: absolute;
   width: 70vh;
@@ -161,14 +169,15 @@ body {
 
 .more {
   width: max-content;
-  transition: 0.2s;
+  transition: 0.5s;
   border-bottom: 2px solid rgb(230, 230, 230);
-  color: black;
+  background-color: white;
 }
 
 .more:hover {
-  color: rgb(0, 255, 170);
-  transition: 0.2s;
+  background-color: black;
+  color: white;
+  transition: 0.5s;
   cursor: pointer;
 }
 
@@ -229,7 +238,6 @@ a:active {
   width: 80%;
   margin: auto;
   background-color: rgb(233, 233, 233);
-  filter: drop-shadow(2px 2px 15px rgb(163, 163, 163));
   padding: 3vmin;
 }
 
@@ -255,8 +263,6 @@ a:active {
   height: 75%;
   background-color: rgba(255, 255, 255, 0.253);
   background-size: cover;
-  outline: 0px;
-  border: 0px;
 }
 
 .project-slide {
@@ -308,13 +314,10 @@ a:active {
 
 .service-wrapper {
   position: relative;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  width: 80%;
-  left: 10%;
+  width: 90%;
+  margin: auto;
   margin-top: 10vh;
+  background-color: rgb(233, 233, 233);
   padding: 3vmin;
   padding-bottom: 8vmin;
   padding-top: 8vmin;
@@ -322,17 +325,15 @@ a:active {
 }
 
 .service{
-  width: 30%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  width: 33%;
   display: inline-block;
-  background-color: rgb(233, 233, 233);
-  border: 5px solid white;
 }
 
 .service-title {
   position: relative;
-  width: 100%;
+  width: 17vw;
+  margin-left: 6.5vw;
+  margin-right: 6.5vw;
   color: rgb(0, 0, 0);
   text-align: center;
   font-size: 2vmax;
@@ -343,16 +344,16 @@ a:active {
   position: relative;
   text-align: center;
   font-size: 2.2vmin;
-  width: 80%;
-  left: 10%;
+  width: 18vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
   margin-top: 3vw;
-  padding-top: 2vmin;
-  padding-bottom: 2vmin;
   color: rgb(0, 0, 0);
   background: linear-gradient(to left, rgb(211, 65, 255), rgb(77, 249, 255));
   background-size: 100% 2%;
   background-repeat: no-repeat;
   background-position: top;
+  padding: 1vw;
   filter: drop-shadow(0px 0px 50px rgb(255, 255, 255));
   transition: 0.5s;
   border-radius: 1vmin;
@@ -365,10 +366,6 @@ a:active {
 
 .skill-wrapper {
   position: relative;
-  display: flex;
-  flex-direction:row;
-  flex-wrap: wrap;
-  justify-content:space-between;
   width: 80%;
   margin: auto;
   background-color: rgb(233, 233, 233);
@@ -381,8 +378,8 @@ a:active {
   position: relative;
   display: inline-grid;
   width: 12%;
-  margin: 1%;
   height: 25vmin;
+  margin: 1%;
   text-align: center;
   font-weight: 900;
   color: rgb(255, 255, 255);
@@ -390,7 +387,7 @@ a:active {
   transition: 0.5s;
   top: -0px;
   outline: 5px solid white;
-  background-color: rgb(173, 173, 173);
+  background-color: rgb(160, 160, 160);
 }
 
 .skill:hover{
@@ -410,6 +407,7 @@ a:active {
   letter-spacing: 0;
   font-size: 1.8vmin;
   vertical-align: top;
+  display: inline-block;
 }
 
 .skill-title {
@@ -440,24 +438,23 @@ a:active {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1vw;
+  transition: 0.5s;
+  background: linear-gradient(to top, rgb(226, 131, 255), rgb(110, 202, 255));
   background-size: 0% 100%;
   background-repeat: no-repeat;
   background-position: bottom;
   border-radius: 15vmin;
 }
 
+.contact:hover {
+  background-size: 100% 100%;
+  transition: 0.5s;
+}
+
 .contact a {
+  text-decoration: none;
   color: rgb(0, 0, 0);
-  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0));
-  transition: 0.3s;
 }
-
-.contact a:hover {
-  color: rgb(0, 255, 115);
-  filter: drop-shadow(0px 0px 5px rgb(0, 255, 115));
-  transition: 0.3s;
-}
-
 
 @media only screen and (max-device-width: 1200px), (max-width: 1200px) {
   .skill {
@@ -513,7 +510,7 @@ a:active {
   }
 
   .project-slide {
-    width: 100%;
+    width: 98%;
   }
 
   .medium-slide {
@@ -527,7 +524,7 @@ a:active {
   #container1 {
     width: 90%;
     left: 5%;
-    height: 90vh;
+    height: 110vh;
   }
 
   #container2 {

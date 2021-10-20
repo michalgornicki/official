@@ -33,6 +33,7 @@ body {
   height: auto;
   padding-bottom: 10vmin;
   background-color: rgb(223, 223, 223);
+  background-image: url("plant.jpg");
   background-size: cover;
 }
 

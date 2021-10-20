@@ -362,7 +362,6 @@ a:active {
   margin: auto;
   border: 5px solid rgb(233, 233, 233);
   padding: 5vmin;
-
 }
 
 .skill {
@@ -405,7 +404,6 @@ a:active {
   height:fit-content;
   line-height: 4vmin;
   color: rgb(0, 0, 0);
-  
 }
 
 
@@ -543,6 +541,7 @@ a:active {
     width: 48%;
     font-size: 3.5vmin;
     height: 40vmin;
+    background-image: url("plant.jpg");
   }
 
   .skill-description {

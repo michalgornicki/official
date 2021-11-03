@@ -306,6 +306,11 @@ a:active {
   background-size: cover;
 }
 
+.website6 {
+  background-image: url("./website6.png");
+  background-size: cover;
+}
+
 .service-wrapper {
   position: relative;
   display: flex;

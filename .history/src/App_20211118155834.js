@@ -33,13 +33,14 @@ window.onscroll = function () {
 function App() {
 
   const [toogleNavbar, setToogleNavbar] = useState(false);
+  console.log(window.innerWidth)
 
   return (
     <div className="App">
       <div className="navbar">
         {toogleNavbar || (window.innerWidth > 800) ? 
         <div className="navbar-items">
-          <a href="#top">
+          <a href="#container1">
             <div className="navbar-item" onClick={() => setToogleNavbar(false)}>Home</div>
           </a>
           <a href="#container2">

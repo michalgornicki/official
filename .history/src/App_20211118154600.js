@@ -37,22 +37,22 @@ function App() {
   return (
     <div className="App">
       <div className="navbar">
-        {toogleNavbar || (window.innerWidth > 800) ? 
+        {toogleNavbar || (device.width > 800) ? 
         <div className="navbar-items">
-          <a href="#top">
-            <div className="navbar-item" onClick={() => setToogleNavbar(false)}>Home</div>
+          <a href="#container1">
+            <div className="navbar-item">Home</div>
           </a>
           <a href="#container2">
-            <div className="navbar-item" onClick={() => setToogleNavbar(false)}>Projects</div>
+            <div className="navbar-item">Projects</div>
           </a>
           <a href="#container3">
-            <div className="navbar-item" onClick={() => setToogleNavbar(false)}>Skills</div>
+            <div className="navbar-item">Skills</div>
           </a>
           <a href="#container4">
-            <div className="navbar-item" onClick={() => setToogleNavbar(false)}>Services</div>
+            <div className="navbar-item">Services</div>
           </a>
           <a href="#container5">
-            <div className="navbar-item" onClick={() => setToogleNavbar(false)}>Contact</div>
+            <div className="navbar-item">Contact</div>
           </a>
         </div>
         : ""

@@ -711,10 +711,8 @@ a:active {
     margin-top: 10vh;
     justify-content: space-between;
     background-color: white;
-    margin-left: 0%;
-
   }
-
+  
   .navbar-item{
     position: relative;
     top: 0%;

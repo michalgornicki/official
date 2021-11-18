@@ -33,6 +33,7 @@ window.onscroll = function () {
 function App() {
 
   const [toogleNavbar, setToogleNavbar] = useState(false);
+  console.log(window.innerWidth)
 
   return (
     <div className="App">

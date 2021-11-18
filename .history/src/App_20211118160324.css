@@ -37,12 +37,11 @@ body {
   top: 45%;
   font-size: 3vmin;
   color: black;
-  transition: 0.3s;
 }
 
 .navbar-item:hover{
-  color: rgb(177, 177, 177);
   cursor:pointer;
+  border-bottom: 3px solid black;
 }
 
 #container1 {
@@ -711,10 +710,8 @@ a:active {
     margin-top: 10vh;
     justify-content: space-between;
     background-color: white;
-    margin-left: 0%;
-
   }
-
+  
   .navbar-item{
     position: relative;
     top: 0%;

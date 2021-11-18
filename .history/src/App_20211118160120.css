@@ -21,14 +21,14 @@ body {
   width: 100%;
   background-color: rgb(255, 255, 255);
   z-index: 5;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 .navbar-items{
   width: 50%;
   height: 100%;
   display: flex;
-  margin-left: 35%;
+  margin-right: 12%;
   justify-content: space-between;
 }
 
@@ -37,7 +37,6 @@ body {
   top: 45%;
   font-size: 3vmin;
   color: black;
-  transition: 0.3s;
 }
 
 .navbar-item:hover{
@@ -711,10 +710,8 @@ a:active {
     margin-top: 10vh;
     justify-content: space-between;
     background-color: white;
-    margin-left: 0%;
-
   }
-
+  
   .navbar-item{
     position: relative;
     top: 0%;

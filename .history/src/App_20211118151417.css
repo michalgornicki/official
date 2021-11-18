@@ -21,14 +21,14 @@ body {
   width: 100%;
   background-color: rgb(255, 255, 255);
   z-index: 5;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 .navbar-items{
   width: 50%;
   height: 100%;
   display: flex;
-  margin-left: 35%;
+  margin: auto;
   justify-content: space-between;
 }
 
@@ -37,7 +37,6 @@ body {
   top: 45%;
   font-size: 3vmin;
   color: black;
-  transition: 0.3s;
 }
 
 .navbar-item:hover{
@@ -502,10 +501,6 @@ a:active {
   transition: 0.3s;
 }
 
-.navbar-icon{
-  display: none;
-}
-
 
 @media only screen and (max-device-width: 1200px), (max-width: 1200px) {
   .skill {
@@ -702,19 +697,16 @@ a:active {
   }
   
   .navbar-items{
-    width: 90%;
-    height: 60vh;
+    width: 50%;
+    height: 60%;
     display: flex;
     flex-direction: column;
-    padding-left: 10%;
-    padding-bottom: 40vh;
-    margin-top: 10vh;
+    margin-left: 10%;
+    margin-top: 20%;
     justify-content: space-between;
-    background-color: white;
-    margin-left: 0%;
-
+    display: none;
   }
-
+  
   .navbar-item{
     position: relative;
     top: 0%;
@@ -723,13 +715,11 @@ a:active {
   }
 
   .navbar-icon{
-    position: absolute;
+    position: relative;
     width: fit-content;
-    height: 8vh;
-    top: 1vh;
-    right: 5%;
+    height: 80%;
+    margin-top: 50%;
     float: right;
-    display: block;
   }
 
 }

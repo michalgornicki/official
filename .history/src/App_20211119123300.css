@@ -41,7 +41,7 @@ body {
 }
 
 .navbar-item:hover{
-  color: rgb(0, 255, 170);
+  color: rgb(177, 177, 177);
   cursor:pointer;
 }
 
@@ -91,20 +91,20 @@ body {
 
 .profile-photo {
   position: absolute;
-  width: 55vh;
-  height: 55vh;
-  right: 0;
-  top: 22vh;
+  width: 40vh;
+  height: 40vh;
+  right: 0vmax;
+  top: 8vmax;
   filter: opacity(0);
   animation: 2s fadeOn alternate forwards;
 }
 
 .profile-photo-fade {
   position: absolute;
-  width: 55vh;
-  height: 55vh;
-  right: 0;
-  top: 22vh;
+  width: 40vh;
+  height: 40vh;
+  right: 0vmax;
+  top: 8vmax;
   background: linear-gradient(
     to top,
     rgb(223, 223, 223),
@@ -196,6 +196,7 @@ body {
 .more {
   width: max-content;
   transition: 0.2s;
+  border-bottom: 2px solid rgb(230, 230, 230);
   color: black;
 }
 
@@ -541,7 +542,7 @@ a:active {
     width: 100%;
     right: 0%;
     height: auto;
-    top: 0;
+    top: 0vmax;
     filter: opacity(0);
     animation: 2s fadeOn alternate forwards;
     border-bottom: 3px solid rgb(209, 209, 209);

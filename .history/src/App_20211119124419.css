@@ -149,7 +149,7 @@ body {
   top: 8vmin;
   animation: 1s slideUp alternate forwards;
   animation-delay: 1s;
-  color: rgb(255, 255, 255);
+  color: rgb(94, 255, 201);
   filter: opacity(0);
 }
 

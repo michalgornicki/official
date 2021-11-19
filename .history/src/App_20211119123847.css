@@ -41,7 +41,7 @@ body {
 }
 
 .navbar-item:hover{
-  color: rgb(0, 255, 170);
+  color: rgb(177, 177, 177);
   cursor:pointer;
 }
 
@@ -196,6 +196,7 @@ body {
 .more {
   width: max-content;
   transition: 0.2s;
+  border-bottom: 2px solid rgb(230, 230, 230);
   color: black;
 }
 
@@ -541,7 +542,8 @@ a:active {
     width: 100%;
     right: 0%;
     height: auto;
-    top: 0;
+    margin-top: 5vh;
+    top: 0vmax;
     filter: opacity(0);
     animation: 2s fadeOn alternate forwards;
     border-bottom: 3px solid rgb(209, 209, 209);

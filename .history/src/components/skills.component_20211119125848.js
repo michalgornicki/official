@@ -14,7 +14,7 @@ const Skills = () => {
         <div className="skill violet">
           <span className="skill-title">CSS</span>{" "}
           <div className="skill-description">
-            I know CSS very well. I have a lot of experience in styling, positioning, animations. I also used CSS libraries as Bootstrap and Tailwind.{" "}
+            I know CSS very well. I have a lot of experience in styling, positioning, animations.{" "}
           </div>
         </div>
         <div className="skill red">
@@ -32,7 +32,7 @@ const Skills = () => {
         </div>
         <div className="skill red">
           <span className="skill-title">REACT HOOKS</span>{" "}
-          <div className="skill-description">I have knowledge about standard hooks.</div>
+          <div className="skill-description">I'm using react hooks in most projects, they are very useful.</div>
         </div>
         <div className="skill violet">
           <span className="skill-title">GIT/GITHUB</span>{" "}
@@ -82,10 +82,7 @@ const Skills = () => {
           <span className="skill-title">TYPESCRIPT</span>{" "}
           <div className="skill-description">In queue for learning...</div>
         </div>
-        <div className="skill violet">
-          <span className="skill-title">App testing</span>{" "}
-          <div className="skill-description">In queue for learning...</div>
-        </div>
+
       </div>
     </div>
   );

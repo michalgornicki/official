@@ -32,7 +32,7 @@ const Skills = () => {
         </div>
         <div className="skill red">
           <span className="skill-title">REACT HOOKS</span>{" "}
-          <div className="skill-description">I have knowledge about standard hooks.</div>
+          <div className="skill-description">I'm using react hooks in most projects, they are very useful.</div>
         </div>
         <div className="skill violet">
           <span className="skill-title">GIT/GITHUB</span>{" "}

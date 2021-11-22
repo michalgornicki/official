@@ -191,17 +191,17 @@ body {
   text-align: justify;
 }
 
-.slide-header {
+.medium-slide {
   margin: 0;
-  font-size: 5vmin;
+  font-size: 1.5vmax;
   font-weight: 400;
   margin-left: 2vmin;
   color: rgb(0, 0, 0);
 }
 
-.slide-footer {
+.small-slide {
   margin: 0;
-  font-size: 2vmin;
+  font-size: 0.9vmax;
   font-weight: 100;
   margin-left: 2vmin;
   color: rgb(0, 0, 0);
@@ -574,14 +574,13 @@ a:active {
 
   .project-slide {
     width: 100%;
-    height: 275px;
   }
 
-  .slide-header {
-    font-size: 6vmin;
+  .medium-slide {
+    font-size: 5vmin;
   }
-  
-  .slide-footer {
+
+  .small-slide {
     font-size: 3vmin;
   }
 

@@ -574,14 +574,13 @@ a:active {
 
   .project-slide {
     width: 100%;
-    height: 275px;
   }
 
-  .slide-header {
-    font-size: 6vmin;
+  .medium-slide {
+    font-size: 5vmin;
   }
-  
-  .slide-footer {
+
+  .small-slide {
     font-size: 3vmin;
   }
 

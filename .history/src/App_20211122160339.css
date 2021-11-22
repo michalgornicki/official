@@ -201,7 +201,7 @@ body {
 
 .slide-footer {
   margin: 0;
-  font-size: 2vmin;
+  font-size: 3vmin;
   font-weight: 100;
   margin-left: 2vmin;
   color: rgb(0, 0, 0);
@@ -574,14 +574,13 @@ a:active {
 
   .project-slide {
     width: 100%;
-    height: 275px;
   }
 
-  .slide-header {
-    font-size: 6vmin;
+  .medium-slide {
+    font-size: 5vmin;
   }
-  
-  .slide-footer {
+
+  .small-slide {
     font-size: 3vmin;
   }
 

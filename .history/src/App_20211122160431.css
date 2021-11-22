@@ -574,15 +574,22 @@ a:active {
 
   .project-slide {
     width: 100%;
-    height: 275px;
   }
 
   .slide-header {
-    font-size: 6vmin;
+    margin: 0;
+    font-size: 5vmin;
+    font-weight: 400;
+    margin-left: 2vmin;
+    color: rgb(0, 0, 0);
   }
   
   .slide-footer {
-    font-size: 3vmin;
+    margin: 0;
+    font-size: 2vmin;
+    font-weight: 100;
+    margin-left: 2vmin;
+    color: rgb(0, 0, 0);
   }
 
   #container1 {

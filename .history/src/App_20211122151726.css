@@ -587,8 +587,7 @@ a:active {
   #container1 {
     width: 90%;
     left: 5%;
-    height: fit-content;
-    padding-bottom: 50px;
+    height: 90vh;
     margin-top: 10vh;
   }
 
@@ -747,10 +746,10 @@ a:active {
 
   .scroll{
     display: block;
-    position: relative;
+    position: absolute;
     width: 15vmin;
     margin: auto;
-    top: 3vh;
+    top: 75vh;
     filter: opacity(1);
   }
 

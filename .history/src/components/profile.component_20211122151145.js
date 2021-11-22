@@ -1,7 +1,5 @@
 import React from "react";
 import profile from "../profile.png";
-import scroll from "../scroll.png";
-
 
 const Profile = () => {
   return (
@@ -21,7 +19,7 @@ const Profile = () => {
         <a href="https://drive.google.com/file/d/1rSniVdue6GJbCjNk-sP4J70bYzZnpskJ/view?usp=sharing" download><h3 className="small more">Check my CV here. </h3></a>
       </div>
 
-      <a href="#header-projects"><img className="scroll" src={scroll} alt="" /></a>
+      <a href="#mission-data"><img className="scroll" src={scroll} alt="" /></a>
 
 
     </div>

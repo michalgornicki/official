@@ -11,6 +11,7 @@ import Contact from "./components/contact.component.js";
 import Bottombar from "./components/bottombar.component.js";
 import menu from "./menu.png";
 import menuClose from "./menu-close.png";
+import scroll from "./scroll.png";
 
 
 
@@ -43,7 +44,7 @@ function App() {
           <a href="#top">
             <div className="navbar-item" onClick={() => setToogleNavbar(false)}>Home</div>
           </a>
-          <a href="#header-projects">
+          <a href="#container2">
             <div className="navbar-item" onClick={() => setToogleNavbar(false)}>Projects</div>
           </a>
           <a href="#container3">

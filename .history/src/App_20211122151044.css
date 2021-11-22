@@ -48,14 +48,10 @@ body {
 .scroll{
   display: block;
   position: relative;
-  width: 8vmin;
+  width: 15vmin;
   margin: auto;
-  top: 85vh;
-  filter: opacity(0.8);
-}
-
-.scroll:hover{
-  filter:opacity(1);
+  top: 75vh;
+  filter: opacity(1);
 }
 
 #container1 {
@@ -587,8 +583,7 @@ a:active {
   #container1 {
     width: 90%;
     left: 5%;
-    height: fit-content;
-    padding-bottom: 50px;
+    height: 90vh;
     margin-top: 10vh;
   }
 
@@ -743,15 +738,6 @@ a:active {
     right: 5%;
     float: right;
     display: block;
-  }
-
-  .scroll{
-    display: block;
-    position: relative;
-    width: 15vmin;
-    margin: auto;
-    top: 3vh;
-    filter: opacity(1);
   }
 
 }

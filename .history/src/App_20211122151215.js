@@ -43,7 +43,7 @@ function App() {
           <a href="#top">
             <div className="navbar-item" onClick={() => setToogleNavbar(false)}>Home</div>
           </a>
-          <a href="#header-projects">
+          <a href="#container2">
             <div className="navbar-item" onClick={() => setToogleNavbar(false)}>Projects</div>
           </a>
           <a href="#container3">

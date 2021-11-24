@@ -1,7 +1,4 @@
 import React from "react";
-import design from "../icons/design.png";
-import experience from "../icons/experience.png";
-import code from "../icons/code.png";
 
 const Services = () => {
   return (
@@ -20,7 +17,7 @@ const Services = () => {
         </div>
 
         <div className="service">
-          <div className="service-title"><img className="tech-icon" src={experience} alt="" /></div>
+          <div className="service-title">UI/UX DESIGN</div>
           <div className="service-description">
             <div className="service-text">
               Perfect and faultless user experience for all devices.
@@ -29,7 +26,7 @@ const Services = () => {
         </div>
 
         <div className="service">
-          <div className="service-title"><img className="tech-icon" src={code} alt="" /></div>
+          <div className="service-title">FRONTEND</div>
           <div className="service-description">
             <div className="service-text">
               Clean and simple high-standard frontend code.

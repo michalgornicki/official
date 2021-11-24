@@ -8,7 +8,7 @@ const Services = () => {
       </h2>
       <div className="service-wrapper" data-aos="zoom-in">
         <div className="service">
-          <div className="service-title">WEB DESIGN</div>
+          <div className="service-title"><img className="tech-icon" src={design} alt="" /></div>
           <div className="service-description">
             <div className="service-text">
               Elegant and quality webpages, easy and nice to use.
@@ -17,7 +17,7 @@ const Services = () => {
         </div>
 
         <div className="service">
-          <div className="service-title">UI/UX DESIGN</div>
+          <div className="service-title"><img className="tech-icon" src={design} alt="" /></div>
           <div className="service-description">
             <div className="service-text">
               Perfect and faultless user experience for all devices.
@@ -26,7 +26,7 @@ const Services = () => {
         </div>
 
         <div className="service">
-          <div className="service-title">FRONTEND</div>
+          <div className="service-title"><img className="tech-icon" src={design} alt="" /></div>
           <div className="service-description">
             <div className="service-text">
               Clean and simple high-standard frontend code.

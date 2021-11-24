@@ -384,11 +384,11 @@ a:active {
   display: inline-block;
   background-color: rgb(233, 233, 233);
   border: 5px solid white;
-  transition: 0.4s;
+  transition: 1s;
 }
 
 .service:hover{
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .service-title {
@@ -633,10 +633,6 @@ a:active {
   .service {
     width: 100%;
     margin-bottom: 2vmin;
-  }
-
-  .service:hover{
-    transform: scale(1);
   }
 
   .service-title{

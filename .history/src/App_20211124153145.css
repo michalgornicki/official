@@ -635,10 +635,6 @@ a:active {
     margin-bottom: 2vmin;
   }
 
-  .service:hover{
-    transform: scale(1);
-  }
-
   .service-title{
     position: relative;
     left: 15%;

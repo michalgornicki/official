@@ -654,8 +654,13 @@ a:active {
   }
 
   .contact {
-    width: 25%;
-    margin-bottom: 8vmin;
+    font-size: 7vmin;
+    line-height: 12vmin;
+    margin-top: 5vmin;
+    margin-bottom: 5vmin;
+    background-size: 100% 100%;
+    border-radius: 3vmin;
+    background-position: bottom;
   }
 
   .bottom-bar-text {
@@ -682,7 +687,6 @@ a:active {
   .contact-wrapper{
     width: 80%;
     padding: 2vmin;
-    flex-direction: column;
   }
 
   .navbar{

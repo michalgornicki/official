@@ -8,6 +8,8 @@ import visualstudio from "../icons/visualstudio.png";
 import git from "../icons/git.png";
 import github from "../icons/github.png";
 import bootstrap from "../icons/bootstrap.png";
+import redux from "../icons/redux.png";
+import typescript from "../icons/typescript.png";
 import photoshop from "../icons/photoshop.png";
 
 
@@ -20,7 +22,7 @@ const Skills = () => {
       </h2>
       <div className="skill-wrapper">
         <div className="skill">
-          <abbr title="HTML5 ✰✰✰✰✰" ><img className="tech-icon" src={html} alt="" /></abbr>
+          <abbr title="HTML5 ✰✰✰✰✰/✰✰✰✰✰" ><img className="tech-icon" src={html} alt="" /></abbr>
         </div>
         <div className="skill">
         <abbr title="CSS and LESS ✰✰✰✰✰"><img className="tech-icon" src={css} alt="" /></abbr>

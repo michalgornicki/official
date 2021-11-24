@@ -16,22 +16,22 @@ const Contact = () => {
           {" "}
           <a href="mailto:gornickimichal@gmail.com"><img className="tech-icon" src={gmail} alt="" /></a>
         </div>
-        <div className="contact">
+        <div className="contact contact-right">
           {" "}
-          <a href="https://m.me/micgornicki"><img className="tech-icon" src={messenger} alt="" /></a>
+          <a href="m.me/micgornicki"><img className="tech-icon" src={gmail} alt="" /></a>
         </div>
         <div className="contact">
           {" "}
-          <a href="https://www.facebook.com/micgornicki"><img className="tech-icon" src={facebook} alt="" /></a>
+          <a href="https://www.facebook.com/micgornicki"><img className="tech-icon" src={gmail} alt="" /></a>
         </div>
-        <div className="contact">
+        <div className="contact contact-right">
           {" "}
-          <a href="https://github.com/michalgornicki"><img className="tech-icon" src={github} alt="" /></a>
+          <a href="https://github.com/michalgornicki"><img className="tech-icon" src={gmail} alt="" /></a>
         </div>
 
-        <div className="contact">
+        <div className="contact contact-right">
           {" "}
-          <a href="https://www.linkedin.com/in/michal-gornicki/"><img className="tech-icon" src={linkedin} alt="" /></a>
+          <a href="https://www.linkedin.com/in/michal-gornicki/"><img className="tech-icon" src={gmail} alt="" /></a>
         </div>
       </div>
     </div>

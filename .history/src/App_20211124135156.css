@@ -654,8 +654,8 @@ a:active {
   }
 
   .contact {
-    width: 25%;
-    margin-bottom: 8vmin;
+    width: 25vmin;
+    margin-bottom: 5vmin;
   }
 
   .bottom-bar-text {

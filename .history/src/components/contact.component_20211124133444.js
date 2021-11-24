@@ -18,7 +18,7 @@ const Contact = () => {
         </div>
         <div className="contact">
           {" "}
-          <a href="https://m.me/micgornicki"><img className="tech-icon" src={messenger} alt="" /></a>
+          <a href="m.me/micgornicki"><img className="tech-icon" src={messenger} alt="" /></a>
         </div>
         <div className="contact">
           {" "}
@@ -31,7 +31,7 @@ const Contact = () => {
 
         <div className="contact">
           {" "}
-          <a href="https://www.linkedin.com/in/michal-gornicki/"><img className="tech-icon" src={linkedin} alt="" /></a>
+          <a href="https://www.linkedin.com/in/michal-gornicki/"><img className="tech-icon" src={gmail} alt="" /></a>
         </div>
       </div>
     </div>

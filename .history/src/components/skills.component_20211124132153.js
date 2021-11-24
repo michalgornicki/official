@@ -8,6 +8,8 @@ import visualstudio from "../icons/visualstudio.png";
 import git from "../icons/git.png";
 import github from "../icons/github.png";
 import bootstrap from "../icons/bootstrap.png";
+import redux from "../icons/redux.png";
+import typescript from "../icons/typescript.png";
 import photoshop from "../icons/photoshop.png";
 
 
@@ -20,34 +22,34 @@ const Skills = () => {
       </h2>
       <div className="skill-wrapper">
         <div className="skill">
-          <abbr title="HTML5 ✰✰✰✰✰" ><img className="tech-icon" src={html} alt="" /></abbr>
+          <abbr title="HTML5"><img className="tech-icon" src={html} alt="" /></abbr>
         </div>
         <div className="skill">
-        <abbr title="CSS and LESS ✰✰✰✰✰"><img className="tech-icon" src={css} alt="" /></abbr>
+        <abbr title="CSS and LESS"><img className="tech-icon" src={css} alt="" /></abbr>
         </div>
         <div className="skill">
-        <abbr title="Javascript ✰✰✰✰"><img className="tech-icon" src={javascript} alt="" /></abbr>
+        <abbr title="Javascript"><img className="tech-icon" src={javascript} alt="" /></abbr>
         </div>
         <div className="skill">
-        <abbr title="React JS and React hooks ✰✰✰"><img className="tech-icon" src={react} alt="" /></abbr>
+        <abbr title="React JS and React hooks"><img className="tech-icon" src={react} alt="" /></abbr>
         </div>
         <div className="skill">
-        <abbr title="GIT ✰✰✰"><img className="tech-icon" src={git} alt="" /></abbr>
+        <abbr title="GIT"><img className="tech-icon" src={git} alt="" /></abbr>
         </div>
         <div className="skill">
-        <abbr title="GITHUB ✰✰✰"><img className="tech-icon" src={github} alt="" /></abbr>
+        <abbr title="GITHUB"><img className="tech-icon" src={github} alt="" /></abbr>
         </div>
         <div className="skill">
-        <abbr title="Bootstrap ✰✰"><img className="tech-icon" src={bootstrap} alt="" /></abbr>
+        <abbr title="Bootstrap"><img className="tech-icon" src={bootstrap} alt="" /></abbr>
         </div>
         <div className="skill">
-        <abbr title="Adobe Photoshop ✰✰✰"><img className="tech-icon" src={photoshop} alt="" /></abbr>
+        <abbr title="Adobe Photoshop"><img className="tech-icon" src={photoshop} alt="" /></abbr>
         </div>
         <div className="skill">
-        <abbr title="ATOM ✰✰✰"><img className="tech-icon" src={atom} alt="" /></abbr>
+        <abbr title="ATOM"><img className="tech-icon" src={atom} alt="" /></abbr>
         </div>
         <div className="skill">
-        <abbr title="Visual Studio Code ✰✰✰✰"><img className="tech-icon" src={visualstudio} alt="" /></abbr>
+        <abbr title="Visual Studio Code"><img className="tech-icon" src={visualstudio} alt="" /></abbr>
         </div>
 
       </div>

@@ -14,24 +14,24 @@ const Contact = () => {
       <div className="contact-wrapper" data-aos="zoom-out">
         <div className="contact">
           {" "}
-          <a href="mailto:gornickimichal@gmail.com"><img className="tech-icon" src={gmail} alt="" /></a>
+          <a href="mailto:gornickimichal@gmail.com">Gmail</a>
+        </div>
+        <div className="contact contact-right">
+          {" "}
+          <a href="m.me/micgornicki">Messenger</a>
         </div>
         <div className="contact">
           {" "}
-          <a href="https://m.me/micgornicki"><img className="tech-icon" src={messenger} alt="" /></a>
+          <a href="https://www.facebook.com/micgornicki"><img className="tech-icon" src={gmail} alt="" /></a>
         </div>
-        <div className="contact">
+        <div className="contact contact-right">
           {" "}
-          <a href="https://www.facebook.com/micgornicki"><img className="tech-icon" src={facebook} alt="" /></a>
-        </div>
-        <div className="contact">
-          {" "}
-          <a href="https://github.com/michalgornicki"><img className="tech-icon" src={github} alt="" /></a>
+          <a href="https://github.com/michalgornicki">Github</a>
         </div>
 
-        <div className="contact">
+        <div className="contact contact-right">
           {" "}
-          <a href="https://www.linkedin.com/in/michal-gornicki/"><img className="tech-icon" src={linkedin} alt="" /></a>
+          <a href="https://www.linkedin.com/in/michal-gornicki/">LinkedIn</a>
         </div>
       </div>
     </div>

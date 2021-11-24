@@ -8,6 +8,8 @@ import visualstudio from "../icons/visualstudio.png";
 import git from "../icons/git.png";
 import github from "../icons/github.png";
 import bootstrap from "../icons/bootstrap.png";
+import redux from "../icons/redux.png";
+import typescript from "../icons/typescript.png";
 import photoshop from "../icons/photoshop.png";
 
 

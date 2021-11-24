@@ -654,8 +654,7 @@ a:active {
   }
 
   .contact {
-    width: 25%;
-    margin-bottom: 8vmin;
+    width: 15vmin;
   }
 
   .bottom-bar-text {
@@ -682,7 +681,6 @@ a:active {
   .contact-wrapper{
     width: 80%;
     padding: 2vmin;
-    flex-direction: column;
   }
 
   .navbar{

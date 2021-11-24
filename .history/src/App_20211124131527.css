@@ -407,11 +407,17 @@ a:active {
   padding-bottom: 2vmin;
   color: rgb(0, 0, 0);
   background: linear-gradient(to left, rgb(9, 255, 0), rgb(77, 249, 255));
+  background-size: 100% 3%;
   background-repeat: no-repeat;
   background-position: top;
   filter: drop-shadow(0px 0px 50px rgb(255, 255, 255));
   transition: 0.5s;
   border-radius: 1vmin;
+}
+
+.service-description:hover {
+  background-size: 100% 100%;
+  transition: 0.5s;
 }
 
 .skill-wrapper {
@@ -444,7 +450,8 @@ a:active {
 
 .skill:hover{
   transition: 0.5s;
-  filter:drop-shadow(2px 2px 5px rgb(0, 0, 0));
+  filter:drop-shadow(2px 2px 5px rgb(88, 88, 88));
+  top: -15px;
 }
 
 .tech-icon{
@@ -452,6 +459,13 @@ a:active {
   display: block;
   margin: auto;
 }
+
+.tech-icon:nth-child(even){
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
 
 .skill-description {
   position: relative;
@@ -474,27 +488,40 @@ a:active {
 
 
 .contact-wrapper {
+  margin-top: 5vmax;
   width: 30%;
   margin: auto;
-  margin-top: 12vmin;
-  padding: 5vmin;
-  padding-top: 10vmin;
-  padding-bottom: 10vmin;
+  padding: 2vmin;
   box-shadow: 2px 2px 15px rgb(177, 177, 177);
   background-color: rgb(245, 245, 245);
-  display: flex;
 }
 
 .contact {
-  display: block;
-  margin: auto;
-  width: 20vmin;
-  transition: 0.3s;
-
+  text-align: center;
+  font-size: 4vmin;
+  color: rgb(0, 0, 0);
+  line-height: 4vw;
+  width: max-content;
+  padding: 1vmin;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1vw;
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border-radius: 15vmin;
 }
 
-.contact:hover {
-  transform: scale(1.2);
+.contact a {
+  color: rgb(0, 0, 0);
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0));
+  transition: 0.3s;
+}
+
+.contact a:hover {
+  color: rgb(0, 255, 115);
+  filter: drop-shadow(0px 0px 5px rgb(0, 255, 115));
+  transition: 0.3s;
 }
 
 .navbar-icon{
@@ -654,8 +681,13 @@ a:active {
   }
 
   .contact {
-    width: 25%;
-    margin-bottom: 8vmin;
+    font-size: 7vmin;
+    line-height: 12vmin;
+    margin-top: 5vmin;
+    margin-bottom: 5vmin;
+    background-size: 100% 100%;
+    border-radius: 3vmin;
+    background-position: bottom;
   }
 
   .bottom-bar-text {
@@ -682,7 +714,6 @@ a:active {
   .contact-wrapper{
     width: 80%;
     padding: 2vmin;
-    flex-direction: column;
   }
 
   .navbar{

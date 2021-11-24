@@ -1,4 +1,9 @@
 import React from "react";
+import gmail from "../icons/gmail.png";
+import messenger from "../icons/messenger.png";
+import facebook from "../icons/facebook.png";
+import github from "../icons/github.png";
+import linkedin from "../icons/linkedin.png";
 
 const Contact = () => {
   return (
@@ -17,7 +22,7 @@ const Contact = () => {
         </div>
         <div className="contact">
           {" "}
-          <a href="https://www.facebook.com/micgornicki">Facebook</a>
+          <a href="https://www.facebook.com/micgornicki"><img src={gmail} alt="" /></a>
         </div>
         <div className="contact contact-right">
           {" "}

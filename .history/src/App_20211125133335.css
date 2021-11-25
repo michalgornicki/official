@@ -192,7 +192,7 @@ body {
 
 .slide-header {
   margin: 0;
-  font-size: 2.5vw;
+  font-size: 3vw;
   font-weight: 400;
   margin-left: 2vmin;
   color: rgb(0, 0, 0);
@@ -200,7 +200,7 @@ body {
 
 .slide-footer {
   margin: 0;
-  font-size: 1.3vw;
+  font-size: 2vmin;
   font-weight: 100;
   margin-left: 2vmin;
   color: rgb(0, 0, 0);

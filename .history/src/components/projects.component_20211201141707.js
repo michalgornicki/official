@@ -22,9 +22,9 @@ const Projects = () => {
         <div className="project-hover">
       <a href="https://michalgornicki.github.io/smartify/">
         <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
-          <img className="project website8" alt=""  />
-          <h2 className="slide-header">Smart home app website.</h2>
-          <h3 className="slide-footer">JSX/CSS, React JS.</h3>
+          <img className="project website6" alt=""  />
+          <h2 className="slide-header">Smartify - .</h2>
+          <h3 className="slide-footer">JSX/CSS, React, React hooks, GraphQL.</h3>
         </div>
         </a>
         </div>

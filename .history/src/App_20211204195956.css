@@ -367,11 +367,6 @@ a:active {
   background-size: cover;
 }
 
-.website10 {
-  background-image: url("./website10.png");
-  background-size: cover;
-}
-
 .website9 {
   background-image: url("./website9.png");
   background-size: cover;
@@ -478,7 +473,7 @@ a:active {
   font-weight: 400;
   letter-spacing: 0;
   font-size: 1.8vmin;
-  vertical-align: top;
+  ta-align: top;
 }
 
 .skill-title {

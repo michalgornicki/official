@@ -3,7 +3,7 @@ import React from "react";
 const Projects = () => {
   return (
     <div id="container2" data-aos="fade-up">
-      <h2 className="header" data-aos="fade">
+      <h2 className="header" id="header-projects" data-aos="fade">
         Projects
       </h2>
 
@@ -13,8 +13,30 @@ const Projects = () => {
       <a href="https://michalgornicki.github.io/space_x_clone/">
         <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
           <img className="project website6" alt=""  />
-          <h2 className="medium-slide">Space X mission explorer.</h2>
-          <h3 className="small-slide">HTML/CSS, React, React hooks, GraphQL.</h3>
+          <h2 className="slide-header">Space X mission explorer.</h2>
+          <h3 className="slide-footer">JSX/CSS, React, React hooks, GraphQL.</h3>
+        </div>
+        </a>
+        </div>
+
+        <div className="project-hover">
+      <a href="https://michalgornicki.github.io/smartify/">
+        <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
+          <img className="project website8" alt=""  />
+          <h2 className="slide-header">Smart home app website.</h2>
+          <h3 className="slide-footer">JSX/CSS, React JS.</h3>
+        </div>
+        </a>
+        </div>
+
+        
+
+        <div className="project-hover">
+      <a href="https://michalgornicki.github.io/findings/">
+        <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
+          <img className="project website7" alt=""  />
+          <h2 className="slide-header">Best art findings.</h2>
+          <h3 className="slide-footer"> JSX/CSS, React, React hooks.</h3>
         </div>
         </a>
         </div>
@@ -23,8 +45,18 @@ const Projects = () => {
       <a href="https://michalgornicki.github.io/electronet/">
         <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
           <img className="project website5" alt=""  />
-          <h2 className="medium-slide">Electronics shop.</h2>
-          <h3 className="small-slide">HTML/CSS, JS, React.</h3>
+          <h2 className="slide-header">Electronics shop.</h2>
+          <h3 className="slide-footer">JSX/CSS, JS, React.</h3>
+        </div>
+        </a>
+        </div>
+
+        <div className="project-hover">
+      <a href="https://michalgornicki.github.io/number-generator/">
+        <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
+          <img className="project website9" alt=""  />
+          <h2 className="slide-header">Random number generator.</h2>
+          <h3 className="slide-footer">JSX/CSS, JS, React.</h3>
         </div>
         </a>
         </div>
@@ -32,8 +64,8 @@ const Projects = () => {
       <div className="project-hover">
         <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
           <img className="project website0" alt=""  />
-          <h2 className="medium-slide">My official website.</h2>
-          <h3 className="small-slide">HTML/CSS, JS, React.</h3>
+          <h2 className="slide-header">My official website.</h2>
+          <h3 className="slide-footer">JSX/CSS, JS, React.</h3>
         </div>
         </div>
 
@@ -41,8 +73,8 @@ const Projects = () => {
         <a href="https://michalgornicki.github.io/restaurant/">
           <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
             <img className="project website1" alt=""  />
-            <h2 className="medium-slide">Royal Cookery - restaurant.</h2>
-            <h3 className="small-slide">
+            <h2 className="slide-header">Royal Cookery - restaurant.</h2>
+            <h3 className="slide-footer">
             HTML/CSS, JS. Spotlight and AOS libraries.
             </h3>
           </div>
@@ -54,8 +86,8 @@ const Projects = () => {
         <a href="https://michalgornicki.github.io/artgallery-new/">
           <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
             <img className="project website2" alt=""  />
-            <h2 className="medium-slide">Otherside - art gallery.</h2>
-            <h3 className="small-slide">HTML/CSS, JS. AOS library.</h3>
+            <h2 className="slide-header">Otherside - art gallery.</h2>
+            <h3 className="slide-footer">HTML/CSS, JS. AOS library.</h3>
           </div>
         </a>
         </div>
@@ -65,8 +97,8 @@ const Projects = () => {
         <a href="https://youtu.be/Xq_YM1_ebq4">
         <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
           <img className="project website3" alt=""  />
-          <h2 className="medium-slide">Weather app.</h2>
-          <h3 className="small-slide">HTML/CSS, React, Accuweather API.</h3>
+          <h2 className="slide-header">Weather app.</h2>
+          <h3 className="slide-footer">HTML/CSS, React, Accuweather API.</h3>
         </div>
         </a>
         </div>
@@ -76,8 +108,8 @@ const Projects = () => {
         <a href="https://michalgornicki.github.io/virtualpet">
         <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
           <img className="project website4" alt="" />
-          <h2 className="medium-slide">Virtual pet app.</h2>
-          <h3 className="small-slide">
+          <h2 className="slide-header">Virtual pet app.</h2>
+          <h3 className="slide-footer">
             Experimental project with object programming.
           </h3>
         </div>

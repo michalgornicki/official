@@ -19,7 +19,7 @@ body {
   position: fixed;
   height: 10vmin;
   width: 100%;
-  background-color: rgb(223, 223, 223);
+  background-color: rgb(255, 255, 255);
   z-index: 5;
   transition: 0.5s;
 }
@@ -724,7 +724,7 @@ a:active {
     flex-direction: column;
     padding-left: 10%;
     padding-bottom: 40vh;
-    padding-top: 10vh;
+    margin-top: 10vh;
     justify-content: space-between;
     background-color: white;
     margin-left: 0%;
@@ -741,7 +741,7 @@ a:active {
   .navbar-icon{
     position: absolute;
     width: fit-content;
-    height: 80%;
+    height: 8vh;
     top: 1vh;
     right: 5%;
     float: right;

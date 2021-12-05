@@ -29,9 +29,9 @@ window.onscroll = function () {
     document.getElementsByClassName("navbar")[0].style.boxShadow = "0px 0px 0px gray";
 
   } else if (window.pageYOffset > 800) {
-    document.getElementsByClassName("navbar")[0].style.height = "5vh";
+    document.getElementsByClassName("navbar")[0].style.height = "7vh";
     document.getElementsByClassName("navbar")[0].style.backgroundColor = "white";
-    document.getElementsByClassName("navbar")[0].style.boxShadow = "0px 0px 20px rgb(150, 150, 150)";
+    document.getElementsByClassName("navbar")[0].style.boxShadow = "0px 0px 20px rgb(150, 223, 223)";
   }
   prevPosition = currentPosition;
 };

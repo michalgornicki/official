@@ -23,15 +23,11 @@ AOS.init({
 var prevPosition = window.pageYOffset;
 window.onscroll = function () {
   var currentPosition = window.pageYOffset;
-  if (window.pageYOffset < 100) {
+  if (prevPosition > currentPosition) {
     document.getElementsByClassName("navbar")[0].style.height = "10vh";
-    document.getElementsByClassName("navbar")[0].style.backgroundColor = "rgb(223, 223, 223)";
-    document.getElementsByClassName("navbar")[0].style.boxShadow = "0px 0px 0px gray";
-
+    document.getElementsByClassName("navbar")[0].style.height = "10vh";
   } else if (window.pageYOffset > 800) {
-    document.getElementsByClassName("navbar")[0].style.height = "5vh";
-    document.getElementsByClassName("navbar")[0].style.backgroundColor = "white";
-    document.getElementsByClassName("navbar")[0].style.boxShadow = "0px 0px 20px rgb(150, 150, 150)";
+    document.getElementsByClassName("navbar")[0].style.height = "7vh";
   }
   prevPosition = currentPosition;
 };

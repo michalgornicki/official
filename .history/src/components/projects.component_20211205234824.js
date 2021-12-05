@@ -17,9 +17,9 @@ const Projects = () => {
               data-aos-delay="0"
             >
               <img className="project website12" alt="" />
-              <h2 className="slide-header">Bitcoin virtual seller.</h2>
+              <h2 className="slide-header">Bitcoin vi.</h2>
               <h3 className="slide-footer">
-                JSX/CSS, React, React hooks.
+                JSX/CSS, React, React hooks, GraphQL.
               </h3>
             </div>
           </a>

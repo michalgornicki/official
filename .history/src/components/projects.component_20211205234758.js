@@ -9,22 +9,7 @@ const Projects = () => {
 
       <div className="project-wrapper">
 
-      <div className="project-hover">
-          <a href="https://michalgornicki.github.io/bitcoin-virtual/">
-            <div
-              className="project-slide"
-              data-aos="fade-up"
-              data-aos-delay="0"
-            >
-              <img className="project website12" alt="" />
-              <h2 className="slide-header">Bitcoin virtual seller.</h2>
-              <h3 className="slide-footer">
-                JSX/CSS, React, React hooks.
-              </h3>
-            </div>
-          </a>
-        </div>
-
+        
         <div className="project-hover">
           <a href="https://michalgornicki.github.io/space_x_clone/">
             <div

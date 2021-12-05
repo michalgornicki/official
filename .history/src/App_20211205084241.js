@@ -24,7 +24,7 @@ var prevPosition = window.pageYOffset;
 window.onscroll = function () {
   var currentPosition = window.pageYOffset;
   if (window.pageYOffset < 100) {
-    document.getElementsByClassName("navbar")[0].style.height = "12vh";
+    document.getElementsByClassName("navbar")[0].style.height = "10vh";
     document.getElementsByClassName("navbar")[0].style.backgroundColor = "rgb(223, 223, 223)";
     document.getElementsByClassName("navbar")[0].style.boxShadow = "0px 0px 0px gray";
 

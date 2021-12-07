@@ -10,7 +10,7 @@ const Projects = () => {
       <div className="project-wrapper">
 
       <div className="project-hover">
-          <a href="http://fantasyblog.mywebcommunity.org">
+          <a href="fantasyblog.mywebcommunity.org/">
             <div
               className="project-slide"
               data-aos="fade-up"

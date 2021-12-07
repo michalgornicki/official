@@ -10,16 +10,16 @@ const Projects = () => {
       <div className="project-wrapper">
 
       <div className="project-hover">
-          <a href="http://fantasyblog.mywebcommunity.org">
+          <a href="fantasyblog.mywebcommunity.org/">
             <div
               className="project-slide"
               data-aos="fade-up"
               data-aos-delay="0"
             >
               <img className="project website13" alt="" />
-              <h2 className="slide-header">Personal Wordpress blog.</h2>
+              <h2 className="slide-header">Personal .</h2>
               <h3 className="slide-footer">
-                HTML, CSS, JS, Wordpress.
+                JSX/CSS, React, React hooks.
               </h3>
             </div>
           </a>

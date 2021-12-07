@@ -62,7 +62,7 @@ body {
 #container1 {
   position: relative;
   height: 100vh;
-  background-color: rgb(223, 223, 223);
+  background: linear-gradient(rgb(223, 223, 223));
   width: 80%;
   left: 10%;
 }
@@ -385,11 +385,6 @@ a:active {
 
 .website12 {
   background-image: url("./website12.png");
-  background-size: cover;
-}
-
-.website13 {
-  background-image: url("./website13.png");
   background-size: cover;
 }
 

@@ -51,7 +51,7 @@ const Skills = () => {
         <abbr title="Visual Studio Code ✰✰✰✰"><img className="tech-icon" src={visualstudio} alt="" /></abbr>
         </div>
         <div className="skill">
-        <abbr title="Wordpress ✰✰✰"><img className="tech-icon" src={wordpress} alt="" /></abbr>
+        <abbr title="Visual Studio Code ✰✰✰✰"><img className="tech-icon" src={visualstudio} alt="" /></abbr>
         </div>
 
       </div>

@@ -9,7 +9,7 @@ import git from "../icons/git.png";
 import github from "../icons/github.png";
 import bootstrap from "../icons/bootstrap.png";
 import photoshop from "../icons/photoshop.png";
-import wordpress from "../icons/wordpress.png";
+import wordpress from "../icons/photoshop.png";
 
 
 
@@ -49,9 +49,6 @@ const Skills = () => {
         </div>
         <div className="skill">
         <abbr title="Visual Studio Code ✰✰✰✰"><img className="tech-icon" src={visualstudio} alt="" /></abbr>
-        </div>
-        <div className="skill">
-        <abbr title="Wordpress ✰✰✰"><img className="tech-icon" src={wordpress} alt="" /></abbr>
         </div>
 
       </div>

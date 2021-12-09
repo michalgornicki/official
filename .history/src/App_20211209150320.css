@@ -276,6 +276,8 @@ a:active {
   position: relative;
   width: 80%;
   margin: auto;
+  background-color: rgb(233, 233, 233);
+  filter: drop-shadow(2px 2px 15px rgb(163, 163, 163));
   padding: 3vmin;
   border-radius: 3vmin;
 
@@ -293,7 +295,7 @@ a:active {
 
 .project-hover:hover{
   transition: 0.5s;
-  filter:drop-shadow(0px 0px 5px rgb(88, 88, 88));
+  filter:drop-shadow(2px 2px 15px rgb(88, 88, 88));
   top: -15px;
 }
 
@@ -442,7 +444,7 @@ a:active {
   padding-top: 2%;
   padding-bottom: 2%;
   display: inline-block;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(233, 233, 233);
   transition: 0.4s;
   border-radius: 3vmin;
 }
@@ -481,6 +483,8 @@ a:active {
   justify-content:space-evenly;
   width: 80%;
   margin: auto;
+  background-color: rgb(233, 233, 233);
+  filter: drop-shadow(2px 2px 15px rgb(163, 163, 163));
   padding: 5vmin;
   border-radius: 3vmin;
 
@@ -540,6 +544,8 @@ a:active {
   padding: 5vmin;
   padding-top: 10vmin;
   padding-bottom: 10vmin;
+  box-shadow: 2px 2px 15px rgb(177, 177, 177);
+  background-color: rgb(245, 245, 245);
   display: flex;
   border-radius: 3vmin;
 

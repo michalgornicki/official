@@ -598,7 +598,7 @@ a:active {
     right: 0%;
     margin-top: 10vmin;
     height: auto;
-    animation: 0;
+    animation: 2s fadeOn alternate forwards;
   }
   .profile-photo-fade {
     display: none;

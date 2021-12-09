@@ -111,7 +111,7 @@ body {
   width: 55vh;
   height: 55vh;
   right: 15vmin;
-  margin-top: 22vh;
+  top: 22vh;
   filter: opacity(0);
   animation: 2s fadeOn alternate forwards;
 }
@@ -599,7 +599,6 @@ a:active {
     position: relative;
     width: 100%;
     right: 0%;
-    margin-top: 10vmin;
     height: auto;
     filter: opacity(0);
     animation: 2s fadeOn alternate forwards;

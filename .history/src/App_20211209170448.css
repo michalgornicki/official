@@ -289,6 +289,7 @@ a:active {
   margin-left: 1.5%;
   margin-right: 1.5%;
   top: 0px;
+  border: 1px solid black;
 }
 
 .project-hover:hover{

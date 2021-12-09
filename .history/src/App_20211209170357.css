@@ -262,7 +262,7 @@ a:active {
 }
 
 .bottom-bar-text {
-  color: white;
+  columns: ;
   position: relative;
   text-align: center;
   font-size: 1vmax;

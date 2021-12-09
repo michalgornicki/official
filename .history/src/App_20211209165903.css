@@ -102,7 +102,7 @@ body {
 
 .bottom-bar {
   height: 15vh;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   margin-top: -40px;
 }
 
@@ -112,6 +112,7 @@ body {
   height: 50vh;
   right: 15vmin;
   margin-top: 22vh;
+  filter: opacity(0);
   animation: 2s fadeOn alternate forwards;
   background: url("wallpaper3.jpg");
   background-size: cover;
@@ -125,12 +126,14 @@ body {
 
 }
 
+
+
 @keyframes fadeOn {
   0% {
-    right: -15vmin;
+    filter: opacity(0);
   }
   100% {
-    right: 15vmin;
+    filter: opacity(1);
   }
 }
 
@@ -262,7 +265,6 @@ a:active {
 }
 
 .bottom-bar-text {
-  color: white;
   position: relative;
   text-align: center;
   font-size: 1vmax;

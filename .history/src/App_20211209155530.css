@@ -72,7 +72,7 @@ body {
 #container2 {
   height: auto;
   padding-bottom: 10vmin;
-  background: linear-gradient(to top, rgb(255, 255, 255) 40%, rgba(0, 255, 242, 0.137) 90%);
+  background: linear-gradient(to bottom, rgb(255, 255, 255) 40%, rgba(0, 255, 242, 0.137) 90%);
   background-size: cover;
 
 }

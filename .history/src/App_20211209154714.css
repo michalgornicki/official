@@ -63,16 +63,15 @@ body {
 #container1 {
   position: relative;
   height: 100vh;
-  background: linear-gradient(to top, rgb(255, 255, 255) 40%, rgba(0, 255, 13, 0.349) 90%);
+  background: linear-gradient(to top, rgb(255, 255, 255) 40%, rgb(180, 180, 180));
   width: 80%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding
 }
 
 #container2 {
   height: auto;
   padding-bottom: 10vmin;
-  background: linear-gradient(to top, rgb(255, 255, 255) 40%, rgba(0, 255, 242, 0.137) 90%);
+  background-color: rgb(225, 225, 225);
   background-size: cover;
 
 }
@@ -81,23 +80,21 @@ body {
   position: relative;
   height: auto;
   padding-bottom: 10vmin;
-  background: linear-gradient(to bottom, rgb(255, 255, 255) 40%, rgba(25, 0, 255, 0.137) 90%);
+  background-color: rgb(255, 255, 255);
   background-size: cover;
 }
 
 #container4 {
   position: relative;
   height: auto;
-  background: linear-gradient(to bottom, rgb(255, 255, 255) 40%, rgba(247, 0, 255, 0.137) 90%);
+  background-color: rgb(225, 225, 225);
   background-size: cover;
   background-repeat: no-repeat;
-
-
 }
 
 #container5 {
   height: 120vh;
-  background: linear-gradient(to bottom, rgb(255, 255, 255) 40%, rgba(0, 255, 13, 0.349) 90%);
+  background-color: rgb(255, 255, 255);
 }
 
 .bottom-bar {
@@ -110,7 +107,7 @@ body {
   position: absolute;
   width: 55vh;
   height: 55vh;
-  right: 15vmin;
+  right: 0;
   top: 22vh;
   filter: opacity(0);
   animation: 2s fadeOn alternate forwards;
@@ -120,7 +117,7 @@ body {
   position: absolute;
   width: 55vh;
   height: 55vh;
-  right: 15vmin;
+  right: 0;
   top: 22vh;
   background: linear-gradient(
     to top,

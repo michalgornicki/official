@@ -103,7 +103,21 @@ const Projects = () => {
           </a>
         </div>
 
-        
+        <div className="project-hover">
+          <a href="https://michalgornicki.github.io/findings/">
+            <div
+              className="project-slide"
+              data-aos="fade-up"
+              data-aos-delay="0"
+            >
+              <img className="project website7" alt="" />
+              <h2 className="slide-header">Best art findings.</h2>
+              <h3 className="slide-footer"> JSX/CSS, React, React hooks.</h3>
+            </div>
+          </a>
+        </div>
+
+
 
         <div className="project-hover">
           <a href="https://michalgornicki.github.io/number-generator/">
@@ -120,6 +134,14 @@ const Projects = () => {
         </div>
 
         <div className="project-hover">
+          <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
+            <img className="project website0" alt="" />
+            <h2 className="slide-header">My official website.</h2>
+            <h3 className="slide-footer">JSX/CSS, JS, React.</h3>
+          </div>
+        </div>
+
+        <div className="project-hover">
           <a href="https://michalgornicki.github.io/insta-note/">
             <div
               className="project-slide"
@@ -132,31 +154,6 @@ const Projects = () => {
             </div>
           </a>
         </div>
-
-        <div className="project-hover">
-          <a href="https://michalgornicki.github.io/findings/">
-            <div
-              className="project-slide"
-              data-aos="fade-up"
-              data-aos-delay="0"
-            >
-              <img className="project website7" alt="" />
-              <h2 className="slide-header">Best art findings.</h2>
-              <h3 className="slide-footer"> JSX/CSS, React, React hooks.</h3>
-            </div>
-          </a>
-        </div>
-
-
-        <div className="project-hover">
-          <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
-            <img className="project website0" alt="" />
-            <h2 className="slide-header">My official website.</h2>
-            <h3 className="slide-footer">JSX/CSS, JS, React.</h3>
-          </div>
-        </div>
-
-
 
         <div className="project-hover">
           <a href="https://youtu.be/Xq_YM1_ebq4">

@@ -23,19 +23,7 @@ const Projects = () => {
           </a>
         </div>
 
-        <div className="project-hover">
-          <a href="https://michalgornicki.github.io/electronet/">
-            <div
-              className="project-slide"
-              data-aos="fade-up"
-              data-aos-delay="0"
-            >
-              <img className="project website5" alt="" />
-              <h2 className="slide-header">Electronics shop.</h2>
-              <h3 className="slide-footer">JSX/CSS, JS, React.</h3>
-            </div>
-          </a>
-        </div>
+        
 
       <div className="project-hover">
           <a href="http://fantasyblog.mywebcommunity.org">
@@ -48,22 +36,6 @@ const Projects = () => {
               <h2 className="slide-header">Personal Wordpress blog.</h2>
               <h3 className="slide-footer">
                 HTML, CSS, JS, Wordpress.
-              </h3>
-            </div>
-          </a>
-        </div>
-
-        <div className="project-hover">
-          <a href="https://michalgornicki.github.io/space_x_clone/">
-            <div
-              className="project-slide"
-              data-aos="fade-up"
-              data-aos-delay="0"
-            >
-              <img className="project website6" alt="" />
-              <h2 className="slide-header">Space X mission explorer.</h2>
-              <h3 className="slide-footer">
-                JSX/CSS, React, React hooks, GraphQL.
               </h3>
             </div>
           </a>
@@ -85,7 +57,21 @@ const Projects = () => {
           </a>
         </div>
 
-
+        <div className="project-hover">
+          <a href="https://michalgornicki.github.io/space_x_clone/">
+            <div
+              className="project-slide"
+              data-aos="fade-up"
+              data-aos-delay="0"
+            >
+              <img className="project website6" alt="" />
+              <h2 className="slide-header">Space X mission explorer.</h2>
+              <h3 className="slide-footer">
+                JSX/CSS, React, React hooks, GraphQL.
+              </h3>
+            </div>
+          </a>
+        </div>
 
 
 
@@ -98,36 +84,6 @@ const Projects = () => {
             >
               <img className="project website10" alt="" />
               <h2 className="slide-header">Live Poland Covid-19 stats.</h2>
-              <h3 className="slide-footer">JSX/CSS, JS, React.</h3>
-            </div>
-          </a>
-        </div>
-
-        
-
-        <div className="project-hover">
-          <a href="https://michalgornicki.github.io/number-generator/">
-            <div
-              className="project-slide"
-              data-aos="fade-up"
-              data-aos-delay="0"
-            >
-              <img className="project website9" alt="" />
-              <h2 className="slide-header">Random number generator.</h2>
-              <h3 className="slide-footer">JSX/CSS, JS, React.</h3>
-            </div>
-          </a>
-        </div>
-
-        <div className="project-hover">
-          <a href="https://michalgornicki.github.io/insta-note/">
-            <div
-              className="project-slide"
-              data-aos="fade-up"
-              data-aos-delay="0"
-            >
-              <img className="project website11" alt="" />
-              <h2 className="slide-header">Note creator.</h2>
               <h3 className="slide-footer">JSX/CSS, JS, React.</h3>
             </div>
           </a>
@@ -148,6 +104,21 @@ const Projects = () => {
         </div>
 
 
+
+        <div className="project-hover">
+          <a href="https://michalgornicki.github.io/number-generator/">
+            <div
+              className="project-slide"
+              data-aos="fade-up"
+              data-aos-delay="0"
+            >
+              <img className="project website9" alt="" />
+              <h2 className="slide-header">Random number generator.</h2>
+              <h3 className="slide-footer">JSX/CSS, JS, React.</h3>
+            </div>
+          </a>
+        </div>
+
         <div className="project-hover">
           <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
             <img className="project website0" alt="" />
@@ -156,7 +127,19 @@ const Projects = () => {
           </div>
         </div>
 
-
+        <div className="project-hover">
+          <a href="https://michalgornicki.github.io/insta-note/">
+            <div
+              className="project-slide"
+              data-aos="fade-up"
+              data-aos-delay="0"
+            >
+              <img className="project website11" alt="" />
+              <h2 className="slide-header">Note creator.</h2>
+              <h3 className="slide-footer">JSX/CSS, JS, React.</h3>
+            </div>
+          </a>
+        </div>
 
         <div className="project-hover">
           <a href="https://youtu.be/Xq_YM1_ebq4">

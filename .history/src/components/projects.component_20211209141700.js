@@ -103,36 +103,6 @@ const Projects = () => {
           </a>
         </div>
 
-        
-
-        <div className="project-hover">
-          <a href="https://michalgornicki.github.io/number-generator/">
-            <div
-              className="project-slide"
-              data-aos="fade-up"
-              data-aos-delay="0"
-            >
-              <img className="project website9" alt="" />
-              <h2 className="slide-header">Random number generator.</h2>
-              <h3 className="slide-footer">JSX/CSS, JS, React.</h3>
-            </div>
-          </a>
-        </div>
-
-        <div className="project-hover">
-          <a href="https://michalgornicki.github.io/insta-note/">
-            <div
-              className="project-slide"
-              data-aos="fade-up"
-              data-aos-delay="0"
-            >
-              <img className="project website11" alt="" />
-              <h2 className="slide-header">Note creator.</h2>
-              <h3 className="slide-footer">JSX/CSS, JS, React.</h3>
-            </div>
-          </a>
-        </div>
-
         <div className="project-hover">
           <a href="https://michalgornicki.github.io/findings/">
             <div
@@ -148,6 +118,7 @@ const Projects = () => {
         </div>
 
 
+
         <div className="project-hover">
           <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
             <img className="project website0" alt="" />
@@ -156,7 +127,19 @@ const Projects = () => {
           </div>
         </div>
 
-
+        <div className="project-hover">
+          <a href="https://michalgornicki.github.io/insta-note/">
+            <div
+              className="project-slide"
+              data-aos="fade-up"
+              data-aos-delay="0"
+            >
+              <img className="project website11" alt="" />
+              <h2 className="slide-header">Note creator.</h2>
+              <h3 className="slide-footer">JSX/CSS, JS, React.</h3>
+            </div>
+          </a>
+        </div>
 
         <div className="project-hover">
           <a href="https://youtu.be/Xq_YM1_ebq4">

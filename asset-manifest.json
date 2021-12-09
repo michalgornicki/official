@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/official/static/css/main.57e67b1a.chunk.css",
-    "main.js": "/official/static/js/main.b81ba025.chunk.js",
-    "main.js.map": "/official/static/js/main.b81ba025.chunk.js.map",
+    "main.css": "/official/static/css/main.379e046e.chunk.css",
+    "main.js": "/official/static/js/main.90362181.chunk.js",
+    "main.js.map": "/official/static/js/main.90362181.chunk.js.map",
     "runtime-main.js": "/official/static/js/runtime-main.12f1d606.js",
     "runtime-main.js.map": "/official/static/js/runtime-main.12f1d606.js.map",
     "static/css/2.ec02d681.chunk.css": "/official/static/css/2.ec02d681.chunk.css",
@@ -12,8 +12,9 @@
     "static/js/3.89693e55.chunk.js.map": "/official/static/js/3.89693e55.chunk.js.map",
     "index.html": "/official/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/official/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.57e67b1a.chunk.css.map": "/official/static/css/main.57e67b1a.chunk.css.map",
+    "static/css/main.379e046e.chunk.css.map": "/official/static/css/main.379e046e.chunk.css.map",
     "static/js/2.1cf7b587.chunk.js.LICENSE.txt": "/official/static/js/2.1cf7b587.chunk.js.LICENSE.txt",
+    "static/media/2sq.2e3740ef.png": "/official/static/media/2sq.2e3740ef.png",
     "static/media/atom.27ce7e22.png": "/official/static/media/atom.27ce7e22.png",
     "static/media/bootstrap.268c4375.png": "/official/static/media/bootstrap.268c4375.png",
     "static/media/css.4cc21f49.png": "/official/static/media/css.4cc21f49.png",
@@ -28,7 +29,6 @@
     "static/media/linkedin.f249b382.png": "/official/static/media/linkedin.f249b382.png",
     "static/media/messenger.91599f6d.png": "/official/static/media/messenger.91599f6d.png",
     "static/media/photoshop.7da1bcce.png": "/official/static/media/photoshop.7da1bcce.png",
-    "static/media/profile.bb785316.png": "/official/static/media/profile.bb785316.png",
     "static/media/react.e3b2225b.png": "/official/static/media/react.e3b2225b.png",
     "static/media/scroll.9533a521.png": "/official/static/media/scroll.9533a521.png",
     "static/media/visualstudio.4f7f8525.png": "/official/static/media/visualstudio.4f7f8525.png",
@@ -39,7 +39,7 @@
     "static/js/runtime-main.12f1d606.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.1cf7b587.chunk.js",
-    "static/css/main.57e67b1a.chunk.css",
-    "static/js/main.b81ba025.chunk.js"
+    "static/css/main.379e046e.chunk.css",
+    "static/js/main.90362181.chunk.js"
   ]
 }

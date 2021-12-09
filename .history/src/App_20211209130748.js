@@ -22,6 +22,7 @@ AOS.init({
 
 var prevPosition = window.pageYOffset;
 window.onscroll = function () {
+  var currentPosition = window.pageYOffset;
   if (window.pageYOffset < 100) {
     document.getElementsByClassName("navbar")[0].style.height = "10vh";
     document.getElementsByClassName("navbar")[0].style.backgroundColor = "rgb(0, 0, 0)";

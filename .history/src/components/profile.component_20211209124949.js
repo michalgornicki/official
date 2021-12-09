@@ -12,7 +12,7 @@ const Profile = () => {
       </div>
       <div className="text-wrapper">
         <h2 className="medium">MICHAŁ GÓRNICKI</h2>
-        <h1 className="large">Web designer & Front-end developer</h1>
+        <h1 className="large">Front-end developer</h1>
         <h3 className="small">
           Since July 2019 I'm developing web projects and constantly learning
           new frontend skills. I'm looking forward for new challenges to work

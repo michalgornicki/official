@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../2sq.png";
+import profile from "../2sq.jpg";
 import scroll from "../scroll.png";
 
 
@@ -8,6 +8,7 @@ const Profile = () => {
     <div id="container1">
       <div className="photo-wrapper">
       <img className="profile-photo" src={profile} alt="profile" />
+      <div className="profile-photo-fade"></div>
       </div>
       <div className="text-wrapper">
         <h2 className="medium">MICHAŁ GÓRNICKI</h2>

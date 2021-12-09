@@ -30,6 +30,8 @@ window.onscroll = function () {
   }
 };
 
+cy
+
 function App() {
   const [toogleNavbar, setToogleNavbar] = useState(false);
 

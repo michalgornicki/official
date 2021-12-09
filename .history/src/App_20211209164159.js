@@ -30,6 +30,10 @@ window.onscroll = function () {
   }
 };
 
+const cycleImage = () => {
+  getel
+}
+
 function App() {
   const [toogleNavbar, setToogleNavbar] = useState(false);
 

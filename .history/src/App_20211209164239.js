@@ -30,6 +30,10 @@ window.onscroll = function () {
   }
 };
 
+const cycleImage = () => {
+  getElementsByClassName("profile-photo")[0].style.
+}
+
 function App() {
   const [toogleNavbar, setToogleNavbar] = useState(false);
 

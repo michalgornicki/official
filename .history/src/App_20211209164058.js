@@ -18,6 +18,7 @@ AOS.init({
   duration: 1000,
 });
 
+var prevPosition = window.pageYOffset;
 window.onscroll = function () {
   if (window.pageYOffset < 100) {
     document.getElementsByClassName("navbar")[0].style.height = "10vh";

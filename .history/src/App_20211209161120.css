@@ -108,22 +108,14 @@ body {
 
 .profile-photo {
   position: absolute;
-  width: 50vh;
-  height: 50vh;
+  width: 55vh;
+  height: 55vh;
   right: 15vmin;
   margin-top: 22vh;
   filter: opacity(0);
   animation: 2s fadeOn alternate forwards;
-  background: url("wallpaper3.jpg");
-  background-size: cover;
-  border: 2vmin solid rgb(255, 255, 255);
-  border-bottom: 8vmin solid rgb(255, 255, 255);
-}
-
-.profile-photo:hover  {
-  background: url("wallpaper2.jpg");
-  background-size: cover;
-
+  background: url("wallpaper.jpg");
+  back
 }
 
 .profile-photo-fade {
@@ -613,6 +605,7 @@ a:active {
     height: auto;
     filter: opacity(0);
     animation: 2s fadeOn alternate forwards;
+    border-bottom: 3px solid rgb(209, 209, 209);
   }
   .profile-photo-fade {
     display: none;

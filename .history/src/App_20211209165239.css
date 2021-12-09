@@ -108,20 +108,19 @@ body {
 
 .profile-photo {
   position: absolute;
-  width: 50vh;
-  height: 50vh;
+  width: 55vh;
+  height: 55vh;
   right: 15vmin;
   margin-top: 22vh;
   filter: opacity(0);
   animation: 2s fadeOn alternate forwards;
-  background: url("wallpaper3.jpg");
+  background: url("wallpaper2.jpg");
   background-size: cover;
-  border: 2vmin solid rgb(255, 255, 255);
-  border-bottom: 8vmin solid rgb(255, 255, 255);
+  border-top: 
 }
 
 .profile-photo:hover  {
-  background: url("wallpaper2.jpg");
+  background: url("wallpaper3.jpg");
   background-size: cover;
 
 }

@@ -116,8 +116,8 @@ body {
   animation: 2s fadeOn alternate forwards;
   background: url("wallpaper3.jpg");
   background-size: cover;
-  border: 2vmin solid rgb(255, 255, 255);
-  border-bottom: 8vmin solid rgb(255, 255, 255);
+  border: 2vmin solid rgb(0, 0, 0);
+  border-bottom: 8vmin solid rgb(0, 0, 0);
 }
 
 .profile-photo:hover  {

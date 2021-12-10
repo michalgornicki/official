@@ -5,7 +5,7 @@
   user-select: none;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -15,7 +15,7 @@ body {
 
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
 
-.navbar{
+.navbar {
   position: fixed;
   height: 10vmin;
   width: 100%;
@@ -24,7 +24,7 @@ body {
   transition: 0.5s;
 }
 
-.navbar-items{
+.navbar-items {
   width: 50%;
   height: 100%;
   display: flex;
@@ -32,7 +32,7 @@ body {
   justify-content: space-between;
 }
 
-.navbar-item{
+.navbar-item {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
@@ -42,12 +42,12 @@ body {
   transition: 0.3s;
 }
 
-.navbar-item:hover{
+.navbar-item:hover {
   color: rgb(0, 255, 170);
-  cursor:pointer;
+  cursor: pointer;
 }
 
-.scroll{
+.scroll {
   display: block;
   position: relative;
   width: 8vmin;
@@ -56,14 +56,18 @@ body {
   filter: opacity(0.8);
 }
 
-.scroll:hover{
-  filter:opacity(1);
+.scroll:hover {
+  filter: opacity(1);
 }
 
 #container1 {
   position: relative;
   height: 100vh;
-  background: linear-gradient(to top, rgb(255, 255, 255) 40%, rgba(0, 255, 13, 0.349) 90%);
+  background: linear-gradient(
+    to top,
+    rgb(255, 255, 255) 40%,
+    rgba(0, 255, 13, 0.349) 90%
+  );
   width: 80%;
   padding-left: 10%;
   padding-right: 10%;
@@ -72,32 +76,45 @@ body {
 #container2 {
   height: auto;
   padding-bottom: 10vmin;
-  background: linear-gradient(to top, rgb(255, 255, 255) 40%, rgba(0, 255, 242, 0.137) 90%);
+  background: linear-gradient(
+    to top,
+    rgb(255, 255, 255) 40%,
+    rgba(0, 255, 242, 0.137) 90%
+  );
   background-size: cover;
-
 }
 
 #container3 {
   position: relative;
   height: auto;
   padding-bottom: 10vmin;
-  background: linear-gradient(to bottom, rgb(255, 255, 255) 40%, rgba(25, 0, 255, 0.137) 90%);
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255) 40%,
+    rgba(25, 0, 255, 0.137) 90%
+  );
   background-size: cover;
 }
 
 #container4 {
   position: relative;
   height: auto;
-  background: linear-gradient(to bottom, rgb(255, 255, 255) 40%, rgba(247, 0, 255, 0.137) 90%);
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255) 40%,
+    rgba(247, 0, 255, 0.137) 90%
+  );
   background-size: cover;
   background-repeat: no-repeat;
-
-
 }
 
 #container5 {
   height: 120vh;
-  background: linear-gradient(to bottom, rgb(255, 255, 255) 40%, rgba(0, 255, 13, 0.349) 90%);
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255) 40%,
+    rgba(0, 255, 13, 0.349) 90%
+  );
 }
 
 .bottom-bar {
@@ -112,18 +129,19 @@ body {
   height: 50vh;
   right: 15vmin;
   margin-top: 22vh;
-  animation: 2s fadeOn alternate forwards;
   background: url("wallpaper3.gif");
+  background-position-x: left;
   background-size: cover;
   border: 2vmin solid rgb(255, 255, 255);
   border-bottom: 8vmin solid rgb(255, 255, 255);
   filter: opacity(0);
+  animation: 3s fadeOn forwards;
+  transition: 2s;
 }
 
-.profile-photo:hover  {
-  background: url("wallpaper2.gif");
-  background-size: cover;
-  filter: contrast(1.4);
+.profile-photo:hover {
+  background-position-x: right;
+  margin-right: -5vmin;
 }
 
 @keyframes fadeOn {
@@ -281,10 +299,9 @@ a:active {
   margin: auto;
   padding: 3vmin;
   border-radius: 3vmin;
-
 }
 
-.project-hover{
+.project-hover {
   position: relative;
   transition: 0.5s;
   width: 47%;
@@ -294,9 +311,9 @@ a:active {
   top: 0px;
 }
 
-.project-hover:hover{
+.project-hover:hover {
   transition: 0.5s;
-  filter:drop-shadow(0px 0px 5px rgb(88, 88, 88));
+  filter: drop-shadow(0px 0px 5px rgb(88, 88, 88));
   top: -15px;
 }
 
@@ -320,109 +337,119 @@ a:active {
   color: white;
 }
 
-
 .website0 {
   background-image: url("./website0.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
-
 }
 
 .website1 {
   background-image: url("./website1.png");
   background-size: cover;
   background-position-x: center;
-
-
 }
 
 .website2 {
   background-image: url("./website2.png");
   background-size: cover;
   background-position-x: center;
-
-
 }
-
 
 .website3 {
   background-image: url("./website3.jpg");
   background-size: cover;
   background-position-x: center;
-
-
 }
 
 .website4 {
   background-image: url("./website4.png");
   background-size: cover;
   background-position-x: center;
-
-
 }
 
 .website5 {
-  background-image: url("./website5.jpg");
+  background-image: url("./2.png");
   background-size: cover;
   background-position-x: center;
+  background-position-y: top;
+  transition: 7s;
+}
 
+.website5:hover {
+  background-position-y: 100%;
 }
 
 .website6 {
-  background-image: url("./website6.png");
+  background-image: url("./4.png");
   background-size: cover;
   background-position-x: center;
+  background-position-y: top;
+  transition: 6s;
+}
 
+.website6:hover {
+  background-position-y: 100%;
 }
 
 .website7 {
-  background-image: url("./website7.png");
+  background-image: url("./5.png");
   background-size: cover;
   background-position-x: center;
+  background-position-y: top;
+  transition: 8s;
+}
 
+.website7:hover{
+  background-position-y: 100%;
 }
 
 .website8 {
-  background-image: url("./website8.png");
+  background-image: url("./1.png");
   background-size: cover;
   background-position-x: center;
+  background-position-y: top;
+  transition: 6s;
+}
 
+.website8:hover {
+  background-position-y: 100%;
 }
 
 .website10 {
   background-image: url("./website10.png");
   background-size: cover;
   background-position-x: center;
-
 }
 
 .website9 {
   background-image: url("./website9.png");
   background-size: cover;
   background-position-x: center;
-
 }
 
 .website11 {
   background-image: url("./website11.png");
   background-size: cover;
   background-position-x: center;
-
 }
 
 .website12 {
   background-image: url("./website12.png");
   background-size: cover;
   background-position-x: center;
-
 }
 
 .website13 {
-  background-image: url("./website13.png");
+  background-image: url("./3.png");
   background-size: cover;
   background-position-x: center;
+  background-position-y: top;
+  transition: 5s;
+}
 
+.website13:hover {
+  background-position-y: 100%;
 }
 
 .service-wrapper {
@@ -440,7 +467,7 @@ a:active {
   filter: drop-shadow(0px 0px 5px rgb(163, 163, 163));
 }
 
-.service{
+.service {
   width: 30%;
   padding-top: 2%;
   padding-bottom: 2%;
@@ -450,7 +477,7 @@ a:active {
   border-radius: 3vmin;
 }
 
-.service:hover{
+.service:hover {
   transform: scale(1.1);
 }
 
@@ -479,15 +506,13 @@ a:active {
 .skill-wrapper {
   position: relative;
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   width: 80%;
   margin: auto;
   padding: 5vmin;
   border-radius: 3vmin;
-
-
 }
 
 .skill {
@@ -499,17 +524,17 @@ a:active {
   text-align: center;
   font-weight: 900;
   color: rgb(0, 0, 0);
-  filter:drop-shadow(0px 0px 5px rgb(185, 185, 185));
+  filter: drop-shadow(0px 0px 5px rgb(185, 185, 185));
   transition: 0.5s;
   top: -0px;
 }
 
-.skill:hover{
+.skill:hover {
   transition: 0.5s;
   transform: scale(1.1);
 }
 
-.tech-icon{
+.tech-icon {
   width: 80%;
   display: block;
   margin: auto;
@@ -530,11 +555,10 @@ a:active {
 
 .skill-title {
   background: linear-gradient(to top, rgb(0, 255, 191), rgb(0, 255, 106));
-  height:fit-content;
+  height: fit-content;
   line-height: 5vmin;
   color: rgb(0, 0, 0);
 }
-
 
 .contact-wrapper {
   width: 30%;
@@ -545,7 +569,6 @@ a:active {
   padding-bottom: 10vmin;
   display: flex;
   border-radius: 3vmin;
-
 }
 
 .contact {
@@ -553,17 +576,15 @@ a:active {
   margin: auto;
   width: 20vmin;
   transition: 0.3s;
-
 }
 
 .contact:hover {
   transform: scale(1.2);
 }
 
-.navbar-icon{
+.navbar-icon {
   display: none;
 }
-
 
 @media only screen and (max-device-width: 1200px), (max-width: 1200px) {
   .skill {
@@ -578,7 +599,6 @@ a:active {
 }
 
 @media only screen and (max-device-width: 600px), (max-width: 600px) {
-  
   .text-wrapper {
     position: relative;
     width: 90%;
@@ -588,7 +608,7 @@ a:active {
   }
 
   .medium {
-  font-size: 5vmin;
+    font-size: 5vmin;
   }
 
   .large {
@@ -603,17 +623,16 @@ a:active {
     height: auto;
   }
 
-  
-@keyframes fadeOn {
-  0% {
-    right: -30vmin;
-    filter: opacity(0);
+  @keyframes fadeOn {
+    0% {
+      right: -30vmin;
+      filter: opacity(0);
+    }
+    100% {
+      right: 0vmin;
+      filter: opacity(1);
+    }
   }
-  100% {
-    right: 0vmin;
-    filter: opacity(1);
-  }
-}
 
   .profile-photo-fade {
     display: none;
@@ -636,7 +655,7 @@ a:active {
   .slide-header {
     font-size: 6vmin;
   }
-  
+
   .slide-footer {
     font-size: 3vmin;
   }
@@ -692,7 +711,7 @@ a:active {
     padding-bottom: 1vmin;
   }
 
-  .service-wrapper{
+  .service-wrapper {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -707,21 +726,20 @@ a:active {
     margin-bottom: 2vmin;
   }
 
-  .service:hover{
+  .service:hover {
     transform: scale(1);
   }
 
-  .service-title{
+  .service-title {
     position: relative;
     left: 15%;
     width: 70%;
     font-size: 7.5vmin;
     margin: 0;
     margin-top: 7vmin;
-
   }
 
-  .service-description{
+  .service-description {
     width: 60%;
     font-size: 5vmin;
   }
@@ -735,38 +753,38 @@ a:active {
     font-size: 4vmin;
   }
 
-  .small{
+  .small {
     font-size: 4vmin;
   }
-  
-  .project-hover{
+
+  .project-hover {
     transition: 0.3s;
     width: 95%;
     display: inline-block;
     margin-left: 1.5%;
     margin-right: 1.5%;
   }
-  
-  .project-hover:hover{
+
+  .project-hover:hover {
     transform: scale(1);
     transition: 0.3s;
   }
 
-  .contact-wrapper{
+  .contact-wrapper {
     width: 80%;
     padding: 2vmin;
     flex-direction: column;
   }
 
-  .navbar{
+  .navbar {
     position: fixed;
     width: 100%;
     height: 10vh;
     z-index: 5;
     transition: 1s;
   }
-  
-  .navbar-items{
+
+  .navbar-items {
     width: 90%;
     height: 60vh;
     display: flex;
@@ -777,17 +795,16 @@ a:active {
     justify-content: space-between;
     background-color: white;
     margin-left: 0%;
-
   }
 
-  .navbar-item{
+  .navbar-item {
     position: relative;
     top: 0%;
     font-size: 7vmin;
     color: black;
   }
 
-  .navbar-icon{
+  .navbar-icon {
     position: absolute;
     width: fit-content;
     height: 80%;
@@ -797,7 +814,7 @@ a:active {
     display: block;
   }
 
-  .scroll{
+  .scroll {
     display: block;
     position: relative;
     width: 15vmin;
@@ -805,5 +822,4 @@ a:active {
     top: 3vh;
     filter: opacity(1);
   }
-
 }

@@ -36,13 +36,9 @@ function App() {
 
   return (
     <div className="App">
-              <Helmet>
-          <meta
-            name="viewport"
-            content="width=device-width, user-scalable=no"
-          />
-          <title>Michał Górnicki - official website</title>
-          </Helmet>
+      <Helmet>
+        <title>{"Official "}</title>
+      </Helmet>
       <div className="navbar">
         {toogleNavbar || window.innerWidth > 800 ? (
           <div className="navbar-items">

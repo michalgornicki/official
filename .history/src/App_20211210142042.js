@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Helmet } from "react-helmet";
+import {Helmet} from "react-helmet";
 import "./App.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -35,14 +35,9 @@ function App() {
   const [toogleNavbar, setToogleNavbar] = useState(false);
 
   return (
+
+    
     <div className="App">
-              <Helmet>
-          <meta
-            name="viewport"
-            content="width=device-width, user-scalable=no"
-          />
-          <title>Michał Górnicki - official website</title>
-          </Helmet>
       <div className="navbar">
         {toogleNavbar || window.innerWidth > 800 ? (
           <div className="navbar-items">

@@ -41,8 +41,9 @@ function App() {
             name="viewport"
             content="width=device-width, user-scalable=no"
           />
-          <title>Michał Górnicki - official website</title>
-          </Helmet>
+          <title>Electronet - elektronika w niskiej cenie</title>
+          <link rel="icon" href="meta-icon.png" />
+          
       <div className="navbar">
         {toogleNavbar || window.innerWidth > 800 ? (
           <div className="navbar-items">

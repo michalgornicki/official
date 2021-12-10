@@ -79,12 +79,12 @@ body {
   width: 80%;
   padding-left: 10%;
   padding-right: 10%;
-  animation: 60s backgroundAnimation forwards infinite linear;
+  animation: 30s backgroundAnimation forwards infinite linear;
 }
 
 @keyframes backgroundAnimation {
   0%{background-position-x: 0%;}
-  100%{background-position-x: 450%;}
+  100%{background-position-x: 150%;}
 }
 
 

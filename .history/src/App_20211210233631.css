@@ -65,26 +65,24 @@ body {
   height: 100vh;
   background: linear-gradient(
     to left,
-    rgb(255, 255, 255),
     rgb(148, 255, 144),
     rgb(255, 255, 255),
-    rgb(205, 144, 255),
+    rgb(253, 255, 144),
     rgb(255, 255, 255),
-    rgb(144, 242, 255),
+    rgb(255, 207, 144),
     rgb(255, 255, 255),
-    rgb(255, 144, 249),
-    rgb(255, 255, 255)
+    rgb(148, 255, 144)
   );
   background-size: 450% 150%;
   width: 80%;
   padding-left: 10%;
   padding-right: 10%;
-  animation: 60s backgroundAnimation forwards infinite linear;
+  animation: 30s backgroundAnimation forwards infinite linear;
 }
 
 @keyframes backgroundAnimation {
   0%{background-position-x: 0%;}
-  100%{background-position-x: 450%;}
+  100%{background-position-x: 150%;}
 }
 
 

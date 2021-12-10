@@ -65,15 +65,15 @@ body {
   height: 100vh;
   background: linear-gradient(
     to left,
-    rgb(255, 255, 255),
+    rgb(0,),
     rgb(148, 255, 144),
-    rgb(255, 255, 255),
+    rgb(0,),
     rgb(205, 144, 255),
-    rgb(255, 255, 255),
+    rgb(0,),
     rgb(144, 242, 255),
-    rgb(255, 255, 255),
+    rgb(0,),
     rgb(255, 144, 249),
-    rgb(255, 255, 255)
+    rgb(0,)
   );
   background-size: 450% 150%;
   width: 80%;

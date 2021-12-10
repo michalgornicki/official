@@ -65,26 +65,22 @@ body {
   height: 100vh;
   background: linear-gradient(
     to left,
+    rgb(115, 238, 135),
+    rgb(179, 255, 176),
     rgb(255, 255, 255),
-    rgb(148, 255, 144),
-    rgb(255, 255, 255),
-    rgb(205, 144, 255),
-    rgb(255, 255, 255),
-    rgb(144, 242, 255),
-    rgb(255, 255, 255),
-    rgb(255, 144, 249),
-    rgb(255, 255, 255)
+    rgb(179, 255, 176),
+    rgb(115, 238, 135)
   );
-  background-size: 450% 150%;
+  background-size: 50% 150%;
   width: 80%;
   padding-left: 10%;
   padding-right: 10%;
-  animation: 60s backgroundAnimation forwards infinite linear;
+  animation: 25s backgroundAnimation forwards infinite linear;
 }
 
 @keyframes backgroundAnimation {
   0%{background-position-x: 0%;}
-  100%{background-position-x: 450%;}
+  100%{background-position-x: 300%;}
 }
 
 
@@ -674,11 +670,20 @@ a:active {
   }
 
   #container1 {
-    left: 0%;
-    height: fit-content;
-    padding-bottom: 50px;
-    margin-top: 10vh;
-
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(
+      to left,
+      rgb(115, 238, 135),
+      rgb(179, 255, 176),
+      rgb(255, 255, 255),
+      rgb(115, 238, 135)
+    );
+    background-size: 50% 150%;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    animation: 25s backgroundAnimation forwards infinite linear;
   }
 
   #container2 {

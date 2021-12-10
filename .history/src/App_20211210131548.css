@@ -602,19 +602,6 @@ a:active {
     margin-top: 10vmin;
     height: auto;
   }
-
-  
-@keyframes fadeOn {
-  0% {
-    right: -30vmin;
-    filter: opacity(0);
-  }
-  100% {
-    right: 0vmin;
-    filter: opacity(1);
-  }
-}
-
   .profile-photo-fade {
     display: none;
   }

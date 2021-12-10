@@ -123,13 +123,12 @@ body {
 .profile-photo:hover  {
   background: url("wallpaper2.gif");
   background-size: cover;
-  filter: contrast(1.4);
 }
 
 @keyframes fadeOn {
   0% {
     right: -15vmin;
-    filter: opacity(0);
+  filter: opacity(0);
   }
   100% {
     right: 15vmin;
@@ -601,20 +600,8 @@ a:active {
     right: 0%;
     margin-top: 10vmin;
     height: auto;
+    animation: 0;
   }
-
-  
-@keyframes fadeOn {
-  0% {
-    right: -30vmin;
-    filter: opacity(0);
-  }
-  100% {
-    right: 0vmin;
-    filter: opacity(1);
-  }
-}
-
   .profile-photo-fade {
     display: none;
   }

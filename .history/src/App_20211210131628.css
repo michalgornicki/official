@@ -606,7 +606,7 @@ a:active {
   
 @keyframes fadeOn {
   0% {
-    right: -30vmin;
+    right: -15vmin;
     filter: opacity(0);
   }
   100% {

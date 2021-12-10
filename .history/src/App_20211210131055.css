@@ -117,7 +117,7 @@ body {
   background-size: cover;
   border: 2vmin solid rgb(255, 255, 255);
   border-bottom: 8vmin solid rgb(255, 255, 255);
-  filter: opacity(0);
+  filter: 
 }
 
 .profile-photo:hover  {
@@ -129,11 +129,9 @@ body {
 @keyframes fadeOn {
   0% {
     right: -15vmin;
-    filter: opacity(0);
   }
   100% {
     right: 15vmin;
-    filter: opacity(1);
   }
 }
 
@@ -601,20 +599,8 @@ a:active {
     right: 0%;
     margin-top: 10vmin;
     height: auto;
+    animation: 0;
   }
-
-  
-@keyframes fadeOn {
-  0% {
-    right: -30vmin;
-    filter: opacity(0);
-  }
-  100% {
-    right: 0vmin;
-    filter: opacity(1);
-  }
-}
-
   .profile-photo-fade {
     display: none;
   }

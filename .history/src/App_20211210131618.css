@@ -606,11 +606,11 @@ a:active {
   
 @keyframes fadeOn {
   0% {
-    right: -30vmin;
+    right: -15vmin;
     filter: opacity(0);
   }
   100% {
-    right: 0vmin;
+    right: 15vmin;
     filter: opacity(1);
   }
 }

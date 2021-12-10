@@ -13,7 +13,8 @@ const Profile = () => {
         <h2 className="medium">MICHAŁ GÓRNICKI</h2>
         <h1 className="large">Web designer & Front-end developer</h1>
         <h3 className="small">
-          Self-taught, skilled and pro-active front end developer since 2019. Creating projects from templates or from skratch.{" "}
+          Skilled and self-taught front end developer I'm looking forward for new challenges to work
+          and grow.{" "}
         </h3>
         <a href="https://drive.google.com/file/d/1oxTkBmsz5aZZnFF8eIvr5btOq1I_P7hc/view?usp=sharing" download><h3 className="small more">Check my CV here. </h3></a>
       </div>

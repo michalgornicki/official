@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/official/static/css/main.60f55e5b.chunk.css",
+    "main.css": "/official/static/css/main.47616588.chunk.css",
     "main.js": "/official/static/js/main.ffd6f07d.chunk.js",
     "main.js.map": "/official/static/js/main.ffd6f07d.chunk.js.map",
     "runtime-main.js": "/official/static/js/runtime-main.31223f4f.js",
@@ -12,8 +12,9 @@
     "static/js/3.65ec79fd.chunk.js.map": "/official/static/js/3.65ec79fd.chunk.js.map",
     "index.html": "/official/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/official/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.60f55e5b.chunk.css.map": "/official/static/css/main.60f55e5b.chunk.css.map",
+    "static/css/main.47616588.chunk.css.map": "/official/static/css/main.47616588.chunk.css.map",
     "static/js/2.c755cc10.chunk.js.LICENSE.txt": "/official/static/js/2.c755cc10.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/official/static/media/website9.ae24e179.png",
     "static/media/2sq.ee629975.png": "/official/static/media/2sq.ee629975.png",
     "static/media/atom.27ce7e22.png": "/official/static/media/atom.27ce7e22.png",
     "static/media/bootstrap.268c4375.png": "/official/static/media/bootstrap.268c4375.png",
@@ -32,14 +33,13 @@
     "static/media/react.e3b2225b.png": "/official/static/media/react.e3b2225b.png",
     "static/media/scroll.9533a521.png": "/official/static/media/scroll.9533a521.png",
     "static/media/visualstudio.4f7f8525.png": "/official/static/media/visualstudio.4f7f8525.png",
-    "static/media/App.css": "/official/static/media/website9.ae24e179.png",
     "static/media/wordpress.11ed0915.png": "/official/static/media/wordpress.11ed0915.png"
   },
   "entrypoints": [
     "static/js/runtime-main.31223f4f.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.c755cc10.chunk.js",
-    "static/css/main.60f55e5b.chunk.css",
+    "static/css/main.47616588.chunk.css",
     "static/js/main.ffd6f07d.chunk.js"
   ]
 }

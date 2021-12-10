@@ -122,7 +122,8 @@ body {
 .profile-photo:hover  {
   background: url("wallpaper2.gif");
   background-size: cover;
-  filter: contrast(1.4);
+  filter:brightness(0.8);
+
 }
 
 @keyframes fadeOn {

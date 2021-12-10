@@ -181,12 +181,13 @@ body {
   font-size: 6vmin;
   margin-top: 1vmin;
   margin-bottom: 1vmin;
+  padding: 0;
   top: 8vmin;
   animation: 1s slideUp alternate forwards;
   animation-delay: 1s;
   color: rgb(0, 0, 0);
   filter: opacity(0);
-  background: linear-gradient(to left, rgba(255, 255, 255, 0.774), rgba(255, 255, 255, 0.158));
+  background: linear-gradient(rgba(255, 255, 255, 0.123), rgba(0, 0, 0, 0));
 }
 
 .medium {

@@ -65,15 +65,23 @@ body {
   height: 100vh;
   background: linear-gradient(
     to top,
-    rgb(255, 255, 255) 30%,
-    rgb(143, 255, 149) 90%
+    rgb(255, 255, 255) 0%,
+    rgb(0, 255, 13) 90%
   );
+  background-size: 200% 200%;
   width: 80%;
   padding-left: 10%;
   padding-right: 10%;
   transition: 1s;
 }
 
+#container1:hover{
+  background: linear-gradient(
+    to top,
+    rgb(255, 255, 255) 0%,
+    rgb(0, 255, 13) 90%
+  );
+}
 
 #container2 {
   height: auto;
@@ -181,12 +189,12 @@ body {
   font-size: 6vmin;
   margin-top: 1vmin;
   margin-bottom: 1vmin;
+  padding: 0;
   top: 8vmin;
   animation: 1s slideUp alternate forwards;
   animation-delay: 1s;
   color: rgb(0, 0, 0);
   filter: opacity(0);
-  background: linear-gradient(to left, rgba(255, 255, 255, 0.774), rgba(255, 255, 255, 0.158));
 }
 
 .medium {

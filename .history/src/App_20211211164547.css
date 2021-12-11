@@ -120,8 +120,6 @@ body {
   margin: auto;
   top: 85vh;
   filter: opacity(0.8);
-  transition: 1s;
-
 }
 
 .scroll:hover {
@@ -878,5 +876,6 @@ a:active {
     margin: auto;
     top: 3vh;
     filter: opacity(1);
+    trans
   }
 }

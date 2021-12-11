@@ -33,6 +33,8 @@ window.onscroll = function () {
 
 function App() {
   const [toogleNavbar, setToogleNavbar] = useState(false);
+  const [mousePosY, setMousePosY] = useState(0);
+
 
 
   return (

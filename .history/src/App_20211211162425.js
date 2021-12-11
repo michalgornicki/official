@@ -33,7 +33,7 @@ window.onscroll = function () {
 
 function App() {
   const [toogleNavbar, setToogleNavbar] = useState(false);
-
+  
 
   return (
     <div className="App">
@@ -108,8 +108,7 @@ function App() {
           />
         )}
       </div>
-      <Profile 
-      />
+      <Profile />
       <Projects />
       <Skills />
       <Services />

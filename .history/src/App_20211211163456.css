@@ -54,6 +54,8 @@ body {
   display: flex;
   position: absolute;
   transition: 0.5s;
+  transition-delay: 0.2s;
+
 }
 
 .part{
@@ -120,8 +122,6 @@ body {
   margin: auto;
   top: 85vh;
   filter: opacity(0.8);
-  transition: 1s;
-
 }
 
 .scroll:hover {
@@ -193,6 +193,7 @@ body {
   background: url("wallpaper1.jpg");
   background-position-x: left;
   background-size: cover;
+  filter: opacity(0);
   animation: 3s fadeOn forwards;
   transition: 2s;
   border-radius: 15vmin;
@@ -206,9 +207,11 @@ body {
 @keyframes fadeOn {
   0% {
     right: -15vmin;
+    filter: opacity(0);
   }
   100% {
     right: 15vmin;
+    filter: opacity(1);
   }
 }
 

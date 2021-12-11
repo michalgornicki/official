@@ -11,8 +11,9 @@ const Profile = () => {
   const mouseMove = (e) => {
     let X = e.clientX;
     let Y = e.clientY;
-    setMousePosX(X/400 - 0.4);
+    setMousePosX(X/400 + 0.2);
     setMousePosY(Y/400 + 0.2);
+    document.getElementsByClassName("text-wrapper")[0].style.transform = "scale(" + -mousePosX + ")";
     document.getElementsByClassName("body")[0].style.filter = "brightness(" + mousePosY + ")";
   };
   

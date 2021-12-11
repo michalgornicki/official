@@ -1,24 +1,26 @@
-import React, { useState } from "react";
+import React from "react";
 import profile from "../2sq.png";
 import scroll from "../scroll.png";
 
 
 const Profile = () => {
 
-  const [mousePosX, setMousePosX] = useState(0);
   const [mousePosY, setMousePosY] = useState(0);
 
   const mouseMove = (e) => {
     let X = e.clientX;
     let Y = e.clientY;
-    setMousePosX(X/400 - 0.4);
+    setMousePosX(X + 50);
     setMousePosY(Y/400 + 0.2);
+    console.log(mousePosX);
     document.getElementsByClassName("body")[0].style.filter = "brightness(" + mousePosY + ")";
   };
+
+
   
   return (
     <div id="container1">
-            <div className="body" onMouseMove={mouseMove}>
+            <div className="body" onClick={mouseEffect} onMouseMove={mouseMove}>
         <div className="part part1"></div>
         <div className="part part2"></div>
         <div className="part part3"></div>

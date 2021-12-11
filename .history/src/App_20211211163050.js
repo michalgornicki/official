@@ -35,6 +35,16 @@ function App() {
   const [toogleNavbar, setToogleNavbar] = useState(false);
 
 
+  
+  const mouseMove = (e) => {
+    let X = e.clientX;
+    let Y = e.clientY;
+    setMousePosX(X + 50);
+    setMousePosY(Y/400 + 0.2);
+    console.log(mousePosX);
+    document.getElementsByClassName("body")[0].style.filter = "brightness(" + mousePosY + ")";
+  };
+
   return (
     <div className="App">
               <Helmet>

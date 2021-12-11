@@ -193,7 +193,7 @@ body {
   filter: opacity(0);
   animation: 3s fadeOn forwards;
   transition: 2s;
-  border-radius: 15vmin;
+  border-radius: 5vmin;
 }
 
 .profile-photo:hover {

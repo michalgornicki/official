@@ -43,7 +43,7 @@ body {
 }
 
 .navbar-item:hover {
-  color: rgb(255, 145, 0);
+  color: rgb(0, 255, 170);
   cursor: pointer;
 }
 
@@ -128,8 +128,28 @@ body {
 #container1 {
   position: relative;
   height: 100vh;
+  background: linear-gradient(
+    to left,
+    rgb(255, 255, 255),
+    rgb(148, 255, 144),
+    rgb(255, 255, 255),
+    rgb(205, 144, 255),
+    rgb(255, 255, 255),
+    rgb(144, 242, 255),
+    rgb(255, 255, 255),
+    rgb(255, 144, 249),
+    rgb(255, 255, 255)
+  );
+  background-size: 450% 150%;
   width: 100%;
+  animation: 60s backgroundAnimation forwards infinite linear;
 }
+
+@keyframes backgroundAnimation {
+  0%{background-position-x: 0%;}
+  100%{background-position-x: 450%;}
+}
+
 
 #container2 {
   height: auto;
@@ -137,7 +157,7 @@ body {
   background: linear-gradient(
     to top,
     rgb(255, 255, 255) 40%,
-    rgba(255, 174, 0, 0.644) 90%
+    rgba(0, 255, 242, 0.137) 90%
   );
   background-size: cover;
 }
@@ -149,7 +169,7 @@ body {
   background: linear-gradient(
     to bottom,
     rgb(255, 255, 255) 40%,
-    rgba(255, 230, 0, 0.479) 90%
+    rgba(25, 0, 255, 0.137) 90%
   );
   background-size: cover;
 }
@@ -160,7 +180,7 @@ body {
   background: linear-gradient(
     to bottom,
     rgb(255, 255, 255) 40%,
-    rgba(255, 217, 0, 0.555) 90%
+    rgba(247, 0, 255, 0.137) 90%
   );
   background-size: cover;
   background-repeat: no-repeat;
@@ -171,7 +191,7 @@ body {
   background: linear-gradient(
     to bottom,
     rgb(255, 255, 255) 40%,
-    rgba(255, 187, 0, 0.349) 90%
+    rgba(0, 255, 13, 0.349) 90%
   );
 }
 
@@ -186,14 +206,12 @@ body {
   width: 50vh;
   height: 50vh;
   right: 15vmin;
-  margin-top: 21vh;
-  background: url("wallpaper1.jpg");
+  margin-top: 22vh;
   background-position-x: left;
   background-size: cover;
   filter: opacity(0);
   animation: 3s fadeOn forwards;
   transition: 2s;
-  border-radius: 15vmin;
 }
 
 .profile-photo:hover {
@@ -214,10 +232,10 @@ body {
 
 .text-wrapper {
   position: absolute;
-  margin-top: 22vh;
+  margin-top: 25vh;
   width: 40%;
   z-index: 2;
-  margin-left: 8vmin;
+  margin-left: 4vmin;
 }
 
 @keyframes slideUp {
@@ -292,7 +310,7 @@ body {
 }
 
 .more:hover {
-  color: rgb(255, 238, 0);
+  color: rgb(0, 255, 170);
   transition: 0.2s;
   cursor: pointer;
 }

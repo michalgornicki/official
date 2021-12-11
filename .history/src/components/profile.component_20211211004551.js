@@ -6,13 +6,7 @@ import scroll from "../scroll.png";
 const Profile = () => {
   return (
     <div id="container1">
-            <div className="body">
-        <div className="part part1"></div>
-        <div className="part part2"></div>
-        <div className="part part3"></div>
-        <div className="part part4"></div>
-        <div className="part part5"></div>
-      </div>
+      
       <div className="photo-wrapper">
       <img className="profile-photo" src={profile} alt="profile" />
       </div>

@@ -193,8 +193,8 @@ body {
 
 .profile-photo {
   position: absolute;
-  width: 35vh;
-  height: 35vh;
+  width: 30vh;
+  height: 30vh;
   right: 20vmin;
   margin-top: 25vh;
   background: url("wallpaper1.jpg");
@@ -677,7 +677,6 @@ a:active {
   }
 
   .large {
-    font-size: 8vmin;
     width: 100%;
     color: white;
   }
@@ -690,7 +689,7 @@ a:active {
     position: relative;
     margin: auto;
     width: 60%;
-    left: 20%;
+    left: 10%;
     margin-bottom: 10vmin;
     margin-top: 10vmin;
     height: auto;
@@ -735,7 +734,7 @@ a:active {
 
   #container1 {
     left: 0%;
-    height: 90vh;
+    height: fit-content;
     margin-top: 10vh;
   }
 
@@ -826,7 +825,7 @@ a:active {
   }
 
   .small {
-    font-size: 5vmin;
+    font-size: 4vmin;
   }
 
   .project-hover {

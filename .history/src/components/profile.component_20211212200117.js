@@ -32,7 +32,7 @@ const Profile = () => {
       </div>
       <div className="text-wrapper">
         <h2 className="medium">MICHAŁ GÓRNICKI</h2>
-        <h1 className="large"><div>Web designer </div><div>& Front-end developer</div></h1>
+        <h1 className="large"><div></div>Web designer & Front-end developer</h1>
         <h3 className="small">
           Self-taught, skilled and pro-active front end developer since 2019. Creating projects from templates or from scratch.{" "}
         </h3>

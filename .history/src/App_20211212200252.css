@@ -194,7 +194,7 @@ body {
 .profile-photo {
   position: absolute;
   width: 35vh;
-  height: 35vh;
+  height: 30vh;
   right: 20vmin;
   margin-top: 25vh;
   background: url("wallpaper1.jpg");

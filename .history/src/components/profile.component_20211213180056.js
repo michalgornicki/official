@@ -37,6 +37,9 @@ const Profile = () => {
         </h3>
       </div>
 
+      <a href="#header-projects"><img className="scroll" src={scroll} alt="" /></a>
+
+
     </div>
   );
 };

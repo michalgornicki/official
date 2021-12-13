@@ -17,7 +17,7 @@ const Skills = () => {
   return (
     <div id="container3">
       <h2 className="header">
-        My skills
+        My skill
       </h2>
       <div className="skill-wrapper">
         <div className="skill">

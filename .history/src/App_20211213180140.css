@@ -239,7 +239,12 @@ body {
   animation-delay: 1s;
   color: rgb(0, 0, 0);
   filter: opacity(0);
-
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0),
+    rgb(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0)
+  );
 }
 
 .medium {
@@ -318,9 +323,9 @@ a:active {
 
 .header {
   position: relative;
-  font-size: 6vmin;
-  color: rgb(255, 255, 255);
-  font-weight: 500;
+  font-size: 4.2vmax;
+  color: black;
+  font-weight: 700;
   text-align: center;
   margin: 0;
   margin-left: auto;
@@ -570,7 +575,7 @@ a:active {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  width: 60%;
+  width: 40%;
   margin: auto;
   padding: 5vmin;
   border-radius: 3vmin;
@@ -580,7 +585,7 @@ a:active {
 .skill {
   position: relative;
   display: inline-grid;
-  width: 17%;
+  width: 20%;
   text-align: center;
   font-weight: 900;
   color: rgb(0, 0, 0);
@@ -588,8 +593,6 @@ a:active {
   transition: 0.5s;
   top: -0px;
   margin: 2vmin;
-  padding: 1vmin;
-  filter: drop-shadow(0px 0px 15px rgb(255, 255, 255));
 }
 
 .skill:hover {
@@ -640,7 +643,6 @@ a:active {
   margin: auto;
   transition: 0.3s;
   transform: rotateX(15deg);
-  filter: drop-shadow(0px 0px 15px rgb(255, 255, 255));
 }
 
 .contact:hover {
@@ -681,6 +683,9 @@ a:active {
   .large {
     font-size: 8vmin;
     width: 100%;
+  }
+
+  .more{
   }
 
   .profile-photo {
@@ -895,11 +900,5 @@ a:active {
 
   .wallpaper{
     height: 100%;
-  }
-
-  .part {
-    width: 20%;
-    background: url("wallpaper1.jpg");
-    background-size: 2000% 100%;
   }
 }

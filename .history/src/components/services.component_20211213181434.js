@@ -6,9 +6,7 @@ import code from "../icons/code.png";
 const Services = () => {
   return (
     <div id="container4" data-aos="fade-up">
-      <h2 className="header header-lower" data-aos="fade">
-        I can offer you
-      </h2>
+
       <div className="service-wrapper" data-aos="zoom-in">
         <div className="service">
           <div className="service-title"><img className="tech-icon" src={design} alt="" /></div>

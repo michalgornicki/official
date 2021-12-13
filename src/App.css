@@ -615,7 +615,6 @@ a:active {
   filter: drop-shadow(0px 0px 5px rgb(185, 185, 185));
   transition: 0.5s;
   top: -0px;
-  transform:rotateX(15deg);
   margin: 2vmin;
 }
 

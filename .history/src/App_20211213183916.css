@@ -328,7 +328,7 @@ a:active {
   padding: 0;
   padding-top: 15vmin;
   padding-bottom: 10vmin;
-  filter: drop-shadow(0px 0px 5px rgb(77, 77, 77));
+  filter: drop-shadow(0px 0px 3px black);
 }
 
 .black {

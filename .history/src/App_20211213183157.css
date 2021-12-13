@@ -763,8 +763,9 @@ a:active {
   }
 
   .skill {
-    width: 25%;
+    width: 46%;
     font-size: 3.5vmin;
+    margin-bottom: 4vmin;
     height: 40vmin;
   }
 
@@ -902,5 +903,11 @@ a:active {
     background-size: 2000% 100%;
   }
 
+  .tech-icon {
+    width: 80%;
+    display: block;
+    margin: auto;
+    border-radius: 0%;
+  }
 
 }

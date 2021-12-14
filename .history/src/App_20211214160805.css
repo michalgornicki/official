@@ -459,7 +459,9 @@ a:active {
   transition: 8s;
 }
 
-
+.website7:hover {
+  background-position-y: 100%;
+}
 
 .website8 {
   background-image: url("./1.png");
@@ -469,7 +471,9 @@ a:active {
   transform: translateY(0%);
 }
 
-
+.website8:hover {
+  background-position-y: bottom;
+}
 
 .website10 {
   background-image: url("./website10.png");
@@ -503,7 +507,9 @@ a:active {
   transition: 5s;
 }
 
-
+.website13:hover {
+  background-position-y: 100%;
+}
 
 .service-wrapper {
   position: relative;

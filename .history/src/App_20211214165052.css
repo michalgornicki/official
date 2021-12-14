@@ -56,7 +56,7 @@ body {
   height: 100vh;
   display: flex;
   position: absolute;
-  transition: 0.5s;
+  transition: ;
 }
 
 .part {

@@ -14,8 +14,8 @@ body {
   background: url("wallpaper2.jpg");
   background-size: 101%;
   background-position-y: top;
-  background-attachment: fixed;
-  transition: 2s;
+  transition: 0.1s;
+  background-attachment: fixed
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
@@ -56,7 +56,6 @@ body {
   height: 100vh;
   display: flex;
   position: absolute;
-  transition: 0.5s;
 }
 
 .part {

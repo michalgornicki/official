@@ -787,7 +787,7 @@ a:active {
 
   .service {
     width: 100%;
-    margin-bottom: 12vmin;
+    margin-bottom: 8vmin;
     transform: rotateX(0deg);
   }
 
@@ -828,8 +828,6 @@ a:active {
     display: inline-block;
     margin-left: 1.5%;
     margin-right: 1.5%;
-    margin-bottom: 15vmin;
-
   }
 
   .project-hover:hover {

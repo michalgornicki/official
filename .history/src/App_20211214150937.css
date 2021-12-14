@@ -11,8 +11,8 @@ html {
 
 body {
   background-color: rgb(255, 255, 255);
-  background: url("wallpaper2.jpg");
-  background-size: 101%;
+  background: url("wallpaper1.jpg");
+  background-size: 100%;
   background-position-y: top;
   transition: 0.1s;
   background-attachment: fixed;
@@ -47,7 +47,7 @@ body {
 }
 
 .navbar-item:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 145, 0);
   cursor: pointer;
 }
 
@@ -333,10 +333,12 @@ a:active {
   padding: 0;
   padding-top: 15vmin;
   padding-bottom: 10vmin;
+  filter: drop-shadow(0px 0px 5px rgb(77, 77, 77));
 }
 
 .black {
   color: black;
+  filter: drop-shadow(0px 0px 3px rgb(255, 255, 255));
 }
 
 .bottom-bar-text {
@@ -472,7 +474,7 @@ a:active {
   background-size: cover;
   background-position-x: center;
   transition: 6s;
-  transform: translateY(0%);
+  transform: translateY()
 }
 
 .website8:hover {
@@ -668,16 +670,6 @@ a:active {
 }
 
 @media only screen and (max-device-width: 600px), (max-width: 600px) {
-
-  body{
-  background-color: rgb(255, 255, 255);
-  background: url("wallpaper2.jpg");
-  background-size: 170%;
-  background-position-y: top;
-  transition: 0.1s;
-  background-attachment: fixed;
-  }
-
   .text-wrapper {
     position: relative;
     display: block;
@@ -874,7 +866,7 @@ a:active {
     padding-bottom: 40vh;
     padding-top: 10vh;
     justify-content: space-between;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 145, 0);
     margin-left: 0%;
   }
 

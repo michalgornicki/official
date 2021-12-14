@@ -32,7 +32,7 @@ window.onscroll = () => {
 
   let scroll = window.scrollY;
   console.log(scroll);
-  document.body.style.backgroundPositionY = scroll/75 + "%";
+  document.body.style.backgroundPositionY = scroll/50 + "%";
   console.log(-scroll + "%")
 };
 

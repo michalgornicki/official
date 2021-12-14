@@ -13,11 +13,7 @@ import Bottombar from "./components/bottombar.component.js";
 import menu from "./menu.png";
 import menuClose from "./menu-close.png";
 
-AOS.init({
-  mirror: true,
-  once: false,
-  duration: 1000,
-});
+
 
 window.onscroll = () => {
   if (window.pageYOffset < 100) {
@@ -32,7 +28,7 @@ window.onscroll = () => {
 
   let scroll = window.scrollY;
   console.log(scroll);
-  document.body.style.backgroundPositionY = scroll/75 + "%";
+  document.body.style.backgroundPositionY = scroll/10 + "%";
   console.log(-scroll + "%")
 };
 

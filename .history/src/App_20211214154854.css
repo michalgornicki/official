@@ -669,14 +669,13 @@ a:active {
 
 @media only screen and (max-device-width: 600px), (max-width: 600px) {
 
-  body{
+  
   background-color: rgb(255, 255, 255);
   background: url("wallpaper2.jpg");
-  background-size: 170%;
+  background-size: 101%;
   background-position-y: top;
   transition: 0.1s;
   background-attachment: fixed;
-  }
 
   .text-wrapper {
     position: relative;

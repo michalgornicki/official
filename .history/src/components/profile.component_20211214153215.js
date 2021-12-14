@@ -12,8 +12,8 @@ const Profile = () => {
     let Y = e.clientY;
     setMousePosX(X);
     setMousePosY(Y);
-    console.log(Y);
-    document.getElementsByClassName("wallpaper")[0].style.filter = "brightness(" + parseFloat(mousePosY/1200 + 0.7) + ") sepia(" + parseFloat(mousePosX/1500 - 0.3) + ")";
+    console.log()
+    document.getElementsByClassName("wallpaper")[0].style.filter = "brightness(" + parseFloat(mousePosY/500 + 0.5) + ") sepia(" + mousePosX/1500 + ")";
 
     document.getElementsByClassName("text-wrapper")[0].style.transform = "rotateX(" + parseFloat(mousePosY/200 - 2.5) + "deg) rotateY(" + parseFloat(mousePosX/200 - 2.5) + "deg)";
 

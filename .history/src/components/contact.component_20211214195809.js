@@ -11,7 +11,7 @@ const Contact = () => {
       <h2 className="header header-lower">
         Contact
       </h2>
-      <div className="contact-wrapper" >
+      <div className="contact-wrapper" data-aos="zoom-out">
         <div className="contact">
           {" "}
           <a href="mailto:gornickimichal@gmail.com"><img className="tech-icon" src={gmail} alt="" /></a>

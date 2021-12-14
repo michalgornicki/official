@@ -659,6 +659,7 @@ a:active {
   background: url("wallpaper2.jpg");
   background-size: 200% 200%;
   background-position-y: top;
+  transition: 2s;
   background-attachment: fixed;
   }
 
@@ -897,10 +898,6 @@ a:active {
     width: 20%;
     background: url("wallpaper1.jpg");
     background-size: 2000% 100%;
-  }
-
-  .part1{
-  background-position-x: 25%;
   }
 
 

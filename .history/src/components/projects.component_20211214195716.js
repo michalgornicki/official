@@ -4,7 +4,7 @@ const Projects = () => {
 
 
   return (
-    <div id="container2">
+    <div id="container2" data-aos="fade-up">
       <h2 className="header " id="header-projects">
         Projects
       </h2>

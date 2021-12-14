@@ -4,8 +4,8 @@ const Projects = () => {
 
 
   return (
-    <div id="container2">
-      <h2 className="header " id="header-projects">
+    <div id="container2" data-aos="fade-up">
+      <h2 className="header " id="header-projects" data-aos="fade">
         Projects
       </h2>
 

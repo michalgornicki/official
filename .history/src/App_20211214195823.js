@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet";
 import "./App.css";
+
 import Profile from "./components/profile.component.js";
 import Projects from "./components/projects.component.js";
 import Skills from "./components/skills.component.js";
@@ -9,6 +10,12 @@ import Contact from "./components/contact.component.js";
 import Bottombar from "./components/bottombar.component.js";
 import menu from "./menu.png";
 import menuClose from "./menu-close.png";
+
+AOS.init({
+  mirror: true,
+  once: false,
+  duration: 1000,
+});
 
 window.onscroll = () => {
   if (window.pageYOffset < 100) {

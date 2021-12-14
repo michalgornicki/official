@@ -67,7 +67,7 @@ html {
 }
 
 .part1 {
-  background-position-x: 25%;
+  background-position-x: 0%;
   animation: 8s part1 forwards;
   animation-delay: 1s;
 }
@@ -897,10 +897,6 @@ a:active {
     width: 20%;
     background: url("wallpaper1.jpg");
     background-size: 2000% 100%;
-  }
-
-  .part1{
-  background-position-x: 25%;
   }
 
 

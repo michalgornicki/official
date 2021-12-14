@@ -632,9 +632,12 @@ a:active {
   display: block;
   margin: auto;
   filter: drop-shadow(0px 0px 10px rgb(66, 66, 66));
+  transition: 
 }
 
-
+.contact:hover {
+  transform: scale(1.2);
+}
 
 .navbar-icon {
   display: none;
@@ -659,6 +662,7 @@ a:active {
   background: url("wallpaper2.jpg");
   background-size: 200% 200%;
   background-position-y: top;
+  transition: 2s;
   background-attachment: fixed;
   }
 
@@ -897,10 +901,6 @@ a:active {
     width: 20%;
     background: url("wallpaper1.jpg");
     background-size: 2000% 100%;
-  }
-
-  .part1{
-  background-position-x: 25%;
   }
 
 

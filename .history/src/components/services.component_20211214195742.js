@@ -9,7 +9,7 @@ const Services = () => {
       <h2 className="header header-lower">
         Quality websites
       </h2>
-      <div className="service-wrapper">
+      <div className="service-wrapper" data-aos="zoom-in">
         <div className="service">
           <div className="service-title"><img className="tech-icon" src={design} alt="" /></div>
           <div className="service-description">

@@ -439,9 +439,7 @@ a:active {
   transition: 7s;
 }
 
-.website5:hover {
-  background-position-y: 100%;
-}
+
 
 .website6 {
   background-image: url("./4.png");

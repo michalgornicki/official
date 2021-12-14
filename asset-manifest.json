@@ -1,19 +1,17 @@
 {
   "files": {
     "main.css": "/official/static/css/main.352b5c79.chunk.css",
-    "main.js": "/official/static/js/main.c40535a9.chunk.js",
-    "main.js.map": "/official/static/js/main.c40535a9.chunk.js.map",
-    "runtime-main.js": "/official/static/js/runtime-main.31223f4f.js",
-    "runtime-main.js.map": "/official/static/js/runtime-main.31223f4f.js.map",
-    "static/css/2.ec02d681.chunk.css": "/official/static/css/2.ec02d681.chunk.css",
-    "static/js/2.2b6425bb.chunk.js": "/official/static/js/2.2b6425bb.chunk.js",
-    "static/js/2.2b6425bb.chunk.js.map": "/official/static/js/2.2b6425bb.chunk.js.map",
-    "static/js/3.65ec79fd.chunk.js": "/official/static/js/3.65ec79fd.chunk.js",
-    "static/js/3.65ec79fd.chunk.js.map": "/official/static/js/3.65ec79fd.chunk.js.map",
+    "main.js": "/official/static/js/main.b4b0e717.chunk.js",
+    "main.js.map": "/official/static/js/main.b4b0e717.chunk.js.map",
+    "runtime-main.js": "/official/static/js/runtime-main.abb72675.js",
+    "runtime-main.js.map": "/official/static/js/runtime-main.abb72675.js.map",
+    "static/js/2.e0384821.chunk.js": "/official/static/js/2.e0384821.chunk.js",
+    "static/js/2.e0384821.chunk.js.map": "/official/static/js/2.e0384821.chunk.js.map",
+    "static/js/3.72486dc8.chunk.js": "/official/static/js/3.72486dc8.chunk.js",
+    "static/js/3.72486dc8.chunk.js.map": "/official/static/js/3.72486dc8.chunk.js.map",
     "index.html": "/official/index.html",
-    "static/css/2.ec02d681.chunk.css.map": "/official/static/css/2.ec02d681.chunk.css.map",
     "static/css/main.352b5c79.chunk.css.map": "/official/static/css/main.352b5c79.chunk.css.map",
-    "static/js/2.2b6425bb.chunk.js.LICENSE.txt": "/official/static/js/2.2b6425bb.chunk.js.LICENSE.txt",
+    "static/js/2.e0384821.chunk.js.LICENSE.txt": "/official/static/js/2.e0384821.chunk.js.LICENSE.txt",
     "static/media/App.css": "/official/static/media/website4.32b0653d.png",
     "static/media/atom.27ce7e22.png": "/official/static/media/atom.27ce7e22.png",
     "static/media/bootstrap.268c4375.png": "/official/static/media/bootstrap.268c4375.png",
@@ -35,10 +33,9 @@
     "static/media/wordpress.11ed0915.png": "/official/static/media/wordpress.11ed0915.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.31223f4f.js",
-    "static/css/2.ec02d681.chunk.css",
-    "static/js/2.2b6425bb.chunk.js",
+    "static/js/runtime-main.abb72675.js",
+    "static/js/2.e0384821.chunk.js",
     "static/css/main.352b5c79.chunk.css",
-    "static/js/main.c40535a9.chunk.js"
+    "static/js/main.b4b0e717.chunk.js"
   ]
 }

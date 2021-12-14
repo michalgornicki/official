@@ -333,6 +333,8 @@ a:active {
   padding: 0;
   padding-top: 15vmin;
   margin-bottom: 10vmin;
+  border-bottom: 2px solid black;
+  width: 20%;
 }
 
 .black {

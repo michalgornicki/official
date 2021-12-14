@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <div id="container4" data-aos="fade-up">
       <h2 className="header header-lower" data-aos="fade">
-        Quality websites
+        Quality
       </h2>
       <div className="service-wrapper" data-aos="zoom-in">
         <div className="service">

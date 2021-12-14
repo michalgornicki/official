@@ -324,7 +324,7 @@ a:active {
 .header {
   position: relative;
   font-size: 6vmin;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-weight: 500;
   text-align: center;
   margin: 0;
@@ -332,7 +332,7 @@ a:active {
   margin-right: auto;
   padding: 0;
   padding-top: 15vmin;
-  margin-bottom: 10vmin;
+  padding-bottom: 10vmin;
 }
 
 .black {
@@ -396,7 +396,7 @@ a:active {
   height: 400px;
   width: 100%;
   margin: 1vw;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgb(255, 255, 255);
   color: white;
 }
 
@@ -527,6 +527,7 @@ a:active {
   padding: 3vmin;
   padding-bottom: 8vmin;
   padding-top: 8vmin;
+  filter: drop-shadow(0px 0px 5px rgb(163, 163, 163));
   perspective: 600px;
 }
 
@@ -535,11 +536,11 @@ a:active {
   padding-top: 2%;
   padding-bottom: 2%;
   display: inline-block;
-  background-color: rgba(0, 0, 0, 0.26);
-  color: white;
+  background-color: rgba(255, 255, 255, 0.199);
   transition: 0.4s;
   border-radius: 3vmin;
   transform: rotateX(10deg);
+  box-shadow: 0px 0px 20px rgb(58, 58, 58);
 }
 
 .service:hover {
@@ -559,6 +560,7 @@ a:active {
   width: 60%;
   margin: auto;
   margin-top: 3vw;
+  color: rgb(0, 0, 0);
   background-repeat: no-repeat;
   background-position: top;
   filter: drop-shadow(0px 0px 50px rgb(255, 255, 255));

@@ -11,11 +11,7 @@ html {
 
 body {
   background-color: rgb(255, 255, 255);
-  background: url("wallpaper1.jpg");
-  background-size: 100%;
-  background-position-y: top;
-  transition: 0.1s;
-  background-attachment: fixed;
+  background: url(wallpaper1.jpg);
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");

@@ -11,11 +11,6 @@ html {
 
 body {
   background-color: rgb(255, 255, 255);
-  background: url("wallpaper1.jpg");
-  background-size: 100%;
-  background-position-y: top;
-  transition: 0.1s;
-  background-attachment: fixed;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
@@ -364,7 +359,7 @@ a:active {
 
 }
 
-.project-hover {
+.project-slide {
   position: relative;
   transition: 0.5s;
   width: 47%;
@@ -473,12 +468,12 @@ a:active {
   background-image: url("./1.png");
   background-size: cover;
   background-position-x: center;
-  background-position-y: top;
+  transform: translateY(0%);
   transition: 6s;
 }
 
 .website8:hover {
-  background-position-y: bottom;
+  transform: translateY(100%);
 }
 
 .website10 {

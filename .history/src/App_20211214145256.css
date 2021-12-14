@@ -15,7 +15,7 @@ body {
   background-size: 100%;
   background-position-y: top;
   transition: 0.1s;
-  background-attachment: fixed;
+  background-attachment: fixed
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");

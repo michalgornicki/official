@@ -19,10 +19,10 @@ const Projects = () => {
               data-aos-delay="0"
             >
               <img className="project website8" alt="" />
-              <div className="project-text">
+              <div className="slide-text">
               <h2 className="slide-header">Smart home app website.</h2>
               <h3 className="slide-footer">JSX/CSS, React JS.</h3>
-              </div>
+              
             </div>
           </a>
         </div>

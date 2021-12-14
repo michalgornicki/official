@@ -32,8 +32,7 @@ window.onscroll = () => {
 
   let scroll = window.scrollY;
   console.log(scroll);
-  document.body.style.backgroundPositionY = scroll/10 + "%";
-  console.log(-scroll + "%")
+  document.getElementsByClassName("wallpaper-2").style.transform = "rgb(" + 700000/scroll + "," + 700000/scroll + "," + 700000/scroll + ")";
 };
 
 function App() {

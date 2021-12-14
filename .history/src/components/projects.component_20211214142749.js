@@ -5,7 +5,7 @@ const Projects = () => {
 
   return (
     <div id="container2" data-aos="fade-up">
-      <h2 className="header " id="header-projects" data-aos="fade">
+      <h2 className="header black" id="header-projects" data-aos="fade">
         Projects
       </h2>
 
@@ -19,10 +19,8 @@ const Projects = () => {
               data-aos-delay="0"
             >
               <img className="project website8" alt="" />
-              <div className="project-text">
               <h2 className="slide-header">Smart home app website.</h2>
               <h3 className="slide-footer">JSX/CSS, React JS.</h3>
-              </div>
             </div>
           </a>
         </div>

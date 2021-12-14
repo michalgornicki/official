@@ -30,10 +30,6 @@ window.onscroll = () => {
       "rgb(255, 255, 255, 0.7)";
   }
 
-  let scroll = window.scrollY;
-  console.log(scroll);
-  document.body.style.backgroundPositionY = scroll/10 + "%";
-  console.log(-scroll + "%")
 };
 
 function App() {

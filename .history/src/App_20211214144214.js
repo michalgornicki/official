@@ -32,8 +32,9 @@ window.onscroll = () => {
 
   let scroll = window.scrollY;
   console.log(scroll);
-  document.body.style.backgroundPositionY = scroll/10 + "%";
-  console.log(-scroll + "%")
+  document.body.style.transform = "translateY(" + 200/scroll + "%)";
+  console.log("translateX(" + scroll + "deg)");
+
 };
 
 function App() {

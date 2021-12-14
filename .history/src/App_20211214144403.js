@@ -32,8 +32,8 @@ window.onscroll = () => {
 
   let scroll = window.scrollY;
   console.log(scroll);
-  document.body.style.backgroundPositionY = scroll/10 + "%";
-  console.log(-scroll + "%")
+  document.body.style.back = "translateY(" + scroll/10 + "%)";
+
 };
 
 function App() {

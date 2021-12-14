@@ -11,7 +11,7 @@ const Projects = () => {
 
       <div className="project-wrapper">
 
-      <div className="project-hover">
+      <div className="project-slide">
           <a href="https://michalgornicki.github.io/smartify/">
             <div
               className="project-slide"
@@ -19,7 +19,7 @@ const Projects = () => {
               data-aos-delay="0"
             >
               <img className="project website8" alt="" />
-              <div className="project-text">
+              <div className="slide-text">
               <h2 className="slide-header">Smart home app website.</h2>
               <h3 className="slide-footer">JSX/CSS, React JS.</h3>
               </div>
@@ -27,7 +27,7 @@ const Projects = () => {
           </a>
         </div>
 
-        <div className="project-hover">
+        <div className="project-slide">
           <a href="https://michalgornicki.github.io/electronet/">
             <div
               className="project-slide"
@@ -41,7 +41,7 @@ const Projects = () => {
           </a>
         </div>
 
-      <div className="project-hover">
+      <div className="project-slide">
           <a href="http://fantasyblog.mywebcommunity.org">
             <div
               className="project-slide"
@@ -57,7 +57,7 @@ const Projects = () => {
           </a>
         </div>
 
-        <div className="project-hover">
+        <div className="project-slide">
           <a href="https://michalgornicki.github.io/space_x_clone/">
             <div
               className="project-slide"
@@ -73,7 +73,7 @@ const Projects = () => {
           </a>
         </div>
 
-      <div className="project-hover">
+      <div className="project-slide">
           <a href="https://michalgornicki.github.io/bitcoin-virtual/">
             <div
               className="project-slide"
@@ -93,7 +93,7 @@ const Projects = () => {
 
 
 
-        <div className="project-hover">
+        <div className="project-slide">
           <a href="https://michalgornicki.github.io/poland-covid/">
             <div
               className="project-slide"
@@ -109,7 +109,7 @@ const Projects = () => {
 
         
 
-        <div className="project-hover">
+        <div className="project-slide">
           <a href="https://michalgornicki.github.io/number-generator/">
             <div
               className="project-slide"
@@ -123,7 +123,7 @@ const Projects = () => {
           </a>
         </div>
 
-        <div className="project-hover">
+        <div className="project-slide">
           <a href="https://michalgornicki.github.io/insta-note/">
             <div
               className="project-slide"
@@ -137,7 +137,7 @@ const Projects = () => {
           </a>
         </div>
 
-        <div className="project-hover">
+        <div className="project-slide">
           <a href="https://michalgornicki.github.io/findings/">
             <div
               className="project-slide"
@@ -152,7 +152,7 @@ const Projects = () => {
         </div>
 
 
-        <div className="project-hover">
+        <div className="project-slide">
           <div className="project-slide" data-aos="fade-up" data-aos-delay="0">
             <img className="project website0" alt="" />
             <h2 className="slide-header">My official website.</h2>
@@ -162,7 +162,7 @@ const Projects = () => {
 
 
 
-        <div className="project-hover">
+        <div className="project-slide">
           <a href="https://youtu.be/Xq_YM1_ebq4">
             <div
               className="project-slide"
@@ -178,7 +178,7 @@ const Projects = () => {
           </a>
         </div>
 
-        <div className="project-hover">
+        <div className="project-slide">
           <a href="https://michalgornicki.github.io/virtualpet">
             <div
               className="project-slide"
@@ -194,7 +194,7 @@ const Projects = () => {
           </a>
         </div>
 
-        <div className="project-hover">
+        <div className="project-slide">
           <a href="https://michalgornicki.github.io/restaurant/">
             <div
               className="project-slide"
@@ -210,7 +210,7 @@ const Projects = () => {
           </a>
         </div>
 
-        <div className="project-hover">
+        <div className="project-slide">
           <a href="https://michalgornicki.github.io/artgallery-new/">
             <div
               className="project-slide"

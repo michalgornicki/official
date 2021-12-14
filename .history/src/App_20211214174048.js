@@ -63,7 +63,6 @@ function App() {
               <div
                 className="navbar-item"
                 onClick={() => setToogleNavbar(false)}
-
               >
                 Projects
               </div>

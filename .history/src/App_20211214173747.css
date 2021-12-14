@@ -1,12 +1,3 @@
-body {
-  background-color: rgb(255, 255, 255);
-  background: url("wallpaper2.jpg");
-  background-size: 100%;
-  background-position-y: top;
-  background-attachment: fixed;
-  margin: 0px;
-}
-
 .App {
   text-align: none;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,8 +9,16 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: rgb(255, 255, 255);
+  background: url("wallpaper2.jpg");
+  background-size: %;
+  background-position-y: top;
+  background-attachment: fixed;
+  transition: 2s;
+}
 
-
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
 
 .navbar {
   position: fixed;

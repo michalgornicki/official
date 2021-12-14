@@ -5,6 +5,7 @@ body {
   background-position-y: top;
   background-attachment: fixed;
   margin: 0px;
+  transition: 1s;
 }
 
 .App {

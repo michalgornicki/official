@@ -4,7 +4,8 @@ body {
   background-size: 100%;
   background-position-y: top;
   background-attachment: fixed;
-  margin: 0px;
+  transition: 2s;
+  margin: 8px;
 }
 
 .App {

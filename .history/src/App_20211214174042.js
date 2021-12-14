@@ -30,8 +30,7 @@ window.onscroll = () => {
       "rgb(255, 255, 255, 0.7)";
   }
 
-  let scroll = window.scrollY;
-  document.body.style.backgroundPositionY = scroll/75 + "%";
+
 };
 
 function App() {
@@ -63,7 +62,6 @@ function App() {
               <div
                 className="navbar-item"
                 onClick={() => setToogleNavbar(false)}
-
               >
                 Projects
               </div>

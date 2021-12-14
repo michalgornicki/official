@@ -64,6 +64,7 @@ function App() {
                 className="navbar-item"
                 onClick={() => setToogleNavbar(false)}
 
+                .wallpaper-2
               >
                 Projects
               </div>

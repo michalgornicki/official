@@ -674,7 +674,7 @@ a:active {
   background: url("wallpaper2.jpg");
   background-size: 200% 200%;
   background-position-y: top;
-  transition: 2s;
+  transition: 0.1s;
   background-attachment: fixed;
   }
 

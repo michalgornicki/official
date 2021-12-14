@@ -225,16 +225,7 @@ body {
   text-align: center;
 }
 
-@keyframes slideUp {
-  0% {
-    filter: opacity(0);
-    top: 8vmin;
-  }
-  100% {
-    filter: opacity(1);
-    top: 0vmin;
-  }
-}
+
 
 .large {
   position: relative;
@@ -674,7 +665,7 @@ a:active {
   background: url("wallpaper2.jpg");
   background-size: 200% 200%;
   background-position-y: top;
-  transition: 2s;
+  transition: 0.1s;
   background-attachment: fixed;
   }
 

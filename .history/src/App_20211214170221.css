@@ -56,7 +56,6 @@ body {
   height: 100vh;
   display: flex;
   position: absolute;
-  transition: 0.5s;
 }
 
 .part {
@@ -214,6 +213,14 @@ body {
   box-shadow: 0px 0px 0px rgb(116, 116, 116);
 }
 
+@keyframes fadeOn {
+  0% {
+    right: -15vmin;
+  }
+  100% {
+    right: 15vmin;
+  }
+}
 
 .text-wrapper {
   position: relative;
@@ -674,7 +681,7 @@ a:active {
   background: url("wallpaper2.jpg");
   background-size: 200% 200%;
   background-position-y: top;
-  transition: 2s;
+  transition: 0.1s;
   background-attachment: fixed;
   }
 

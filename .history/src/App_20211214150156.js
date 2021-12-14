@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet";
 import "./App.css";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import "aos/dist/aos.js";
 import Profile from "./components/profile.component.js";
 import Projects from "./components/projects.component.js";
 import Skills from "./components/skills.component.js";

@@ -21,8 +21,8 @@ window.onscroll = () => {
       "rgb(255, 255, 255, 0.7)";
   }
 
-  let scroll = window.screen.availWidth > 800 ? window.scrollY/2 : window.scrollY;
-  document.body.style.backgroundPositionY = -scroll/10 - 10 + "%";
+  let scroll = window.scrollY;
+  document.body.style.backgroundPositionY = scroll/5 + "%";
 };
 
 function App() {

@@ -671,6 +671,8 @@ a:active {
   body{
   background-size: 300%;
   background-position-y: top;
+  background-attachment: scroll;
+  transition: 0.2s;
   }
 
   .text-wrapper {

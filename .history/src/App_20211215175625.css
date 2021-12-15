@@ -188,8 +188,12 @@ html {
 #container4 {
   position: relative;
   height: auto;
+
 }
 
+#container5 {
+  height: 120vh;
+}
 
 .bottom-bar {
   height: 30vh;
@@ -737,7 +741,7 @@ a:active {
 
   #container1 {
     left: 0%;
-    height: 180vw;
+    height: 160vw;
   }
 
   #container2 {
@@ -746,12 +750,12 @@ a:active {
   }
 
   #container3 {
-    height: 180vw;
+    height: 100vh;
     background-size: 120% 120%;
   }
 
   #container5 {
-    height: 180vw;
+    height: 100vh;
   }
 
   .slide-down {

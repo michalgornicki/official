@@ -10,8 +10,7 @@ body {
   background-position-y: top;
   background-attachment: fixed;
   margin: 0px;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
+  overflow
 }
 
 .App {
@@ -22,7 +21,7 @@ body {
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 

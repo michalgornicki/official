@@ -20,7 +20,7 @@ window.onscroll = () => {
     document.getElementsByClassName("navbar")[0].style.backgroundColor =
       "rgb(255, 255, 255, 0.7)";
 
-      var BG = document.body;
+      var BG = document.getElementById('bg1');
       BG.style.height = BG.parentElement.clientHeight;
   }
 

@@ -6,10 +6,12 @@ body {
   background-color: black;
   font-family: 'Fuzzy Bubbles', cursive;
   background: url("wallpaper2.jpg");
-  background-size: 100%;
+  background-size: 110%;
   background-position-y: top;
   background-attachment: fixed;
   margin: 0px;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 .App {
@@ -20,6 +22,7 @@ body {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 

@@ -21,7 +21,7 @@ window.onscroll = () => {
       "rgb(255, 255, 255, 0.7)";
 
       var BG = document.body;
-      BG.style.height = BG.parentElement.clientHeight;
+      BG.style.height = 100px";
   }
 
   let scroll = window.scrollY;

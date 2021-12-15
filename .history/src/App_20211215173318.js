@@ -5,6 +5,7 @@ import Profile from "./components/profile.component.js";
 import Projects from "./components/projects.component.js";
 import Skills from "./components/skills.component.js";
 import Services from "./components/services.component.js";
+import Contact from "./components/contact.component.js";
 import Bottombar from "./components/bottombar.component.js";
 import menu from "./menu.png";
 import menuClose from "./menu-close.png";
@@ -19,9 +20,6 @@ window.onscroll = () => {
     document.getElementsByClassName("navbar")[0].style.height = "7vh";
     document.getElementsByClassName("navbar")[0].style.backgroundColor =
       "rgb(255, 255, 255, 0.7)";
-
-      var BG = document.body;
-      BG.style.height = BG.parentElement.clientHeight;
   }
 
   let scroll = window.scrollY;
@@ -30,6 +28,13 @@ window.onscroll = () => {
 
 function App() {
   const [toogleNavbar, setToogleNavbar] = useState(false);
+
+
+  document.ready(function() {
+    var BG = document.getElementById('bg1');
+    BG.style.height = BG.parentElement.clientHeight;
+ });
+
 
   return (
     <div className="App">

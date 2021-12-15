@@ -752,8 +752,8 @@ a:active {
   }
 
   #container3 {
-    height: 100vh;
-
+    height: fit-content;
+    padding-bottom: 50px;
   }
 
   #container5 {

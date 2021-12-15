@@ -11,7 +11,7 @@ body {
   background-attachment: fixed;
   margin: 0px;
   height: 100vh;
-  max-height: calc(100vh - 120px)
+  max-height: calc(100vh - )
 }
 
 .App {

@@ -10,8 +10,8 @@ body {
   background-position-y: top;
   background-attachment: fixed;
   margin: 0px;
-  height: 100vh;
-  max-height: calc(100vh - 120px)
+  height: 100vh; 
+  height: calc(var(--vh, 1vh) * 100;
 }
 
 .App {

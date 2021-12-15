@@ -669,9 +669,10 @@ a:active {
 @media only screen and (max-device-width: 600px), (max-width: 600px) {
 
   body{
+  background-size: 300%;
+  background-position-y: top;
   background: none;
   background-color: rgb(138, 202, 221);
-  background-attachment: scroll;
   }
 
   .text-wrapper {
@@ -748,7 +749,8 @@ a:active {
   #container2 {
     height: fit-content;
     padding-bottom: 50px;
-    background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(245, 245, 245, 0.5);
+
   }
 
   #container3 {

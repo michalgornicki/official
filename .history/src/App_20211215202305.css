@@ -669,9 +669,12 @@ a:active {
 @media only screen and (max-device-width: 600px), (max-width: 600px) {
 
   body{
+  background-position-y: top;
   background: none;
   background-color: rgb(138, 202, 221);
-  background-attachment: scroll;
+
+  background-attachment: fixed;
+
   }
 
   .text-wrapper {

@@ -671,7 +671,7 @@ a:active {
   body{
   background: none;
   background-color: rgb(138, 202, 221);
-  background-attachment: scroll;
+  background-attachment: fixed;
   }
 
   .text-wrapper {

@@ -22,8 +22,8 @@ body {
 
 html {
   scroll-behavior: smooth;
-  height: calc(100% + 80px);
-  min-height: calc(100% + 80px);
+  height: calc(100% + 60px);
+  min-height: calc(100% + 60px);
 }
 
 .navbar {

@@ -22,7 +22,7 @@ window.onscroll = () => {
   }
 
   let scroll = window.screen.availWidth > 800 ? window.scrollY/2 : 0;
-  document.body.style.backgroundPositionY = scroll/75 + "%";
+  document.body.style.backgroundPositionY = -scroll/75 - 10 + "%";
 };
 
 function App() {

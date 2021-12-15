@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
-
-
 body {
-  font-family: 'Fuzzy Bubbles', cursive;
   background-color: rgb(255, 255, 255);
   background: url("wallpaper2.jpg");
   background-size: 100%;
@@ -14,6 +9,7 @@ body {
 
 .App {
   text-align: none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   overflow: hidden;
   user-select: none;
 }
@@ -221,7 +217,6 @@ html {
 
 
 .text-wrapper {
-  font-family: 'Indie Flower', cursive;
   position: relative;
   top: 28vh;
   margin: auto;
@@ -281,7 +276,7 @@ html {
 
 .slide-header {
   margin: 0;
-  font-size: 3.5vmin;
+  font-size: 2.5vw;
   font-weight: 400;
   margin-left: 2vmin;
   color: rgb(0, 0, 0);
@@ -289,7 +284,7 @@ html {
 
 .slide-footer {
   margin: 0;
-  font-size: 2vmin;
+  font-size: 1.3vw;
   font-weight: 100;
   margin-left: 2vmin;
   color: rgb(0, 0, 0);
@@ -329,9 +324,7 @@ a:active {
   color: rgb(99, 99, 99);
 }
 
-
 .header {
-  font-family:'Indie Flower', cursive;
   position: relative;
   font-size: 6vmin;
   color: rgb(0, 0, 0);
@@ -919,13 +912,8 @@ a:active {
     border-radius: 0%;
   }
 
-  .contact {
-    width: 15%;
-    margin-bottom: 8vmin;
-  }
-
   .contact-icon {
-    width: 70%;
+    width: 30%;
     display: block;
     margin: auto;
     border-radius: 0%;

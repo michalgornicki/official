@@ -281,7 +281,7 @@ html {
 
 .slide-header {
   margin: 0;
-  font-size: 3.5vmin;
+  font-size: 2.5vw;
   font-weight: 400;
   margin-left: 2vmin;
   color: rgb(0, 0, 0);
@@ -289,7 +289,7 @@ html {
 
 .slide-footer {
   margin: 0;
-  font-size: 2vmin;
+  font-size: 1.3vw;
   font-weight: 100;
   margin-left: 2vmin;
   color: rgb(0, 0, 0);

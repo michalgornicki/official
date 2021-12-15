@@ -9,7 +9,7 @@ const Bottombar = () => {
   return (
     <div className="bottom-bar">
 
-      <div className="contact-wrapper" id="contact-wrapper">
+      <div className="contact-wrapper"  id="container5">
         <div className="contact">
           {" "}
           <a href="mailto:gornickimichal@gmail.com"><img className="contact-icon" src={gmail} alt="" /></a>
@@ -33,9 +33,7 @@ const Bottombar = () => {
         </div>
       </div>
 
-      <h2 className="bottom-bar-text">phone: 662-047-277</h2>
-      <a href="mailto:gornickimichal@gmail.com"><h2 className="bottom-bar-text">e-mail: gornickimichal@gmail.com</h2></a>
-      <h2 className="bottom-bar-text">© 2021 Developed by micdev</h2>
+      <h2 className="bottom-bar-text">© 2021 Developed by Michał Górnicki.</h2>
 
     </div>
   );

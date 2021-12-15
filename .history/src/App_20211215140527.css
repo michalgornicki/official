@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
-
-
 body {
-  font-family: 'Fuzzy Bubbles', cursive;
   background-color: rgb(255, 255, 255);
   background: url("wallpaper2.jpg");
   background-size: 100%;
@@ -14,6 +9,7 @@ body {
 
 .App {
   text-align: none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   overflow: hidden;
   user-select: none;
 }
@@ -178,7 +174,7 @@ html {
 
 #container3 {
   position: relative;
-  height: 100vh;
+  height: auto;
   padding-bottom: 10vmin;
   background-color: rgba(0, 0, 0, 0.2);
 
@@ -195,7 +191,7 @@ html {
 }
 
 .bottom-bar {
-  height: 30vh;
+  height: 25vh;
   background-color: rgb(0, 0, 0);
   margin-top: -40px;
 }
@@ -221,7 +217,6 @@ html {
 
 
 .text-wrapper {
-  font-family: 'Indie Flower', cursive;
   position: relative;
   top: 28vh;
   margin: auto;
@@ -281,7 +276,7 @@ html {
 
 .slide-header {
   margin: 0;
-  font-size: 3.5vmin;
+  font-size: 2.5vw;
   font-weight: 400;
   margin-left: 2vmin;
   color: rgb(0, 0, 0);
@@ -289,7 +284,7 @@ html {
 
 .slide-footer {
   margin: 0;
-  font-size: 2vmin;
+  font-size: 1.3vw;
   font-weight: 100;
   margin-left: 2vmin;
   color: rgb(0, 0, 0);
@@ -329,9 +324,7 @@ a:active {
   color: rgb(99, 99, 99);
 }
 
-
 .header {
-  font-family:'Indie Flower', cursive;
   position: relative;
   font-size: 6vmin;
   color: rgb(0, 0, 0);
@@ -583,7 +576,7 @@ a:active {
 .skill {
   position: relative;
   display: inline-grid;
-  width: 8%;
+  width: 15%;
   text-align: center;
   font-weight: 900;
   color: rgb(0, 0, 0);
@@ -636,10 +629,11 @@ a:active {
 .contact {
   display: block;
   margin: auto;
+  filter: drop-shadow(0px 0px 10px rgb(66, 66, 66));
 }
 
 .contact-icon {
-  width: 30%;
+  width: 50%;
   display: block;
   margin: auto;
   border-radius: 0%;
@@ -820,6 +814,10 @@ a:active {
     padding-bottom: 2vmin;
   }
 
+  .contact {
+    width: 35%;
+    margin-bottom: 8vmin;
+  }
 
   .bottom-bar-text {
     font-size: 4vmin;
@@ -919,19 +917,5 @@ a:active {
     border-radius: 0%;
   }
 
-  .contact {
-    width: 15%;
-    margin-bottom: 8vmin;
-  }
-
-  .contact-icon {
-    width: 70%;
-    display: block;
-    margin: auto;
-    border-radius: 0%;
-    background-color: black;
-    padding: 2vmin;
-    border-radius: 2vmin;
-  }
 
 }

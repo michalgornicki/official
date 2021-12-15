@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
 
 
 body {
-  font-family: 'Fuzzy Bubbles', cursive;
   background-color: rgb(255, 255, 255);
   background: url("wallpaper2.jpg");
   background-size: 100%;
@@ -281,7 +279,7 @@ html {
 
 .slide-header {
   margin: 0;
-  font-size: 3.5vmin;
+  font-size: 2.5vw;
   font-weight: 400;
   margin-left: 2vmin;
   color: rgb(0, 0, 0);
@@ -289,7 +287,7 @@ html {
 
 .slide-footer {
   margin: 0;
-  font-size: 2vmin;
+  font-size: 1.3vw;
   font-weight: 100;
   margin-left: 2vmin;
   color: rgb(0, 0, 0);

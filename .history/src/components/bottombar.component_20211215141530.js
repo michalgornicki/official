@@ -34,8 +34,8 @@ const Bottombar = () => {
       </div>
 
       <h2 className="bottom-bar-text">phone: 662-047-277</h2>
-      <a href="mailto:gornickimichal@gmail.com"><h2 className="bottom-bar-text">e-mail: gornickimichal@gmail.com</h2></a>
-      <h2 className="bottom-bar-text">© 2021 Developed by micdev</h2>
+      <a href="mailto:gornickimichal@gmail.com"><h2 className="bottom-bar-text">e-mail: gornickimichal@gmail.com</h2>
+      <h2 className="bottom-bar-text">© 2021 Developed by Michał Górnicki.</h2>
 
     </div>
   );

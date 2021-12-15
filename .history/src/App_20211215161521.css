@@ -3,10 +3,8 @@
 
 
 body {
-  background-color: black;
   font-family: 'Fuzzy Bubbles', cursive;
   background: url("wallpaper2.jpg");
-  background-size: 100%;
   background-position-y: top;
   background-attachment: fixed;
   margin: 0px;
@@ -668,7 +666,6 @@ a:active {
 @media only screen and (max-device-width: 600px), (max-width: 600px) {
 
   body{
-  background-size: 200% 200%;
   background-position-y: top;
   background-attachment: fixed;
   }

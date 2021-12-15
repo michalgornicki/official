@@ -3,7 +3,6 @@
 
 
 body {
-  background-color: black;
   font-family: 'Fuzzy Bubbles', cursive;
   background: url("wallpaper2.jpg");
   background-size: 100%;
@@ -173,6 +172,7 @@ html {
 #container2 {
   height: auto;
   padding-bottom: 10vmin;
+  back
 
 }
 

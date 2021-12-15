@@ -3,10 +3,10 @@
 
 
 body {
-  background-color: black;
   font-family: 'Fuzzy Bubbles', cursive;
-  background: url("wallpaper2.jpg");
+  background-color: rgb(243, 243, 243);
   background-size: 100%;
+  background: url("wallpaper2.jpg");
   background-position-y: top;
   background-attachment: fixed;
   margin: 0px;

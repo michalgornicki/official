@@ -3,9 +3,8 @@
 
 
 body {
-  background-color: black;
+  background-color: rgb(145, 145, 145);
   font-family: 'Fuzzy Bubbles', cursive;
-  background: url("wallpaper2.jpg");
   background-size: 100%;
   background-position-y: top;
   background-attachment: fixed;

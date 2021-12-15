@@ -173,7 +173,7 @@ html {
 #container2 {
   height: auto;
   padding-bottom: 10vmin;
-  background-color: rgba(245, 245, 245, 0.5);
+  background-color: rgba(245, 245, 245, 0.7);
 }
 
 #container3 {
@@ -182,7 +182,7 @@ html {
   padding-bottom: 10vmin;
   background: url("wallpaper3.jpg");
   background-size: cover;
-  background-position-y: 70%;
+  
 }
 
 #container4 {

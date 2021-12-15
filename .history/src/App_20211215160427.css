@@ -4,7 +4,8 @@
 
 body {
   font-family: 'Fuzzy Bubbles', cursive;
-  background-color: rgb(243, 243, 243);
+  background-color: rgb(255, 255, 255);
+  background: url("wallpaper2.jpg");
   background-size: 100%;
   background-position-y: top;
   background-attachment: fixed;
@@ -667,6 +668,8 @@ a:active {
 @media only screen and (max-device-width: 600px), (max-width: 600px) {
 
   body{
+  background-color: rgb(255, 255, 255);
+  background: url("wallpaper2.jpg");
   background-size: 200% 200%;
   background-position-y: top;
   background-attachment: fixed;

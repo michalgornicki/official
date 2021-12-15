@@ -12,7 +12,7 @@ const Profile = () => {
     setMousePosX(X);
     setMousePosY(Y);
     document.getElementsByClassName("wallpaper")[0].style.filter = "brightness(" + parseFloat(mousePosY/1200 + 0.7) + ") sepia(" + parseFloat(mousePosX/1500 - 0.3) + ")";
-    document.getElementsByClassName("text-wrapper")[0].style.transform = "rotateX(" + parseFloat(mousePosY/20 - 20) + "deg) rotateY(" + parseFloat(mousePosX/50 - 10) + "deg)";
+    document.getElementsByClassName("text-wrapper")[0].style.transform = "rotateX(" + parseFloat(mousePosY/100 - 2.5) + "deg) rotateY(" + parseFloat(mousePosX/200 - 2.5) + "deg)";
   };
 
   
@@ -27,7 +27,7 @@ const Profile = () => {
       </div>
       
       <div className="text-wrapper" onMouseMove={mouseMove}>
-        <h2 className="medium">MICHAEL GÓRNICKI</h2>
+        <h2 className="medium">MICHAŁ GÓRNICKI</h2>
         <h1 className="large">Front-end developer</h1>
         <h3 className="small">
           Self-taught, skilled, helpful and pro-active front end developer since 2019. Creating projects from templates or from scratch.{" "}

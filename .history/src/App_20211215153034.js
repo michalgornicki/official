@@ -23,7 +23,6 @@ window.onscroll = () => {
 
   let scroll = window.scrollY;
   document.body.style.backgroundPositionY = scroll/75 + "%";
-  document.getElementById("container3").style.backgroundPositionY = -scroll/10 + 20 + "%";
 };
 
 function App() {
@@ -37,7 +36,7 @@ function App() {
             name="viewport"
             content="width=device-width, user-scalable=no"
           />
-          <title>Michał Górnicki - official website</title>
+          <title>Michal Gornicki - official website</title>
           </Helmet>
           
       <div className="navbar">

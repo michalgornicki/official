@@ -23,7 +23,7 @@ window.onscroll = () => {
 
   let scroll = window.scrollY;
   document.body.style.backgroundPositionY = scroll/75 + "%";
-  document.getElementById("container3").style.backgroundPositionY = -scroll/10 + 20 + "%";
+  document.getElementsByClassName.style.backgroundPositionY = scroll/75 + "%";
 };
 
 function App() {

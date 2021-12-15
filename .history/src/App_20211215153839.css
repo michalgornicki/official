@@ -181,7 +181,6 @@ html {
   height: 100vh;
   padding-bottom: 10vmin;
   background: url("wallpaper3.jpg");
-  background-size: 101%;
 }
 
 #container4 {
@@ -753,7 +752,6 @@ a:active {
 
   #container3 {
     height: 100vh;
-    background-size: 120% 120%;
 
   }
 

@@ -668,7 +668,7 @@ a:active {
 @media only screen and (max-device-width: 600px), (max-width: 600px) {
 
   body{
-  background-size: 100vw 200vw;
+  background-size: 100vw 800vw;
   background-position-y: top;
   background-attachment: fixed;
   }

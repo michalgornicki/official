@@ -19,6 +19,7 @@ window.onscroll = () => {
     document.getElementsByClassName("navbar")[0].style.height = "7vh";
     document.getElementsByClassName("navbar")[0].style.backgroundColor =
       "rgb(255, 255, 255, 0.7)";
+
   }
 
   let scroll = window.scrollY;

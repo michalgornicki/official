@@ -3,7 +3,6 @@
 
 
 body {
-  position: relative;
   background-color: black;
   font-family: 'Fuzzy Bubbles', cursive;
   background: url("wallpaper2.jpg");
@@ -12,18 +11,12 @@ body {
   background-attachment: fixed;
   margin: 0px;
   height: 100vh;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100vw;
 }
 
 .App {
   text-align: none;
   overflow: hidden;
   user-select: none;
-  height: 100%;
 }
 
 html {

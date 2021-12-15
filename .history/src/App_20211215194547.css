@@ -3,7 +3,7 @@
 
 
 body {
-  position: relative;
+  pos
   background-color: black;
   font-family: 'Fuzzy Bubbles', cursive;
   background: url("wallpaper2.jpg");
@@ -23,7 +23,6 @@ body {
   text-align: none;
   overflow: hidden;
   user-select: none;
-  height: 100%;
 }
 
 html {

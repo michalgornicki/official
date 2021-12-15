@@ -764,6 +764,9 @@ a:active {
     height: 40vmin;
   }
 
+  .skill-description {
+    font-size: 3.5vmin;
+  }
 
   .skill-title {
     line-height: 4vmin;
@@ -801,9 +804,8 @@ a:active {
   }
 
   .service-description {
-    width: 80%;
+    width: 60%;
     font-size: 5vmin;
-    padding-bottom: 2vmin;
   }
 
   .contact {
@@ -903,7 +905,7 @@ a:active {
   }
 
   .tech-icon {
-    width: 80%;
+    width: 70%;
     display: block;
     margin: auto;
     border-radius: 0%;

@@ -724,7 +724,7 @@ a:active {
   }
 
   .slide-footer {
-    font-size: 4vmin;
+    font-size: 3vmin;
   }
 
   #container1 {
@@ -764,6 +764,9 @@ a:active {
     height: 40vmin;
   }
 
+  .skill-description {
+    font-size: 3.5vmin;
+  }
 
   .skill-title {
     line-height: 4vmin;
@@ -801,9 +804,8 @@ a:active {
   }
 
   .service-description {
-    width: 80%;
+    width: 60%;
     font-size: 5vmin;
-    padding-bottom: 2vmin;
   }
 
   .contact {
@@ -900,13 +902,6 @@ a:active {
 
   .part1{
   background-position-x: 25%;
-  }
-
-  .tech-icon {
-    width: 80%;
-    display: block;
-    margin: auto;
-    border-radius: 0%;
   }
 
 

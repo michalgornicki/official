@@ -591,7 +591,8 @@ a:active {
   top: -0px;
   margin: 2vmin;
   padding: 2vmin;
-  background-color: rgba(255, 255, 255, 0.1);
+  filter: drop-shadow(0px 0px 10px rgb(66, 66, 66));
+  background-color: black;
   border-radius: 2vmin;
 }
 

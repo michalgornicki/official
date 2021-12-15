@@ -10,7 +10,6 @@ body {
   background-position-y: top;
   background-attachment: fixed;
   margin: 0px;
-  height: 100vh;
 }
 
 .App {
@@ -21,7 +20,6 @@ body {
 
 html {
   scroll-behavior: smooth;
-  height: 100vh;
 }
 
 
@@ -670,11 +668,9 @@ a:active {
 @media only screen and (max-device-width: 600px), (max-width: 600px) {
 
   body{
-  background-size: 150%;
+  background-size: 100%;
   background-position-y: top;
   background-attachment: fixed;
-  height: 400vh;
-
   }
 
   .text-wrapper {
@@ -755,7 +751,7 @@ a:active {
 
   #container3 {
     height: 100vh;
-    background-size: cover;
+    background-size: 120% 120%;
   }
 
   #container5 {

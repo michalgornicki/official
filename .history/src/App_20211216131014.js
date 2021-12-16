@@ -12,13 +12,13 @@ import menuClose from "./menu-close.png";
 
 window.onscroll = () => {
   if (window.pageYOffset < 100) {
-    document.getElementsByClassName("navbar")[0].style.height = "8vh";
+    document.getElementsByClassName("navbar")[0].style.height = "10vh";
     document.getElementsByClassName("navbar")[0].style.backgroundColor =
-      "rgba(0, 0, 0, 0.6)";
+      "rgb(0, 0, 0, 1)";
   } else if (window.pageYOffset > 800) {
-    document.getElementsByClassName("navbar")[0].style.height = "5vh";
+    document.getElementsByClassName("navbar")[0].style.height = "7vh";
     document.getElementsByClassName("navbar")[0].style.backgroundColor =
-      "rgba(0, 174, 255, 0.5)";
+      "rgb(0, 0, 0, 0.7)";
   }
 
   let scroll = window.screen.availWidth > 800 ? window.scrollY/2 : 0;

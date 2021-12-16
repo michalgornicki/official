@@ -49,10 +49,11 @@ html {
   transform: translateY(-50%);
   font-size: 3vmin;
   color: rgb(255, 255, 255);
+  transition: 0.3s;
 }
 
 .navbar-item:hover {
-  color: rgb(182, 182, 182);
+  color: rgb(70, 126, 209);
   cursor: pointer;
 }
 

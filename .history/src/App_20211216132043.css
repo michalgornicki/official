@@ -30,7 +30,7 @@ html {
   position: fixed;
   height: 10vmin;
   width: 100%;
-  background-color: rgba(0, 0, 0, 6);
+  background-color: rgba(0, 0, 0, 0.596);
   z-index: 5;
   transition: 0.5s;
 }
@@ -516,14 +516,6 @@ a:active {
 
 .website13:hover {
   background-position-y: 100%;
-}
-
-.website14 {
-  background-image: url("./website14.png");
-  background-size: cover;
-  background-position-x: center;
-  background-position-y: top;
-  transition: 5s;
 }
 
 .service-wrapper {

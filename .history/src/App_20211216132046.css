@@ -518,14 +518,6 @@ a:active {
   background-position-y: 100%;
 }
 
-.website14 {
-  background-image: url("./website14.png");
-  background-size: cover;
-  background-position-x: center;
-  background-position-y: top;
-  transition: 5s;
-}
-
 .service-wrapper {
   position: relative;
   display: flex;

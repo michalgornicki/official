@@ -11,20 +11,7 @@ const Projects = () => {
 
       <div className="project-wrapper">
 
-      <div className="project-hover">
-          <a href="https://michalgornicki.github.io/smile-med/">
-            <div
-              className="project-slide"
-
-            >
-              <img className="project website14" alt="" />
-              <div className="project-text">
-              <h2 className="slide-header">Commercial use website.</h2>
-              <h3 className="slide-footer">React JS and Bootstrap.</h3>
-              </div>
-            </div>
-          </a>
-        </div>
+        
 
       <div className="project-hover">
           <a href="https://michalgornicki.github.io/smartify/">

@@ -17,7 +17,7 @@ const Projects = () => {
               className="project-slide"
 
             >
-              <img className="project website14" alt="" />
+              <img className="project website8" alt="" />
               <div className="project-text">
               <h2 className="slide-header">Commercial use website.</h2>
               <h3 className="slide-footer">React JS and Bootstrap.</h3>

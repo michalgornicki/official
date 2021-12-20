@@ -117,8 +117,8 @@ const Projects = () => {
     />
 
     <Carousel.Caption className="bg-white w-50 m-auto black shadow">
-      <h3>Weather app</h3>
-      <p>React, openweatherapp weather API.</p>
+      <h3>Virtual pet app</h3>
+      <p>HTML, CSS, JS.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -130,7 +130,7 @@ const Projects = () => {
 
     <Carousel.Caption className="bg-white w-50 m-auto black shadow">
       <h3>Virtual pet app</h3>
-      <p>HTML, CSS, JS.</p>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
   

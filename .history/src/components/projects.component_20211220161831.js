@@ -118,7 +118,7 @@ const Projects = () => {
 
     <Carousel.Caption className="bg-white w-50 m-auto black shadow">
       <h3>Weather app</h3>
-      <p>React, openweatherapp weather API.</p>
+      <p>React</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>

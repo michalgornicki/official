@@ -80,10 +80,10 @@ const Projects = () => {
       alt="Third slide"
     />
 
-    <a href="https://michalgornicki.github.io/space_x_clone"><Carousel.Caption className="bg-white w-50 m-auto black shadow">
+    <a href=""><Carousel.Caption className="bg-white w-50 m-auto black shadow">
       <h3>Space X mission explorer</h3>
       <p>React js, React Hooks, GraphQL database.</p>
-    </Carousel.Caption></a>
+    </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
@@ -92,10 +92,10 @@ const Projects = () => {
       alt="Third slide"
     />
 
-    <a href="https://michalgornicki.github.io/bitcoin-virtual"><Carousel.Caption className="bg-white w-50 m-auto black shadow">
+    <Carousel.Caption className="bg-white w-50 m-auto black shadow">
       <h3>Virtual bitcoin buying app</h3>
       <p>React js, React hooks.</p>
-    </Carousel.Caption></a>
+    </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
@@ -104,10 +104,10 @@ const Projects = () => {
       alt="Third slide"
     />
 
-  <a href="https://michalgornicki.github.io/insta-note"><Carousel.Caption className="bg-white w-50 m-auto black shadow">
+    <Carousel.Caption className="bg-white w-50 m-auto black shadow">
       <h3>Todo list app</h3>
       <p>React js, React hooks.</p>
-    </Carousel.Caption></a>
+    </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
@@ -116,10 +116,10 @@ const Projects = () => {
       alt="Third slide"
     />
 
-    <a href="https://www.youtube.com/watch?v=Xq_YM1_ebq4"> <Carousel.Caption className="bg-white w-50 m-auto black shadow">
+    <Carousel.Caption className="bg-white w-50 m-auto black shadow">
       <h3>Weather app</h3>
       <p>React, openweatherapp weather API.</p>
-    </Carousel.Caption></a> 
+    </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
@@ -128,10 +128,10 @@ const Projects = () => {
       alt="Third slide"
     />
 
-    <a href="https://michalgornicki.github.io/virtual-pet"><Carousel.Caption className="bg-white w-50 m-auto black shadow">
+    <Carousel.Caption className="bg-white w-50 m-auto black shadow">
       <h3>Virtual pet app</h3>
       <p>HTML, CSS, JS.</p>
-    </Carousel.Caption></a>
+    </Carousel.Caption>
   </Carousel.Item>
   
 </Carousel>

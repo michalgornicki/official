@@ -32,10 +32,10 @@ const Projects = () => {
       src={Image1}
       alt="First slide"
     />
-    <a href="https://michalgornicki.github.io/smile-med/"> <Carousel.Caption  className="bg-white w-50 m-auto black shadow shadow">
+    <Carousel.Captionhttps://michalgornicki.github.io/smile-med/</Carousel.Item> className="bg-white w-50 m-auto black shadow shadow">
       <h3>Dental office, commercial website</h3>
       <p>React js, Bootstrap, React Router.</p>
-    </Carousel.Caption></a>
+    </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
@@ -44,10 +44,10 @@ const Projects = () => {
       alt="Second slide"
     />
 
-<a href="https://michalgornicki.github.io/smartify/"><Carousel.Caption className="bg-white w-50 m-auto black shadow">
+    <Carousel.Caption className="bg-white w-50 m-auto black shadow">
       <h3>Smart Home, commercial website</h3>
       <p>React JS.</p>
-    </Carousel.Caption></a>
+    </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
@@ -56,10 +56,10 @@ const Projects = () => {
       alt="Third slide"
     />
 
-<a href="https://michalgornicki.github.io/electronet/"><Carousel.Caption className="bg-white w-50 m-auto black shadow">
+    <Carousel.Caption className="bg-white w-50 m-auto black shadow">
       <h3>Electronics shop</h3>
       <p>React JS.</p>
-    </Carousel.Caption></a>
+    </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
@@ -68,10 +68,10 @@ const Projects = () => {
       alt="Third slide"
     />
 
-    <a href="http://fantasyblog.mywebcommunity.org"><Carousel.Caption className="bg-white w-50 m-auto black shadow">
+    <Carousel.Caption className="bg-white w-50 m-auto black shadow">
       <h3>Wordpress blog</h3>
       <p>Html, CSS, Wordpress.</p>
-    </Carousel.Caption></a>
+    </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
@@ -80,10 +80,10 @@ const Projects = () => {
       alt="Third slide"
     />
 
-    <a href="https://michalgornicki.github.io/space_x_clone"><Carousel.Caption className="bg-white w-50 m-auto black shadow">
+    <Carousel.Caption className="bg-white w-50 m-auto black shadow">
       <h3>Space X mission explorer</h3>
       <p>React js, React Hooks, GraphQL database.</p>
-    </Carousel.Caption></a>
+    </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
@@ -92,10 +92,10 @@ const Projects = () => {
       alt="Third slide"
     />
 
-    <a href="https://michalgornicki.github.io/bitcoin-virtual"><Carousel.Caption className="bg-white w-50 m-auto black shadow">
+    <Carousel.Caption className="bg-white w-50 m-auto black shadow">
       <h3>Virtual bitcoin buying app</h3>
       <p>React js, React hooks.</p>
-    </Carousel.Caption></a>
+    </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
@@ -104,10 +104,10 @@ const Projects = () => {
       alt="Third slide"
     />
 
-  <a href="https://michalgornicki.github.io/insta-note"><Carousel.Caption className="bg-white w-50 m-auto black shadow">
+    <Carousel.Caption className="bg-white w-50 m-auto black shadow">
       <h3>Todo list app</h3>
       <p>React js, React hooks.</p>
-    </Carousel.Caption></a>
+    </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
@@ -116,10 +116,10 @@ const Projects = () => {
       alt="Third slide"
     />
 
-    <a href="https://www.youtube.com/watch?v=Xq_YM1_ebq4"> <Carousel.Caption className="bg-white w-50 m-auto black shadow">
+    <Carousel.Caption className="bg-white w-50 m-auto black shadow">
       <h3>Weather app</h3>
       <p>React, openweatherapp weather API.</p>
-    </Carousel.Caption></a> 
+    </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
@@ -128,10 +128,10 @@ const Projects = () => {
       alt="Third slide"
     />
 
-    <a href="https://michalgornicki.github.io/virtual-pet"><Carousel.Caption className="bg-white w-50 m-auto black shadow">
+    <Carousel.Caption className="bg-white w-50 m-auto black shadow">
       <h3>Virtual pet app</h3>
       <p>HTML, CSS, JS.</p>
-    </Carousel.Caption></a>
+    </Carousel.Caption>
   </Carousel.Item>
   
 </Carousel>

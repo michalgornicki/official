@@ -116,7 +116,7 @@ const Projects = () => {
       alt="Third slide"
     />
 
-    <a href="https://www.youtube.com/watch?v=Xq_YM1_ebq4"> <Carousel.Caption className="bg-white w-50 m-auto black shadow">
+    <a href=""> <Carousel.Caption className="bg-white w-50 m-auto black shadow">
       <h3>Weather app</h3>
       <p>React, openweatherapp weather API.</p>
     </Carousel.Caption></a> 
@@ -128,7 +128,7 @@ const Projects = () => {
       alt="Third slide"
     />
 
-    <a href="https://michalgornicki.github.io/virtual-pet"><Carousel.Caption className="bg-white w-50 m-auto black shadow">
+    <a href=""><Carousel.Caption className="bg-white w-50 m-auto black shadow">
       <h3>Virtual pet app</h3>
       <p>HTML, CSS, JS.</p>
     </Carousel.Caption></a>

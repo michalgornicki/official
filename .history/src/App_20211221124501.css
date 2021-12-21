@@ -172,7 +172,7 @@ html {
 #container2 {
   height: auto;
   padding-bottom: 10vmin;
-  background-color: rgba(245, 245, 245, 0.3);
+  background-color: rgb(0, 0, 0, 0.75);
 }
 
 #container3 {
@@ -181,7 +181,7 @@ html {
   padding-bottom: 10vmin;
   background-size: cover;
   background-position-y: 70%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.26);
 }
 
 #container4 {

@@ -191,10 +191,9 @@ html {
 }
 .bottom-bar {
   position: relative;
-  bottom: 0;
+  top: 0;
   height: fit-content;
   background-color: rgb(0, 0, 0);
-  padding-bottom: 2vmin;
 
 }
 
@@ -699,7 +698,6 @@ a:active {
     width: 80%;
     padding: 2vmin;
     flex-wrap: wrap;
-  margin-top: 0;
   }
 
   .navbar {

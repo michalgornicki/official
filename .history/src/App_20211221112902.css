@@ -189,13 +189,11 @@ html {
   height: auto;
 
 }
-.bottom-bar {
-  position: relative;
-  bottom: 0;
-  height: fit-content;
-  background-color: rgb(0, 0, 0);
-  padding-bottom: 2vmin;
 
+.bottom-bar {
+  height: 30vh;
+  background-color: rgb(0, 0, 0);
+  margin-top: -40px;
 }
 
 
@@ -610,6 +608,8 @@ a:active {
     background: linear-gradient(rgb(255, 255, 255), rgb(189, 189, 189));
     background: url("wallpaper2.jpg");
     background-size: cover;
+
+
   }
 
   .slide-down {
@@ -699,7 +699,7 @@ a:active {
     width: 80%;
     padding: 2vmin;
     flex-wrap: wrap;
-  margin-top: 0;
+    margin-top: 0;
   }
 
   .navbar {
@@ -787,7 +787,7 @@ a:active {
   }
 
   .bottom-bar {
-    height: fit-content;
+    height: 35vh;
     background-color: rgb(0, 0, 0);
   }
 

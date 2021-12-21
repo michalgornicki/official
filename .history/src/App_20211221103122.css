@@ -544,7 +544,7 @@ a:active {
 }
 
   body{
-  background: none;
+  background-size: cover;
   background-attachment: scroll;
   }
 
@@ -598,22 +598,15 @@ a:active {
   #container2 {
     height: 100vh;
     padding-bottom: 50px;
-    background: url("wallpaper2.jpg");
-    background-size: cover;
   }
 
   #container3 {
     height: 100vh;
     background-size: cover;
-    background: linear-gradient(rgb(255, 255, 255), rgb(189, 189, 189));
+
   }
 
   #container4 {
-    background: linear-gradient(rgb(255, 255, 255), rgb(189, 189, 189));
-    background: url("wallpaper2.jpg");
-    background-size: cover;
-
-
   }
 
   .slide-down {

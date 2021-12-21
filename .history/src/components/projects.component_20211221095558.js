@@ -19,7 +19,7 @@ const Projects = () => {
       </h2>
 
       <div className="project-wrapper">
-        <Carousel variant="dark" indicators={false} pause={false} interval="2500">
+        <Carousel variant="dark" indicators={false} pause={false} >
           <Carousel.Item>
             <img className="d-block w-100" src={Image1} alt="First slide" />
             <a href="https://michalgornicki.github.io/smile-med/">

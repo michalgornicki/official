@@ -19,7 +19,7 @@ window.onscroll = () => {
   } else if (window.pageYOffset > 800) {
     document.getElementsByClassName("navbar")[0].style.height = "5vh";
     document.getElementsByClassName("navbar")[0].style.backgroundColor =
-      "rgba(0, 0, 0, 0.5)";
+      "rgba(0, 0, 0, 0.2)";
   }
 
   let scroll = window.screen.availWidth > 800 ? window.scrollY/2 : 0;
@@ -67,7 +67,14 @@ function App() {
                 Skills
               </div>
             </a>
-          
+            <a href="#container4">
+              <div
+                className="navbar-item"
+                onClick={() => setToogleNavbar(false)}
+              >
+                Services
+              </div>
+            </a>
             <a href="#contact-wrapper">
               <div
                 className="navbar-item"

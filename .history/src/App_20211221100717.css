@@ -598,7 +598,7 @@ a:active {
   #container2 {
     height: 100vh;
     padding-bottom: 50px;
-    background: linear-gradient(rgb(255, 255, 255), rgb(189, 189, 189));
+    background: linear-gradient(rgb(255, 255, 255), rgb(201, 201, 201));
   }
 
   #container3 {
@@ -607,7 +607,7 @@ a:active {
   }
 
   #container4 {
-    background: linear-gradient(rgb(255, 255, 255), rgb(189, 189, 189));
+    background: linear-gradient(rgb(255, 255, 255), rgb(73, 73, 73));
   }
 
   .slide-down {

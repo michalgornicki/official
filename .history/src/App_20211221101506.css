@@ -167,12 +167,16 @@ html {
   height: 100vh;
   width: 100%;
   perspective: 300px;
+  box-shadow: 0px 0px 30px black;
+
 }
 
 #container2 {
   height: auto;
   padding-bottom: 10vmin;
   background-color: rgba(245, 245, 245, 0.5);
+  box-shadow: 0px 0px 30px black;
+
 }
 
 #container3 {
@@ -182,6 +186,8 @@ html {
   background: url("wallpaper3.jpg");
   background-size: cover;
   background-position-y: 70%;
+  box-shadow: 0px 0px 30px black;
+
 }
 
 #container4 {
@@ -598,7 +604,7 @@ a:active {
   #container2 {
     height: 100vh;
     padding-bottom: 50px;
-    background: linear-gradient(rgb(255, 255, 255), rgb(189, 189, 189));
+    background: linear-gradient(rgb(255, 255, 255), rgb(201, 201, 201));
   }
 
   #container3 {
@@ -607,7 +613,7 @@ a:active {
   }
 
   #container4 {
-    background: linear-gradient(rgb(255, 255, 255), rgb(189, 189, 189));
+    background: linear-gradient(rgb(255, 255, 255), rgb(201, 201, 201));
   }
 
   .slide-down {

@@ -67,7 +67,14 @@ function App() {
                 Skills
               </div>
             </a>
-          
+            <a href="#container4">
+              <div
+                className="navbar-item"
+                onClick={() => setToogleNavbar(false)}
+              >
+                Services
+              </div>
+            </a>
             <a href="#contact-wrapper">
               <div
                 className="navbar-item"

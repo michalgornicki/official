@@ -13,7 +13,7 @@ import wordpress from "../icons/wordpress.png";
 import typescript from "../icons/typescript.png";
 import redux from "../icons/redux.png";
 import sass from "../icons/sass.png";
-import responsive from "../icons/responsive.png";
+import responsive from "../icons/sass.png";
 
 
 

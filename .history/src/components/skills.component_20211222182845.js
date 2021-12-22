@@ -13,7 +13,6 @@ import wordpress from "../icons/wordpress.png";
 import typescript from "../icons/typescript.png";
 import redux from "../icons/redux.png";
 import sass from "../icons/sass.png";
-import responsive from "../icons/responsive.png";
 
 
 
@@ -28,10 +27,7 @@ const Skills = () => {
           <abbr title="HTML5 ✰✰✰✰✰" ><img className="tech-icon" src={html} alt="" /></abbr>
         </div>
         <div className="skill">
-        <abbr title="CSS ✰✰✰✰✰"><img className="tech-icon" src={css} alt="" /></abbr>
-        </div>
-        <div className="skill">
-        <abbr title="Bootstrap ✰✰✰✰"><img className="tech-icon" src={bootstrap} alt="" /></abbr>
+        <abbr title="CSS and LESS ✰✰✰✰✰"><img className="tech-icon" src={css} alt="" /></abbr>
         </div>
         <div className="skill">
         <abbr title="Javascript ✰✰✰✰"><img className="tech-icon" src={javascript} alt="" /></abbr>
@@ -40,15 +36,14 @@ const Skills = () => {
         <abbr title="React JS and React hooks ✰✰✰"><img className="tech-icon" src={react} alt="" /></abbr>
         </div>
         <div className="skill">
-        <abbr title="Responsive design ✰✰✰✰"><img className="tech-icon" src={responsive} alt="" /></abbr>
-        </div>
-        <div className="skill">
         <abbr title="GIT ✰✰✰"><img className="tech-icon" src={git} alt="" /></abbr>
         </div>
         <div className="skill">
         <abbr title="GITHUB ✰✰✰"><img className="tech-icon" src={github} alt="" /></abbr>
         </div>
-  
+        <div className="skill">
+        <abbr title="Bootstrap ✰✰"><img className="tech-icon" src={bootstrap} alt="" /></abbr>
+        </div>
         <div className="skill">
         <abbr title="Adobe Photoshop ✰✰✰"><img className="tech-icon" src={photoshop} alt="" /></abbr>
         </div>
@@ -64,7 +59,7 @@ const Skills = () => {
 
       </div>
       
-      <h2 className="header header-medium">
+      <h2 className="header">
         I want to learn and currently learning
       </h2>
 
@@ -77,7 +72,7 @@ const Skills = () => {
        <img className="tech-icon" src={redux} alt="" />
         </div>
         <div className="skill">
-       <img className="tech-icon" src={typescript} alt="" />
+       <img className="tech-icon" src={typescript} alt="" /></abbr>
         </div>
 
 

@@ -175,7 +175,7 @@ html {
 
 #container4 {
   position: relative;
-  height: 100vh;
+  height: auto;
 
 }
 .bottom-bar {
@@ -262,12 +262,7 @@ html {
   color: rgb(0, 0, 0);
 }
 
-a:hover,
-a:visited,
-a:link,
-a:active {
-  text-decoration: none;
-}
+
 
 .header {
   position: relative;
@@ -286,6 +281,8 @@ a:active {
 
 .header-medium{
   font-size: 4vmin;
+
+
 }
 
 .black {
@@ -430,13 +427,6 @@ a:active {
   border-radius: 0%;
 }
 
-.service-icon {
-  width: 60%;
-  display: block;
-  margin: auto;
-  border-radius: 0%;
-}
-
 .skill-description {
   position: relative;
   top: 0%;
@@ -548,10 +538,6 @@ a:active {
     padding-top: 10vmin;
   }
 
-  .header-medium{
-    font-size: 6vmin;
-  }
-
   .project-wrapper {
     width: 100%;
     padding: 0;
@@ -593,7 +579,6 @@ a:active {
     background: linear-gradient(rgb(255, 255, 255), rgb(189, 189, 189));
     background: url("wallpaper2.jpg");
     background-size: cover;
-    height: auto;
   }
 
   .slide-down {
@@ -753,17 +738,10 @@ a:active {
     border-radius: 0%;
   }
 
-  .service-icon {
-    width: 40%;
-    display: block;
-    margin: auto;
-    border-radius: 0%;
-  }
-
   .contact {
     width: 15%;
-    margin-top: 1vmin;
-    margin-bottom: 5vmin;
+    margin-top: 0vmin;
+    margin-bottom: 0vmin;
   }
 
   .contact-icon {
@@ -772,7 +750,7 @@ a:active {
     margin: auto;
     border-radius: 0%;
     background-color: black;
-    padding: 0;
+    padding: 2vmin;
     border-radius: 2vmin;
   }
 

@@ -21,6 +21,8 @@ body {
 
 html {
   scroll-behavior: smooth;
+  height: calc(100% + 80px);
+  min-height: calc(100% + 80px);
 }
 
 .navbar {
@@ -146,6 +148,16 @@ html {
   }
 }
 
+.scroll {
+  display: block;
+  position: relative;
+  width: 8vmin;
+  margin: auto;
+  top: 85vh;
+  filter: opacity(0.8);
+  transition: 1s;
+}
+
 .scroll:hover {
   filter: opacity(1);
 }
@@ -175,7 +187,7 @@ html {
 
 #container4 {
   position: relative;
-  height: 100vh;
+  height: auto;
 
 }
 .bottom-bar {
@@ -187,6 +199,7 @@ html {
   z-index: 5;
 
 }
+
 
 .text-wrapper {
   position: relative;
@@ -262,12 +275,40 @@ html {
   color: rgb(0, 0, 0);
 }
 
+.more {
+  transition: 0.2s;
+  color: black;
+}
+
+.more:hover {
+  color: rgb(255, 238, 0);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.slide-down {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  font-size: 4vmin;
+  font-weight: 500;
+  color: white;
+  top: 94%;
+  animation: slideDown 2s infinite;
+}
+
 a:hover,
 a:visited,
 a:link,
 a:active {
   text-decoration: none;
 }
+
+.slide-down:hover {
+  color: rgb(99, 99, 99);
+}
+
 
 .header {
   position: relative;
@@ -282,10 +323,6 @@ a:active {
   padding: 0;
   padding-top: 10vmin;
   margin-bottom: 5vmin;
-}
-
-.header-medium{
-  font-size: 4vmin;
 }
 
 .black {
@@ -400,8 +437,8 @@ a:active {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content:center;
-  width: 80%;
+  justify-content:space-evenly;
+  width: 60%;
   margin: auto;
   padding: 5vmin;
   border-radius: 3vmin;
@@ -411,13 +448,13 @@ a:active {
 .skill {
   position: relative;
   display: inline-grid;
-  width: 6%;
+  width: 10%;
   text-align: center;
   font-weight: 900;
   color: rgb(0, 0, 0);
   filter: drop-shadow(0px 0px 5px rgb(185, 185, 185));
   top: -0px;
-  margin: 1vmin;
+  margin: 1min;
   padding: 1vmin;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 2vmin;
@@ -425,13 +462,6 @@ a:active {
 
 .tech-icon {
   width: 90%;
-  display: block;
-  margin: auto;
-  border-radius: 0%;
-}
-
-.service-icon {
-  width: 60%;
   display: block;
   margin: auto;
   border-radius: 0%;
@@ -548,10 +578,6 @@ a:active {
     padding-top: 10vmin;
   }
 
-  .header-medium{
-    font-size: 6vmin;
-  }
-
   .project-wrapper {
     width: 100%;
     padding: 0;
@@ -593,7 +619,6 @@ a:active {
     background: linear-gradient(rgb(255, 255, 255), rgb(189, 189, 189));
     background: url("wallpaper2.jpg");
     background-size: cover;
-    height: auto;
   }
 
   .slide-down {
@@ -753,17 +778,10 @@ a:active {
     border-radius: 0%;
   }
 
-  .service-icon {
-    width: 40%;
-    display: block;
-    margin: auto;
-    border-radius: 0%;
-  }
-
   .contact {
     width: 15%;
-    margin-top: 1vmin;
-    margin-bottom: 5vmin;
+    margin-top: 0vmin;
+    margin-bottom: 0vmin;
   }
 
   .contact-icon {
@@ -772,7 +790,7 @@ a:active {
     margin: auto;
     border-radius: 0%;
     background-color: black;
-    padding: 0;
+    padding: 2vmin;
     border-radius: 2vmin;
   }
 

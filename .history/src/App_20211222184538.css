@@ -549,7 +549,7 @@ a:active {
   }
 
   .header-medium{
-    font-size: 6vmin;
+    font-size: 5vmin;
   }
 
   .project-wrapper {
@@ -762,8 +762,8 @@ a:active {
 
   .contact {
     width: 15%;
-    margin-top: 1vmin;
-    margin-bottom: 5vmin;
+    margin-top: 0vmin;
+    margin-bottom: 0vmin;
   }
 
   .contact-icon {
@@ -772,7 +772,7 @@ a:active {
     margin: auto;
     border-radius: 0%;
     background-color: black;
-    padding: 0;
+    padding: 2vmin;
     border-radius: 2vmin;
   }
 

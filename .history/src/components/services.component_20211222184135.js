@@ -29,7 +29,7 @@ const Services = () => {
         </div>
 
         <div className="service">
-          <div className="service-title"><img className="service-icon" src={code} alt="" /></div>
+          <div className="service-title"><img className="tech-icon" src={code} alt="" /></div>
           <div className="service-description">
             <div className="service-text">
               Clean and simple high-standard frontend code.

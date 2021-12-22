@@ -13,7 +13,6 @@ import wordpress from "../icons/wordpress.png";
 import typescript from "../icons/typescript.png";
 import redux from "../icons/redux.png";
 import sass from "../icons/sass.png";
-import responsive from "../icons/responsive.png";
 
 
 
@@ -38,9 +37,6 @@ const Skills = () => {
         </div>
         <div className="skill">
         <abbr title="React JS and React hooks ✰✰✰"><img className="tech-icon" src={react} alt="" /></abbr>
-        </div>
-        <div className="skill">
-        <abbr title="Responsive design ✰✰✰✰"><img className="tech-icon" src={responsive} alt="" /></abbr>
         </div>
         <div className="skill">
         <abbr title="GIT ✰✰✰"><img className="tech-icon" src={git} alt="" /></abbr>

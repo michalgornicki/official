@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/official/static/css/main.138d9f53.chunk.css",
-    "main.js": "/official/static/js/main.47115a7d.chunk.js",
-    "main.js.map": "/official/static/js/main.47115a7d.chunk.js.map",
+    "main.js": "/official/static/js/main.b12c1658.chunk.js",
+    "main.js.map": "/official/static/js/main.b12c1658.chunk.js.map",
     "runtime-main.js": "/official/static/js/runtime-main.b5e3fb2e.js",
     "runtime-main.js.map": "/official/static/js/runtime-main.b5e3fb2e.js.map",
     "static/css/2.4659568d.chunk.css": "/official/static/css/2.4659568d.chunk.css",
@@ -36,7 +36,9 @@
     "static/media/js.3dfb665e.png": "/official/static/media/js.3dfb665e.png",
     "static/media/linkedin.f249b382.png": "/official/static/media/linkedin.f249b382.png",
     "static/media/messenger.91599f6d.png": "/official/static/media/messenger.91599f6d.png",
+    "static/media/node.007e99f6.png": "/official/static/media/node.007e99f6.png",
     "static/media/photoshop.7da1bcce.png": "/official/static/media/photoshop.7da1bcce.png",
+    "static/media/php.c67d24b4.png": "/official/static/media/php.c67d24b4.png",
     "static/media/react.e3b2225b.png": "/official/static/media/react.e3b2225b.png",
     "static/media/redux.543b98d3.png": "/official/static/media/redux.543b98d3.png",
     "static/media/responsive.9c947f8f.png": "/official/static/media/responsive.9c947f8f.png",
@@ -52,6 +54,6 @@
     "static/css/2.4659568d.chunk.css",
     "static/js/2.b536ae4c.chunk.js",
     "static/css/main.138d9f53.chunk.css",
-    "static/js/main.47115a7d.chunk.js"
+    "static/js/main.b12c1658.chunk.js"
   ]
 }

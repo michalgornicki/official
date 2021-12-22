@@ -21,7 +21,8 @@ function App() {
   window.onscroll = () => {
     if (window.pageYOffset < 100) {
       document.getElementsByClassName("navbar")[0].style.height = "8vh";
-
+      document.getElementsByClassName("navbar")[0].style.backgroundColor =
+        "rgba(0, 0, 0, 0)";
     } else if (window.pageYOffset > 800) {
       document.getElementsByClassName("navbar")[0].style.height = "5vh";
 

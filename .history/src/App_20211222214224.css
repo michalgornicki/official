@@ -30,12 +30,9 @@ html {
   background-color: rgba(0, 0, 0, 0);
   z-index: 5;
   transition: 0.5s;
-  border-bottom: 1px solid white;
 }
 
-.navbar:hover{
-  background-color: rgba(0, 0, 0, 1);
-}
+navbar
 
 .navbar-items {
   width: 50%;

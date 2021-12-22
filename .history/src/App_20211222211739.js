@@ -21,16 +21,18 @@ function App() {
   window.onscroll = () => {
     if (window.pageYOffset < 100) {
       document.getElementsByClassName("navbar")[0].style.height = "8vh";
-
+      document.getElementsByClassName("navbar")[0].style.backgroundColor =
+        "rgba(0, 0, 0, 1)";
     } else if (window.pageYOffset > 800) {
       document.getElementsByClassName("navbar")[0].style.height = "5vh";
-
+      document.getElementsByClassName("navbar")[0].style.backgroundColor =
+        "rgba(0, 0, 0, 0.5)";
     }
   
     let scroll = window.screen.availWidth > 800 ? window.scrollY / 2 : 0;
     document.body.style.backgroundPositionY = scroll / 75 + "%";
 
-    if (window.pageYOffset < 600) {
+    if (window.pageYOffset < 600 {
       document.getElementsByClassName("scroll-button")[0].style.filter="opacity(1)"
       document.getElementsByClassName("scroll-button")[1].style.filter="opacity(0.3)"
       document.getElementsByClassName("scroll-button")[2].style.filter="opacity(0.3)"

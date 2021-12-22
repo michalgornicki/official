@@ -18,13 +18,15 @@ function App() {
   const [toogleNavbar, setToogleNavbar] = useState(false);
 
 
-  window.onscroll = () => {
+  window.onscroll = () = {
     if (window.pageYOffset < 100) {
       document.getElementsByClassName("navbar")[0].style.height = "8vh";
-
+      document.getElementsByClassName("navbar")[0].style.backgroundColor =
+        "rgba(0, 0, 0, 1)";
     } else if (window.pageYOffset > 800) {
       document.getElementsByClassName("navbar")[0].style.height = "5vh";
-
+      document.getElementsByClassName("navbar")[0].style.backgroundColor =
+        "rgba(0, 0, 0, 0.5)";
     }
   
     let scroll = window.screen.availWidth > 800 ? window.scrollY / 2 : 0;

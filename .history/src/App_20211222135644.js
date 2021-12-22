@@ -31,38 +31,9 @@ function App() {
   
     let scroll = window.screen.availWidth > 800 ? window.scrollY / 2 : 0;
     document.body.style.backgroundPositionY = scroll / 75 + "%";
-
-
-    console.log(window.pageYOffset)
-
-    if (window.pageYOffset < 600) {
-      document.getElementsByClassName("scroll-button")[0].style.filter="opacity(1)"
-      document.getElementsByClassName("scroll-button")[1].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[2].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[3].style.filter="opacity(0.3)"
-
-    }
-    else if (window.pageYOffset > 600 && window.pageYOffset < 1400) {
-      document.getElementsByClassName("scroll-button")[0].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[1].style.filter="opacity(1)"
-      document.getElementsByClassName("scroll-button")[2].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[3].style.filter="opacity(0.3)"
-    }
-    else if (window.pageYOffset > 1400 && window.pageYOffset < 2100) {
-      document.getElementsByClassName("scroll-button")[0].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[1].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[2].style.filter="opacity(1)"
-      document.getElementsByClassName("scroll-button")[3].style.filter="opacity(0.3)"
-    }
-    else if (window.pageYOffset > 2100) {
-      document.getElementsByClassName("scroll-button")[0].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[1].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[2].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[3].style.filter="opacity(1)"
-    }
-
   };
 
+  alert(this.event.target.className);
 
   return (
     <div className="App">

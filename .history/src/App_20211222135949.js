@@ -35,32 +35,15 @@ function App() {
 
     console.log(window.pageYOffset)
 
-    if (window.pageYOffset < 600) {
-      document.getElementsByClassName("scroll-button")[0].style.filter="opacity(1)"
-      document.getElementsByClassName("scroll-button")[1].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[2].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[3].style.filter="opacity(0.3)"
-
+    if (window.pageYOffset < 100) {
+      document.getElementsByClassName("navbar")[0].style.height = "8vh";
+      document.getElementsByClassName("navbar")[0].style.backgroundColor =
+        "rgba(0, 0, 0, 1)";
+    } else if (window.pageYOffset > 800) {
+      document.getElementsByClassName("navbar")[0].style.height = "5vh";
+      document.getElementsByClassName("navbar")[0].style.backgroundColor =
+        "rgba(0, 0, 0, 0.5)";
     }
-    else if (window.pageYOffset > 600 && window.pageYOffset < 1400) {
-      document.getElementsByClassName("scroll-button")[0].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[1].style.filter="opacity(1)"
-      document.getElementsByClassName("scroll-button")[2].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[3].style.filter="opacity(0.3)"
-    }
-    else if (window.pageYOffset > 1400 && window.pageYOffset < 2100) {
-      document.getElementsByClassName("scroll-button")[0].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[1].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[2].style.filter="opacity(1)"
-      document.getElementsByClassName("scroll-button")[3].style.filter="opacity(0.3)"
-    }
-    else if (window.pageYOffset > 2100) {
-      document.getElementsByClassName("scroll-button")[0].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[1].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[2].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[3].style.filter="opacity(1)"
-    }
-
   };
 
 

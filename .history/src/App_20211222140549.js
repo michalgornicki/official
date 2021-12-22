@@ -35,30 +35,28 @@ function App() {
 
     console.log(window.pageYOffset)
 
-    if (window.pageYOffset < 600) {
-      document.getElementsByClassName("scroll-button")[0].style.filter="opacity(1)"
-      document.getElementsByClassName("scroll-button")[1].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[2].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[3].style.filter="opacity(0.3)"
+    if (window.pageYOffset < 700) {
+      document.getElementsByClassName("scroll-button")[0].style.transform="scale(1.2)"
+      document.getElementsByClassName("scroll-button")[1].style.transform="scale(1)"
+      document.getElementsByClassName("scroll-button")[2].style.transform="scale(1)"
+      document.getElementsByClassName("scroll-button")[3].style.transform="scale(1)"
 
     }
-    else if (window.pageYOffset > 600 && window.pageYOffset < 1400) {
-      document.getElementsByClassName("scroll-button")[0].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[1].style.filter="opacity(1)"
-      document.getElementsByClassName("scroll-button")[2].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[3].style.filter="opacity(0.3)"
+    else if (window.pageYOffset > 700) {
+      document.getElementsByClassName("scroll-button")[0].style.transform="scale(1)"
+      document.getElementsByClassName("scroll-button")[1].style.transform="scale(1.2)"
     }
-    else if (window.pageYOffset > 1400 && window.pageYOffset < 2100) {
-      document.getElementsByClassName("scroll-button")[0].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[1].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[2].style.filter="opacity(1)"
-      document.getElementsByClassName("scroll-button")[3].style.filter="opacity(0.3)"
+    else if (window.pageYOffset > 1500) {
+      document.getElementsByClassName("scroll-button")[0].style.transform="scale(1)"
+      document.getElementsByClassName("scroll-button")[1].style.transform="scale(1)"
+      document.getElementsByClassName("scroll-button")[1].style.transform="scale(1.2)"
+      document.getElementsByClassName("scroll-button")[1].style.transform="scale(1)"
     }
-    else if (window.pageYOffset > 2100) {
-      document.getElementsByClassName("scroll-button")[0].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[1].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[2].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[3].style.filter="opacity(1)"
+    else if (window.pageYOffset > 2250) {
+      document.getElementsByClassName("scroll-button")[0].style.transform="scale(1)"
+      document.getElementsByClassName("scroll-button")[1].style.transform="scale(1)"
+      document.getElementsByClassName("scroll-button")[1].style.transform="scale(1.2)"
+      document.getElementsByClassName("scroll-button")[1].style.transform="scale(1.2)"
     }
 
   };

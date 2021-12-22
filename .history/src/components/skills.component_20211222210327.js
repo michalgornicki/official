@@ -14,8 +14,6 @@ import typescript from "../icons/typescript.png";
 import redux from "../icons/redux.png";
 import sass from "../icons/sass.png";
 import responsive from "../icons/responsive.png";
-import php from "../icons/php.png";
-import node from "../icons/node.png";
 
 
 
@@ -67,7 +65,7 @@ const Skills = () => {
       </div>
       
       <h2 className="header header-medium">
-        I want to learn or currently learning
+        I want to learn and currently learning
       </h2>
 
       <div className="skill-wrapper">
@@ -85,7 +83,7 @@ const Skills = () => {
        <img className="tech-icon" src={php} alt="" />
         </div>
         <div className="skill">
-       <img className="tech-icon" src={node} alt="" />
+       <img className="tech-icon" src={typescript} alt="" />
         </div>
 
 

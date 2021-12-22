@@ -67,7 +67,7 @@ const Skills = () => {
       </div>
       
       <h2 className="header header-medium">
-        I want to learn or currently learning
+        I want to learn and currently learning
       </h2>
 
       <div className="skill-wrapper">

@@ -341,6 +341,7 @@ a:active {
   position: relative;
   width: 65%;
   margin: auto;
+  margin-top: 30vmin;
   padding: 3vmin;
   transition: 1s;
   overflow: hidden;
@@ -580,7 +581,6 @@ a:active {
   .project-wrapper {
     width: 100%;
     padding: 0;
-  margin-top: 30vmin;
   }
 
   .project-slide {
@@ -598,18 +598,18 @@ a:active {
 
   #container1 {
     left: 0%;
-    height: 95vh;
+    height: 90vh;
   }
 
   #container2 {
-    height: 95vh;
+    height: 90vh;
     padding-bottom: 50px;
     background: url("wallpaper2.jpg");
     background-size: cover;
   }
 
   #container3 {
-    height: 70vh;
+    height: fit-content;
     background-size: cover;
     background: linear-gradient(rgb(255, 255, 255), rgb(189, 189, 189));
   }

@@ -580,7 +580,6 @@ a:active {
   .project-wrapper {
     width: 100%;
     padding: 0;
-  margin-top: 30vmin;
   }
 
   .project-slide {
@@ -598,18 +597,18 @@ a:active {
 
   #container1 {
     left: 0%;
-    height: 95vh;
+    height: 100vh;
   }
 
   #container2 {
-    height: 95vh;
+    height: 100vh;
     padding-bottom: 50px;
     background: url("wallpaper2.jpg");
     background-size: cover;
   }
 
   #container3 {
-    height: 70vh;
+    height: 100vh;
     background-size: cover;
     background: linear-gradient(rgb(255, 255, 255), rgb(189, 189, 189));
   }
@@ -716,7 +715,6 @@ a:active {
     height: 10vh;
     z-index: 5;
     transition: 1s;
-    padding: 0;
   }
 
   .navbar-items {
@@ -724,8 +722,10 @@ a:active {
     height: 60vh;
     display: flex;
     flex-direction: column;
-    padding-left: 5vmin;
-    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-bottom: 40vh;
+    padding-top: 10vh;
+    justify-content: space-between;
     background-color: rgb(0, 0, 0);
     margin-left: 0%;
     top: 0%;
@@ -733,6 +733,7 @@ a:active {
 
   .navbar-item {
     position: relative;
+    top: 0%;
     font-size: 8vmin;
     color: rgb(255, 255, 255);
   }

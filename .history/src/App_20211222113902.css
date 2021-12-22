@@ -320,8 +320,8 @@ a:active {
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-  padding-top: 10vmin;
-  margin-bottom: 5vmin;
+  padding-top: 15vmin;
+  margin-bottom: 10vmin;
 }
 
 .black {
@@ -339,7 +339,7 @@ a:active {
 
 .project-wrapper {
   position: relative;
-  width: 65%;
+  width: 80%;
   margin: auto;
   padding: 3vmin;
   transition: 1s;

@@ -32,6 +32,8 @@ function App() {
     let scroll = window.screen.availWidth > 800 ? window.scrollY / 2 : 0;
     document.body.style.backgroundPositionY = scroll / 75 + "%";
 
+
+
     if (window.pageYOffset < 600) {
       document.getElementsByClassName("scroll-button")[0].style.filter="opacity(1)"
       document.getElementsByClassName("scroll-button")[1].style.filter="opacity(0.3)"

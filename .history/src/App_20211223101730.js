@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from "react-helmet";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Profile from "./components/profile.component.js";
@@ -16,7 +17,6 @@ function App() {
 
   const [toogleNavbar, setToogleNavbar] = useState(false);
 
-  document.title = 'mic dev/official';
 
   window.onscroll = () => {
     if (window.pageYOffset < 100) {
@@ -90,7 +90,7 @@ function App() {
               </div>
             </a>
 
-            <a href="#container4">
+            <a href="#contact-wrapper">
               <div
                 className="navbar-item"
                 onClick={() => setToogleNavbar(false)}

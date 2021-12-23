@@ -16,7 +16,7 @@ function App() {
 
   const [toogleNavbar, setToogleNavbar] = useState(false);
 
-  document.title = 'mic dev/official';
+  document.title = 'mic dev - official';
 
   window.onscroll = () => {
     if (window.pageYOffset < 100) {
@@ -90,7 +90,7 @@ function App() {
               </div>
             </a>
 
-            <a href="#container4">
+            <a href="#contact-wrapper">
               <div
                 className="navbar-item"
                 onClick={() => setToogleNavbar(false)}

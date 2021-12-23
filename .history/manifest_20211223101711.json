@@ -1,6 +1,6 @@
 {
-  "short_name": "mic dev",
-  "name": "mic dev",
+  "short_name": "micdev -",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",

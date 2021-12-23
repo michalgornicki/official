@@ -532,7 +532,7 @@ a:active {
   position: fixed;
   background-color: rgba(255, 255, 255, 0.5);
   height: 86vh;
-  width: 1px;
+  width: 10px;
   top: 9vh;
   left: 3vw;
 }
@@ -541,7 +541,7 @@ a:active {
   position: fixed;
   background-color: rgba(255, 255, 255, 0.5);
   height: 86vh;
-  width: 1px;
+  width: 10px;
   top: 9vh;
   left: 97vw;
 }
@@ -549,7 +549,7 @@ a:active {
 .top-frame{
   position: fixed;
   background-color: rgba(255, 255, 255, 0.5);
-  height: 1px;
+  height: 10px;
   width: 94vw;
   top: 9vh;
   left: 3vw;
@@ -558,7 +558,7 @@ a:active {
 .bottom-frame{
   position: fixed;
   background-color: rgba(255, 255, 255, 0.5);
-  height: 1px;
+  height: 5;
   width: 94vw;
   bottom: 5vh;
   left: 3vw;

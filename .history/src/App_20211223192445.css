@@ -25,7 +25,7 @@ html {
 
 .navbar {
   position: fixed;
-  height: 8vh;
+  height: 10vmin;
   width: 100%;
   background-color: rgba(0, 0, 0, 0);
   z-index: 5;

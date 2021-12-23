@@ -25,7 +25,7 @@ html {
 
 .navbar {
   position: fixed;
-  height: 8vh;
+  height: 10vmin;
   width: 100%;
   background-color: rgba(0, 0, 0, 0);
   z-index: 5;
@@ -567,9 +567,7 @@ a:active {
 
 @media only screen and (max-device-width: 600px), (max-width: 600px) {
 
-  .left-frame, .right-frame, .top-frame, .bottom-frame{
-    display: none;
-  } 
+  
 
 .carousel-inner{
   height: 60vh;

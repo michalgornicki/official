@@ -133,10 +133,10 @@ function App() {
       <Services />
       <Bottombar />
 
-           <div className="top-frame"></div>
+      <div className="frame">
           <div className="left-frame"></div>
           <div className="right-frame"></div>
-          <div className="bottom-frame"></div>
+        </div>
     </div>
   );
 }

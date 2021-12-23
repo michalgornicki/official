@@ -532,7 +532,7 @@ a:active {
   position: fixed;
   background-color: rgba(255, 255, 255, 0.5);
   height: 86vh;
-  width: 1px;
+  width: 10px;
   top: 9vh;
   left: 3vw;
 }

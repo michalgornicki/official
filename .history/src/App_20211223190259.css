@@ -25,7 +25,7 @@ html {
 
 .navbar {
   position: fixed;
-  height: 8vh;
+  height: 10vmin;
   width: 100%;
   background-color: rgba(0, 0, 0, 0);
   z-index: 5;
@@ -502,7 +502,7 @@ a:active {
   justify-content: center;
   width: 100%;
   height: 5vmin;
-  top: 88%;
+  top: 90%;
 }
 
 .scroll-button{
@@ -530,46 +530,24 @@ a:active {
 
 .left-frame{
   position: fixed;
-  background-color: rgba(255, 255, 255, 0.5);
-  height: 86vh;
+  background-color: white;
+  height: 80vh;
   width: 1px;
-  top: 9vh;
-  left: 3vw;
+  top: 5vh;
+  left: 5vw;
 }
 
 .right-frame{
   position: fixed;
-  background-color: rgba(255, 255, 255, 0.5);
-  height: 86vh;
+  background-color: white;
+  height: 80vh;
   width: 1px;
-  top: 9vh;
-  left: 97vw;
-}
-
-.top-frame{
-  position: fixed;
-  background-color: rgba(255, 255, 255, 0.5);
-  height: 1px;
-  width: 94vw;
-  top: 9vh;
-  left: 3vw;
-}
-
-.bottom-frame{
-  position: fixed;
-  background-color: rgba(255, 255, 255, 0.5);
-  height: 1px;
-  width: 94vw;
-  bottom: 5vh;
-  left: 3vw;
+  top: 10vh;
+  left: 95vw;
 }
 
 
 @media only screen and (max-device-width: 600px), (max-width: 600px) {
-
-  .left-frame, .right-frame, .top-frame, .bottom-frame{
-    display: none;
-  } 
 
 .carousel-inner{
   height: 60vh;

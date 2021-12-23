@@ -125,7 +125,9 @@ function App() {
           <a href="#container4"><img src={square} alt=""  className="scroll-button"/></a>
         </div>
 
-
+        <div className="frame">
+          .left-fra
+        </div>
       </div>
       <Profile />
       <Projects />
@@ -133,10 +135,7 @@ function App() {
       <Services />
       <Bottombar />
 
-           <div className="top-frame"></div>
-          <div className="left-frame"></div>
-          <div className="right-frame"></div>
-          <div className="bottom-frame"></div>
+
     </div>
   );
 }

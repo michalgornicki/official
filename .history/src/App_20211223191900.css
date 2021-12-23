@@ -25,7 +25,7 @@ html {
 
 .navbar {
   position: fixed;
-  height: 8vh;
+  height: 10vmin;
   width: 100%;
   background-color: rgba(0, 0, 0, 0);
   z-index: 5;
@@ -530,7 +530,7 @@ a:active {
 
 .left-frame{
   position: fixed;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   height: 86vh;
   width: 1px;
   top: 9vh;
@@ -539,7 +539,7 @@ a:active {
 
 .right-frame{
   position: fixed;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   height: 86vh;
   width: 1px;
   top: 9vh;
@@ -566,10 +566,6 @@ a:active {
 
 
 @media only screen and (max-device-width: 600px), (max-width: 600px) {
-
-  .left-frame, .right-frame, .top-frame, .bottom-frame{
-    display: none;
-  } 
 
 .carousel-inner{
   height: 60vh;

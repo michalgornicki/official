@@ -23,7 +23,7 @@ const Projects = () => {
         <Carousel variant="dark" fade indicators={false} pause={false} interval="2500">
         <Carousel.Item>
             <img className="d-block w-100" src={Image10} alt="First slide" />
-            <a href="https://michalgornicki.github.io/Impromptu/">
+            <a href="https://michalgornicki.github.io/mpromptu/">
               {" "}
               <Carousel.Caption className="bg-white w-50 m-auto black shadow shadow">
                 <h3>Fashion website, commercial website</h3>

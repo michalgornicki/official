@@ -370,14 +370,14 @@ a:active {
   padding-top: 2%;
   padding-bottom: 2%;
   display: inline-block;
-  color: rgb(0, 0, 0);
+  color: white;
   transition: 0.4s;
-  border-radius: 10%;
-  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 3vmin;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .service:hover {
-  background-color: rgb(255, 255, 255);
+  background-color: black;
 }
 
 .service-title {
@@ -426,10 +426,6 @@ a:active {
   padding: 1vmin;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 2vmin;
-}
-
-.skill:hover{
-  background-color: white;
 }
 
 .tech-icon {
@@ -513,14 +509,6 @@ a:active {
   filter: opacity(0.5);
 }
 
-.carousel-control-next, .carousel-control-prev{
-  height: 20%;
-  width: 10%;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
 
 @media only screen and (max-device-width: 600px), (max-width: 600px) {
 
@@ -531,15 +519,12 @@ a:active {
   .carousel-caption{
     position: relative;
     width: 80%!important;
-    top: 50px;
+    top: 100px;
     left: 0;
     right: 0;
 }
 
-.carousel-control-next, .carousel-control-prev{
-  height: 20%;
-  top: 25%;
-}
+.carousel-inner
 
   body{
   background: none;
@@ -631,7 +616,8 @@ a:active {
   }
 
   .skill {
-    width: 15%;
+    width: 18%;
+    font-size: 3.5vmin;
   }
 
 
@@ -654,6 +640,7 @@ a:active {
   .service {
     width: 100%;
     margin-bottom: 12vmin;
+    transform: rotateX(0deg);
   }
 
   .service:hover {

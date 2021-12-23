@@ -372,8 +372,8 @@ a:active {
   display: inline-block;
   color: rgb(0, 0, 0);
   transition: 0.4s;
-  border-radius: 10%;
-  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 3vmin;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .service:hover {
@@ -426,10 +426,6 @@ a:active {
   padding: 1vmin;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 2vmin;
-}
-
-.skill:hover{
-  background-color: white;
 }
 
 .tech-icon {

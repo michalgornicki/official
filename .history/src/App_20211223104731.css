@@ -371,13 +371,22 @@ a:active {
   padding-bottom: 2%;
   display: inline-block;
   color: rgb(0, 0, 0);
-  animation: 0.4s;
+  animation: 3s serv1 infinite alternate linear;
   border-radius: 10%;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(230, 230, 230, 1);
 }
 
-.service:hover{
-  background-color: rgba(255, 255, 255, 0.7);
+.service:nth-child(2){
+  animation-delay: 1s;
+}
+
+.service:nth-child(3){
+  animation-delay: 2s;
+}
+
+@keyframes serv1 {
+  0% {background-color: rgba(230, 230, 230, 0)}
+  100% {background-color: rgba(255, 255, 255, 1)}
 }
 
 .service-title {
@@ -518,13 +527,7 @@ a:active {
   width: 10%;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(255, 255, 255, 0.7);
-  filter: opacity(0.1);
-  transition: 0.3s;
-}
-
-.carousel-control-next:hover, .carousel-control-prev:hover{
-  filter: opacity(1);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 

@@ -10,7 +10,6 @@ import Image6 from "../6.png";
 import Image7 from "../7.png";
 import Image8 from "../8.png";
 import Image9 from "../9.png";
-import Image10 from "../10.png";
 
 const Projects = () => {
   return (
@@ -31,6 +30,7 @@ const Projects = () => {
               </Carousel.Caption>
             </a>
           </Carousel.Item>
+          <Carousel.Item>
           <Carousel.Item>
             <img className="d-block w-100" src={Image1} alt="First slide" />
             <a href="https://michalgornicki.github.io/smile-med/">

@@ -371,13 +371,18 @@ a:active {
   padding-bottom: 2%;
   display: inline-block;
   color: rgb(0, 0, 0);
-  animation: 0.4s;
+  transition: 0.4s fly;
   border-radius: 10%;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.service:hover{
-  background-color: rgba(255, 255, 255, 0.7);
+@keyframes fly {
+  0% {transform: translateY()}
+  100% {}
+}
+
+.service:hover {
+  background-color: rgb(255, 255, 255);
 }
 
 .service-title {
@@ -518,13 +523,7 @@ a:active {
   width: 10%;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(255, 255, 255, 0.7);
-  filter: opacity(0.1);
-  transition: 0.3s;
-}
-
-.carousel-control-next:hover, .carousel-control-prev:hover{
-  filter: opacity(1);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 

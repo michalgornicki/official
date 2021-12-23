@@ -519,7 +519,7 @@ a:active {
   top: 50%;
   transform: translateY(-50%);
   background-color: rgba(255, 255, 255, 0.7);
-  filter: opacity(0.1);
+  filter: opacity(0);
   transition: 0.3s;
 }
 

@@ -11,7 +11,6 @@ import Image7 from "../7.png";
 import Image8 from "../8.png";
 import Image9 from "../9.png";
 import Image10 from "../10.png";
-import Image11 from "../11.png";
 
 const Projects = () => {
   return (
@@ -23,11 +22,11 @@ const Projects = () => {
       <div className="project-wrapper">
         <Carousel variant="dark" fade indicators={false} pause={false} interval="2500">
         <Carousel.Item>
-            <img className="d-block w-100" src={Image11} alt="First slide" />
+            <img className="d-block w-100" src={Image10} alt="First slide" />
             <a href="https://michalgornicki.github.io/lamborghinicars/">
               {" "}
               <Carousel.Caption className="bg-white w-50 m-auto black shadow shadow">
-                <h3>Lamborghini official website project</h3>
+                <h3>Lamborghini</h3>
                 <p>React js and Bootstrap.</p>
               </Carousel.Caption>
             </a>
@@ -89,7 +88,6 @@ const Projects = () => {
               <Carousel.Caption className="bg-white w-50 m-auto black shadow">
                 <h3>Space X mission explorer</h3>
                 <p>React js, React Hooks, GraphQL database.</p>
-                <p>(Currently GraphQL database is down).</p>
               </Carousel.Caption>
             </a>
           </Carousel.Item>

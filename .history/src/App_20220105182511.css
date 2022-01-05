@@ -203,7 +203,7 @@ html {
   transition: 0.2s;
   text-align: center;
   color: rgb(255, 255, 255);
-  filter: drop-shadow(5px 5px 5px black);
+  filter: drop-shadow(2px 2)
 }
 
 .large {

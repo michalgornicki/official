@@ -270,7 +270,7 @@ a:active {
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-  padding-top: 12vmin;
+  padding-top: 10vmin;
   margin-bottom: 5vmin;
 }
 
@@ -413,7 +413,7 @@ a:active {
 }
 
 .skill:hover {
-  background-color: rgba(0, 247, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .tech-icon {
@@ -523,7 +523,7 @@ a:active {
   background-color: rgb(150, 150, 150);
   height: 86vh;
   width: 1px;
-  top: 11vh;
+  top: 9vh;
   left: 3vw;
 }
 
@@ -532,41 +532,31 @@ a:active {
   background-color: rgb(150, 150, 150);
   height: 86vh;
   width: 1px;
-  top: 11vh;
-  right: 3vw;
+  top: 9vh;
+  left: 97vw;
 }
 
 .top-frame {
   position: fixed;
   background-color: rgb(150, 150, 150);
   height: 1px;
-  width: 93vw;
+  width: 94vw;
   top: 11vh;
   left: 3vw;
-
 }
 
 .bottom-frame {
   position: fixed;
   background-color: rgb(150, 150, 150);
   height: 1px;
-  width: 93vw;
-  bottom: 3vh;
+  width: 94vw;
+  bottom: 5vh;
   left: 3vw;
-
 }
 
 .counter-container {
   position: relative;
   top: 35%;
-}
-
-.carousel-caption{
-  color: white!important;
-  background-color: rgba(83, 83, 83, 0.8);
-  border: 2px solid rgb(255, 174, 0);
-  box-shadow: 0px 0px 8px rgb(255, 174, 0);
-  border-radius: 3vmin;
 }
 
 @media only screen and (max-device-width: 600px), (max-width: 600px) {
@@ -661,8 +651,7 @@ a:active {
   #container3 {
     height: 70vh;
     background-size: cover;
-    background: url("wallpaper1.jpg");
-
+    background-color: rgb(184, 184, 184);
   }
 
   #container4 {

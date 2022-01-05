@@ -413,7 +413,7 @@ a:active {
 }
 
 .skill:hover {
-  background-color: rgba(0, 247, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .tech-icon {
@@ -525,6 +525,7 @@ a:active {
   width: 1px;
   top: 11vh;
   left: 3vw;
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 
 .right-frame {
@@ -543,7 +544,6 @@ a:active {
   width: 93vw;
   top: 11vh;
   left: 3vw;
-
 }
 
 .bottom-frame {
@@ -553,20 +553,11 @@ a:active {
   width: 93vw;
   bottom: 3vh;
   left: 3vw;
-
 }
 
 .counter-container {
   position: relative;
   top: 35%;
-}
-
-.carousel-caption{
-  color: white!important;
-  background-color: rgba(83, 83, 83, 0.8);
-  border: 2px solid rgb(255, 174, 0);
-  box-shadow: 0px 0px 8px rgb(255, 174, 0);
-  border-radius: 3vmin;
 }
 
 @media only screen and (max-device-width: 600px), (max-width: 600px) {
@@ -661,8 +652,7 @@ a:active {
   #container3 {
     height: 70vh;
     background-size: cover;
-    background: url("wallpaper1.jpg");
-
+    background-color: rgb(184, 184, 184);
   }
 
   #container4 {

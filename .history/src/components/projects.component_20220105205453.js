@@ -128,7 +128,7 @@ const Projects = () => {
             <img className="carousel-image d-block w-100" src={Image9} alt="Third slide" />
 
             <a href="https://michalgornicki.github.io/virtualpet">
-              <Carousel.Caption className="carousel-caption w-50 m-auto">
+              <Carousel.Caption className="carousel-caption w-50 m-auto shadow">
                 <h4>Virtual pet app</h4>
                 <p>HTML, CSS, JS.</p>
               </Carousel.Caption>

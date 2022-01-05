@@ -561,14 +561,6 @@ a:active {
   top: 35%;
 }
 
-.carousel-caption{
-  color: white!important;
-  background-color: rgba(83, 83, 83, 0.8);
-  border: 2px solid rgb(255, 174, 0);
-  box-shadow: 0px 0px 8px rgb(255, 174, 0);
-  border-radius: 3vmin;
-}
-
 @media only screen and (max-device-width: 600px), (max-width: 600px) {
   .left-frame,
   .right-frame,
@@ -661,8 +653,6 @@ a:active {
   #container3 {
     height: 70vh;
     background-size: cover;
-    background: url("wallpaper1.jpg");
-
   }
 
   #container4 {

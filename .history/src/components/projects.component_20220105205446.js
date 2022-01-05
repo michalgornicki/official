@@ -97,7 +97,7 @@ const Projects = () => {
             <img className="carousel-image d-block w-100" src={Image6} alt="Third slide" />
 
             <a href="https://michalgornicki.github.io/bitcoin-virtual">
-              <Carousel.Caption className="carousel-caption w-50 m-auto">
+              <Carousel.Caption className="carousel-caption w-50 m-auto shadow">
                 <h4>Virtual bitcoin buying app</h4>
                 <p>React js, React hooks.</p>
               </Carousel.Caption>
@@ -107,7 +107,7 @@ const Projects = () => {
             <img className="carousel-image d-block w-100" src={Image7} alt="Third slide" />
 
             <a href="https://michalgornicki.github.io/insta-note">
-              <Carousel.Caption className="carousel-caption w-50 m-auto">
+              <Carousel.Caption className="carousel-caption w-50 m-auto shadow">
                 <h4>Todo list app</h4>
                 <p>React js, React hooks.</p>
               </Carousel.Caption>
@@ -118,7 +118,7 @@ const Projects = () => {
 
             <a href="https://www.youtube.com/watch?v=Xq_YM1_ebq4">
               {" "}
-              <Carousel.Caption className="carousel-caption w-50 m-auto">
+              <Carousel.Caption className="carousel-caption w-50 m-auto shadow">
                 <h4>Weather app</h4>
                 <p>React, openweatherapp weather API.</p>
               </Carousel.Caption>
@@ -128,7 +128,7 @@ const Projects = () => {
             <img className="carousel-image d-block w-100" src={Image9} alt="Third slide" />
 
             <a href="https://michalgornicki.github.io/virtualpet">
-              <Carousel.Caption className="carousel-caption w-50 m-auto">
+              <Carousel.Caption className="carousel-caption w-50 m-auto shadow">
                 <h4>Virtual pet app</h4>
                 <p>HTML, CSS, JS.</p>
               </Carousel.Caption>

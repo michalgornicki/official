@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/official/static/css/main.5a08f435.chunk.css",
-    "main.js": "/official/static/js/main.57e41cb5.chunk.js",
-    "main.js.map": "/official/static/js/main.57e41cb5.chunk.js.map",
+    "main.js": "/official/static/js/main.d392f06a.chunk.js",
+    "main.js.map": "/official/static/js/main.d392f06a.chunk.js.map",
     "runtime-main.js": "/official/static/js/runtime-main.ec4bedf6.js",
     "runtime-main.js.map": "/official/static/js/runtime-main.ec4bedf6.js.map",
     "static/css/2.4659568d.chunk.css": "/official/static/css/2.4659568d.chunk.css",
@@ -28,10 +28,10 @@
     "static/media/atom.27ce7e22.png": "/official/static/media/atom.27ce7e22.png",
     "static/media/bootstrap.268c4375.png": "/official/static/media/bootstrap.268c4375.png",
     "static/media/client.81936f7e.png": "/official/static/media/client.81936f7e.png",
+    "static/media/code.95fde208.png": "/official/static/media/code.95fde208.png",
     "static/media/complete.83e78864.png": "/official/static/media/complete.83e78864.png",
     "static/media/css.4cc21f49.png": "/official/static/media/css.4cc21f49.png",
-    "static/media/design.5765231d.png": "/official/static/media/design.5765231d.png",
-    "static/media/experience.87d0f251.png": "/official/static/media/experience.87d0f251.png",
+    "static/media/design.5119699b.png": "/official/static/media/design.5119699b.png",
     "static/media/facebook.795fce8e.png": "/official/static/media/facebook.795fce8e.png",
     "static/media/git.bad2b111.png": "/official/static/media/git.bad2b111.png",
     "static/media/github.553c6615.png": "/official/static/media/github.553c6615.png",
@@ -46,7 +46,6 @@
     "static/media/php.c67d24b4.png": "/official/static/media/php.c67d24b4.png",
     "static/media/react.e3b2225b.png": "/official/static/media/react.e3b2225b.png",
     "static/media/redux.543b98d3.png": "/official/static/media/redux.543b98d3.png",
-    "static/media/responsive.9c947f8f.png": "/official/static/media/responsive.9c947f8f.png",
     "static/media/sass.91714f74.png": "/official/static/media/sass.91714f74.png",
     "static/media/square.3cbdd9e2.png": "/official/static/media/square.3cbdd9e2.png",
     "static/media/typescript.8e08c216.png": "/official/static/media/typescript.8e08c216.png",
@@ -59,6 +58,6 @@
     "static/css/2.4659568d.chunk.css",
     "static/js/2.ebcb057a.chunk.js",
     "static/css/main.5a08f435.chunk.css",
-    "static/js/main.57e41cb5.chunk.js"
+    "static/js/main.d392f06a.chunk.js"
   ]
 }

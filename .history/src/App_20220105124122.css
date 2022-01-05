@@ -308,11 +308,12 @@ a:active {
 
 .project-wrapper {
   position: relative;
-  width: 50%;
+  width: 60%;
   margin: auto;
   padding: 3vmin;
   transition: 1s;
   overflow: hidden;
+  border-radius: 10vmin;
 }
 
 .project-hover {
@@ -513,10 +514,6 @@ a:active {
   filter: opacity(0.5);
 }
 
-.carousel-image{
-  border-radius: 5vmin;
-}
-
 .carousel-control-next,
 .carousel-control-prev {
   height: 20%;
@@ -633,7 +630,7 @@ a:active {
   }
 
   .project-wrapper {
-    width: 95%;
+    width: 100%;
     padding: 0;
     margin-top: 30vmin;
   }
@@ -825,6 +822,7 @@ a:active {
   }
 
   .tech-icon {
+    width: 80%;
     display: block;
     margin: auto;
     border-radius: 0%;

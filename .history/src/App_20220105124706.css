@@ -825,6 +825,7 @@ a:active {
   }
 
   .tech-icon {
+    width: 80%;
     display: block;
     margin: auto;
     border-radius: 0%;

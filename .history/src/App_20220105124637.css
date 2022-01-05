@@ -515,7 +515,8 @@ a:active {
 
 .carousel-image{
   border-radius: 5vmin;
-}
+  outline: 5vmin solid white;
+  
 
 .carousel-control-next,
 .carousel-control-prev {
@@ -633,7 +634,7 @@ a:active {
   }
 
   .project-wrapper {
-    width: 95%;
+    width: 100%;
     padding: 0;
     margin-top: 30vmin;
   }
@@ -825,6 +826,7 @@ a:active {
   }
 
   .tech-icon {
+    width: 80%;
     display: block;
     margin: auto;
     border-radius: 0%;

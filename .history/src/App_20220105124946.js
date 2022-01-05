@@ -65,7 +65,7 @@ function App() {
       document.getElementsByClassName("scroll-button")[1].style.filter="opacity(0.3)"
       document.getElementsByClassName("scroll-button")[2].style.filter="opacity(0.3)"
       document.getElementsByClassName("scroll-button")[3].style.filter="opacity(0.3)"
-      document.getElementsByClassName("scroll-button")[4].style.filter="opacity(1)"
+      document.getElementsByClassName("scroll-button")[4].style.filter="opacity(0.3)"
     }
 
   };

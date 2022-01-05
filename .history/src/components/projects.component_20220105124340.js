@@ -27,7 +27,7 @@ const Projects = () => {
             <a href="https://michalgornicki.github.io/lamborghinicars/">
               {" "}
               <Carousel.Caption className="bg-white w-50 m-auto black shadow shadow">
-                <h4>Lamborghini official website project</h4>
+                <h3>Lamborghini official website project</h3>
                 <p>React js and Bootstrap.</p>
               </Carousel.Caption>
             </a>
@@ -37,99 +37,99 @@ const Projects = () => {
             <a href="https://michalgornicki.github.io/Impromptu/">
               {" "}
               <Carousel.Caption className="bg-white w-50 m-auto black shadow shadow">
-                <h4>Fashion website, commercial website</h4>
+                <h3>Fashion website, commercial website</h3>
                 <p>React js and Bootstrap.</p>
               </Carousel.Caption>
             </a>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="carousel-image d-block w-100" src={Image1} alt="First slide" />
+            <img className="d-block w-100" src={Image1} alt="First slide" />
             <a href="https://michalgornicki.github.io/smile-med/">
               {" "}
               <Carousel.Caption className="bg-white w-50 m-auto black shadow shadow">
-                <h4>Dental office, commercial website</h4>
+                <h3>Dental office, commercial website</h3>
                 <p>React js, Bootstrap, React Router.</p>
               </Carousel.Caption>
             </a>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="carousel-image d-block w-100" src={Image2} alt="Second slide" />
+            <img className="d-block w-100" src={Image2} alt="Second slide" />
 
             <a href="https://michalgornicki.github.io/smartify/">
               <Carousel.Caption className="bg-white w-50 m-auto black shadow">
-                <h4>Smart Home, commercial website</h4>
+                <h3>Smart Home, commercial website</h3>
                 <p>React JS.</p>
               </Carousel.Caption>
             </a>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="carousel-image d-block w-100" src={Image3} alt="Third slide" />
+            <img className="d-block w-100" src={Image3} alt="Third slide" />
 
             <a href="https://michalgornicki.github.io/electronet/">
               <Carousel.Caption className="bg-white w-50 m-auto black shadow">
-                <h4>Electronics shop</h4>
+                <h3>Electronics shop</h3>
                 <p>React JS.</p>
               </Carousel.Caption>
             </a>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="carousel-image d-block w-100" src={Image4} alt="Third slide" />
+            <img className="d-block w-100" src={Image4} alt="Third slide" />
 
             <a href="http://fantasyblog.mywebcommunity.org">
               <Carousel.Caption className="bg-white w-50 m-auto black shadow">
-                <h4>Wordpress blog</h4>
+                <h3>Wordpress blog</h3>
                 <p>Html, CSS, Wordpress.</p>
               </Carousel.Caption>
             </a>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="carousel-image d-block w-100" src={Image5} alt="Third slide" />
+            <img className="d-block w-100" src={Image5} alt="Third slide" />
 
             <a href="https://michalgornicki.github.io/space_x_clone">
               <Carousel.Caption className="bg-white w-50 m-auto black shadow">
-                <h4>Space X mission explorer</h4>
+                <h3>Space X mission explorer</h3>
                 <p>React js, React Hooks, GraphQL database.</p>
                 <p>(Currently GraphQL database is down).</p>
               </Carousel.Caption>
             </a>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="carousel-image d-block w-100" src={Image6} alt="Third slide" />
+            <img className="d-block w-100" src={Image6} alt="Third slide" />
 
             <a href="https://michalgornicki.github.io/bitcoin-virtual">
               <Carousel.Caption className="bg-white w-50 m-auto black shadow">
-                <h4>Virtual bitcoin buying app</h4>
+                <h3>Virtual bitcoin buying app</h3>
                 <p>React js, React hooks.</p>
               </Carousel.Caption>
             </a>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="carousel-image d-block w-100" src={Image7} alt="Third slide" />
+            <img className="d-block w-100" src={Image7} alt="Third slide" />
 
             <a href="https://michalgornicki.github.io/insta-note">
               <Carousel.Caption className="bg-white w-50 m-auto black shadow">
-                <h4>Todo list app</h4>
+                <h3>Todo list app</h3>
                 <p>React js, React hooks.</p>
               </Carousel.Caption>
             </a>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="carousel-image d-block w-100" src={Image8} alt="Third slide" />
+            <img className="d-block w-100" src={Image8} alt="Third slide" />
 
             <a href="https://www.youtube.com/watch?v=Xq_YM1_ebq4">
               {" "}
               <Carousel.Caption className="bg-white w-50 m-auto black shadow">
-                <h4>Weather app</h4>
+                <h3>Weather app</h3>
                 <p>React, openweatherapp weather API.</p>
               </Carousel.Caption>
             </a>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="carousel-image d-block w-100" src={Image9} alt="Third slide" />
+            <img className="d-block w-100" src={Image9} alt="Third slide" />
 
             <a href="https://michalgornicki.github.io/virtualpet">
               <Carousel.Caption className="bg-white w-50 m-auto black shadow">
-                <h4>Virtual pet app</h4>
+                <h3>Virtual pet app</h3>
                 <p>HTML, CSS, JS.</p>
               </Carousel.Caption>
             </a>

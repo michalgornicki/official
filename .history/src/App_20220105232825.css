@@ -208,25 +208,22 @@ html {
 .large {
   position: relative;
   font-size: 10vmin;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   margin-top: 1vmin;
   margin-bottom: 1vmin;
   top: 8vmin;
-  color: rgb(255, 251, 0);
+  animation-delay: 1s;
+  filter: opacity(1);
+  color:rgb(255, 251, 0);
   border: 4px solid rgb(255, 174, 0);
   border-radius: 3vmin;
   text-shadow: 0px 0px 20px rgb(255, 251, 0);
   box-shadow: 0px 0px 25px rgb(255, 174, 0);
-  animation: 0.2s neon infinite alternate linear;
+  transition: 1s neon;
 }
 
-@keyframes neon {
-  0% {
-    text-shadow: 0px 0px 30px rgb(255, 255, 0);
-  }
-  100% {
-    text-shadow: 0px 0px 30px rgb(255, 255, 255);
-  }
+@keyframes neon{
+  0%{}
 }
 
 .medium {
@@ -239,6 +236,7 @@ html {
   top: 8vmin;
   filter: opacity(1);
   filter: drop-shadow(5px 5px 5px black);
+
 }
 
 .small {
@@ -249,6 +247,7 @@ html {
   top: 8vmin;
   filter: opacity(1);
   filter: drop-shadow(5px 5px 5px black);
+
 }
 
 .slide-header {
@@ -314,7 +313,7 @@ a:active {
   overflow: hidden;
   border-radius: 5vmin;
   border: 5px solid rgb(132, 0, 255);
-  filter: drop-shadow(0px 0px 10px rgb(132, 0, 255));
+  filter:drop-shadow(0px 0px 10px rgb(132, 0, 255));
 }
 
 .project-hover {
@@ -481,7 +480,7 @@ a:active {
   margin-bottom: 3vmin;
 }
 
-.contact:hover {
+.contact:hover{
   filter: brightness(1.2);
 }
 
@@ -556,6 +555,7 @@ a:active {
   width: 93vw;
   top: 11vh;
   left: 3vw;
+
 }
 
 .bottom-frame {
@@ -565,6 +565,7 @@ a:active {
   width: 93vw;
   bottom: 3vh;
   left: 3vw;
+
 }
 
 .counter-container {
@@ -572,15 +573,13 @@ a:active {
   top: 35%;
 }
 
-.counter-icon {
-  filter: drop-shadow(0px 0px 10px rgb(255, 0, 221))
-    drop-shadow(0px 0px 10px rgb(255, 0, 221))
-    drop-shadow(0px 0px 10px rgb(255, 0, 221));
+.counter-icon{
+  filter: drop-shadow(0px 0px 10px rgb(255, 0, 221)) drop-shadow(0px 0px 10px rgb(255, 0, 221)) drop-shadow(0px 0px 10px rgb(255, 0, 221));
   margin-bottom: 3vmin;
 }
 
-.carousel-caption {
-  color: white !important;
+.carousel-caption{
+  color: white!important;
   background-color: rgba(83, 83, 83, 0.8);
   border: 3px solid rgb(132, 0, 255);
   box-shadow: 0px 0px 8px rgb(132, 0, 255);
@@ -680,6 +679,7 @@ a:active {
     height: 70vh;
     background-size: cover;
     background: url("wallpaper1.jpg");
+
   }
 
   #container4 {

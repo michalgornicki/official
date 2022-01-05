@@ -42,14 +42,14 @@ const Counters = () => {
         </div>
         <div className="d-flex flex-column my-3">
           <div>
-            <img className="counter-icon w-lg-50 w-25" src={complete} alt="" />
+            <img className="w-lg-50 w-25" src={complete} alt="" />
           </div>
           <div id="counter2">0</div>
           <div>projects done</div>
         </div>
         <div className="d-flex flex-column my-3">
           <div>
-            <img className="counter-icon w-lg-50 w-25" src={hourglass} alt="" />
+            <img className="w-lg-50 w-25" src={hourglass} alt="" />
           </div>
           <div id="counter3">0</div>
           <div>hours spent</div>

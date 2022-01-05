@@ -22,8 +22,8 @@ const Profile = () => {
 
       <div className="text-wrapper" onMouseMove={mouseMove}>
         <h2 className="medium">Michał Górnicki</h2>
-        <h1 className="large">Front-end developer</h1>
-        <h3 className="small">Self-taught, skilled, helpful and proactive front-end developer since 2019. Creating projects from templates or from scratch.</h3>
+        <h1 className="large">Front-End Developer</h1>
+        <h3 className="small">Self-taught, skilled, helpful and pro-active front end developer since 2019. Creating projects from templates or from scratch.</h3>
       </div>
     </div>
   );

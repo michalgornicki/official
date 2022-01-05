@@ -35,21 +35,21 @@ const Counters = () => {
       <div className="counter-container d-flex flex-lg-row flex-column justify-content-evenly w-50 m-auto text-center text-white display-6">
         <div className="d-flex flex-column my-3">
           <div>
-            <img className="counter-icon w-lg-50 w-25" src={client} alt="" />
+            <img className="cow-lg-50 w-25" src={client} alt="" />
           </div>
           <div id="counter1">0</div>
           <div>happy clients</div>
         </div>
         <div className="d-flex flex-column my-3">
           <div>
-            <img className="counter-icon w-lg-50 w-25" src={complete} alt="" />
+            <img className="w-lg-50 w-25" src={complete} alt="" />
           </div>
           <div id="counter2">0</div>
           <div>projects done</div>
         </div>
         <div className="d-flex flex-column my-3">
           <div>
-            <img className="counter-icon w-lg-50 w-25" src={hourglass} alt="" />
+            <img className="w-lg-50 w-25" src={hourglass} alt="" />
           </div>
           <div id="counter3">0</div>
           <div>hours spent</div>

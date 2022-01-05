@@ -219,6 +219,7 @@ html {
   border-radius: 3vmin;
   text-shadow: 0px 0px 20px rgb(255, 251, 0);
   box-shadow: 0px 0px 25px rgb(255, 174, 0);
+  transfo
 }
 
 .medium {
@@ -304,11 +305,9 @@ a:active {
   position: relative;
   width: 50%;
   margin: auto;
+  padding: 3vmin;
   transition: 1s;
   overflow: hidden;
-  border-radius: 5vmin;
-  border: 5px solid rgb(132, 0, 255);
-  filter:drop-shadow(0px 0px 10px rgb(132, 0, 255));
 }
 
 .project-hover {
@@ -509,6 +508,10 @@ a:active {
   filter: opacity(0.5);
 }
 
+.carousel-image{
+  border-radius: 5vmin;
+}
+
 .carousel-control-next,
 .carousel-control-prev {
   height: 20%;
@@ -576,8 +579,8 @@ a:active {
 .carousel-caption{
   color: white!important;
   background-color: rgba(83, 83, 83, 0.8);
-  border: 3px solid rgb(132, 0, 255);
-  box-shadow: 0px 0px 8px rgb(132, 0, 255);
+  border: 2px solid rgb(255, 174, 0);
+  box-shadow: 0px 0px 8px rgb(255, 174, 0);
   border-radius: 3vmin;
 }
 

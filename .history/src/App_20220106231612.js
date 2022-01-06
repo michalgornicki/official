@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
 
-      <div className="navbar" onMouseEnter={() => document.getElementsByClassName("wallpaper")[0].style.filter="blur(5px)"}>
+      <div className="navbar"onMouseEnter={() => document.getElementsByClassName("wallpaper")[0].style.filter="blur(5px)"}>
         {toogleNavbar || window.innerWidth > 800 ? (
           <div className="navbar-items">
             <a href="#top">

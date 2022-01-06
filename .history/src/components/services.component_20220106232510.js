@@ -12,19 +12,13 @@ const Services = () => {
           className="service"
           onMouseEnter={() => {
               document.getElementsByClassName("service")[0].style.filter =
-              "brightness(1)";
+              "blur(0px)";
             document.getElementsByClassName("service")[1].style.filter =
-              "brightness(0.2)";
+              "blur(2px)";
             document.getElementsByClassName("service")[2].style.filter =
-              "brightness(0.2)";
+              "blur(2px)";
           }}
-          onMouseLeave={() => {
-            document.getElementsByClassName("service")[0].style.filter =
-              "brightness(1)";
-              document.getElementsByClassName("service")[1].style.filter =
-              "brightness(1)";
-            document.getElementsByClassName("service")[2].style.filter =
-              "brightness(1)";}}
+          
         >
           <div className="service-title">
             <img className="service-icon" src={design} alt="" />
@@ -40,19 +34,12 @@ const Services = () => {
           className="service"
           onMouseEnter={() => {
             document.getElementsByClassName("service")[0].style.filter =
-              "brightness(0.2)";
+              "blur(2px)";
               document.getElementsByClassName("service")[1].style.filter =
-              "brightness(1)";
+              "blur(0px)";
             document.getElementsByClassName("service")[2].style.filter =
-              "brightness(0.2)";
+              "blur(2px)";
           }}
-          onMouseLeave={() => {
-            document.getElementsByClassName("service")[0].style.filter =
-              "brightness(1)";
-              document.getElementsByClassName("service")[1].style.filter =
-              "brightness(1)";
-            document.getElementsByClassName("service")[2].style.filter =
-              "brightness(1)";}}
         >
           <div className="service-title">
             <img className="service-icon" src={experience} alt="" />
@@ -68,19 +55,12 @@ const Services = () => {
           className="service"
           onMouseEnter={() => {
             document.getElementsByClassName("service")[0].style.filter =
-              "brightness(0.2)";
+              "blur(2px)";
             document.getElementsByClassName("service")[1].style.filter =
-              "brightness(0.2)";
+              "blur(2px)";
               document.getElementsByClassName("service")[2].style.filter =
-              "brightness(1)";
+              "blur(0px)";
           }}
-          onMouseLeave={() => {
-            document.getElementsByClassName("service")[0].style.filter =
-              "brightness(1)";
-              document.getElementsByClassName("service")[1].style.filter =
-              "brightness(1)";
-            document.getElementsByClassName("service")[2].style.filter =
-              "brightness(1)";}}
         >
           <div className="service-title">
             <img className="service-icon" src={code} alt="" />

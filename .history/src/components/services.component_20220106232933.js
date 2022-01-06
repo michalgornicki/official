@@ -14,9 +14,9 @@ const Services = () => {
               document.getElementsByClassName("service")[0].style.filter =
               "brightness(1)";
             document.getElementsByClassName("service")[1].style.filter =
-              "brightness(0.2)";
+              "opacity(0.5)";
             document.getElementsByClassName("service")[2].style.filter =
-              "brightness(0.2)";
+              "opacity(0.5)";
           }}
           onMouseLeave={() => {
             document.getElementsByClassName("service")[0].style.filter =
@@ -40,11 +40,11 @@ const Services = () => {
           className="service"
           onMouseEnter={() => {
             document.getElementsByClassName("service")[0].style.filter =
-              "brightness(0.2)";
+              "opacity(0.5)";
               document.getElementsByClassName("service")[1].style.filter =
               "brightness(1)";
             document.getElementsByClassName("service")[2].style.filter =
-              "brightness(0.2)";
+              "opacity(0.5)";
           }}
           onMouseLeave={() => {
             document.getElementsByClassName("service")[0].style.filter =
@@ -68,9 +68,9 @@ const Services = () => {
           className="service"
           onMouseEnter={() => {
             document.getElementsByClassName("service")[0].style.filter =
-              "brightness(0.2)";
+              "opacity(0.5)";
             document.getElementsByClassName("service")[1].style.filter =
-              "brightness(0.2)";
+              "opacity(0.5)";
               document.getElementsByClassName("service")[2].style.filter =
               "brightness(1)";
           }}

@@ -12,7 +12,7 @@ const Profile = () => {
         <div className="part part5"></div>
       </div>
 
-      <div className="text-wrapper" onMouseEnter={() => document.getElementsByClassName("wallpaper")[0].style.filter="blur(5px)"} >
+      <div className="text-wrapper" onMouseEnter={() => document.getElementsByClassName("wallpaper")[0].style.filter="blur(5px)"} onMouseLeave={() => document.getElementsByClassName("wallpaper")[0].style.filter="blur(0px)"}>
         <h2 className="medium">Michał Górnicki</h2>
         <h1 className="large">Front-end developer</h1>
         <h3 className="small">Self-taught, skilled, helpful and proactive front-end developer since 2019. Creating projects from templates or from scratch.</h3>

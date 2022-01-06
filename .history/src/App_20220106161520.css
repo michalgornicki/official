@@ -310,6 +310,7 @@ a:active {
   transition: 1s;
   overflow: hidden;
   border-radius: 5vmin;
+  border: 5px solid rgb(132, 0, 255);
   filter: drop-shadow(0px 0px 10px rgb(132, 0, 255)) drop-shadow(0px 0px 30px rgb(132, 0, 255)) drop-shadow(0px 0px 80px rgb(132, 0, 255));
 }
 
@@ -594,7 +595,7 @@ a:active {
   .carousel-caption {
     position: relative;
     width: 80% !important;
-    top: 0;
+    top: 50px;
     left: 0;
     right: 0;
   }
@@ -697,8 +698,8 @@ a:active {
   }
 
   .skill {
-    width: 14%;
-    height: unset;
+    width: 15%;
+    height: ins;
   }
 
   .skill-title {

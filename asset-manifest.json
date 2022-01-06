@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/official/static/css/main.a41b5304.chunk.css",
-    "main.js": "/official/static/js/main.403556f6.chunk.js",
-    "main.js.map": "/official/static/js/main.403556f6.chunk.js.map",
+    "main.css": "/official/static/css/main.13e1e5cc.chunk.css",
+    "main.js": "/official/static/js/main.382d4cca.chunk.js",
+    "main.js.map": "/official/static/js/main.382d4cca.chunk.js.map",
     "runtime-main.js": "/official/static/js/runtime-main.ec4bedf6.js",
     "runtime-main.js.map": "/official/static/js/runtime-main.ec4bedf6.js.map",
     "static/css/2.4659568d.chunk.css": "/official/static/css/2.4659568d.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.57f9aaca.chunk.js.map": "/official/static/js/3.57f9aaca.chunk.js.map",
     "index.html": "/official/index.html",
     "static/css/2.4659568d.chunk.css.map": "/official/static/css/2.4659568d.chunk.css.map",
-    "static/css/main.a41b5304.chunk.css.map": "/official/static/css/main.a41b5304.chunk.css.map",
+    "static/css/main.13e1e5cc.chunk.css.map": "/official/static/css/main.13e1e5cc.chunk.css.map",
     "static/js/2.ebcb057a.chunk.js.LICENSE.txt": "/official/static/js/2.ebcb057a.chunk.js.LICENSE.txt",
     "static/media/1.86fdc044.png": "/official/static/media/1.86fdc044.png",
     "static/media/10.ba1cb0a1.png": "/official/static/media/10.ba1cb0a1.png",
@@ -47,7 +47,7 @@
     "static/media/react.e3b2225b.png": "/official/static/media/react.e3b2225b.png",
     "static/media/redux.543b98d3.png": "/official/static/media/redux.543b98d3.png",
     "static/media/sass.91714f74.png": "/official/static/media/sass.91714f74.png",
-    "static/media/square.3cbdd9e2.png": "/official/static/media/square.3cbdd9e2.png",
+    "static/media/square.a64df133.png": "/official/static/media/square.a64df133.png",
     "static/media/typescript.8e08c216.png": "/official/static/media/typescript.8e08c216.png",
     "static/media/visualstudio.4f7f8525.png": "/official/static/media/visualstudio.4f7f8525.png",
     "static/media/App.css": "/official/static/media/wallpaper2.ad7fe10f.jpg",
@@ -57,7 +57,7 @@
     "static/js/runtime-main.ec4bedf6.js",
     "static/css/2.4659568d.chunk.css",
     "static/js/2.ebcb057a.chunk.js",
-    "static/css/main.a41b5304.chunk.css",
-    "static/js/main.403556f6.chunk.js"
+    "static/css/main.13e1e5cc.chunk.css",
+    "static/js/main.382d4cca.chunk.js"
   ]
 }

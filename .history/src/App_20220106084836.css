@@ -205,12 +205,13 @@ html {
   color: rgb(255, 255, 255);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 .large {
   position: relative;
   font-size: 10vmin;
-  font-family: 'Lobster', cursive;
+  font-family: 'Courgette', cursive;
+  font-weight: 500;
   margin-top: 3vmin;
   margin-bottom: 3vmin;
   top: 8vmin;

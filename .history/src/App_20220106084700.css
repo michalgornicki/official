@@ -205,12 +205,13 @@ html {
   color: rgb(255, 255, 255);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 .large {
   position: relative;
   font-size: 10vmin;
-  font-family: 'Lobster', cursive;
+  font-family: 'Courgette', cursive;
+  font-weight: 500;
   margin-top: 3vmin;
   margin-bottom: 3vmin;
   top: 8vmin;
@@ -372,7 +373,7 @@ a:active {
   background-color: rgba(255, 0, 221, 0.15);
   border: 4px solid rgb(255, 0, 221);
   transition: 0.2s;
-  box-shadow: 0px 0px 150px rgb(255, 0, 221);
+  box-shadow: 0px 0px 25px rgb(255, 0, 221);
 }
 
 .service-title {
@@ -422,7 +423,7 @@ a:active {
   transition: 0.2s;
   border-radius: 100%;
   border: 2px solid rgb(0, 247, 255);
-  box-shadow: 0px 0px 30px rgb(0, 247, 255);
+  box-shadow: 0px 0px 7px rgb(0, 247, 255);
 }
 
 .skill:hover {
@@ -578,7 +579,7 @@ a:active {
 .carousel-caption {
   color: white !important;
   background-color: rgba(83, 83, 83, 0.8);
-  box-shadow: 0px 0px 30px rgb(132, 0, 255), 0px 0px 10px rgb(132, 0, 255);
+  box-shadow: 0px 0px 30px rgb(132, 0, 255), 0px 0px 30px rgb(132, 0, 255);
   border-radius: 3vmin;
 }
 

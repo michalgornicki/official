@@ -205,13 +205,13 @@ html {
   color: rgb(255, 255, 255);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 .large {
   position: relative;
   font-size: 10vmin;
-  font-family: 'Lobster', cursive;
-  margin-top: 3vmin;
+  font-family: 'Anton', sans-serif;
+  font-weight: 500;
   margin-bottom: 3vmin;
   top: 8vmin;
   color: rgb(103, 231, 253);

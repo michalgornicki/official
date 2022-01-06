@@ -23,7 +23,8 @@ html {
 }
 
 .navbar {
-  font-family: 'Lobster', cursive;
+
+
   position: fixed;
   height: 8vh;
   width: 100%;
@@ -237,6 +238,7 @@ html {
 }
 
 .small {
+  font-family: 'Lobster', cursive;
   position: relative;
   font-weight: 400;
   font-size: 4vmin;

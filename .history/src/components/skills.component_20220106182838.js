@@ -27,7 +27,7 @@ const Skills = () => {
       </h2>
       <div className="skill-wrapper">
         <div className="skill">
-          <abbr title="HTML5 ✰✰✰✰✰" ><img className="tech-icon" src={html} alt="" /></abbr>
+          <abbr title="HTML5 ✰✰✰✰✰" ><img className=" tech-icon" src={html} alt="" /></abbr>
         </div>
         <div className="skill">
         <abbr title="CSS ✰✰✰✰✰"><img className="tech-icon" src={css} alt="" /></abbr>

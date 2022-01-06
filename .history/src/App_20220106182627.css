@@ -237,6 +237,7 @@ html {
 }
 
 .small {
+  font-family: 'Lobster', cursive;
   position: relative;
   font-weight: 400;
   font-size: 4vmin;
@@ -564,6 +565,7 @@ a:active {
 }
 
 .counter-container {
+  font-family: 'Lobster', cursive;
   position: relative;
   top: 35%;
 }

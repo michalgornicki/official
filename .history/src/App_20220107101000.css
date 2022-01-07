@@ -30,12 +30,10 @@ html {
   background-color: rgba(0, 0, 0, 0);
   z-index: 200;
   transition: 0.5s;
-  filter: opacity(0.5);
 }
 
 .navbar:hover {
   background-color: rgba(0, 0, 0, 1);
-  filter: opacity(1);
 }
 
 .navbar-items {
@@ -529,6 +527,41 @@ a:active {
   filter: opacity(1);
 }
 
+.left-frame {
+  position: fixed;
+  background-color: rgb(150, 150, 150);
+  height: 86vh;
+  width: 1px;
+  top: 11vh;
+  left: 3vw;
+}
+
+.right-frame {
+  position: fixed;
+  background-color: rgb(150, 150, 150);
+  height: 86vh;
+  width: 1px;
+  top: 11vh;
+  right: 3vw;
+}
+
+.top-frame {
+  position: fixed;
+  background-color: rgb(150, 150, 150);
+  height: 1px;
+  width: 93vw;
+  top: 11vh;
+  left: 3vw;
+}
+
+.bottom-frame {
+  position: fixed;
+  background-color: rgb(150, 150, 150);
+  height: 1px;
+  width: 93vw;
+  bottom: 3vh;
+  left: 3vw;
+}
 
 .counter-container {
   position: relative;

@@ -35,7 +35,8 @@ html {
 
 .navbar:hover {
   background-color: rgba(0, 0, 0, 1);
-  filter: opacity(1);
+  filter: opacity(0.5);
+
 }
 
 .navbar-items {

@@ -87,13 +87,10 @@ function App() {
       <Services />
       <Bottombar />
 
-      <div className="scroll-container">
-          <a href="#container1"><img src={square} alt="" className="scroll-button"/></a>
-          <a href="#container5"><img src={square} alt="" className="scroll-button"/></a>
-          <a href="#container2"><img src={square} alt=""  className="scroll-button"/></a>
-          <a href="#container3"><img src={square} alt=""  className="scroll-button"/></a>
-          <a href="#container4"><img src={square} alt=""  className="scroll-button"/></a>
-        </div>
+           <div className="top-frame"></div>
+          <div className="left-frame"></div>
+          <div className="right-frame"></div>
+          <div className="bottom-frame"></div>
     </div>
   );
 }

@@ -31,11 +31,11 @@ html {
   z-index: 200;
   transition: 0.5s;
   filter: opacity(0.5);
+
 }
 
 .navbar:hover {
   background-color: rgba(0, 0, 0, 1);
-  filter: opacity(1);
 }
 
 .navbar-items {

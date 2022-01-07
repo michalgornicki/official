@@ -224,7 +224,7 @@ html {
   animation: 2s;
   cursor: pointer;
   transition: 2s;
-  transform: translate(50%);
+  transform:
 }
 
 .medium {
@@ -240,7 +240,8 @@ html {
   filter: drop-shadow(5px 5px 5px black);
   z-index: 100;
   transition: 2s;
-  transform: translate(-50%);
+  right: 50%;
+
 }
 
 .small {
@@ -253,7 +254,7 @@ html {
   filter: drop-shadow(5px 5px 5px black);
   z-index: 100;
   transition: 2s;
-  transform: translate(-50%);
+  right: 50%;
 }
 
 

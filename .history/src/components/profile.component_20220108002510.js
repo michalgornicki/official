@@ -7,8 +7,8 @@ const Profile = () => {
     let top = el.getBoundingClientRect().top
     if (top/2 < 0) {
       document.getElementsByClassName("large")[0].style.transform="translateX(100%)"
-      document.getElementsByClassName("medium")[0].style.transform="translateX(-100%)"
-      document.getElementsByClassName("small")[0].style.transform="translateX(-100%)"
+      document.getElementsByClassName("medium")[0].style.right="100%"
+      document.getElementsByClassName("small")[0].style.right="100%"
     }
     else {
       document.getElementsByClassName("large")[0].style.transform="translateX(0%)"

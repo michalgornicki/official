@@ -7,13 +7,14 @@ const Profile = () => {
     let top = el.getBoundingClientRect().top
     console.log(document.getElementById("container1").getBoundingClientRect().bottom)
     if (window.innerWidth > 800 && document.getElementById("container1").getBoundingClientRect().bottom > 500 ) {
-      document.getElementsByClassName("large")[0].style.transform="translate(" + (top/20 - 17) + "%)"
-      document.getElementsByClassName("medium")[0].style.transform="translate(" + (- top/20 + 17) + "%)"
-      document.getElementsByClassName("small")[0].style.transform="translate(" + (- top/20 + 17) + "%)"}
+      document.getElementsByClassName("large")[0].style.transform="translate(" + (<top />
+      <2></2>0 - 34) + "%)"
+      document.getElementsByClassName("medium")[0].style.transform="translate(" + (- top/10 + 34) + "%)"
+      document.getElementsByClassName("small")[0].style.transform="translate(" + (- top/10 + 34) + "%)"}
     else if (window.innerWidth < 800 && document.getElementById("container1").getBoundingClientRect().bottom > 500 ) {
-      document.getElementsByClassName("large")[0].style.transform="translate(" + (top/20 - 12) + "%)"
-      document.getElementsByClassName("medium")[0].style.transform="translate(" + (- top/20 + 12) + "%)"
-      document.getElementsByClassName("small")[0].style.transform="translate(" + (- top/20 + 12) + "%)"
+      document.getElementsByClassName("large")[0].style.transform="translate(" + (top/10 - 23) + "%)"
+      document.getElementsByClassName("medium")[0].style.transform="translate(" + (- top/10 + 23) + "%)"
+      document.getElementsByClassName("small")[0].style.transform="translate(" + (- top/10 + 23) + "%)"
     }
   }
 

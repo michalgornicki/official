@@ -11,9 +11,9 @@ const Profile = () => {
       document.getElementsByClassName("medium")[0].style.transform="translate(" + (- top/20 + 17) + "%)"
       document.getElementsByClassName("small")[0].style.transform="translate(" + (- top/20 + 17) + "%)"}
     else if (window.innerWidth < 800 && document.getElementById("container1").getBoundingClientRect().bottom > 500 ) {
-      document.getElementsByClassName("large")[0].style.transform="translate(" + (top/20 - 12) + "%)"
-      document.getElementsByClassName("medium")[0].style.transform="translate(" + (- top/20 + 12) + "%)"
-      document.getElementsByClassName("small")[0].style.transform="translate(" + (- top/20 + 12) + "%)"
+      document.getElementsByClassName("large")[0].style.transform="translate(" + (top/10 - 12) + "%)"
+      document.getElementsByClassName("medium")[0].style.transform="translate(" + (- top/10 + 23) + "%)"
+      document.getElementsByClassName("small")[0].style.transform="translate(" + (- top/10 + 23) + "%)"
     }
   }
 

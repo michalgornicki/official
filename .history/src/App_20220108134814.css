@@ -241,7 +241,7 @@ html {
   filter: drop-shadow(5px 5px 5px black);
   z-index: 100;
   transition: 2s;
-  transform: translate(-20%);
+  transform: translate(20%);
 
 }
 
@@ -255,8 +255,6 @@ html {
   filter: drop-shadow(5px 5px 5px black);
   z-index: 100;
   transition: 2s;
-  transform: translate(-10%);
-
 }
 
 

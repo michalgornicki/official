@@ -224,8 +224,6 @@ html {
   animation: 2s;
   transition: 2s;
   cursor: pointer;
-  transform: translate(20%);
-
 }
 
 .medium {
@@ -241,8 +239,6 @@ html {
   filter: drop-shadow(5px 5px 5px black);
   z-index: 100;
   transition: 2s;
-  transform: translate(-20%);
-
 }
 
 .small {
@@ -255,8 +251,6 @@ html {
   filter: drop-shadow(5px 5px 5px black);
   z-index: 100;
   transition: 2s;
-  transform: translate(-10%);
-
 }
 
 
@@ -600,6 +594,7 @@ a:active {
     width: 100%;
     margin-top: 5vmin;
     margin-bottom: 5vmin;
+    transform: translate(20)
   }
 
   .medium {

@@ -15,16 +15,14 @@ import Image11 from "../11.png";
 
 const Projects = () => {
 
-  const scrolling = () => {
-    if (document.getElementById("container3").getBoundingClientRect().top < 200) {
-     document.getElementsByClassName("project-wrapper")[0].style.transform="translateY(0%)";
-  }
-   else {document.getElementsByClassName("project-wrapper")[0].style.transform="translateY(50%)";}
-}
-
-window.addEventListener('scroll', scrolling);
-
-
+  window.onscroll = () => {
+    if (document.getElementById("container3").getBoundingClientRect().top < 100) {
+      if (scrolled === false) {
+        counter();
+      }
+      setScrolled(true);
+    }
+  };
   
   return (
     <div id="container3">

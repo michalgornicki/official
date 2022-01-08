@@ -222,8 +222,9 @@ html {
   text-shadow: 0px 0px 15px rgb(0, 255, 255);
   box-shadow: 0px 0px 150px rgb(255, 0, 212), 0px 0px 100px rgb(255, 0, 212), 0px 0px 20px rgb(255, 0, 212);
   animation: 2s;
-  transition: 2s;
   cursor: pointer;
+  transition: 2s ease-out;
+  transform: translate(50%);
 }
 
 .medium {
@@ -238,7 +239,8 @@ html {
   filter: opacity(1);
   filter: drop-shadow(5px 5px 5px black);
   z-index: 100;
-  transition: 2s;
+  transition: 2s ease-out;
+  transform: translate(-50%);
 }
 
 .small {
@@ -250,7 +252,8 @@ html {
   filter: opacity(1);
   filter: drop-shadow(5px 5px 5px black);
   z-index: 100;
-  transition: 2s;
+  transition: 2s ease-out;
+  transform: translate(-50%);
 }
 
 
@@ -319,8 +322,6 @@ a:active {
   overflow: hidden;
   border-radius: 2vmin;
   filter: drop-shadow(0px 0px 10px rgb(132, 0, 255)) drop-shadow(0px 0px 30px rgb(132, 0, 255)) drop-shadow(0px 0px 80px rgb(132, 0, 255));
-  transform:translateY(50%);
-  transition: 1s;
 }
 
 .project-hover {

@@ -222,7 +222,7 @@ html {
   text-shadow: 0px 0px 15px rgb(0, 255, 255);
   box-shadow: 0px 0px 150px rgb(255, 0, 212), 0px 0px 100px rgb(255, 0, 212), 0px 0px 20px rgb(255, 0, 212);
   animation: 2s;
-  transition: 2s;
+  transition: 0.2s;
   cursor: pointer;
 }
 
@@ -319,8 +319,6 @@ a:active {
   overflow: hidden;
   border-radius: 2vmin;
   filter: drop-shadow(0px 0px 10px rgb(132, 0, 255)) drop-shadow(0px 0px 30px rgb(132, 0, 255)) drop-shadow(0px 0px 80px rgb(132, 0, 255));
-  transform:translateY(50%);
-  transition: 1s;
 }
 
 .project-hover {

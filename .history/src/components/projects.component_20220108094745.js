@@ -18,8 +18,8 @@ const Projects = () => {
   const scrolling = () => {
     if (document.getElementById("container3").getBoundingClientRect().top < 200) {
      document.getElementsByClassName("project-wrapper")[0].style.transform="translateY(0%)";
-  }
-   else {document.getElementsByClassName("project-wrapper")[0].style.transform="translateY(50%)";}
+  };
+  else
 }
 
 window.addEventListener('scroll', scrolling);

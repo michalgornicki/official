@@ -320,7 +320,6 @@ a:active {
   border-radius: 2vmin;
   filter: drop-shadow(0px 0px 10px rgb(132, 0, 255)) drop-shadow(0px 0px 30px rgb(132, 0, 255)) drop-shadow(0px 0px 80px rgb(132, 0, 255));
   transform:translateY(50%);
-  transition: 1s;
 }
 
 .project-hover {

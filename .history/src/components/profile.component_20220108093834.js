@@ -5,14 +5,15 @@ const Profile = () => {
   const scrolling = () => {
     let el = document.getElementsByClassName("large")[0]
     let top = el.getBoundingClientRect().top
+    console.log(top/2)
+    
     if (window.innerWidth > 800 ) {
       document.getElementsByClassName("large")[0].style.transform="translate(" + (top/10 - 34) + "%)"
-      document.getElementsByClassName("medium")[0].style.transform="translate(" + (- top/10 + 34) + "%)"
-      document.getElementsByClassName("small")[0].style.transform="translate(" + (- top/10 + 34) + "%)"}
+      document.getElementsByClassName("medium")[0].style.transform="translate(" + (- top/10 ++ 34) + "%)"}
     else {
       document.getElementsByClassName("large")[0].style.transform="translate(" + (top/10 - 23) + "%)"
-      document.getElementsByClassName("medium")[0].style.transform="translate(" + (- top/10 + 23) + "%)"
-      document.getElementsByClassName("small")[0].style.transform="translate(" + (- top/10 + 23) + "%)"
+      document.getElementsByClassName("medium")[0].style.transform="translate(" + (top/10 - 23) + "%)"
+      document.getElementsByClassName("small")[0].style.transform="translate(" + (top/10 - 23) + "%)"
     }
   }
 

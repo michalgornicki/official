@@ -8,7 +8,7 @@ const Counters = () => {
   const [scrolled, setScrolled] = useState(false);
 
   window.onscroll = () => {
-    if (document.getElementById("container2").getBoundingClientRect().top < 100) {
+    if (document.getElementById("container2").getBoundingClientRect().top < 0) {
       if (scrolled === false) {
         counter();
       }

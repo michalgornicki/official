@@ -6,31 +6,31 @@ const Profile = () => {
     let el = document.getElementsByClassName("large")[0]
     let top = el.getBoundingClientRect().top
     console.log(top/2)
-    if (top/2 < 150 && top/2 > 0) {
+    if (top/2 < 100 && top/2 > 0) {
       document.getElementsByClassName("large")[0].style.transform="translateX(10%)"
+      document.getElementsByClassName("large")[0].style.filter="opacity(0.9)"
       document.getElementsByClassName("medium")[0].style.transform="translateX(-10%)"
+      document.getElementsByClassName("medium")[0].style.filter="opacity(0.9)"
+      document.getElementsByClassName("small")[0].style.transform="translateX(-10%)"
       document.getElementsByClassName("small")[0].style.transform="translateX(-10%)"
     }
 
     else if (top/2 < 0 & top/2 > -100) {
-      document.getElementsByClassName("large")[0].style.transform="translateX(20%)"
-      document.getElementsByClassName("medium")[0].style.transform="translateX(-20%)"
-      document.getElementsByClassName("small")[0].style.transform="translateX(-20%)"
-    }
-
-    else if (top/2 < -100) {
       document.getElementsByClassName("large")[0].style.transform="translateX(30%)"
       document.getElementsByClassName("medium")[0].style.transform="translateX(-30%)"
       document.getElementsByClassName("small")[0].style.transform="translateX(-30%)"
     }
 
+    else if (top/2 < -100) {
+      document.getElementsByClassName("large")[0].style.transform="translateX(50%)"
+      document.getElementsByClassName("medium")[0].style.transform="translateX(-50%)"
+      document.getElementsByClassName("small")[0].style.transform="translateX(-50%)"
+    }
+
     else {
       document.getElementsByClassName("large")[0].style.transform="translateX(0%)"
-      document.getElementsByClassName("large")[0].style.filter="opacity(1)"
       document.getElementsByClassName("medium")[0].style.transform="translateX(0%)"
-      document.getElementsByClassName("medium")[0].style.filter="opacity(1)"
       document.getElementsByClassName("small")[0].style.transform="translateX(0%)"
-      document.getElementsByClassName("small")[0].style.filter="opacity(1)"
     }
   }
 

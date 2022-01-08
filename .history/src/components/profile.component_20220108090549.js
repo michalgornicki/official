@@ -18,7 +18,7 @@ const Profile = () => {
       document.getElementsByClassName("small")[0].style.transform="translateX(-20%)"
     }
 
-    else if (top/2 < 20) {
+    else if (top/2 < -100) {
       document.getElementsByClassName("large")[0].style.transform="translateX(30%)"
       document.getElementsByClassName("medium")[0].style.transform="translateX(-30%)"
       document.getElementsByClassName("small")[0].style.transform="translateX(-30%)"

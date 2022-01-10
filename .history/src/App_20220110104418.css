@@ -183,10 +183,8 @@ html {
 
 #container2 {
   position: relative;
-  height: fit-content;
-  padding-top: 5vmin;
-  padding-bottom: 5vmin;
-  background-color: rgb(9, 41, 71);
+  height: auto;
+  background-color: rgb(21, 23, 48);
 }
 
 .bottom-bar {
@@ -554,6 +552,7 @@ a:active {
 
 .counter-container {
   position: relative;
+  top: 35%;
   transition: 1s;
   filter: opacity(0);
 }

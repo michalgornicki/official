@@ -186,7 +186,9 @@ html {
   height: fit-content;
   padding-top: 5vmin;
   padding-bottom: 5vmin;
-  background-color: rgb(9, 41, 71);
+  border-bottom: 5vmin;
+  border-bottom: 5vmin;
+  background-color: rgb(0, 0, 0);
 }
 
 .bottom-bar {

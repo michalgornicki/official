@@ -51,7 +51,7 @@ const Counters = () => {
 
   return (
     <div id="container2">
-      <div className="counter-container d-flex flex-lg-row flex-column justify-content-evenly w-75 m-auto text-center text-white display-6">
+      <div className="counter-container d-flex flex-lg-row flex-column justify-content-evenly w-50 m-auto text-center text-white display-6">
         <div className="d-flex flex-column my-3">
           <div>
             <img className="counter-icon w-25" src={client} alt="" />

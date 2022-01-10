@@ -184,9 +184,11 @@ html {
 #container2 {
   position: relative;
   height: fit-content;
-  padding-top: 5vmin;
-  padding-bottom: 5vmin;
-  background-color: rgb(9, 41, 71);
+  padding-top: 2vmin;
+  padding-bottom: 2vmin;
+  background-color: black;
+  border-top: 1px dotted white;
+  border-bottom: 5px dotted white;
 }
 
 .bottom-bar {

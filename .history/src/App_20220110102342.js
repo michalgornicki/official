@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Profile from "./components/profile.component.js";
@@ -13,10 +13,8 @@ import square from "./square.png";
 
 function App() {
 
-  useEffect(() => {
-    document.title = "micdev/official";  
-  }, []);
 
+  
   const [toogleNavbar, setToogleNavbar] = useState(false);
 
   const scrolling = () => {

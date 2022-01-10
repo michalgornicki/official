@@ -861,6 +861,6 @@ a:active {
 
   .counter-container {
     position: relative;
-    transform: translateY(0%);
+    top: 15%;
   }
 }

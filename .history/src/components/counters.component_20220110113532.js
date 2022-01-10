@@ -11,25 +11,14 @@ const Counters = () => {
       counter();
     window.removeEventListener('scroll', scrolling);
     document.getElementsByClassName("counter-container")[0].style.filter="opacity(1)";
-    document.getElementById("container2").style.height="300px";
+    document.getElementById("container2").style.filter="opacity(1)";
     }
     else {
     document.getElementsByClassName("counter-container")[0].style.filter="opacity(0)";
-    document.getElementById("container2").style.height="0px";
-    }
-  };
-
-  const containerShow = () => {
-    if (document.getElementById("container2").getBoundingClientRect().top < 300) {
-      window.innerWidth > 800 ? document.getElementById("container2").style.height="300px" : document.getElementById("container2").style.height="550px"
-    }
-    else {
-    document.getElementById("container2").style.height="0px";
     }
   };
 
   window.addEventListener('scroll', scrolling);
-  window.addEventListener('scroll', containerShow);
 
   const counter = () => {
     var i = 0;

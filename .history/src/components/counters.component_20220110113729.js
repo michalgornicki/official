@@ -21,9 +21,12 @@ const Counters = () => {
 
   const containerShow = () => {
     if (document.getElementById("container2").getBoundingClientRect().top < 300) {
-      window.innerWidth > 800 ? document.getElementById("container2").style.height="300px" : document.getElementById("container2").style.height="550px"
+      counter();
+    window.removeEventListener('scroll', scrolling);
+    document.getElementById("container2").style.height="300px";
     }
     else {
+    document.getElementsByClassName("counter-container")[0].style.filter="opacity(0)";
     document.getElementById("container2").style.height="0px";
     }
   };

@@ -558,7 +558,6 @@ a:active {
   position: relative;
   transition: 1s;
   filter: opacity(0);
-  transform: translateY(15%);
 }
 
 .counter-icon {
@@ -861,6 +860,6 @@ a:active {
 
   .counter-container {
     position: relative;
-    transform: translateY(0%);
+    top: 15%;
   }
 }

@@ -19,15 +19,6 @@ const Counters = () => {
     }
   };
 
-  const containerShow = () => {
-    if (document.getElementById("container2").getBoundingClientRect().top < 300) {
-      window.innerWidth > 800 ? document.getElementById("container2").style.height="300px" : document.getElementById("container2").style.height="550px"
-    }
-    else {
-    document.getElementById("container2").style.height="0px";
-    }
-  };
-
   window.addEventListener('scroll', scrolling);
   window.addEventListener('scroll', containerShow);
 

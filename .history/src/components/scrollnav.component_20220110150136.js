@@ -7,7 +7,7 @@ const Scrollnav = () => {
     const scrolling = () => {
         let el1 = document
           .getElementById("container1")
-          .getBoundingClientRect().bottom;
+          .getBoundingClientRect().top;
         let el2 = document
           .getElementById("container3")
           .getBoundingClientRect().top;

@@ -7,7 +7,7 @@ const Scrollnav = () => {
     const scrolling = () => {
         let el1 = document
           .getElementById("container1")
-          .getBoundingClientRect().bottom;
+          .getBoundingClientRect().top;
         let el2 = document
           .getElementById("container3")
           .getBoundingClientRect().top;
@@ -16,10 +16,10 @@ const Scrollnav = () => {
           .getBoundingClientRect().top;
         let el4 = document
           .getElementById("container5")
-          .getBoundingClientRect().top;
+          .getBoundingClientRect().bottom;
         let el5 = document
           .getElementById("container2")
-          .getBoundingClientRect().top;
+          .getBoundingClientRect().bottom;
       console.log(el2, el3)
 
         if (el1 > 100) {

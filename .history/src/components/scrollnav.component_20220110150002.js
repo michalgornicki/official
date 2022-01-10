@@ -9,17 +9,17 @@ const Scrollnav = () => {
           .getElementById("container1")
           .getBoundingClientRect().bottom;
         let el2 = document
-          .getElementById("container3")
-          .getBoundingClientRect().top;
-        let el3 = document
-          .getElementById("container4")
-          .getBoundingClientRect().top;
-        let el4 = document
           .getElementById("container5")
-          .getBoundingClientRect().top;
+          .getBoundingClientRect().bottom;
+        let el3 = document
+          .getElementById("container3")
+          .getBoundingClientRect().bottom;
+        let el4 = document
+          .getElementById("container4")
+          .getBoundingClientRect().bottom;
         let el5 = document
           .getElementById("container2")
-          .getBoundingClientRect().top;
+          .getBoundingClientRect().bottom;
       console.log(el2, el3)
 
         if (el1 > 100) {

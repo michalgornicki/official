@@ -428,7 +428,7 @@ a:active {
   margin: 1vmin;
   overflow: hidden;
   background-color: rgba(0, 247, 255, 0.1);
-  animation: 1s;
+  animation: 4s skill-color linear infinite alternate;
   border-radius: 100vmin;
 }
 

@@ -52,7 +52,21 @@ window.addEventListener('scroll', scrolling);
 
         <div
           className="service"
-          
+          onMouseEnter={() => {
+            document.getElementsByClassName("service")[0].style.filter =
+              "brightness(0.2)";
+            document.getElementsByClassName("service")[1].style.filter =
+              "brightness(0.2)";
+              document.getElementsByClassName("service")[2].style.filter =
+              "brightness(1)";
+          }}
+          onMouseLeave={() => {
+            document.getElementsByClassName("service")[0].style.filter =
+              "brightness(1)";
+              document.getElementsByClassName("service")[1].style.filter =
+              "brightness(1)";
+            document.getElementsByClassName("service")[2].style.filter =
+              "brightness(1)";}}
         >
           <div className="service-title">
             <img className="service-icon" src={code} alt="" />

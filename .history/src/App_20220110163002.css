@@ -428,18 +428,18 @@ a:active {
   margin: 1vmin;
   overflow: hidden;
   background-color: rgba(0, 247, 255, 0.1);
-  animation: 4s skill-color linear infinite alternate;
+  animation: 2s skill-color linear infinite alternate;
   border-radius: 100vmin;
 }
 
 .skill:nth-child(2n){
   transform: translateY(25%);
-  animation-delay: -2s;
+  animation-delay: -1s;
 }
 
 @keyframes skill-color{
   0%{box-shadow: 0px 0px 100px rgb(234, 0, 255), 0px 0px 10px rgb(234, 0, 255), 0px 0px 30px rgb(234, 0, 255);}
-  100%{box-shadow: 0px 0px 10px rgb(234, 0, 255), 0px 0px 1px rgb(234, 0, 255), 0px 0px 3px rgb(234, 0, 255);}
+  100%{box-shadow: 0px 0px 10px rgb(255, 166, 0), 0px 0px 1px rgb(255, 166, 0), 0px 0px 3px rgb(255, 166, 0);}
 }
 
 .skill:hover {

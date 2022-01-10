@@ -367,11 +367,11 @@ a:active {
 }
 
 .service:nth-child(2n){
- animation-delay: 1s;
+
 }
 
-.service:nth-child(3n){
- animation-delay: 2s;
+.service:nth-child(2n){
+  
 }
 
 @keyframes service-color{
@@ -428,18 +428,14 @@ a:active {
   margin: 1vmin;
   overflow: hidden;
   background-color: rgba(0, 247, 255, 0.1);
-  animation: 4s skill-color linear infinite alternate;
+  transition: 0.2s;
   border-radius: 100vmin;
+  box-shadow: 0px 0px 100px rgb(234, 0, 255), 0px 0px 10px rgb(234, 0, 255), 0px 0px 30px rgb(234, 0, 255);
 }
 
 .skill:nth-child(2n){
   transform: translateY(25%);
-  animation-delay: -2s;
-}
-
-@keyframes skill-color{
-  0%{box-shadow: 0px 0px 100px rgb(234, 0, 255), 0px 0px 10px rgb(234, 0, 255), 0px 0px 30px rgb(234, 0, 255);}
-  100%{box-shadow: 0px 0px 10px rgb(234, 0, 255), 0px 0px 1px rgb(234, 0, 255), 0px 0px 3px rgb(234, 0, 255);}
+  box-shadow: 0px 0px 100px rgb(0, 102, 255), 0px 0px 10px rgb(0, 102, 255), 0px 0px 30px rgb(0, 102, 255);
 }
 
 .skill:hover {

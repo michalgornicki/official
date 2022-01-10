@@ -80,7 +80,7 @@ window.addEventListener('scroll', scrolling);
             <div className="carousel-text">
             <h4>Smart Home website design project</h4>
                 <p>[React JS]</p>
-                <p>I have created this website to train my design and styling skills.</p>
+                <p>I have created this website to train my design skills.</p>
             <a className="carousel-link" href="https://michalgornicki.github.io/smartify/"><p>Open website.</p></a>
             <a className="carousel-link" href="https://github.com/michalgornicki/smartify/"><p>Check code on Github.</p></a>
 

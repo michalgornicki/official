@@ -41,7 +41,7 @@ window.addEventListener('scroll', scrolling);
            
             
             <div className="carousel-text">
-            <h4>Lamborghini website design project</h4>
+            <h4>Lamborghini website project</h4>
             <p>[React js and Bootstrap]</p>
             <p>This is project to train my design and styling skills.</p>
             <a className="carousel-link" href="https://michalgornicki.github.io/lamborghinicars/"><p>Open website.</p></a>
@@ -53,7 +53,7 @@ window.addEventListener('scroll', scrolling);
             <img className="carousel-image d-block w-100" src={Image10} alt="First slide" />
       
             <div className="carousel-text">
-            <h4>Fashion website design project</h4>
+            <h4>Fashion website, commercial website</h4>
                 <p>[React js and Bootstrap]</p>
                 <p>This project purpose was also to train my design and styling skills.</p>
             <a className="carousel-link" href="https://michalgornicki.github.io/Impromptu/"><p>Open website.</p></a>
@@ -65,7 +65,7 @@ window.addEventListener('scroll', scrolling);
           <Carousel.Item>
             <img className="carousel-image d-block w-100" src={Image1} alt="First slide" />
             <div className="carousel-text">
-            <h4>Dental office website design project</h4>
+            <h4>Dental office, commercial website</h4>
                 <p>[React js, Bootstrap, React Router]</p>
                 <p>In this project I started using regularly Bootstrap, which is such a great help in styling. Purpose of this project was to strengthen styling skills and developing using Bootstrap. I started here using React router which is also wonderful tool.</p>
             <a className="carousel-link" href="https://michalgornicki.github.io/smile-med/"><p>Open website.</p></a>
@@ -78,9 +78,9 @@ window.addEventListener('scroll', scrolling);
             <img className="carousel-image d-block w-100" src={Image2} alt="Second slide" />
 
             <div className="carousel-text">
-            <h4>Smart Home website design project</h4>
+            <h4>Smart Home, commercial website</h4>
                 <p>[React JS]</p>
-                <p>I have created this website to train my design and styling skills.</p>
+                <p>I have created this website to train my design skills.</p>
             <a className="carousel-link" href="https://michalgornicki.github.io/smartify/"><p>Open website.</p></a>
             <a className="carousel-link" href="https://github.com/michalgornicki/smartify/"><p>Check code on Github.</p></a>
 

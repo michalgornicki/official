@@ -428,7 +428,7 @@ a:active {
   margin: 1vmin;
   overflow: hidden;
   background-color: rgba(0, 247, 255, 0.1);
-  filter: drop-shadow(0px 0px 5px rgb(0, 206, 233)) drop-shadow(0px 0px 10px rgb(0, 206, 233));
+  filter: drop-shadow(0px 0px 20px rgb(0, 225, 255)) drop-shadow(0px 0px 10px rgb(0, 225, 255));
   animation: 1s;
   border-radius: 100vmin;
 }
@@ -605,7 +605,7 @@ a:active {
   .carousel-control-next,
   .carousel-control-prev {
     height: 20%;
-    top: 22%;
+    top: 25%;
   }
 
   body {

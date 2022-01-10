@@ -604,8 +604,8 @@ a:active {
 
   .carousel-control-next,
   .carousel-control-prev {
-    height: 20%;
-    top: 22%;
+    height: 50%;
+    top: 0%;
   }
 
   body {

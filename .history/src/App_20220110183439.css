@@ -228,11 +228,15 @@ html {
   border-radius: 3vmin;
   text-shadow: 0px 0px 15px rgb(0, 225, 255);
   box-shadow: 0px 0px 150px rgb(0, 225, 255), 0px 0px 100px rgb(0, 225, 255), 0px 0px 20px rgb(0, 225, 255);
-  animation: 2s;
+  animation: 2s title-anim linear infinite alternate;
   transition: 2s;
   cursor: pointer;
   transform: translate(20%);
+}
 
+@keyframes title-anim{
+  0%{box-shadow: 0px 0px 80px rgb(0, 225, 255), 0px 0px 6px rgb(0, 225, 255), 0px 0px 30px rgb(0, 225, 255);}
+  100%{box-shadow: 0px 0px 15px rgb(0, 225, 255), 0px 0px 10px rgb(0, 225, 255), 0px 0px 2px rgb(0, 225, 255);}
 }
 
 .medium {

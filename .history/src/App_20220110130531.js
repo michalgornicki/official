@@ -10,10 +10,13 @@ import Services from "./components/services.component.js";
 import Bottombar from "./components/bottombar.component.js";
 import Scrollnav from "./components/scrollnav.component.js";
 
+
 function App() {
+  
   useEffect(() => {
     document.title = "micdev/official";
   }, []);
+
 
   return (
     <div className="App">

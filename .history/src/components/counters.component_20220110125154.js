@@ -10,6 +10,7 @@ const Counters = () => {
     if (document.getElementById("container2").getBoundingClientRect().top < 300) {
       counter();
     window.removeEventListener('scroll', scrolling);
+    document.getElementsByClassName("counter-container")[0].style.filter="opacity(1)";
     }
 
   };

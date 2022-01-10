@@ -10,16 +10,21 @@ const Counters = () => {
     if (document.getElementById("container2").getBoundingClientRect().top < 300) {
       counter();
     window.removeEventListener('scroll', scrolling);
+    document.getElementsByClassName("counter-container")[0].style.filter="opacity(1)";
+    document.getElementById("container2").style.height="300px";
     }
-
+    else {
+    document.getElementsByClassName("counter-container")[0].style.filter="opacity(0)";
+    document.getElementById("container2").style.height="0px";
+    }
   };
 
   const containerShow = () => {
     if (document.getElementById("container2").getBoundingClientRect().top < 300) {
-      document.getElementById("container2").style.filter="opacity(1)"
+      document.getElementById("container2").style.filter="300px"
     }
     else {
-    document.getElementById("container2").style.filter="opacity(0)";
+    document.getElementById("container2").style.height="0px";
     }
   };
 

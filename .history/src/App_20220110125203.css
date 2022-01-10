@@ -162,12 +162,9 @@ html {
 #container2 {
   position: relative;
   height: fit-content;
-  padding-top: 15vmin;
-  padding-bottom: 15vmin;
   background-color: rgb(9, 41, 71);
   transition: 1s;
   overflow: hidden;
-  filter: opacity(0);
 }
 
 #container3 {
@@ -561,6 +558,7 @@ a:active {
   position: relative;
   transition: 1s;
   filter: opacity(1);
+  transform: translateY(15%);
 }
 
 .counter-icon {
@@ -861,5 +859,8 @@ a:active {
     display: none;
   }
 
-
+  .counter-container {
+    position: relative;
+    transform: translateY(0%);
+  }
 }

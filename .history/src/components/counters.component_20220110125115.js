@@ -19,7 +19,7 @@ const Counters = () => {
       document.getElementById("container2").style.filter="opacity(1)"
     }
     else {
-    document.getElementById("container2").style.filter="opacity(0)";
+    document.getElementById("container2").style.filter="opacity(1)";
     }
   };
 

@@ -22,7 +22,7 @@ import node from "../icons/node.png";
 const Skills = () => {
 
   const scrolling = () => {
-    if (document.getElementById("container4").getBoundingClientRect().top < 400) {
+    if (document.getElementById("container4").getBoundingClientRect().top < 300) {
      document.getElementsByClassName("skill-wrapper")[0].style.filter="opacity(1)";
      document.getElementsByClassName("skill-wrapper")[1].style.filter="opacity(1)";
   }

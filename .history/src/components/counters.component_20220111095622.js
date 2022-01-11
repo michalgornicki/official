@@ -15,7 +15,7 @@ const Counters = () => {
   };
 
   const containerShow = () => {
-    if (document.getElementById("container2").getBoundingClientRect().top < 400) {
+    if (document.getElementById("container2").getBoundingClientRect().top < 300) {
       document.getElementById("container2").style.filter="opacity(1)"
     }
     else {

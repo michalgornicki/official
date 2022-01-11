@@ -166,6 +166,7 @@ html {
   padding-bottom: 15vmin;
   transition: 1s;
   overflow: hidden;
+  filter: opacity(0);
 }
 
 #container3 {

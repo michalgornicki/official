@@ -166,6 +166,7 @@ html {
   padding-bottom: 15vmin;
   transition: 1s;
   overflow: hidden;
+  filter: opacity(0);
 }
 
 #container3 {
@@ -433,7 +434,7 @@ a:active {
 }
 
 .skill:nth-child(2n){
-  transform: translateY(20%);
+  transform: translateY(25%);
 }
 
 .skill:hover {
@@ -584,9 +585,11 @@ a:active {
 }
 
 .twitter{
-  width: 80%;
+  width: 35%;
   display: block;
   position: relative;
+  margin: auto;
+  top: 25%;
   border-radius: 3vmin;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.473);
 }
@@ -602,9 +605,8 @@ a:active {
     }
 
     .twitter{
-      width: 100%;
+      width: 90%;
       top: 0%;
-      margin-bottom: 5vmin;
     }
 
   .carousel-inner {

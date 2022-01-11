@@ -166,6 +166,7 @@ html {
   padding-bottom: 15vmin;
   transition: 1s;
   overflow: hidden;
+  filter: opacity(0);
 }
 
 #container3 {
@@ -587,6 +588,7 @@ a:active {
   width: 80%;
   display: block;
   position: relative;
+  margin: auto;
   border-radius: 3vmin;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.473);
 }
@@ -602,9 +604,8 @@ a:active {
     }
 
     .twitter{
-      width: 100%;
+      width: 90%;
       top: 0%;
-      margin-bottom: 5vmin;
     }
 
   .carousel-inner {

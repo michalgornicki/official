@@ -13,7 +13,17 @@ const Counters = () => {
 
   };
 
+  const containerShow = () => {
+    if (document.getElementById("container2").getBoundingClientRect().top < 400) {
+      document.getElementById("container2").style.filter="opacity(1)"
+    }
+    else {
+    document.getElementById("container2").style.filter="opacity(0)";
+    }
+  };
+
   window.addEventListener('scroll', scrolling);
+  window.addEventListener('scroll', containerShow);
 
   const counter = () => {
     var j = 0;

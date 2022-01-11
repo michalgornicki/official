@@ -13,7 +13,17 @@ const Counters = () => {
 
   };
 
+  const containerShow = () => {
+    if (document.getElementById("container2").getBoundingClientRect().top < 400) {
+      document.getElementById("container2").style.filter="opacity(1)"
+    }
+    else {
+    document.getElementById("container2").style.filter="opacity(0)";
+    }
+  };
+
   window.addEventListener('scroll', scrolling);
+  window.addEventListener('scroll', containerShow);
 
   const counter = () => {
     var j = 0;
@@ -31,7 +41,7 @@ const Counters = () => {
       if (k < 2369) document.getElementById("counter3").innerHTML = ++k + "+";
       else {clearInterval(intervDispl);
         document.getElementsByClassName("counter-icon")[1].style.filter=
-        "drop-shadow(0px 0px 10px rgb(9, 255, 0)) drop-shadow(0px 0px 10px rgb(9, 255, 0))"
+        "drop-shadow(0px 0px 10px rgb(9, 255, 0)) drop-shadow(0px 0px 10px rgb(9, 255, 0)) drop-shadow(0px 0px 10px rgb(9, 255, 0))"
       }
     }, 1);
   };

@@ -226,7 +226,7 @@ html {
   top: 8vmin;
   color: rgb(255, 255, 255);
   border-radius: 3vmin;
-  text-shadow: 0px 0px 15px rgb(0, 225, 255), 0px 0px 35px rgb(0, 225, 255);
+  text-shadow: 0px 0px 35px rgb(0, 225, 255) 0px 0px 35px rgb(0, 225, 255);
   animation: 2s;
   transition: 2s;
   cursor: pointer;

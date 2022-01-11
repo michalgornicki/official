@@ -82,7 +82,7 @@ window.addEventListener('scroll', scrolling);
       </div>
       
       <h2 className="header header-medium">
-        Currently learning
+        I want to learn or currently learning
       </h2>
 
       <div className="skill-wrapper">

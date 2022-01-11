@@ -71,7 +71,7 @@ const Counters = () => {
             <img className="counter-icon w-25" src={complete} alt="" />
           </div>
           <div id="counter2">0</div>
-          <div>projects done</div>
+          <div className="display-5">projects done</div>
         </div>
         <div className="d-flex flex-column my-3">
           <div>

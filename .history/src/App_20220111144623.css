@@ -592,7 +592,7 @@ a:active {
   margin: auto;
   top: 25%;
   border-radius: 3vmin;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.473);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.377);
 }
 
 @media only screen and (max-device-width: 600px), (max-width: 600px) {

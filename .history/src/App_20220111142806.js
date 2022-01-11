@@ -24,7 +24,6 @@ function App() {
       <Skills />
       <Services />
       <Counters />
-      <Social />
       <Scrollnav />
       <Bottombar />
     </div>

@@ -19,7 +19,7 @@ window.addEventListener('scroll', scrolling);
 
   return (
     <div id="container5">
-      <h2 className="header header-lower">Experience</h2>
+      <h2 className="header header-lower">Experiences</h2>
       <div className="service-wrapper">
         <div
           className="service"

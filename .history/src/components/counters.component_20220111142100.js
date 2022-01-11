@@ -1,5 +1,6 @@
 import React from "react";
 import hourglass from "../hourglass.png";
+import client from "../client.png";
 import complete from "../complete.png";
 
 const Counters = () => {
@@ -26,13 +27,16 @@ const Counters = () => {
   window.addEventListener('scroll', containerShow);
 
   const counter = () => {
+    var i = 0;
     var j = 0;
     var k = 0;
+
+    var intervSpeed = setInterval(function () {
 
     var intervPower = setInterval(function () {
       if (j < 20) document.getElementById("counter2").innerHTML = ++j + "+";
       else {clearInterval(intervPower);
-        document.getElementsByClassName("counter-icon")[0].style.filter=
+        document.getElementsByClassName("counter-icon")[1].style.filter=
         "drop-shadow(0px 0px 10px rgb(9, 255, 0)) drop-shadow(0px 0px 10px rgb(9, 255, 0)) drop-shadow(0px 0px 10px rgb(9, 255, 0))"
       }
     }, 300);
@@ -40,7 +44,7 @@ const Counters = () => {
     var intervDispl = setInterval(function () {
       if (k < 2369) document.getElementById("counter3").innerHTML = ++k + "+";
       else {clearInterval(intervDispl);
-        document.getElementsByClassName("counter-icon")[1].style.filter=
+        document.getElementsByClassName("counter-icon")[2].style.filter=
         "drop-shadow(0px 0px 10px rgb(9, 255, 0)) drop-shadow(0px 0px 10px rgb(9, 255, 0)) drop-shadow(0px 0px 10px rgb(9, 255, 0))"
       }
     }, 1);

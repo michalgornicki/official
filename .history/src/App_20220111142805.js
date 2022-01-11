@@ -7,7 +7,7 @@ import Counters from "./components/counters.component.js";
 import Projects from "./components/projects.component.js";
 import Skills from "./components/skills.component.js";
 import Services from "./components/services.component.js";
-import Social from "./components/social.component.js";
+import Social from "./components/so.component.js";
 import Bottombar from "./components/bottombar.component.js";
 import Scrollnav from "./components/scrollnav.component.js";
 
@@ -24,7 +24,6 @@ function App() {
       <Skills />
       <Services />
       <Counters />
-      <Social />
       <Scrollnav />
       <Bottombar />
     </div>

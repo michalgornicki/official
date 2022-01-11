@@ -167,6 +167,8 @@ html {
   transition: 1s;
   overflow: hidden;
   filter: opacity(0);
+  background-color: rgba(0, 0, 0, 0.3);
+
 }
 
 #container3 {
@@ -187,14 +189,14 @@ html {
 
 #container5 {
   position: relative;
-  height: fit-content;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 #container6 {
   position: relative;
-  height: auto;
-  padding-top: 10vmin;
-  padding-bottom: 10vmin;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 
@@ -586,29 +588,14 @@ a:active {
 }
 
 .twitter{
-  width: 35%;
+  width: 40%;
   display: block;
-  position: relative;
   margin: auto;
-  top: 25%;
-  border-radius: 3vmin;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.473);
+  top: 30%;
 }
 
 @media only screen and (max-device-width: 600px), (max-width: 600px) {
 
-  #container2{
-  background-color: rgb(21, 54, 85);
-  }
-
-  #container6{
-    background-color: rgb(21, 54, 85);
-    }
-
-    .twitter{
-      width: 90%;
-      top: 0%;
-    }
 
   .carousel-inner {
     height: 60vh;
@@ -645,7 +632,7 @@ a:active {
 
 
   .large {
-    font-size: 18vmin;
+    font-size: 13vmin;
     width: 100%;
     margin-top: 5vmin;
     margin-bottom: 5vmin;
@@ -653,10 +640,6 @@ a:active {
 
   .medium {
     font-size: 9vmin;
-  }
-
-  .small {
-    font-size: 5.5vmin;
   }
 
   .header {
@@ -761,7 +744,9 @@ a:active {
     font-size: 4vmin;
   }
 
-
+  .small {
+    font-size: 8vmin;
+  }
 
   .project-hover {
     transition: 0.3s;

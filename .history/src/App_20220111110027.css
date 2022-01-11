@@ -164,11 +164,10 @@ html {
   height: fit-content;
   padding-top: 15vmin;
   padding-bottom: 15vmin;
+  background-color: rgb(9, 41, 71);
   transition: 1s;
   overflow: hidden;
   filter: opacity(0);
-  background-color: rgba(0, 0, 0, 0.3);
-
 }
 
 #container3 {
@@ -208,7 +207,7 @@ html {
   position: relative;
   top: 28vh;
   margin: auto;
-  width: 44%;
+  width: 50%;
   z-index: 2;
   transition: 0.2s;
   text-align: center;
@@ -523,7 +522,7 @@ a:active {
 }
 
 .scroll-button:hover{
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 
 .carousel-control-next,

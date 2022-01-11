@@ -164,11 +164,10 @@ html {
   height: fit-content;
   padding-top: 15vmin;
   padding-bottom: 15vmin;
+  background-color: rgb(9, 41, 71);
   transition: 1s;
   overflow: hidden;
   filter: opacity(0);
-  background-color: rgba(0, 0, 0, 0.3);
-
 }
 
 #container3 {
@@ -206,9 +205,9 @@ html {
 
 .text-wrapper {
   position: relative;
-  top: 28vh;
-  margin: auto;
-  width: 44%;
+  top: 12vh;
+  margin-left: 5%;
+  width: 50%;
   z-index: 2;
   transition: 0.2s;
   text-align: center;
@@ -256,7 +255,7 @@ html {
 .small {
   position: relative;
   font-weight: 400;
-  font-size: 3vmin;
+  font-size: 4vmin;
   letter-spacing: 0.1vmin;
   top: 8vmin;
   filter: opacity(1);
@@ -516,14 +515,16 @@ a:active {
 }
 
 .scroll-button {
-  width: 4vmin;
+  width: 5vmin;
+  height: 5vmin;
+  height: 100%;
   margin-left: 1vmin;
   margin-right: 1vmin;
-  transition: 0.3s;
+  transition: 1s;
 }
 
 .scroll-button:hover{
-  transform: scale(1.3);
+  transform: rotate(180deg);
 }
 
 .carousel-control-next,

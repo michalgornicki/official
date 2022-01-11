@@ -208,7 +208,7 @@ html {
   position: relative;
   top: 28vh;
   margin: auto;
-  width: 44%;
+  width: 50%;
   z-index: 2;
   transition: 0.2s;
   text-align: center;
@@ -219,7 +219,7 @@ html {
 
 .large {
   position: relative;
-  font-size: 10vmin;
+  font-size: 9vmin;
   font-family: 'Lobster', cursive;
   margin-top: 3vmin;
   margin-bottom: 3vmin;

@@ -573,6 +573,8 @@ a:active {
   width: 50vmin;
   height: fit-content;
   padding: 2vmin;
+  transition: 1s;
+  animation: 1s;
 }
 
 .carousel-link{

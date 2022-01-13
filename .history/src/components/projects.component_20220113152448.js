@@ -11,7 +11,7 @@ import Image8 from "../8.png";
 import Image9 from "../9.png";
 import Image10 from "../10.png";
 import Image11 from "../11.png";
-import Image12 from "../12.png";
+import Image12 from "../11.png";
 
 const Projects = () => {
 

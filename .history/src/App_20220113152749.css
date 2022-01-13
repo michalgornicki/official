@@ -567,7 +567,7 @@ a:active {
   position: absolute;
   top: 0%;
   left: 102%;
-  background-color: rgb(61, 61, 61);
+  background: rgb(61, 61, 61);
   color: white!important;
   z-index: 100;
   width: 50vmin;

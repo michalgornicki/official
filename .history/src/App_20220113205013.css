@@ -74,14 +74,14 @@ html {
 }
 
 .part1 {
-  background-position-x: 25%;
+  background-position-x: 0%;
   animation: 8s part1 forwards;
   animation-delay: 1s;
 }
 
 @keyframes part1 {
   0% {
-    background-position-x: 25%;
+    transform: rotateZ();
   }
   100% {
     background-position-x: 0%;
@@ -89,14 +89,14 @@ html {
 }
 
 .part2 {
-  background-position-x: 0%;
+  background-position-x: 25%;
   animation: 8s part2 forwards;
-  animation-delay: 1.2s;
+  animation-delay: 1.5s;
 }
 
 @keyframes part2 {
   0% {
-    background-position-x: 0%;
+    background-position-x: -5%;
   }
   100% {
     background-position-x: 25%;
@@ -104,14 +104,14 @@ html {
 }
 
 .part3 {
-  background-position-x: 0%;
+  background-position-x: 50%;
   animation: 8s part3 forwards;
-  animation-delay: 1.4s;
+  animation-delay: 2s;
 }
 
 @keyframes part3 {
   0% {
-    background-position-x: 0%;
+    background-position-x: 20%;
   }
   100% {
     background-position-x: 50%;
@@ -119,14 +119,14 @@ html {
 }
 
 .part4 {
-  background-position-x: 0%;
+  background-position-x: 75%;
   animation: 8s part4 forwards;
-  animation-delay: 1.6s;
+  animation-delay: 2.5s;
 }
 
 @keyframes part4 {
   0% {
-    background-position-x: 0%;
+    background-position-x: 55%;
   }
   100% {
     background-position-x: 75%;
@@ -134,14 +134,14 @@ html {
 }
 
 .part5 {
-  background-position-x: 0%;
+  background-position-x: 100%;
   animation: 8s part5 forwards;
-  animation-delay: 1.8s;
+  animation-delay: 3s;
 }
 
 @keyframes part5 {
   0% {
-    background-position-x: 0%;
+    background-position-x: 90%;
   }
   100% {
     background-position-x: 100%;

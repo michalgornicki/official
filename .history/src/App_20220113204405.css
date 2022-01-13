@@ -126,7 +126,7 @@ html {
 
 @keyframes part4 {
   0% {
-    background-position-x: 0%;
+    background-position-x: 65%;
   }
   100% {
     background-position-x: 75%;

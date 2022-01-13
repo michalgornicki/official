@@ -74,14 +74,14 @@ html {
 }
 
 .part1 {
-  background-position-x: 25%;
+  background-position-x: 10%;
   animation: 8s part1 forwards;
   animation-delay: 1s;
 }
 
 @keyframes part1 {
   0% {
-    background-position-x: 25%;
+    background-position-x: 10%;
   }
   100% {
     background-position-x: 0%;
@@ -96,7 +96,7 @@ html {
 
 @keyframes part2 {
   0% {
-    background-position-x: 0%;
+    background-position-x: 15%;
   }
   100% {
     background-position-x: 25%;
@@ -111,7 +111,7 @@ html {
 
 @keyframes part3 {
   0% {
-    background-position-x: 0%;
+    background-position-x: 40%;
   }
   100% {
     background-position-x: 50%;
@@ -126,7 +126,7 @@ html {
 
 @keyframes part4 {
   0% {
-    background-position-x: 0%;
+    background-position-x: 65%;
   }
   100% {
     background-position-x: 75%;

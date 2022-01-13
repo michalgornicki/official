@@ -7,9 +7,10 @@ const Services = () => {
 
   const scrolling = () => {
     if (document.getElementById("container5").getBoundingClientRect().top < 300) {
+     document.getElementsByClassName("service-wrapper")[0].style.transform="translateY(0%)";
      document.getElementsByClassName("service-wrapper")[0].style.filter="opacity(1)";
   }
-   else {
+   else {document.getElementsByClassName("service-wrapper")[0].style.transform="translateY(50%)";
         document.getElementsByClassName("service-wrapper")[0].style.filter="opacity(0)";}
 }
 

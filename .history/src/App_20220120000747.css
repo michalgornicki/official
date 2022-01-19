@@ -4,7 +4,7 @@ body {
   position: relative;
   background-color: black;
   font-family: "Oswald", sans-serif;
-  background: url("wallpaper2.gif");
+  background: url("wallpaper2.jpg");
   background-size: 100%;
   background-position-y: 39%;
   background-attachment: fixed;
@@ -606,7 +606,7 @@ a:active {
   #container4 {
     height: 70vh;
     background-size: cover;
-    background: url("wallpaper2.gif");
+    background: url("wallpaper2.jpg");
   }
 
   #container5 {

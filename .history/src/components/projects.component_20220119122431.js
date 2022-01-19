@@ -46,7 +46,7 @@ window.addEventListener('scroll', scrolling);
             <p>[Figma, React js, React Router, Bootstrap, Firebase authentication]</p>
             <p>On this website you can browse cat adoption announcements, search for specific cat, create your account, follow informations about selected pets and add your own announcements about cats looking for new home. I created design for this project in Figma. Page is currently under development.</p>
             <a className="carousel-link" href="https://michalgornicki.github.io/cats/"><p>Open website.</p></a>
-            <a className="carousel-link" href="https://github.com/michalgornicki/cats/"><p>Check code on Github.</p></a>
+            <a className="carousel-link" href="https://github.com/michalgornicki/ca/"><p>Check code on Github.</p></a>
             <a className="carousel-link" href="https://www.figma.com/file/6zDs92xmPHCsTPWngIb3pQ/Adoptuj-Kota?node-id=10%3A87/"><p>Check design on Figma.</p></a>
             </div>
 

@@ -444,8 +444,8 @@ a:active {
 
 .carousel-control-next,
 .carousel-control-prev {
-  height: 20%;
-  width: 10%;
+  height: 15%;
+  width: 7%;
   top: 78%;
   background-color: rgba(156, 0, 135, 0.5);
   transition: 0.3s;

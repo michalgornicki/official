@@ -446,7 +446,7 @@ a:active {
 .carousel-control-prev {
   height: 20%;
   width: 10%;
-  top: 78%;
+  top: 75%;
   background-color: rgba(156, 0, 135, 0.5);
   transition: 0.3s;
 }

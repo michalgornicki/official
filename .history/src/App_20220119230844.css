@@ -444,11 +444,11 @@ a:active {
 
 .carousel-control-next,
 .carousel-control-prev {
-  height: 20%;
   width: 10%;
-  top: 78%;
+  top: 80%;
   background-color: rgba(156, 0, 135, 0.5);
   transition: 0.3s;
+  border-radius: 10vmin;
 }
 
 .carousel-control-next:hover,

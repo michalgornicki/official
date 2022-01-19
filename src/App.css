@@ -4,7 +4,7 @@ body {
   position: relative;
   background-color: black;
   font-family: "Oswald", sans-serif;
-  background: url("wallpaper2.jpg");
+  background: url("wallpaper2.gif");
   background-size: 100%;
   background-position-y: 39%;
   background-attachment: fixed;
@@ -67,87 +67,6 @@ html {
   transition: 1s;
 }
 
-.part {
-  width: 20%;
-  background: url("wallpaper1.jpg");
-  background-size: 500% 100%;
-}
-
-.part1 {
-  background-position-x: 25%;
-  animation: 8s part1 forwards;
-  animation-delay: 1s;
-}
-
-@keyframes part1 {
-  0% {
-    background-position-x: 25%;
-  }
-  100% {
-    background-position-x: 0%;
-  }
-}
-
-.part2 {
-  background-position-x: 0%;
-  animation: 8s part2 forwards;
-  animation-delay: 1.2s;
-}
-
-@keyframes part2 {
-  0% {
-    background-position-x: 0%;
-  }
-  100% {
-    background-position-x: 25%;
-  }
-}
-
-.part3 {
-  background-position-x: 0%;
-  animation: 8s part3 forwards;
-  animation-delay: 1.4s;
-}
-
-@keyframes part3 {
-  0% {
-    background-position-x: 0%;
-  }
-  100% {
-    background-position-x: 50%;
-  }
-}
-
-.part4 {
-  background-position-x: 0%;
-  animation: 8s part4 forwards;
-  animation-delay: 1.6s;
-}
-
-@keyframes part4 {
-  0% {
-    background-position-x: 0%;
-  }
-  100% {
-    background-position-x: 75%;
-  }
-}
-
-.part5 {
-  background-position-x: 0%;
-  animation: 8s part5 forwards;
-  animation-delay: 1.8s;
-}
-
-@keyframes part5 {
-  0% {
-    background-position-x: 0%;
-  }
-  100% {
-    background-position-x: 100%;
-  }
-}
-
 .scroll:hover {
   filter: opacity(1);
 }
@@ -156,6 +75,7 @@ html {
   position: relative;
   height: 100vh;
   width: 100%;
+  background: url("wallpaper1.gif");
 }
 
 #container2 {
@@ -677,21 +597,19 @@ a:active {
   }
 
   #container3 {
-    height: 95vh;
-    padding-bottom: 50px;
-    background: url("wallpaper2.jpg");
+    height: 115vh;
     background-size: cover;
+    background-color: black;
   }
 
   #container4 {
     height: 70vh;
     background-size: cover;
-    background: url("wallpaper1.jpg");
+    background: url("wallpaper2.gif");
   }
 
   #container5 {
-    background: url("wallpaper2.jpg");
-    background-size: cover;
+    background-color: black;
     height: auto;
   }
 
@@ -831,7 +749,7 @@ a:active {
 
   .part {
     width: 20%;
-    background: url("wallpaper1.jpg");
+    background: url("wallpaper1.gif");
     background-size: 2000% 100%;
   }
 

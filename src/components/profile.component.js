@@ -25,11 +25,7 @@ const Profile = () => {
   return (
     <div id="container1">
       <div className="wallpaper"onMouseEnter={() => document.getElementsByClassName("wallpaper")[0].style.filter="blur(0px)"}>
-        <div className="part part1"></div>
-        <div className="part part2"></div>
-        <div className="part part3"></div>
-        <div className="part part4"></div>
-        <div className="part part5"></div>
+
       </div>
 
       <div className="text-wrapper" onMouseEnter={() => document.getElementsByClassName("wallpaper")[0].style.filter="blur(5px)"} >

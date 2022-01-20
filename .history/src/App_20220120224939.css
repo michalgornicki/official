@@ -485,9 +485,7 @@ a:active {
   padding: 2vmin;
 }
 
-.text-green{
-  color: rgb(40, 228, 15) !important;
-}
+text-green
 
 .carousel-link {
   color: rgb(28, 243, 0) !important;

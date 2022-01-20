@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
 body {
   position: relative;
@@ -27,6 +27,7 @@ html {
 }
 
 .navbar {
+  font-family: 'Inconsolata', monospace;
   position: fixed;
   height: 8vh;
   width: 100%;
@@ -222,6 +223,7 @@ a:active {
 }
 
 .header {
+  font-family: "Lobster", cursive;
   position: relative;
   font-size: 6vmin;
   color: rgb(255, 255, 255);

@@ -27,6 +27,7 @@ html {
 }
 
 .navbar {
+  font-family: "Lobster", cursive;
   position: fixed;
   height: 8vh;
   width: 100%;
@@ -79,9 +80,10 @@ html {
   height: 100vh;
   width: 100%;
   background: radial-gradient(
-    rgb(1, 31, 0) 45%,
+    rgb(0, 0, 0) 19.5%,
+    rgb(0, 216, 11) 20.5%,
     rgb(0, 216, 11) 49.9%,
-    rgb(1, 31, 0) 50.1%
+    rgb(0, 0, 0) 50.1%
   );
   background-size: 110% 200%;
   background-position: 50% 50%;
@@ -164,7 +166,7 @@ html {
   top: 8vmin;
   color: rgb(255, 255, 255);
   border-radius: 3vmin;
-  text-shadow: 0px 0px 15px rgb(9, 255, 0), 0px 0px 35px rgb(9, 255, 0);
+  text-shadow: 0px 0px 15px rgb(0, 225, 255), 0px 0px 35px rgb(0, 225, 255);
   animation: 2s;
   transition: 2s;
   cursor: pointer;
@@ -222,6 +224,7 @@ a:active {
 }
 
 .header {
+  font-family: "Lobster", cursive;
   position: relative;
   font-size: 6vmin;
   color: rgb(255, 255, 255);

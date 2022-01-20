@@ -14,9 +14,6 @@ const Scrollnav = () => {
         let el3 = document
           .getElementById("container4")
           .getBoundingClientRect().top;
-          let el4 = document
-          .getElementById("container6")
-          .getBoundingClientRect().top;
 
 
 
@@ -40,7 +37,7 @@ const Scrollnav = () => {
             "opacity(0.5)";
           document.getElementsByClassName("scroll-button")[3].style.filter =
             "opacity(0.5)";
-        } else if (el3 < 100 && el4 > 100) {
+        } else if (el3 < 100) {
           document.getElementsByClassName("scroll-button")[0].style.filter =
             "opacity(0.5)";
           document.getElementsByClassName("scroll-button")[1].style.filter =
@@ -49,8 +46,7 @@ const Scrollnav = () => {
             "opacity(1)";
           document.getElementsByClassName("scroll-button")[3].style.filter =
             "opacity(0.5)";
-        } 
-        else if (el4 < 100) {
+        } else if (el4 < 100 && el5 > 100) {
           document.getElementsByClassName("scroll-button")[0].style.filter =
             "opacity(0.5)";
           document.getElementsByClassName("scroll-button")[1].style.filter =
@@ -59,7 +55,7 @@ const Scrollnav = () => {
             "opacity(0.5)";
           document.getElementsByClassName("scroll-button")[3].style.filter =
             "opacity(1)";
-        } 
+        }
       };
     
       window.addEventListener("scroll", scrolling);
@@ -76,7 +72,7 @@ const Scrollnav = () => {
         <a href="#container4">
           <img src={square} alt="" className="scroll-button" />
         </a>
-        <a href="#container6">
+        <a href="#container5">
           <img src={square} alt="" className="scroll-button" />
         </a>
       </div>

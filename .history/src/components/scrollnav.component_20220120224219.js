@@ -40,7 +40,7 @@ const Scrollnav = () => {
             "opacity(0.5)";
           document.getElementsByClassName("scroll-button")[3].style.filter =
             "opacity(0.5)";
-        } else if (el3 < 100 && el4 > 100) {
+        } else if (el3 < 100) {
           document.getElementsByClassName("scroll-button")[0].style.filter =
             "opacity(0.5)";
           document.getElementsByClassName("scroll-button")[1].style.filter =
@@ -58,7 +58,7 @@ const Scrollnav = () => {
           document.getElementsByClassName("scroll-button")[2].style.filter =
             "opacity(0.5)";
           document.getElementsByClassName("scroll-button")[3].style.filter =
-            "opacity(1)";
+            "opacity(0.5)";
         } 
       };
     

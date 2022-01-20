@@ -27,7 +27,7 @@ const Navbar = () => {
 
           <a href="#container6">
             <div className="navbar-item" onClick={() => setToogleNavbar(false)}>
-              Social
+              More
             </div>
           </a>
         </div>

@@ -5,6 +5,7 @@ import Navbar from "./components/navbar.component.js";
 import Profile from "./components/profile.component.js";
 import Projects from "./components/projects.component.js";
 import Skills from "./components/skills.component.js";
+import Services from "./components/services.component.js";
 import Social from "./components/social.component.js";
 import Bottombar from "./components/bottombar.component.js";
 import Scrollnav from "./components/scrollnav.component.js";

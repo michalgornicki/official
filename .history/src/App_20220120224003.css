@@ -127,6 +127,8 @@ html {
 #container6 {
   position: relative;
   height: 100vh;
+  padding-top: 10vmin;
+  padding-bottom: 10vmin;
 }
 
 .bottom-bar {

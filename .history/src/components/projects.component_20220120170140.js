@@ -44,7 +44,7 @@ window.addEventListener('scroll', scrolling);
             
             <div className="carousel-text">
             <h4>Cat adoption website [under development]</h4>
-            <p>[Figma, React js, React Router, Bootstrap, Auth0 authentication]</p>
+            <p>[Figma, React js, React Router, Bootstrap, Firebase authentication]</p>
             <p>On this website you can browse cat adoption announcements, search for specific cat, create your account, follow informations about selected pets and add your own announcements about cats looking for new home. I created design for this project in Figma. Page is currently under development.</p>
             <a className="carousel-link" href="https://michalgornicki.github.io/cats/"><p>Open website.</p></a>
             <a className="carousel-link" href="https://github.com/michalgornicki/cats/"><p>Check code on Github.</p></a>
@@ -59,7 +59,7 @@ window.addEventListener('scroll', scrolling);
             
             <div className="carousel-text">
             <h4>Auction website [concept]</h4>
-            <p>[Figma, React js, React Router, Bootstrap, Firebase database, Redux]</p>
+            <p>[Figma, React js, React Router, Bootstrap, Auth0 database, Redux]</p>
             <p>My next project will be website to buy and sell products on auctions. There will be Redux state management and real time Firebase database. </p>
             <a className="carousel-link"><p>Open website.</p></a>
             <a className="carousel-link"><p>Check code on Github.</p></a>

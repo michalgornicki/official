@@ -2,12 +2,21 @@
 
 body {
   position: relative;
-  background: linear-gradient(3deg, rgb(73, 0, 102) 00%, rgb(177, 0, 221) 49.8%, rgb(0, 174, 255) 50.2%, rgb(0, 90, 105) 100%);
+  background: linear-gradient(
+    3deg,
+    rgb(73, 0, 102) 00%,
+    rgb(177, 0, 221) 49.8%,
+    rgb(0, 174, 255) 50.2%,
+    rgb(0, 90, 105) 100%
+  );
   font-family: "Oswald", sans-serif;
   background-size: 100% 100%;
   background-position-y: 50%;
   background-attachment: fixed;
+  margin: 0px;
 }
+
+
 
 .App {
   text-align: none;
@@ -73,19 +82,21 @@ html {
   position: relative;
   height: 100vh;
   width: 100%;
-  background: radial-gradient(rgb(0, 153, 255) 0%, rgb(177, 0, 221) 49.9%, rgb(65, 195, 255) 50.1%, rgb(25, 25, 25) 100%);
+  background: radial-gradient(
+    rgb(0, 153, 255) 0%,
+    rgb(177, 0, 221) 49.9%,
+    rgb(65, 195, 255) 50.1%,
+    rgb(25, 25, 25) 100%
+  );
   background-size: 110% 200%;
-  background-position: 50% 50%;
-  animation: 6s background infinite alternate;
+  background-position: 50% 2;
+  background-position: 20%;
+  animation: 3s background infinite alternate;
 }
 
 @keyframes background {
-  0% {
-    background-size: 100% 150%;
-  }
-  100% {
-    background-size: 120% 130%;
-  }
+  0%{background-position-y: 20%;}
+  100%{background-position-y: 50%;}
 }
 
 #container2 {
@@ -497,6 +508,8 @@ a:active {
 }
 
 @media only screen and (max-device-width: 600px), (max-width: 600px) {
+
+
   .twitter {
     width: 100% !important;
     top: 0%;
@@ -522,7 +535,13 @@ a:active {
   }
 
   body {
-    background: linear-gradient(87deg, rgb(73, 0, 102) 00%, rgb(177, 0, 221) 49.8%, rgb(0, 174, 255) 50.2%, rgb(0, 90, 105) 100%);
+    background: linear-gradient(
+      87deg,
+      rgb(73, 0, 102) 00%,
+      rgb(177, 0, 221) 49.8%,
+      rgb(0, 174, 255) 50.2%,
+      rgb(0, 90, 105) 100%
+    );
     background-attachment: scroll;
   }
 
@@ -570,18 +589,14 @@ a:active {
   #container1 {
     left: 0%;
     height: 95vh;
-    background: radial-gradient(rgb(0, 153, 255) 0%, rgb(177, 0, 221) 49.9%, rgb(65, 195, 255) 50.1%, rgb(25, 25, 25) 100%);
+    background: radial-gradient(
+      rgb(0, 153, 255) 0%,
+      rgb(177, 0, 221) 49.9%,
+      rgb(65, 195, 255) 50.1%,
+      rgb(25, 25, 25) 100%
+    );
+    background-size: 250% 130%;
     background-position: 50% 5%;
-    animation: 3s background infinite alternate;
-  }
-  
-  @keyframes background {
-    0% {
-      background-size: 160% 100%;
-    }
-    100% {
-      background-size: 180% 110%;
-    }
   }
 
   #container3 {

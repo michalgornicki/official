@@ -75,7 +75,7 @@ html {
   width: 100%;
   background: radial-gradient(rgb(0, 153, 255) 0%, rgb(177, 0, 221) 49.9%, rgb(65, 195, 255) 50.1%, rgb(25, 25, 25) 100%);
   background-size: 110% 200%;
-  background-position: 50% 50%;
+  background-position: 50% 60%;
   animation: 6s background infinite alternate;
 }
 

@@ -7,6 +7,7 @@ body {
   background-size: 100% 100%;
   background-position-y: 50%;
   background-attachment: fixed;
+  margin: 0px;
 }
 
 .App {
@@ -75,16 +76,22 @@ html {
   width: 100%;
   background: radial-gradient(rgb(0, 153, 255) 0%, rgb(177, 0, 221) 49.9%, rgb(65, 195, 255) 50.1%, rgb(25, 25, 25) 100%);
   background-size: 110% 200%;
-  background-position: 50% 50%;
-  animation: 6s background infinite alternate;
+  background-position: 50% 20%;
+  animation: 3s background infinite alternate;
 }
 
 @keyframes background {
   0% {
-    background-size: 100% 150%;
+    background-position: 50% 20%;
+  }
+  33% {
+    background-position: 20% 20%;
+  }
+  66% {
+    background-position: 20% 50%;
   }
   100% {
-    background-size: 120% 130%;
+    background-position: 50% 50%;
   }
 }
 
@@ -571,17 +578,8 @@ a:active {
     left: 0%;
     height: 95vh;
     background: radial-gradient(rgb(0, 153, 255) 0%, rgb(177, 0, 221) 49.9%, rgb(65, 195, 255) 50.1%, rgb(25, 25, 25) 100%);
+    background-size: 250% 130%;
     background-position: 50% 5%;
-    animation: 3s background infinite alternate;
-  }
-  
-  @keyframes background {
-    0% {
-      background-size: 160% 100%;
-    }
-    100% {
-      background-size: 180% 110%;
-    }
   }
 
   #container3 {

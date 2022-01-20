@@ -2,24 +2,13 @@
 
 body {
   position: relative;
-  background: linear-gradient(
-    11deg,
-    rgb(25, 25, 25) 42%,
-    rgb(255, 0, 0) 48%,
-    rgb(255, 136, 0) 49%,
-    rgb(251, 255, 0) 50%,
-    rgb(30, 255, 0) 51%,
-    rgb(0, 217, 255) 52%,
-    rgb(25, 25, 25) 58%
-  );
+  background: linear-gradient(black 20%, rgb(251, 255, 0) 40%, rgb(0, 255, 0) 50%, rgb(0, 217, 255) 60%, black 80%);
   font-family: "Oswald", sans-serif;
-  background-size: 100% 187%;
-  background-position-y: 50%;
+  background-size: 100% 100%;
+  background-position-y: 39%;
   background-attachment: fixed;
   margin: 0px;
 }
-
-
 
 .App {
   text-align: none;
@@ -33,7 +22,7 @@ html {
 }
 
 .navbar {
-  font-family: "Lobster", cursive;
+  font-family: 'Lobster', cursive;
   position: fixed;
   height: 8vh;
   width: 100%;
@@ -125,6 +114,7 @@ html {
   padding-bottom: 10vmin;
 }
 
+
 .bottom-bar {
   position: relative;
   bottom: 0;
@@ -145,12 +135,12 @@ html {
   color: rgb(255, 255, 255);
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 .large {
   position: relative;
   font-size: 10vmin;
-  font-family: "Lobster", cursive;
+  font-family: 'Lobster', cursive;
   margin-top: 3vmin;
   margin-bottom: 3vmin;
   top: 8vmin;
@@ -161,11 +151,12 @@ html {
   transition: 2s;
   cursor: pointer;
   transform: translate(20%);
+
 }
 
 .medium {
   position: relative;
-  font-family: "Lobster", cursive;
+  font-family: 'Lobster', cursive;
   font-size: 5vmin;
   font-weight: 100;
   letter-spacing: 0.1vw;
@@ -176,6 +167,7 @@ html {
   z-index: 100;
   transition: 2s;
   transform: translate(-20%);
+
 }
 
 .small {
@@ -188,7 +180,9 @@ html {
   z-index: 100;
   transition: 2s;
   transform: translate(-10%);
+
 }
+
 
 .slide-header {
   margin: 0;
@@ -214,7 +208,7 @@ a:active {
 }
 
 .header {
-  font-family: "Lobster", cursive;
+  font-family: 'Lobster', cursive;
   position: relative;
   font-size: 6vmin;
   color: rgb(255, 255, 255);
@@ -255,7 +249,7 @@ a:active {
   transition: 1s;
   border-radius: 2vmin;
   filter: drop-shadow(0px 0px 10px rgb(132, 0, 255)) drop-shadow(0px 0px 30px rgb(132, 0, 255)) drop-shadow(0px 0px 80px rgb(132, 0, 255));
-  transform: translateY(50%);
+  transform:translateY(50%);
   transition: 1s;
 }
 
@@ -289,22 +283,19 @@ a:active {
   box-shadow: 0px 0px 150px rgb(255, 0, 221);
 }
 
-.service:nth-child(2n) {
-  animation-delay: 1s;
+.service:nth-child(2n){
+ animation-delay: 1s;
 }
 
-.service:nth-child(3n) {
-  animation-delay: 2s;
+.service:nth-child(3n){
+ animation-delay: 2s;
 }
 
-@keyframes service-color {
-  0% {
-    filter: hue-rotate(0deg);
-  }
-  100% {
-    filter: hue-rotate(360deg);
-  }
+@keyframes service-color{
+  0%{filter:hue-rotate(0deg)}
+  100%{filter: hue-rotate(360deg)}
 }
+
 
 .service-title {
   position: relative;
@@ -326,7 +317,7 @@ a:active {
   border-radius: 1vmin;
 }
 
-.skills {
+.skills{
   transition: 1s;
 }
 
@@ -359,7 +350,7 @@ a:active {
   border-radius: 100vmin;
 }
 
-.skill:nth-child(2n) {
+.skill:nth-child(2n){
   transform: translateY(20%);
 }
 
@@ -438,7 +429,6 @@ a:active {
   justify-content: center;
   width: 100%;
   top: 88%;
-  z-index: 1000;
 }
 
 .scroll-button {
@@ -448,7 +438,7 @@ a:active {
   transition: 0.3s;
 }
 
-.scroll-button:hover {
+.scroll-button:hover{
   transform: scale(1.3);
 }
 
@@ -464,7 +454,9 @@ a:active {
 .carousel-control-next:hover,
 .carousel-control-prev:hover {
   background-color: rgba(156, 0, 135, 0.8);
+
 }
+
 
 .counter-container {
   position: relative;
@@ -473,12 +465,13 @@ a:active {
 }
 
 .counter-icon {
-  filter: drop-shadow(0px 0px 10px rgb(255, 0, 221)) drop-shadow(0px 0px 10px rgb(255, 0, 221));
+  filter: drop-shadow(0px 0px 10px rgb(255, 0, 221))
+    drop-shadow(0px 0px 10px rgb(255, 0, 221));
   margin-bottom: 3vmin;
   transition: 1s;
 }
 
-.carousel-inner {
+.carousel-inner{
   overflow: visible;
 }
 
@@ -488,27 +481,27 @@ a:active {
   border-radius: 3vmin;
 }
 
-.carousel-text {
+.carousel-text{
   position: absolute;
   top: 0%;
   left: 102%;
   background-color: rgb(61, 61, 61);
-  color: white !important;
+  color: white!important;
   z-index: 100;
   width: 50vmin;
   height: fit-content;
   padding: 2vmin;
 }
 
-.carousel-link {
-  color: rgb(203, 135, 248) !important;
+.carousel-link{
+  color: rgb(203, 135, 248)!important;
 }
 
-.carousel-link:hover {
-  color: rgb(244, 210, 255) !important;
+.carousel-link:hover{
+  color: rgb(244, 210, 255)!important;
 }
 
-.twitter {
+.twitter{
   width: 80%;
   display: block;
   position: relative;
@@ -518,12 +511,19 @@ a:active {
 
 @media only screen and (max-device-width: 600px), (max-width: 600px) {
 
-
-  .twitter {
-    width: 100% !important;
-    top: 0%;
-    margin-bottom: 5vmin;
+  #container2{
+  background-color: rgb(21, 54, 85);
   }
+
+  #container6{
+    background-color: rgb(21, 54, 85);
+    }
+
+    .twitter{
+      width: 100%!important;
+      top: 0%;
+      margin-bottom: 5vmin;
+    }
 
   .carousel-inner {
     height: 60vh;
@@ -544,16 +544,8 @@ a:active {
   }
 
   body {
-    background: radial-gradient(
-      11deg,
-      rgb(25, 25, 25) 42%,
-      rgb(255, 0, 0) 48%,
-      rgb(255, 136, 0) 49%,
-      rgb(251, 255, 0) 50%,
-      rgb(30, 255, 0) 51%,
-      rgb(0, 217, 255) 52%,
-      rgb(25, 25, 25) 58%
-    );
+    background: none;
+    background-attachment: scroll;
   }
 
   .text-wrapper {
@@ -564,6 +556,8 @@ a:active {
     margin: auto;
     top: 40vmin;
   }
+
+
 
   .large {
     font-size: 18vmin;
@@ -605,14 +599,17 @@ a:active {
   #container3 {
     height: 115vh;
     background-size: cover;
+    background-color: black;
   }
 
   #container4 {
     height: 70vh;
     background-size: cover;
+    background: url("wallpaper2.gif");
   }
 
   #container5 {
+    background-color: black;
     height: auto;
   }
 
@@ -676,6 +673,8 @@ a:active {
   .bottom-bar-text {
     font-size: 4vmin;
   }
+
+
 
   .project-hover {
     transition: 0.3s;
@@ -796,31 +795,33 @@ a:active {
     display: none;
   }
 
-  .project-wrapper {
-    position: relative;
-    width: 85%;
-    margin-top: 10%;
-    margin-left: 7.5%;
-    transition: 1s;
-    border-radius: 2vmin;
-    filter: drop-shadow(0px 0px 10px rgb(132, 0, 255)) drop-shadow(0px 0px 30px rgb(132, 0, 255)) drop-shadow(0px 0px 80px rgb(132, 0, 255));
-    transform: translateY(50%);
-    transition: 1s;
-  }
+.project-wrapper {
+  position: relative;
+  width: 85%;
+  margin-top: 10%;
+  margin-left: 7.5%;
+  transition: 1s;
+  border-radius: 2vmin;
+  filter: drop-shadow(0px 0px 10px rgb(132, 0, 255)) drop-shadow(0px 0px 30px rgb(132, 0, 255)) drop-shadow(0px 0px 80px rgb(132, 0, 255));
+  transform:translateY(50%);
+  transition: 1s;
+}
 
-  .carousel-text {
+  .carousel-text{
     position: absolute;
     top: 107%;
     left: 0%;
     background-color: rgb(61, 61, 61);
-    color: white !important;
+    color: white!important;
     width: 85vw;
     height: fit-content;
     padding: 2vmin;
     font-size: 0.9rem;
   }
 
-  .wm-100 {
-    width: 100% !important;
+  .wm-100{
+    width: 100%!important;
   }
+  
+
 }

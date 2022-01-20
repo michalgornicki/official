@@ -517,7 +517,11 @@ a:active {
 }
 
 @media only screen and (max-device-width: 600px), (max-width: 600px) {
+  #container2 {
+  }
 
+  #container6 {
+  }
 
   .twitter {
     width: 100% !important;

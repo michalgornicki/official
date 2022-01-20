@@ -517,7 +517,13 @@ a:active {
 }
 
 @media only screen and (max-device-width: 600px), (max-width: 600px) {
+  #container2 {
+    background-color: rgb(21, 54, 85);
+  }
 
+  #container6 {
+    background-color: rgb(21, 54, 85);
+  }
 
   .twitter {
     width: 100% !important;
@@ -544,16 +550,7 @@ a:active {
   }
 
   body {
-    background: radial-gradient(
-      11deg,
-      rgb(25, 25, 25) 42%,
-      rgb(255, 0, 0) 48%,
-      rgb(255, 136, 0) 49%,
-      rgb(251, 255, 0) 50%,
-      rgb(30, 255, 0) 51%,
-      rgb(0, 217, 255) 52%,
-      rgb(25, 25, 25) 58%
-    );
+    background-attachment: scroll;
   }
 
   .text-wrapper {
@@ -610,9 +607,11 @@ a:active {
   #container4 {
     height: 70vh;
     background-size: cover;
+    background: url("wallpaper2.gif");
   }
 
   #container5 {
+    background-color: black;
     height: auto;
   }
 

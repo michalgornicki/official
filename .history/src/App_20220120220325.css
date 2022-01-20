@@ -529,7 +529,7 @@ a:active {
   }
 
   body {
-    background: linear-gradient(to right, rgb(21, 255, 0), rgb(7, 44, 0));
+    background: linear-gradient(to right, rgb(0, 0, 0) , rgb(0, 0, 0));
     background-attachment: scroll;
   }
 

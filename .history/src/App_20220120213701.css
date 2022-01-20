@@ -2,15 +2,16 @@
 
 body {
   position: relative;
-  background: radial-gradient(
-    rgb(24, 206, 0) 0%,
-    rgb(0, 0, 0) 49.9%,
-    rgb(30, 255, 0) 50.1%,
-    rgb(0, 0, 0) 58%
+  background: linear-gradient(
+    3deg,
+    rgb(0, 66, 6) 00%,
+    rgb(0, 0, 0) 49.8%,
+    rgb(0, 255, 0) 50.2%,
+    rgb(0, 0, 0) 100%
   );
   font-family: "Oswald", sans-serif;
-  background-size: 120% 200%;
-  background-position: -20% 50%;
+  background-size: 100% 100%;
+  background-position-y: 50%;
   background-attachment: fixed;
 }
 
@@ -77,21 +78,21 @@ html {
   position: relative;
   height: 100vh;
   width: 100%;
-  background: radial-gradient(rgb(1, 31, 0) 40%, rgb(0, 216, 11) 50%, rgb(1, 31, 0) 60%);
+  background: radial-gradient(
+    rgb(1, 31, 0) 40%,
+    rgb(0, 216, 11) 50%,
+    rgb(1, 31, 0) 60%
+  );
   background-position: 50% 50%;
   animation: 20s background infinite alternate;
-  background-size: 110% 200%;
 }
 
 @keyframes background {
   0% {
     background-size: 110% 200%;
   }
-  95% {
-    background-size: 0.88% 1.6%;
-  }
   100% {
-    background-size: 0.88% 1.6%;
+    background-size: 0.11% 2%;
   }
 }
 
@@ -460,7 +461,7 @@ a:active {
 }
 
 .counter-icon {
-  filter: drop-shadow(0px 0px 10px rgba(255, 0, 221, 0)) drop-shadow(0px 0px 10px rgba(255, 0, 221, 0));
+  filter: drop-shadow(0px 0px 10px rgb(255, 0, 221)) drop-shadow(0px 0px 10px rgb(255, 0, 221));
   margin-bottom: 3vmin;
   transition: 1s;
 }
@@ -500,7 +501,7 @@ a:active {
   display: block;
   position: relative;
   border-radius: 3vmin;
-  box-shadow: 0px 0px 30px rgb(0, 255, 0);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.473);
 }
 
 @media only screen and (max-device-width: 600px), (max-width: 600px) {
@@ -529,7 +530,13 @@ a:active {
   }
 
   body {
-    background: linear-gradient(to right, rgb(21, 255, 0), rgb(7, 44, 0));
+    background: linear-gradient(
+      87deg,
+      rgb(0, 66, 6) 00%,
+      rgb(0, 0, 0) 49.8%,
+      rgb(0, 255, 0) 50.2%,
+      rgb(0, 0, 0) 100%
+    );
     background-attachment: scroll;
   }
 
@@ -577,17 +584,21 @@ a:active {
   #container1 {
     left: 0%;
     height: 95vh;
-    background: radial-gradient(rgb(0, 0, 0) 42%, rgb(0, 216, 11) 49.9%, rgb(0, 0, 0) 50.1%);
+    background: radial-gradient(
+      rgb(0, 0, 0) 42%,
+      rgb(0, 216, 11) 49.9%,
+      rgb(0, 0, 0) 50.1%
+    );
     background-position: 50% 5%;
-    animation: 12s background infinite alternate;
+    animation: 3s background infinite alternate;
   }
 
   @keyframes background {
     0% {
-      background-size: 180% 100%;
+      background-size: 160% 100%;
     }
     100% {
-      background-size: 45% 25%;
+      background-size: 180% 110%;
     }
   }
 

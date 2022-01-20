@@ -3,7 +3,7 @@
 body {
   position: relative;
   background: linear-gradient(
-    3deg,
+    11deg,
     rgb(25, 25, 25) 20%,
     rgb(221, 0, 0) 48%,
     rgb(255, 136, 0) 49%,
@@ -530,7 +530,7 @@ a:active {
     rgb(25, 25, 25) 20%,
     rgb(221, 0, 0) 48%,
     rgb(255, 136, 0) 49%,
-    rgb(238, 234, 0) 50%,
+    rgb(255, 251, 0) 50%,
     rgb(30, 255, 0) 51%,
     rgb(0, 151, 221) 52%,
     rgb(25, 25, 25) 80%

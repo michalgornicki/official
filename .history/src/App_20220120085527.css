@@ -3,14 +3,14 @@
 body {
   position: relative;
   background: linear-gradient(
-    3deg,
-    rgb(25, 25, 25) 20%,
+    11deg,
+    rgb(25, 25, 25) 47%,
     rgb(221, 0, 0) 48%,
     rgb(255, 136, 0) 49%,
     rgb(251, 255, 0) 50%,
     rgb(30, 255, 0) 51%,
     rgb(0, 151, 221) 52%,
-    rgb(25, 25, 25) 80%
+    rgb(25, 25, 25) 53%
   );
   font-family: "Oswald", sans-serif;
   background-size: 100% 100%;

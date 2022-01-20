@@ -3,14 +3,14 @@
 body {
   position: relative;
   background: linear-gradient(
-    3deg,
-    rgb(25, 25, 25) 20%,
-    rgb(221, 0, 0) 48%,
+    11deg,
+    rgb(25, 25, 25) 42%,
+    rgb(255, 0, 0) 48%,
     rgb(255, 136, 0) 49%,
     rgb(251, 255, 0) 50%,
     rgb(30, 255, 0) 51%,
-    rgb(0, 151, 221) 52%,
-    rgb(25, 25, 25) 80%
+    rgb(0, 174, 255) 52%,
+    rgb(25, 25, 25) 58%
   );
   font-family: "Oswald", sans-serif;
   background-size: 100% 100%;
@@ -527,13 +527,13 @@ a:active {
   body {
     background: linear-gradient(
       83deg,
-    rgb(25, 25, 25) 20%,
-    rgb(221, 0, 0) 48%,
-    rgb(255, 136, 0) 49%,
-    rgb(238, 234, 0) 50%,
-    rgb(30, 255, 0) 51%,
-    rgb(0, 151, 221) 52%,
-    rgb(25, 25, 25) 80%
+      rgb(25, 25, 25) 32%,
+      rgb(255, 0, 0) 48%,
+      rgb(255, 136, 0) 49%,
+      rgb(251, 255, 0) 50%,
+      rgb(30, 255, 0) 51%,
+      rgb(0, 217, 255) 52%,
+      rgb(25, 25, 25) 68%
     );
     background-attachment: scroll;
   }

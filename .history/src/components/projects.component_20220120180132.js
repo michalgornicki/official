@@ -61,8 +61,8 @@ window.addEventListener('scroll', scrolling);
             <h4>Auction website [concept]</h4>
             <p>[Figma, React js, React Router, Bootstrap, Firebase database, Redux]</p>
             <p>My next project will be website to buy and sell products on auctions. There will be Redux state management and real time Firebase database. </p>
-            <p>Open website.</p>
-            <p>Check code on Github.</p>
+            <p>Open website.</p></a>
+            <p>Check code on Github.</p></a>
             
             </div>
 

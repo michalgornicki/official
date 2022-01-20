@@ -529,7 +529,7 @@ a:active {
 
   body {
     background: linear-gradient(
-      87deg,
+      20deg,
       rgb(73, 0, 102) 00%,
       rgb(177, 0, 221) 49.8%,
       rgb(0, 174, 255) 50.2%,
@@ -582,14 +582,6 @@ a:active {
   #container1 {
     left: 0%;
     height: 95vh;
-    background: radial-gradient(
-      rgb(0, 153, 255) 0%,
-      rgb(177, 0, 221) 49.9%,
-      rgb(65, 195, 255) 50.1%,
-      rgb(25, 25, 25) 100%
-    );
-    background-size: 250% 130%;
-    background-position: 50% 5%;
   }
 
   #container3 {

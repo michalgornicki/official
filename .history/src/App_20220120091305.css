@@ -588,8 +588,8 @@ a:active {
       rgb(65, 195, 255) 50.1%,
       rgb(25, 25, 25) 100%
     );
-    background-size: 250% 130%;
-    background-position: 50% 5%;
+    background-size: 250% 150%;
+    background-position: 20% 50%;
   }
 
   #container3 {

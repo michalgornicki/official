@@ -448,7 +448,7 @@ a:active {
 
 .carousel-control-next:hover,
 .carousel-control-prev:hover {
-  background-color: rgba(18, 216, 0, 0.8);
+  background-color: rgba(156, 0, 135, 0.8);
 }
 
 .counter-container {
@@ -486,11 +486,11 @@ a:active {
 }
 
 .carousel-link {
-  color: rgb(28, 243, 0) !important;
+  color: rgb(203, 135, 248) !important;
 }
 
 .carousel-link:hover {
-  color: rgb(101, 255, 101) !important;
+  color: rgb(244, 210, 255) !important;
 }
 
 .twitter {

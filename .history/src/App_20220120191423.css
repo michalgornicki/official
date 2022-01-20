@@ -79,9 +79,10 @@ html {
   height: 100vh;
   width: 100%;
   background: radial-gradient(
-    rgb(1, 31, 0) 40%,
-    rgb(0, 216, 11) 50%,
-    rgb(1, 31, 0) 60%
+    rgb(1, 31, 0) 45%,
+    rgb(1, 31, 0) 49%,
+    rgb(0, 216, 11) 49.9%,
+    rgb(1, 31, 0) 50.1%
   );
   background-size: 110% 200%;
   background-position: 50% 50%;

@@ -13,7 +13,7 @@ body {
     rgb(25, 25, 25) 58%
   );
   font-family: "Oswald", sans-serif;
-  background-size: 100% 100%;
+  background-size: 100% 187%;
   background-position-y: 50%;
   background-attachment: fixed;
   margin: 0px;
@@ -379,6 +379,25 @@ a:active {
   margin: auto;
 }
 
+.skill-description {
+  position: relative;
+  top: 0%;
+  left: 5%;
+  width: 90%;
+  font-size: 1vmax;
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: 1.8vmin;
+  vertical-align: top;
+}
+
+.skill-title {
+  background: linear-gradient(to top, rgb(0, 255, 191), rgb(0, 255, 106));
+  height: fit-content;
+  line-height: 5vmin;
+  color: rgb(0, 0, 0);
+}
+
 .contact-wrapper {
   width: 50%;
   margin: auto;
@@ -525,17 +544,16 @@ a:active {
   }
 
   body {
-    background: linear-gradient(
-      83deg,
-      rgb(25, 25, 25) 32%,
+    background: radial-gradient(
+      11deg,
+      rgb(25, 25, 25) 42%,
       rgb(255, 0, 0) 48%,
       rgb(255, 136, 0) 49%,
       rgb(251, 255, 0) 50%,
       rgb(30, 255, 0) 51%,
       rgb(0, 217, 255) 52%,
-      rgb(25, 25, 25) 68%
+      rgb(25, 25, 25) 58%
     );
-    background-attachment: scroll;
   }
 
   .text-wrapper {

@@ -90,10 +90,10 @@ html {
 
 @keyframes background {
   0% {
-    background-size: 150% 150%;
+    background-size: 100% 150%;
   }
   100% {
-    background-size: 110% 170%;
+    background-size: 110% 100%;
   }
 }
 

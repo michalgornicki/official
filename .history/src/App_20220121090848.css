@@ -86,11 +86,12 @@ html {
   background-position: 50% 50%;
   animation: 20s background infinite alternate;
   background-size: 110% 200%;
+  background-repeat: ;
 }
 
 @keyframes background {
   0% {
-    background-size: 165% 300%;
+    background-size: 110% 200%;
   }
   95% {
     background-size: 8.8% 16%;

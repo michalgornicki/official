@@ -21,7 +21,7 @@ const Profile = () => {
   return (
     <div id="container1">
       <div className="text-wrapper">
-        <h2 className="medium">Hi, I'm Michal</h2>
+        <h2 className="medium">Hi, I</h2>
         <h1
           className="large"
           onClick={() =>
@@ -31,7 +31,7 @@ const Profile = () => {
           Front-end developer
         </h1>
         <h3 className="small">
-          I'm self-taught, skilled, helpful and proactive front-end developer since 2019. I create projects from templates or from scratch.
+          Self-taught, skilled, helpful and proactive front-end developer since 2019. Creating projects from templates or from scratch.
         </h3>
       </div>
     </div>

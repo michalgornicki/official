@@ -31,7 +31,7 @@ const Profile = () => {
           Front-end developer
         </h1>
         <h3 className="small">
-          I'm self-taught, skilled, helpful and proactive front-end developer since 2019. I create projects from templates or from scratch.
+          Self-taught, skilled, helpful and proactive front-end developer since 2019. Creating projects from templates or from scratch.
         </h3>
       </div>
     </div>

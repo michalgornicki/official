@@ -7,7 +7,7 @@ body {
   background-size: 120% 200%;
   background-position: -20% 50%;
   background-attachment: fixed;
-  animation: 40s backgroundBody infinite ease;
+  animation: 3s backgroundBody infinite ;
 }
 
 @keyframes backgroundBody {
@@ -15,7 +15,7 @@ body {
     background-position: -20% 50%;
   }
   50% {
-    background-position: 120% 50%;
+    background-position: 20% 50%;
   }
   100% {
     background-position: -20% 50%;

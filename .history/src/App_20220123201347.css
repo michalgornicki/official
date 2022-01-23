@@ -2,25 +2,31 @@
 
 body {
   position: relative;
-  background: radial-gradient(rgb(24, 206, 0) 0%, rgb(0, 0, 0) 49.9%, rgb(30, 255, 0) 50.1%, rgb(0, 0, 0) 58%);
+  background: radial-gradient(
+    rgb(24, 206, 0) 0%,
+    rgb(0, 0, 0) 49.9%,
+    rgb(30, 255, 0) 50.1%,
+    rgb(0, 0, 0) 58%
+  );
   font-family: "Oswald", sans-serif;
   background-size: 120% 200%;
   background-position: -20% 50%;
   background-attachment: fixed;
-  animation: 40s backgroundBody infinite ease;
+  animation: 20s backgroundBody infinite alternate;
 }
 
 @keyframes backgroundBody {
   0% {
-    background-position: -20% 50%;
+    background-size: 120% 200%;
   }
-  50% {
-    background-position: 120% 50%;
+  95% {
+    background-size: 13% 16%;
   }
   100% {
-    background-position: -20% 50%;
+    background-size: 8.8% 16%;
   }
 }
+
 
 .App {
   text-align: none;
@@ -85,7 +91,12 @@ html {
   position: relative;
   height: 100vh;
   width: 100%;
-  background: radial-gradient(rgb(24, 206, 0) 0%, rgb(0, 0, 0) 49.9%, rgb(30, 255, 0) 50.1%, rgb(0, 0, 0) 58%);
+  background: radial-gradient(
+    rgb(24, 206, 0) 0%,
+    rgb(0, 0, 0) 49.9%,
+    rgb(30, 255, 0) 50.1%,
+    rgb(0, 0, 0) 58%
+  );
   background-position: 50% 50%;
   animation: 20s background infinite alternate;
 }
@@ -492,7 +503,7 @@ a:active {
   padding: 2vmin;
 }
 
-.text-green {
+.text-green{
   color: rgb(40, 228, 15) !important;
 }
 

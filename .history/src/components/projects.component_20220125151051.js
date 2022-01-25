@@ -160,6 +160,7 @@ const Projects = () => {
               </div>
             </Carousel.Item>
           ))}
+
         </Carousel>
       </div>
     </div>

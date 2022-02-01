@@ -45,7 +45,7 @@ const Projects = () => {
       description:
         "This project was created to help people learn and repeat most essential javascript knowledge.",
       github: "https://github.com/michalgornicki/javascript/",
-      demo: "https://michalgornicki.github.io/javascript/",
+      demo: "https://michalgornicki.github.io/cats/",
     },
     {
       title: "Auction website [concept]",

@@ -38,15 +38,7 @@ const Projects = () => {
       github: "https://github.com/michalgornicki/cats/",
       demo: "https://michalgornicki.github.io/cats/",
     },
-    {
-      title: "Javascript repeat course",
-      techs: "React js, React Router, Bootstrap",
-      image: Image14,
-      description:
-        "This project was created to help people learn and repeat most essential javascript knowledge.",
-      github: "https://github.com/michalgornicki/javascript/",
-      demo: "https://michalgornicki.github.io/javascript/",
-    },
+    
     {
       title: "Auction website [concept]",
       techs: "Figma, React js, React Router, Bootstrap, Firebase database, Redux",

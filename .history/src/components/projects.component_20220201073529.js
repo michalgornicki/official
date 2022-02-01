@@ -43,9 +43,9 @@ const Projects = () => {
       techs: "React js, React Router, Bootstrap",
       image: Image14,
       description:
-        "This project was created to help people learn and repeat most essential javascript knowledge.",
-      github: "https://github.com/michalgornicki/javascript/",
-      demo: "https://michalgornicki.github.io/javascript/",
+        "This project was created to help people learn and repeat ",
+      github: "https://github.com/michalgornicki/cats/",
+      demo: "https://michalgornicki.github.io/cats/",
     },
     {
       title: "Auction website [concept]",

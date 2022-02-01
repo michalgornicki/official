@@ -43,9 +43,9 @@ const Projects = () => {
       techs: "React js, React Router, Bootstrap",
       image: Image14,
       description:
-        "This project was created to help people learn and repeat most essential javascript knowledge.",
-      github: "https://github.com/michalgornicki/javascript/",
-      demo: "https://michalgornicki.github.io/javascript/",
+        "On this website you can browse cat adoption announcements, search for specific cat, create your account, follow informations about selected pets and add your own announcements about cats looking for new home. I created design for this project in Figma. Page is currently under development.",
+      github: "https://github.com/michalgornicki/cats/",
+      demo: "https://michalgornicki.github.io/cats/",
     },
     {
       title: "Auction website [concept]",

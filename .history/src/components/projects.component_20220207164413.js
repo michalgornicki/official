@@ -14,7 +14,6 @@ import Image11 from "../11.png";
 import Image12 from "../12.png";
 import Image13 from "../13.png";
 import Image14 from "../14.png";
-import Image15 from "../15.png";
 
 const Projects = () => {
   const scrolling = () => {
@@ -44,18 +43,27 @@ const Projects = () => {
       techs: "React js, React Router, Bootstrap",
       image: Image14,
       description:
-        "This project was created to help people learn and repeat most essential Javascript knowledge.",
+        "This project was created to help people learn and repeat most essential javascript knowledge.",
       github: "https://github.com/michalgornicki/javascript/",
       demo: "https://michalgornicki.github.io/javascript/",
     },
     {
-      title: "React repeat course",
+      title: "Javascript repeat course",
       techs: "React js, React Router, Bootstrap",
+      image: Image14,
+      description:
+        "This project was created to help people learn and repeat most essential javascript knowledge.",
+      github: "https://github.com/michalgornicki/javascript/",
+      demo: "https://michalgornicki.github.io/javascript/",
+    },
+    {
+      title: "Auction website [concept]",
+      techs: "Figma, React js, React Router, Bootstrap, Firebase database, Redux",
       image: Image13,
       description:
-        "This project was created to help people learn and repeat most essential React knowledge.",
-      github: "https://github.com/michalgornicki/react/",
-      demo: "https://michalgornicki.github.io/react/",
+        "My next project will be website to buy and sell products on auctions. There will be Redux state management and real time database.",
+      github: "https://github.com/michalgornicki/",
+      demo: "https://michalgornicki.github.io/official/",
     },
     {
       title: "Lamborghini website design project",

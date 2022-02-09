@@ -14,7 +14,7 @@ import Image11 from "../11.png";
 import Image12 from "../12.png";
 import Image13 from "../13.png";
 import Image14 from "../14.png";
-import Image15 from "../15.png";
+import Image14 from "../14.png";
 
 const Projects = () => {
   const scrolling = () => {
@@ -51,7 +51,7 @@ const Projects = () => {
     {
       title: "React repeat course",
       techs: "React js, React Router, Bootstrap",
-      image: Image15,
+      image: Image13,
       description:
         "This project was created to help people learn and repeat most essential React knowledge.",
       github: "https://github.com/michalgornicki/react/",

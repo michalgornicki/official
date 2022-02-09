@@ -51,7 +51,7 @@ const Projects = () => {
     {
       title: "React repeat course",
       techs: "React js, React Router, Bootstrap",
-      image: Image15,
+      image: Image13,
       description:
         "This project was created to help people learn and repeat most essential React knowledge.",
       github: "https://github.com/michalgornicki/react/",

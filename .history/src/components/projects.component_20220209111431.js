@@ -32,7 +32,7 @@ const Projects = () => {
   const projects = [
     {
       title: "Cat adoption website",
-      techs: "Figma, React js, React Router, Bootstrap, Auth0 authentication, online Firebase database",
+      techs: "Figma, React js, React Router, Bootstrap, Auth0 authentication, online Firebase database, dynamic link ",
       image: Image12,
       description:
         "On this website you can browse cat adoption announcements, search for specific cat, create your account, follow informations about selected pets and add your own announcements about cats looking for new home. I created design for this project in Figma. Page is currently under development.",

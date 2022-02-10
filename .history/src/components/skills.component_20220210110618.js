@@ -23,6 +23,7 @@ const Skills = () => {
       document.getElementsByClassName("skill-wrapper")[0].style.filter = "opacity(1)";
     } else {
       document.getElementsByClassName("skill-wrapper")[0].style.filter = "opacity(0)";
+      document.getElementsByClassName("skill-wrapper")[1].style.filter = "opacity(0)";
     }
   };
 
@@ -87,6 +88,11 @@ const Skills = () => {
           <div className="skill">
             <abbr title="Visual Studio Code ✰✰✰✰">
               <img className="tech-icon" src={visualstudio} alt="" />
+            </abbr>
+          </div>
+          <div className="skill">
+            <abbr title="Wordpress ✰✰✰">
+              <img className="tech-icon" src={wordpress} alt="" />
             </abbr>
           </div>
           <div className="skill">

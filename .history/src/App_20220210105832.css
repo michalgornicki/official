@@ -94,10 +94,10 @@ html {
     background-size: 165% 300%;
   }
   95% {
-    background-size: 35% 64%;
+    background-size: 8.8% 16%;
   }
   100% {
-    background-size: 35% 64%;
+    background-size: 8.8% 16%;
   }
 }
 
@@ -475,6 +475,7 @@ a:active {
   color: white !important;
   z-index: 100;
   width: 50vmin;
+  min-height: ;
   padding: 2vmin;
 }
 

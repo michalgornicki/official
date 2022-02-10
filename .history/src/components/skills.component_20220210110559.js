@@ -21,8 +21,10 @@ const Skills = () => {
   const scrolling = () => {
     if (document.getElementById("container4").getBoundingClientRect().top < 400) {
       document.getElementsByClassName("skill-wrapper")[0].style.filter = "opacity(1)";
+      document.getElementsByClassName("skill-wrapper")[1].style.filter = "opacity(1)";
     } else {
       document.getElementsByClassName("skill-wrapper")[0].style.filter = "opacity(0)";
+      document.getElementsByClassName("skill-wrapper")[1].style.filter = "opacity(0)";
     }
   };
 
@@ -90,6 +92,11 @@ const Skills = () => {
             </abbr>
           </div>
           <div className="skill">
+            <abbr title="Wordpress ✰✰✰">
+              <img className="tech-icon" src={wordpress} alt="" />
+            </abbr>
+          </div>
+          <div className="skill">
             <img className="tech-icon" src={redux} alt="" />
           </div>
           <div className="skill">
@@ -97,8 +104,11 @@ const Skills = () => {
           </div>
         </div>
 
+        <h2 className="header header-medium">Currently learning</h2>
 
+        <div className="skill-wrapper">
       
+        </div>
       </div>
     </div>
   );

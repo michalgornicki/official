@@ -84,7 +84,7 @@ html {
   position: relative;
   height: 100vh;
   width: 100%;
-  background: radial-gradient(rgb(24, 206, 0) 0%, rgb(0, 0, 0) 49.9%, rgb(30, 255, 0) 50.1%, rgb(0, 0, 0) 65%);
+  background: conic-gradient(rgb(24, 206, 0) 0%, rgb(0, 0, 0) 49.9%, rgb(30, 255, 0) 50.1%, rgb(0, 0, 0) 65%);
   background-position: 50% 50%;
   animation: 20s background infinite alternate;
 }
@@ -94,10 +94,10 @@ html {
     background-size: 165% 300%;
   }
   95% {
-    background-size: 35% 64%;
+    background-size: 8.8% 16%;
   }
   100% {
-    background-size: 35% 64%;
+    background-size: 8.8% 16%;
   }
 }
 

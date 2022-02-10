@@ -90,6 +90,11 @@ const Skills = () => {
             </abbr>
           </div>
           <div className="skill">
+            <abbr title="Wordpress ✰✰✰">
+              <img className="tech-icon" src={wordpress} alt="" />
+            </abbr>
+          </div>
+          <div className="skill">
             <img className="tech-icon" src={redux} alt="" />
           </div>
           <div className="skill">

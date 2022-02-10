@@ -40,15 +40,6 @@ const Projects = () => {
       demo: "https://michalgornicki.github.io/cats/",
     },
     {
-      title: "Virtual bitcoin buying app",
-      techs: "React js, React hooks",
-      image: Image6,
-      description:
-        " It is interesting app where you can find out if you can earn money with cryptocurrency trading. I wrote simple algorythm to change value of two cryptocurrencies and save them in React state hooks. Account balance of PLN, BTC and ETH is also saved in state hook.",
-      github: "https://github.com/michalgornicki/bitcoin-virtual/",
-      demo: "https://michalgornicki.github.io/bitcoin-virtual/",
-    },
-    {
       title: "React repeat course",
       techs: "React js, React Router, Bootstrap",
       image: Image15,
@@ -65,15 +56,6 @@ const Projects = () => {
         "This project was created to help people learn and repeat most essential Javascript knowledge.",
       github: "https://github.com/michalgornicki/javascript/",
       demo: "https://michalgornicki.github.io/javascript/",
-    },
-    {
-      title: "Electronics shop",
-      techs: "React JS",
-      image: Image3,
-      description:
-        "In this project I have recreated website of electronics shop. There are lot of possibilities: you can find items through search, sort them by price, by category, add items to basket. There is also form with validation.",
-      github: "https://github.com/michalgornicki/electronet/",
-      demo: "https://michalgornicki.github.io/electronet/",
     },
     {
       title: "Lamborghini website design project",
@@ -107,6 +89,15 @@ const Projects = () => {
       description: "I have created this website to train my design and styling skills.",
       github: "https://github.com/michalgornicki/smartify/",
       demo: "https://michalgornicki.github.io/smartify/",
+    },
+    {
+      title: "Electronics shop",
+      techs: "React JS",
+      image: Image3,
+      description:
+        "In this project I have recreated website of electronics shop. There are lot of possibilities: you can find items through search, sort them by price, by category, add items to basket. There is also form with validation.",
+      github: "https://github.com/michalgornicki/electronet/",
+      demo: "https://michalgornicki.github.io/electronet/",
     },
     {
       title: "Space X mission explorer",

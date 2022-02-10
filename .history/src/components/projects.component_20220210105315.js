@@ -39,6 +39,7 @@ const Projects = () => {
       github: "https://github.com/michalgornicki/cats/",
       demo: "https://michalgornicki.github.io/cats/",
     },
+    
     {
       title: "Virtual bitcoin buying app",
       techs: "React js, React hooks",
@@ -65,15 +66,6 @@ const Projects = () => {
         "This project was created to help people learn and repeat most essential Javascript knowledge.",
       github: "https://github.com/michalgornicki/javascript/",
       demo: "https://michalgornicki.github.io/javascript/",
-    },
-    {
-      title: "Electronics shop",
-      techs: "React JS",
-      image: Image3,
-      description:
-        "In this project I have recreated website of electronics shop. There are lot of possibilities: you can find items through search, sort them by price, by category, add items to basket. There is also form with validation.",
-      github: "https://github.com/michalgornicki/electronet/",
-      demo: "https://michalgornicki.github.io/electronet/",
     },
     {
       title: "Lamborghini website design project",
@@ -107,6 +99,15 @@ const Projects = () => {
       description: "I have created this website to train my design and styling skills.",
       github: "https://github.com/michalgornicki/smartify/",
       demo: "https://michalgornicki.github.io/smartify/",
+    },
+    {
+      title: "Electronics shop",
+      techs: "React JS",
+      image: Image3,
+      description:
+        "In this project I have recreated website of electronics shop. There are lot of possibilities: you can find items through search, sort them by price, by category, add items to basket. There is also form with validation.",
+      github: "https://github.com/michalgornicki/electronet/",
+      demo: "https://michalgornicki.github.io/electronet/",
     },
     {
       title: "Space X mission explorer",

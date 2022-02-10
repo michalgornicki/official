@@ -67,15 +67,6 @@ const Projects = () => {
       demo: "https://michalgornicki.github.io/javascript/",
     },
     {
-      title: "Electronics shop",
-      techs: "React JS",
-      image: Image3,
-      description:
-        "In this project I have recreated website of electronics shop. There are lot of possibilities: you can find items through search, sort them by price, by category, add items to basket. There is also form with validation.",
-      github: "https://github.com/michalgornicki/electronet/",
-      demo: "https://michalgornicki.github.io/electronet/",
-    },
-    {
       title: "Lamborghini website design project",
       techs: "React js and Bootstrap",
       image: Image11,

@@ -66,6 +66,7 @@ const Projects = () => {
       github: "https://github.com/michalgornicki/javascript/",
       demo: "https://michalgornicki.github.io/javascript/",
     },
+
     {
       title: "Electronics shop",
       techs: "React JS",

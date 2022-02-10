@@ -48,6 +48,16 @@ const Projects = () => {
       github: "https://github.com/michalgornicki/bitcoin-virtual/",
       demo: "https://michalgornicki.github.io/bitcoin-virtual/",
     },
+    
+    {
+      title: "Electronics shop",
+      techs: "React JS",
+      image: Image3,
+      description:
+        "In this project I have recreated website of electronics shop. There are lot of possibilities: you can find items through search, sort them by price, by category, add items to basket. There is also form with validation.",
+      github: "https://github.com/michalgornicki/electronet/",
+      demo: "https://michalgornicki.github.io/electronet/",
+    },
     {
       title: "React repeat course",
       techs: "React js, React Router, Bootstrap",
@@ -65,15 +75,6 @@ const Projects = () => {
         "This project was created to help people learn and repeat most essential Javascript knowledge.",
       github: "https://github.com/michalgornicki/javascript/",
       demo: "https://michalgornicki.github.io/javascript/",
-    },
-    {
-      title: "Electronics shop",
-      techs: "React JS",
-      image: Image3,
-      description:
-        "In this project I have recreated website of electronics shop. There are lot of possibilities: you can find items through search, sort them by price, by category, add items to basket. There is also form with validation.",
-      github: "https://github.com/michalgornicki/electronet/",
-      demo: "https://michalgornicki.github.io/electronet/",
     },
     {
       title: "Lamborghini website design project",

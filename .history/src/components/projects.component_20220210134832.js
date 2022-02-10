@@ -56,7 +56,7 @@ const Projects = () => {
       description:
         "This project was created to help people learn and repeat most essential React knowledge.",
       github: "https://github.com/michalgornicki/react/",
-      demo: "https://michalgornicki.github.io/react/#/Components",
+      demo: "https://michalgornicki.github.io/react/",
     },
     {
       title: "Git repeat course",
@@ -64,8 +64,8 @@ const Projects = () => {
       image: Image16,
       description:
         "This project was created to help people learn and repeat most essential Git knowledge.",
-      github: "https://github.com/michalgornicki/git/",
-      demo: "https://michalgornicki.github.io/git/#/Basics",
+      github: "https://michalgornicki.github.io/git/#/Basics",
+      demo: "https://michalgornicki.github.io/git/",
     },
     {
       title: "Javascript repeat course",

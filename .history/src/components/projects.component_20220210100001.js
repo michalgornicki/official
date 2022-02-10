@@ -49,15 +49,6 @@ const Projects = () => {
       demo: "https://michalgornicki.github.io/react/",
     },
     {
-      title: "Javascript repeat course",
-      techs: "React js, React Router, Bootstrap",
-      image: Image14,
-      description:
-        "This project was created to help people learn and repeat most essential Javascript knowledge.",
-      github: "https://github.com/michalgornicki/javascript/",
-      demo: "https://michalgornicki.github.io/javascript/",
-    },
-    {
       title: "Lamborghini website design project",
       techs: "React js and Bootstrap",
       image: Image11,

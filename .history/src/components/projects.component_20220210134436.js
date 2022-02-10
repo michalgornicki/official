@@ -15,7 +15,6 @@ import Image12 from "../12.png";
 import Image13 from "../13.png";
 import Image14 from "../14.png";
 import Image15 from "../15.png";
-import Image16 from "../16.png";
 
 const Projects = () => {
   const scrolling = () => {
@@ -58,14 +57,15 @@ const Projects = () => {
       github: "https://github.com/michalgornicki/react/",
       demo: "https://michalgornicki.github.io/react/",
     },
+  
     {
-      title: "Git repeat course",
+      title: "React repeat course",
       techs: "React js, React Router, Bootstrap",
-      image: Image16,
+      image: Image15,
       description:
-        "This project was created to help people learn and repeat most essential Git knowledge.",
-      github: "https://github.com/michalgornicki/git/",
-      demo: "https://michalgornicki.github.io/git/",
+        "This project was created to help people learn and repeat most essential React knowledge.",
+      github: "https://github.com/michalgornicki/react/",
+      demo: "https://michalgornicki.github.io/react/",
     },
     {
       title: "Javascript repeat course",

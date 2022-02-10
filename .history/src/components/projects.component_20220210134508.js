@@ -15,7 +15,7 @@ import Image12 from "../12.png";
 import Image13 from "../13.png";
 import Image14 from "../14.png";
 import Image15 from "../15.png";
-import Image16 from "../16.png";
+import Image15 from "../15.png";
 
 const Projects = () => {
   const scrolling = () => {

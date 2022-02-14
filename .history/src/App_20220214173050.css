@@ -369,8 +369,6 @@ a:active {
   }
 
   body {
-    background:none;
-    background-color: rgb(30, 180, 0);
     background-attachment: scroll;
     overflow-x: hidden;
   }
@@ -403,7 +401,6 @@ a:active {
   .section__header {
     font-size: 12vmin;
     padding-top: 10vmin;
-    width: 90%;
   }
 
   #container-welcome,

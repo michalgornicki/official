@@ -3,6 +3,7 @@ import square from "../square.png";
 
 const Scrollnav = () => {
 
+  
   const scrolling = () => {
     let el1 = document.getElementById("container1").getBoundingClientRect().bottom;
     let el2 = document.getElementById("container3").getBoundingClientRect().top;
@@ -32,9 +33,6 @@ const Scrollnav = () => {
       document.getElementsByClassName("scroll-button")[3].style.filter = "opacity(1)";
     }
   };
-
-  window.addEventListener("scroll", scrolling);
-
 
   return (
     <div className="scroll-container">

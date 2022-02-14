@@ -10,23 +10,23 @@ const Navbar = () => {
       {toogleNavbar || window.innerWidth > 800 ? (
         <div className="navbar__items">
           <a href="#top">
-            <div className="navbar__link" onClick={() => setToogleNavbar(false)}>
+            <div className="navbar-item" onClick={() => setToogleNavbar(false)}>
               Home
             </div>
           </a>
           <a href="#container3">
-            <div className="navbar__link" onClick={() => setToogleNavbar(false)}>
+            <div className="navbar-item" onClick={() => setToogleNavbar(false)}>
               Projects
             </div>
           </a>
           <a href="#container4">
-            <div className="navbar__link" onClick={() => setToogleNavbar(false)}>
+            <div className="navbar-item" onClick={() => setToogleNavbar(false)}>
               Skills
             </div>
           </a>
 
           <a href="#container6">
-            <div className="navbar__link" onClick={() => setToogleNavbar(false)}>
+            <div className="navbar-item" onClick={() => setToogleNavbar(false)}>
               Social
             </div>
           </a>

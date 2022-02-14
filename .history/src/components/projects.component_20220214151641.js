@@ -34,7 +34,8 @@ const Projects = () => {
       title: "Cat adoption website",
       techs: "Figma, React js, React Router, Bootstrap, Auth0 authentication, online Firebase database",
       image: Image12,
-      description: "On this website you can browse cat adoption announcements, search for specific cat, create your account, follow informations about selected pets and add your own announcements about cats looking for new home. I created design for this project in Figma. Page is currently under development.",
+      description:
+        "On this website you can browse cat adoption announcements, search for specific cat, create your account, follow informations about selected pets and add your own announcements about cats looking for new home. I created design for this project in Figma. Page is currently under development.",
       github: "https://github.com/michalgornicki/cats/",
       demo: "https://michalgornicki.github.io/cats/",
     },
@@ -42,7 +43,8 @@ const Projects = () => {
       title: "Virtual bitcoin buying app",
       techs: "React js, React hooks",
       image: Image6,
-      description: " It is interesting app where you can find out if you can earn money with cryptocurrency trading. I wrote simple algorythm to change value of two cryptocurrencies and save them in React state hooks. Account balance of PLN, BTC and ETH is also saved in state hook.",
+      description:
+        " It is interesting app where you can find out if you can earn money with cryptocurrency trading. I wrote simple algorythm to change value of two cryptocurrencies and save them in React state hooks. Account balance of PLN, BTC and ETH is also saved in state hook.",
       github: "https://github.com/michalgornicki/bitcoin-virtual/",
       demo: "https://michalgornicki.github.io/bitcoin-virtual/",
     },
@@ -50,7 +52,8 @@ const Projects = () => {
       title: "React repeat course",
       techs: "React js, React Router, Bootstrap",
       image: Image15,
-      description: "This project was created to help people learn and repeat most essential React knowledge.",
+      description:
+        "This project was created to help people learn and repeat most essential React knowledge.",
       github: "https://github.com/michalgornicki/react/",
       demo: "https://michalgornicki.github.io/react/#/Components",
     },
@@ -58,7 +61,8 @@ const Projects = () => {
       title: "Git repeat course",
       techs: "React js, React Router, Bootstrap",
       image: Image16,
-      description: "This project was created to help people learn and repeat most essential Git knowledge.",
+      description:
+        "This project was created to help people learn and repeat most essential Git knowledge.",
       github: "https://github.com/michalgornicki/git/",
       demo: "https://michalgornicki.github.io/git/#/Basics",
     },
@@ -66,7 +70,8 @@ const Projects = () => {
       title: "Javascript repeat course",
       techs: "React js, React Router, Bootstrap",
       image: Image14,
-      description: "This project was created to help people learn and repeat most essential Javascript knowledge.",
+      description:
+        "This project was created to help people learn and repeat most essential Javascript knowledge.",
       github: "https://github.com/michalgornicki/javascript/",
       demo: "https://michalgornicki.github.io/javascript/",
     },
@@ -74,7 +79,8 @@ const Projects = () => {
       title: "Electronics shop",
       techs: "React JS",
       image: Image3,
-      description: "In this project I have recreated website of electronics shop. There are lot of possibilities: you can find items through search, sort them by price, by category, add items to basket. There is also form with validation.",
+      description:
+        "In this project I have recreated website of electronics shop. There are lot of possibilities: you can find items through search, sort them by price, by category, add items to basket. There is also form with validation.",
       github: "https://github.com/michalgornicki/electronet/",
       demo: "https://michalgornicki.github.io/electronet/",
     },
@@ -98,7 +104,8 @@ const Projects = () => {
       title: "Dental office website design project",
       techs: "React js, Bootstrap, React Router",
       image: Image1,
-      description: "In this project I started using regularly Bootstrap, which is such a great help in styling. Purpose of this project was to strengthen styling skills and developing using Bootstrap. I started here using React router which is also wonderful tool.",
+      description:
+        "In this project I started using regularly Bootstrap, which is such a great help in styling. Purpose of this project was to strengthen styling skills and developing using Bootstrap. I started here using React router which is also wonderful tool.",
       github: "https://github.com/michalgornicki/smile-med/",
       demo: "https://michalgornicki.github.io/smile-med",
     },
@@ -114,7 +121,8 @@ const Projects = () => {
       title: "Space X mission explorer",
       techs: "React js, React Hooks, GraphQL SpaceX database",
       image: Image5,
-      description: " have created this project to train my skills with using larger database. It is a bit rough for now, but is very informative.",
+      description:
+        " have created this project to train my skills with using larger database. It is a bit rough for now, but is very informative.",
       github: "https://github.com/michalgornicki/space_x_clone/",
       demo: "https://michalgornicki.github.io/space_x_clone/",
     },
@@ -122,7 +130,8 @@ const Projects = () => {
       title: "Todo list app",
       techs: "React js, React hooks",
       image: Image7,
-      description: "There it is, classic Todo app created in React js with using of state hooks. I have created this app to have a little training with manipulating arrays.",
+      description:
+        "There it is, classic Todo app created in React js with using of state hooks. I have created this app to have a little training with manipulating arrays.",
       github: "https://github.com/michalgornicki/insta-note/",
       demo: "https://michalgornicki.github.io/insta-note/",
     },
@@ -130,7 +139,8 @@ const Projects = () => {
       title: "Weather app",
       techs: "React js, openweatherapp weather API",
       image: Image8,
-      description: "There it is, classic Todo app created in React js with using of state hooks. I have created this app to have a little training with manipulating arrays.",
+      description:
+        "There it is, classic Todo app created in React js with using of state hooks. I have created this app to have a little training with manipulating arrays.",
       github: "https://github.com/michalgornicki/weather-app/",
       demo: "https://www.youtube.com/watch?v=Xq_YM1_ebq4/",
     },
@@ -138,7 +148,8 @@ const Projects = () => {
       title: "Virtual pet app",
       techs: "HTML, CSS, JS",
       image: Image9,
-      description: "I have created this project to develop objects with different properties in Javascript. You can choose animal which would you like to pet. Each animal have different needs, so you must feed, drink and play with them.",
+      description:
+        "I have created this project to develop objects with different properties in Javascript. You can choose animal which would you like to pet. Each animal have different needs, so you must feed, drink and play with them.",
       github: "https://github.com/michalgornicki/virtualpet/",
       demo: "https://michalgornicki.github.io/virtualpet/",
     },

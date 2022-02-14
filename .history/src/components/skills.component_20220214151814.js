@@ -9,9 +9,12 @@ import git from "../icons/git.png";
 import github from "../icons/github.png";
 import bootstrap from "../icons/bootstrap.png";
 import photoshop from "../icons/photoshop.png";
+import wordpress from "../icons/wordpress.png";
+import typescript from "../icons/typescript.png";
 import redux from "../icons/redux.png";
 import sass from "../icons/sass.png";
 import responsive from "../icons/responsive.png";
+import php from "../icons/php.png";
 
 const Skills = () => {
   const scrolling = () => {

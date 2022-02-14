@@ -33,9 +33,6 @@ const Scrollnav = () => {
     }
   };
 
-  window.addEventListener("scroll", scrolling);
-
-
   return (
     <div className="scroll-container">
       <a href="#container1">

@@ -7,19 +7,25 @@ body {
   background-size: 120% 200%;
   background-position: -20% 50%;
   background-attachment: fixed;
-  animation: 2s backgroundBody infinite ease;
+  animation: 100s backgroundBody infinite ease;
 }
 
 @keyframes backgroundBody {
   0% {
-    background-position: 30% 50%;
+    background-position: -20% 50%;
   }
   50% {
-    background-position: 70% 50%;
+    background-position: 120% 50%;
   }
   100% {
-    background-position: 30% 50%;
+    background-position: -20% 50%;
   }
+}
+
+.App {
+  overflow: hidden;
+  user-select: none;
+  height: 100%;
 }
 
 html {
@@ -41,7 +47,7 @@ html {
   filter: opacity(1);
 }
 
-.navbar__items {
+.navbar-items {
   width: 50%;
   height: 100%;
   display: flex;
@@ -49,7 +55,7 @@ html {
   justify-content: space-between;
 }
 
-.navbar__link {
+.navbar-item {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
@@ -57,9 +63,17 @@ html {
   color: rgb(255, 255, 255);
 }
 
-.navbar__link:hover {
+.navbar-item:hover {
   color: rgb(182, 182, 182);
   cursor: pointer;
+}
+
+.wallpaper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: absolute;
+  transition: 1s;
 }
 
 .scroll:hover {
@@ -70,6 +84,7 @@ html {
   position: relative;
   height: 100vh;
   width: 100%;
+  background: radial-gradient(rgb(24, 206, 0) 0%, rgb(0, 0, 0) 49.9%, rgb(30, 255, 0) 50.1%, rgb(0, 0, 0) 65%);
   background-position: 50% 50%;
   animation: 20s background infinite alternate;
 }
@@ -248,7 +263,8 @@ a:active {
   margin-left: 10%;
   transition: 1s;
   border-radius: 2vmin;
-  filter: drop-shadow(0px 0px 10px rgb(132, 0, 255)) drop-shadow(0px 0px 30px rgb(132, 0, 255)) drop-shadow(0px 0px 80px rgb(132, 0, 255));
+  filter: drop-shadow(0px 0px 10px rgb(132, 0, 255)) drop-shadow(0px 0px 30px rgb(132, 0, 255))
+    drop-shadow(0px 0px 80px rgb(132, 0, 255));
   transform: translateY(50%);
   transition: 1s;
 }
@@ -675,7 +691,7 @@ a:active {
     padding: 0;
   }
 
-  .navbar__items {
+  .navbar-items {
     width: 100%;
     height: 60vh;
     display: flex;
@@ -687,7 +703,7 @@ a:active {
     top: 0%;
   }
 
-  .navbar__link {
+  .navbar-item {
     position: relative;
     font-size: 8vmin;
     color: rgb(255, 255, 255);
@@ -771,7 +787,8 @@ a:active {
     margin-left: 7.5%;
     transition: 1s;
     border-radius: 2vmin;
-    filter: drop-shadow(0px 0px 10px rgb(132, 0, 255)) drop-shadow(0px 0px 30px rgb(132, 0, 255)) drop-shadow(0px 0px 80px rgb(132, 0, 255));
+    filter: drop-shadow(0px 0px 10px rgb(132, 0, 255)) drop-shadow(0px 0px 30px rgb(132, 0, 255))
+      drop-shadow(0px 0px 80px rgb(132, 0, 255));
     transform: translateY(50%);
     transition: 1s;
   }

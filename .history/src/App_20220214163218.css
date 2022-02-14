@@ -393,6 +393,7 @@ a:active {
   .name-wrapper__medium {
     font-size: 9vmin;
   transform: translate(0%);
+
   }
 
   .name-wrapper__small {

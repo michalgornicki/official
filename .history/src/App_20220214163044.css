@@ -109,7 +109,7 @@ html {
   animation: 2s;
   transition: 2s;
   cursor: pointer;
-  transform: translate(0%);
+  transform: translate(20%);
 }
 
 .name-wrapper__medium {
@@ -124,7 +124,7 @@ html {
   filter: opacity(1);
   z-index: 100;
   transition: 2s;
-  transform: translate(-20%);
+  transform: translate(30%);
 }
 
 .name-wrapper__small {
@@ -136,7 +136,7 @@ html {
   filter: opacity(1);
   z-index: 100;
   transition: 2s;
-  transform: translate(0%);
+  transform: translate(40%);
 }
 
 a:hover,
@@ -392,7 +392,6 @@ a:active {
 
   .name-wrapper__medium {
     font-size: 9vmin;
-  transform: translate(0%);
   }
 
   .name-wrapper__small {

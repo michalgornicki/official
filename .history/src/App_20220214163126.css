@@ -137,6 +137,7 @@ html {
   z-index: 100;
   transition: 2s;
   transform: translate(0%);
+  text-align: ;
 }
 
 a:hover,
@@ -392,7 +393,6 @@ a:active {
 
   .name-wrapper__medium {
     font-size: 9vmin;
-  transform: translate(0%);
   }
 
   .name-wrapper__small {

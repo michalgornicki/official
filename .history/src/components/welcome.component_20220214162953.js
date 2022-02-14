@@ -2,6 +2,10 @@ import React from "react";
 
 const Welcome = () => {
 
+
+  window.addEventListener("scroll", scrolling);
+  window.addEventListener("load", scrolling);
+
   return (
     <section id="container-welcome" className="section">
       <div className="name-wrapper">

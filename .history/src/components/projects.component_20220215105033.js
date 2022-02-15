@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from "react-bootstrap/Carousel";
 import Image1 from "../1.png";
+import Image2 from "../2.png";
 import Image3 from "../3.png";
 import Image5 from "../5.png";
 import Image6 from "../6.png";
@@ -11,6 +12,7 @@ import Image9 from "../9.png";
 import Image10 from "../10.png";
 import Image11 from "../11.png";
 import Image12 from "../12.png";
+import Image14 from "../14.png";
 import Image15 from "../15.png";
 import Image16 from "../16.png";
 
@@ -91,6 +93,14 @@ const Projects = () => {
       description: "In this project I started using regularly Bootstrap, which is such a great help in styling. Purpose of this project was to strengthen styling skills and developing using Bootstrap. I started here using React router which is also wonderful tool.",
       github: "https://github.com/michalgornicki/smile-med/",
       demo: "https://michalgornicki.github.io/smile-med",
+    },
+    {
+      title: "Smart Home website design project",
+      techs: "React JS",
+      image: Image2,
+      description: "I have created this website to train my design and styling skills.",
+      github: "https://github.com/michalgornicki/smartify/",
+      demo: "https://michalgornicki.github.io/smartify/",
     },
     {
       title: "Space X mission explorer",

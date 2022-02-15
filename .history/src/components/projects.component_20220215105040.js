@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from "react-bootstrap/Carousel";
 import Image1 from "../1.png";
+import Image2 from "../2.png";
 import Image3 from "../3.png";
 import Image5 from "../5.png";
 import Image6 from "../6.png";
@@ -11,6 +12,7 @@ import Image9 from "../9.png";
 import Image10 from "../10.png";
 import Image11 from "../11.png";
 import Image12 from "../12.png";
+import Image14 from "../14.png";
 import Image15 from "../15.png";
 import Image16 from "../16.png";
 

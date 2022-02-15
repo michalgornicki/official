@@ -11,6 +11,7 @@ import Image9 from "../9.png";
 import Image10 from "../10.png";
 import Image11 from "../11.png";
 import Image12 from "../12.png";
+import Image14 from "../14.png";
 import Image15 from "../15.png";
 import Image16 from "../16.png";
 
